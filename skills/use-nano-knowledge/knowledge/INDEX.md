@@ -17,7 +17,7 @@
 | 从已选卖点反查不同拍摄任务 | [卖点反查场景](selling-points/scenario-map.md) |
 | 从具体生活片段找到多种表达方向 | [80张细场景卡](scenarios/training-guide.md) |
 | 查真实佩戴、观看感受、使用阶段及原句 | [体验材料与当前缺口](experience/README.md)、[16件公开作品](experience/cases.md)、[用户原句反馈](experience/feedback.md)；来源与阅读范围随件保留 |
-| 分析潜在人群、使用心理与培训表达 | [Nano产品与人群能力入口](../../.agents/skills/use-nano-knowledge/SKILL.md)；角色需求假设独立于官方事实 |
+| 分析潜在人群、使用心理与培训表达 | [Nano产品与人群能力入口](../../.agents/skills/use-nano-knowledge/MODULE.md)；角色需求假设独立于官方事实 |
 | 回查官方网页、手册和版本 | [来源台账](sources/README.md) |
 | 查看冲突和未覆盖问题 | [缺口清单](GAPS.md) |
 | 更新字段、来源与阅读版 | [维护说明](MAINTENANCE.md) |
@@ -33,9 +33,9 @@
 1. 先读当前帖子或训练命题，判断确有必要回应的事情。
 2. 从主题、问答或关键词找到少量相关事实与场景，读取完整条目的组件、条件、不可推论和来源。
 3. 产品事实进入正文前，按引用的来源定位核对当前官方资料；固件、价格、套装与兼容性按使用当日核验。已核日期不自动更新。
-4. 按[项目写手入口](../../.agents/skills/write-consumer-training-comments/SKILL.md)继续由共用写手库完成表达；已从该入口进入时，无需重新加载本索引或产品入口。训练状态使用已有的 `product` 来源和 `product_fact` 断言，不引入旧审查claim注册门槛。
+4. 按[项目写手入口](../../.agents/skills/write-consumer-training-comments/MODULE.md)继续由共用写手库完成表达；已从该入口进入时，无需重新加载本索引或产品入口。训练状态使用已有的 `product` 来源和 `product_fact` 断言，不引入旧审查claim注册门槛。
 
-在本项目其他对话中可说“调用 Nano 能力库”，或显式调用 `$use-nano-knowledge`。直接调用 `$write-dji-nano-comments` 时，本项目 [AGENTS.md](../../AGENTS.md) 同样路由到 [Nano能力入口](../../.agents/skills/use-nano-knowledge/SKILL.md)。知识库补充产品依据，人群心理假设由能力入口独立管理，写法继续由共享能力维护。
+在本项目其他对话中可说“调用 Nano 能力库”，或显式调用 `$use-nano-knowledge`。直接调用 `$write-dji-nano-comments` 时，本项目 [AGENTS.md](../../AGENTS.md) 同样路由到 [Nano能力入口](../../.agents/skills/use-nano-knowledge/MODULE.md)。知识库补充产品依据，人群心理假设由能力入口独立管理，写法继续由共享能力维护。
 
 从项目根目录可用关键词查找；`rg`命中的JSONL一行就是完整条目，不裁掉条件：
 

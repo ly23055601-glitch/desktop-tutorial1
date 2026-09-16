@@ -9,7 +9,7 @@ description: 调用 DJI Mic 产品与人群能力库，回答六款 Mic 的产�
 
 ## 产品问答
 
-读取[产品索引](references/knowledge/INDEX.md)，按精确型号检索。将下面的 `<技能目录>` 替换为当前 SKILL.md 所在目录的绝对路径；命令不依赖工作目录，仅需 Python 3.9+ 标准库。
+读取[产品索引](references/knowledge/INDEX.md)，按精确型号检索。将下面的 `<技能目录>` 替换为当前 MODULE.md 所在目录的绝对路径；命令不依赖工作目录，仅需 Python 3.9+ 标准库。
 
 ```bash
 python3 "<技能目录>/scripts/mic.py" search '四个人接相机能分开声道吗' --model mic_3
@@ -61,7 +61,7 @@ python3 "<技能目录>/scripts/mic.py" scenes --selling-point MIC3-SP003 --limi
 
 ## 真实评论资料
 
-用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/SKILL.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
+用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/MODULE.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
 
 ## 人群、动机与心理表达
 
@@ -75,7 +75,7 @@ python3 "<技能目录>/scripts/mic.py" audience '采访时不想打断对方' -
 
 ## 评论与教学演示
 
-只有任务要求写评、改写或评论案例时，接入相邻个人技能[共享消费者写作](../write-consumer-comments/SKILL.md)，使用 `content_mode=training_fiction`、`product_line=mic`；补充[Mic 专属边界](../write-dji-mic-comments/references/product-knowledge.md)。已读入口不回调；共享路由只读取本包数据索引，避免循环。知识层不另定文风、数量、回复结构或检查器。
+只有任务要求写评、改写或评论案例时，接入相邻个人技能[共享消费者写作](../write-consumer-comments/MODULE.md)，使用 `content_mode=training_fiction`、`product_line=mic`；补充[Mic 专属边界](../write-dji-mic-comments/references/product-knowledge.md)。已读入口不回调；共享路由只读取本包数据索引，避免循环。知识层不另定文风、数量、回复结构或检查器。
 
 假想人物、经历与主观感受保存在具体任务，不能写成用户真实经历、官方事实或原帖证据。指南教学片段为待校准样例，不能自动升级为认可范文。实际产品断言绑定当前核验的 `product` 来源与 `product_fact`，知识 ID 不替代实时核验。社媒读取遵循共享层统一技能，不在本库另建采集流程。本技能不授权发布。
 

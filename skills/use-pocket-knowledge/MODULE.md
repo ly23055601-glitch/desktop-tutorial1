@@ -18,7 +18,7 @@ python3 "<技能目录>/knowledge/scripts/pocket_library.py" brief '同场景 �
 
 ## 按问题检索
 
-将 `<技能目录>` 替换为本次发现的 `SKILL.md` 所在目录的绝对路径；不要从当前工作目录猜原项目位置。查询只需Python 3.9+标准库，不需要社媒助手或重新采集。
+将 `<技能目录>` 替换为本次发现的 `MODULE.md` 所在目录的绝对路径；不要从当前工作目录猜原项目位置。查询只需Python 3.9+标准库，不需要社媒助手或重新采集。
 
 ```bash
 python3 "<技能目录>/knowledge/scripts/pocket_knowledge.py" search '独自拍摄 跟随' --model pocket_4
@@ -62,11 +62,11 @@ python3 "<技能目录>/knowledge/scripts/pocket_materials.py" search 'PSP-001' 
 
 ## 真实评论资料
 
-用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/SKILL.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
+用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/MODULE.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
 
 ## 需要写评论时
 
-仅写评、回复、改写或案例任务才接入[共享消费者写手](../write-consumer-comments/SKILL.md)，补充[Pocket专属边界](../write-dji-pocket-comments/SKILL.md)的产品与命名部分；已读入口不回调，不进入旧写作分支。知识库提供少量相关事实、场景和表达观察，不另定评论数量、文风或对话模板。
+仅写评、回复、改写或案例任务才接入[共享消费者写手](../write-consumer-comments/MODULE.md)，补充[Pocket专属边界](../write-dji-pocket-comments/MODULE.md)的产品与命名部分；已读入口不回调，不进入旧写作分支。知识库提供少量相关事实、场景和表达观察，不另定评论数量、文风或对话模板。
 
 新评论使用共享`training_fiction`规则。独立假想人物和经历只存在于该任务，不变成用户本人素材、产品事实或原帖证据；不能把公共原话改配为角色的经历。Pocket评论正文不使用Osmo，产品知识与官方来源名称可以保留。实际能力按当前证据绑定`product`来源与`product_fact`断言。两帖研究示例有额外经历限制，是有限历史对照，不给所有训练任务追加同一限制。
 

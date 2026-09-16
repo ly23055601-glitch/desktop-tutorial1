@@ -4,7 +4,7 @@
 
 同一账户在其他项目中直接调用 `$use-mic-knowledge` 或说“调用 Mic 产品与人群能力库”。发现位置为用户目录 `.agents/skills/use-mic-knowledge`，可指向个人安装目录；不需要复制到每个项目。如当前会话尚未刷新技能目录，新开会话或重新加载后调用。
 
-迁移到另一台机器：完整复制 `use-mic-knowledge` 目录到该机器的个人技能发现目录，保留内部相对路径，再用新绝对路径运行 `scripts/mic.py audit`。不要只复制 SKILL.md。包内检索只用 Python 3.9+ 标准库，无网络服务、API 密钥或 op 项目依赖。
+迁移到另一台机器：完整复制 `use-mic-knowledge` 目录到该机器的个人技能发现目录，保留内部相对路径，再用新绝对路径运行 `scripts/mic.py audit`。不要只复制 MODULE.md。包内检索只用 Python 3.9+ 标准库，无网络服务、API 密钥或 op 项目依赖。
 
 评论写作还需同目录相邻的 `write-consumer-comments` 和 `write-dji-mic-comments`；需要实时读取社媒时再依共享层配置统一读取技能。缺少这些依赖时产品检索和心理分析仍可用，但不能宣称已按共享写手规范验收新稿。
 

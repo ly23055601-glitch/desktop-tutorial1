@@ -1267,7 +1267,7 @@
       "packaged_sha256": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c"
     },
     {
-      "source_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md",
+      "source_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md",
       "path": "_provenance/personal/write-consumer-comments/SKILL.source.md",
       "source_sha256": "3ee1255e4d3a8d375053c1beb6f1077321bbef334ba7e98b72e0536c98713b71",
       "kind": "archival_provenance",
@@ -1288,7 +1288,7 @@
       "packaged_sha256": "f223f426552c136603867387d7a7600301a5dc14a08ccd0c6aa92f7a72a335a9"
     },
     {
-      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/SKILL.md",
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/MODULE.md",
       "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
       "source_sha256": "2690796ecb35c7b756ff1630c2bf92b24ff1eb0b35784ef526b0e13a459ed6e6",
       "kind": "archival_provenance",
@@ -2430,7 +2430,7 @@
     "knowledge/aesthetics/discussions/PEE-001.md": "9c1d0b478710d5c35b1e58425c1c9d9c7f9f561764af5eb6d278494846e8c617",
     "knowledge/aesthetics/discussions/PEE-005.md": "8105c83841eb002fa3fb1a37bb30622d797696d00f6ef47740538e86b7b62c1c",
     "knowledge/aesthetics/discussions/PEE-004.md": "ee7af545bd3cdadcb70e43b010aa0696f5023241bd8c448136767f0890c8cc04",
-    "SKILL.md": "1cc5f1dc613c49823c22df1117cf2bce53ab0d044d8f80939011d5d5d16d91eb",
+    "MODULE.md": "1cc5f1dc613c49823c22df1117cf2bce53ab0d044d8f80939011d5d5d16d91eb",
     "agents/openai.yaml": "39c8710b0f5d9d039c483330c848865aa590f3a61bcd2a30046329fc1f7218f0"
   }
 }

@@ -39,4 +39,4 @@ python3 "<知识目录>/scripts/pocket_knowledge.py" audit --format json
 
 [两帖历史对照](evaluation/small-sample/README.md)含留出材料，仅供回顾验收，不是写手学习或认可范文。
 
-需要评论时读取[共享写手](../../write-consumer-comments/SKILL.md)和[Pocket边界](../../write-dji-pocket-comments/SKILL.md)；知识问答无需先进入写作。旧报告、研究示例和已封存规则均为历史材料，不覆盖当前写手。
+需要评论时读取[共享写手](../../write-consumer-comments/MODULE.md)和[Pocket边界](../../write-dji-pocket-comments/MODULE.md)；知识问答无需先进入写作。旧报告、研究示例和已封存规则均为历史材料，不覆盖当前写手。

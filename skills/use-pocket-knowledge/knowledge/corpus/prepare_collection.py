@@ -58,7 +58,7 @@ def main():
         group=[r for r in rows if r['batch_id']==batch_id]
         batches.append({'batch_id':batch_id,'platform':group[0]['platform'],'work_ids':[r['workId'] for r in group], 'status':'pending'})
     state={'runStatus':'ready','startedAt':now,'completeInputCount':len(rows),
-           'canonicalSkill':'/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md',
+           'canonicalSkill':'/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md',
            'fullInputHandedAt':now,'inputLedger':'input-ledger.jsonl','batches':batches,
            'commentsRequired':True,'mediaPolicy':'only where title/body/comments cannot support selected analysis',
            'blockedBy':None,'completedWorkIds':[],'failedWorkIds':[],'pendingWorkIds':[r['workId'] for r in rows]}

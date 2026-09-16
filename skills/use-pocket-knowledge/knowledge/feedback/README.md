@@ -7,8 +7,8 @@
 
 这句话没有确认具体型号、频率、行程、满意点或故障经历；不能改成“本人有Pocket4/4P”，也不能给楼中楼的其他角色继承。`acceptance_verdict` 保持空值，因为它不是对任何一批新稿的认可。
 
-项目规则继续以 `.agents/skills/write-pocket-seeding-comments/SKILL.md` 为入口。历史 accepted 稿与 agent 验收记录可以帮助理解要求，但不是平台上实际发生的消费者互动，不计入语料规模、品牌人群画像或新增用户反馈。
+项目规则继续以 `.agents/skills/write-pocket-seeding-comments/MODULE.md` 为入口。历史 accepted 稿与 agent 验收记录可以帮助理解要求，但不是平台上实际发生的消费者互动，不计入语料规模、品牌人群画像或新增用户反馈。
 
 后续只有明确说出的反馈才能入库：保留原话、日期、归属、针对的稿件版本与应用范围。编辑归纳可以另记来源性质，但不能替用户新增认可结论；本人经历扩展也需要新的明确材料。
 
-最新共用风格始终从[共享写手](../../../write-consumer-comments/SKILL.md)进入。本地来源表及封装保留当时的[跨产品反馈来源](../_provenance/personal/write-consumer-comments/references/feedback.md)和[表达参考](../_provenance/personal/write-consumer-comments/references/writing-reference.md)，用于追溯，不作为动态写作规则；来源性质和索引时SHA保持原记录。前者含用户要求摘要，不能改标为本线程逐字原话；后者含编辑诊断，不能当新稿已获用户认可。
+最新共用风格始终从[共享写手](../../../write-consumer-comments/MODULE.md)进入。本地来源表及封装保留当时的[跨产品反馈来源](../_provenance/personal/write-consumer-comments/references/feedback.md)和[表达参考](../_provenance/personal/write-consumer-comments/references/writing-reference.md)，用于追溯，不作为动态写作规则；来源性质和索引时SHA保持原记录。前者含用户要求摘要，不能改标为本线程逐字原话；后者含编辑诊断，不能当新稿已获用户认可。

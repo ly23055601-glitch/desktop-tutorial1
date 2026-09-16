@@ -5,7 +5,7 @@ description: Draft and review content-specific DJI Pocket seeding comments for t
 
 # Pocket种草评论｜op项目版
 
-保留版本：`2026-09-05-LH13`。本页仅供[现行CW2入口](../SKILL.md)指定的真实材料专项核验或旧稿复核；以下是该模式的原规则、模板和检查器，不是普通CW2训练写作入口
+保留版本：`2026-09-05-LH13`。本页仅供[现行CW2入口](../MODULE.md)指定的真实材料专项核验或旧稿复核；以下是该模式的原规则、模板和检查器，不是普通CW2训练写作入口
 
 目标是让观看者因为原帖，对Pocket产生具体兴趣：一种想尝试的用途、想了解的操作、产品细节带来的喜欢，或真实需求被内容接住。热评学习用于增强表达自然度。每帖须有清晰的Pocket兴趣，单纯出现型号或把全帖写成夸人夸景，不算完成种草
 
@@ -13,7 +13,7 @@ description: Draft and review content-specific DJI Pocket seeding comments for t
 
 ## 从材料开始
 
-1. 有新抖音、小红书、B站链接需要读取时，先完整遵循 [统一社媒读取技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)，一次交入本次全部链接并保留原序号。本技能不另定采集、重试或停止方式
+1. 有新抖音、小红书、B站链接需要读取时，先完整遵循 [统一社媒读取技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)，一次交入本次全部链接并保留原序号。本技能不另定采集、重试或停止方式
 2. 已有充分用户材料或社媒助手证据时直接使用，保留来源。只看过抽样帧不能补写对白、音效、连续动作或完整教程结论；标题与标签也不能写成视频前后说过的话
 3. 读帖先找值得回应的动作、情绪、原话或画面，再判断它如何让人对Pocket感兴趣。产品型号和具体功能分别确认，未确认代际时用Pocket、大疆Pocket等称呼
 4. 初次使用本项目标准，读取 [写作与案例](../references/writing-and-examples.md)和 [本人素材](../references/project-context.md)。涉及产品能力、外观细节、参数或价格时，再读取 [产品事实](../references/product-facts.md)，核对当前官方资料

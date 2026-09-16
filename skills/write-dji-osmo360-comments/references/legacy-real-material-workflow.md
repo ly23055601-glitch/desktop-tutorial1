@@ -15,7 +15,7 @@ description: Draft link-specific DJI Osmo 360 and Osmo 360 II comments from veri
 
 ## 快速运行路径
 
-1. 需要从抖音、小红书或 B站链接读取或采集时，先完整读取并遵循 [统一读取 Skill](../../read-social-links-with-social-helper/SKILL.md)，一次性交给它当前请求中这些平台的完整待读取链接集合并保留原序号，由它统一去重、分平台、分批和处理失败项。不得为了逐链接胶囊、媒体取样或写作分工而拆成多次单链接调用。它是 Chrome、社媒助手、分平台批次、小红书节流、字段、评论深度、问题交人工、导出下载、账本及一次证据验收的唯一规则源；本技能和 references 中的旧采集描述均不得覆盖它。问题项保留原序号及已有证据交人工，不以补读重采失败作品。微博等其他平台按全局规则登记完整集合、批量组织，以已连接外部 Chrome 单次读取原页可见内容，问题项同样交人工；充分用户材料可直接使用。
+1. 需要从抖音、小红书或 B站链接读取或采集时，先完整读取并遵循 [统一读取 Skill](../../read-social-links-with-social-helper/MODULE.md)，一次性交给它当前请求中这些平台的完整待读取链接集合并保留原序号，由它统一去重、分平台、分批和处理失败项。不得为了逐链接胶囊、媒体取样或写作分工而拆成多次单链接调用。它是 Chrome、社媒助手、分平台批次、小红书节流、字段、评论深度、问题交人工、导出下载、账本及一次证据验收的唯一规则源；本技能和 references 中的旧采集描述均不得覆盖它。问题项保留原序号及已有证据交人工，不以补读重采失败作品。微博等其他平台按全局规则登记完整集合、批量组织，以已连接外部 Chrome 单次读取原页可见内容，问题项同样交人工；充分用户材料可直接使用。
 2. 复用统一证据包的原序号、成功/失败状态、媒体和限制；本技能只追加 Osmo 360 型号门禁、媒体取样、写作和 QA。不得自行增加连接探测、补抓或切换读取方式。
 3. 有本地媒体时用 `scripts/sample_media.swift` 一次生成轻量联系表：普通短视频 5 帧、长视频 7 帧，只有深审才用 `--deep` 取 9 帧。再将每条压成短证据胶囊：`序号/ID｜平台｜可读性｜评论可见性｜型号证据｜可见时间/地点/场景｜2–3 个画面锚点｜可用产品点｜不可推断`。音频或完整视频需要在首次内容计划中按统一读取 Skill 取得；本地证据不足时交人工，不追加下载或让失败作品重新入队。
 4. 8 条以上按 6–10 条分块并行起草；子任务只接收本块胶囊、媒体路径和一页规则卡，不继承旧对话或其他块日志。规则卡必须写明正文零空格、固定 `PPC`、两条产品主评采用“时间+地点+场景+使用价值”、第三条为纯内容互动，以及二代称呼与专属卖点的证据门禁。楼中楼通常先写 2 条，有真实补充或分歧时再加到 3–4 条。
@@ -70,7 +70,7 @@ python3 scripts/check_comment_homogeneity.py draft.md --product-policy strict
 - B站：可说测试条件、时间点和工作流，但保留边界。
 - 微博：观点先行，理由简短，可有有限分歧但不阵营化。
 
-只有跨平台改写或平台语态难判断时才读 [references/platform-voices.md](../references/platform-voices.md)。用户明确要求人群心理时读 [references/audience-psychology.md](../references/audience-psychology.md)；涉及热点时读 [references/trend-and-timing.md](../references/trend-and-timing.md)；涉及精确产品或竞品事实时读 [references/product-knowledge.md](../references/product-knowledge.md)。社媒采集始终读取 [统一读取 Skill](../../read-social-links-with-social-helper/SKILL.md)，不再使用本地 `social-helper-reading.md` 作为规则源。仅当检查器出现系统性同质化或用户要求专项审稿时读 [references/low-homogeneity.md](../references/low-homogeneity.md)。
+只有跨平台改写或平台语态难判断时才读 [references/platform-voices.md](../references/platform-voices.md)。用户明确要求人群心理时读 [references/audience-psychology.md](../references/audience-psychology.md)；涉及热点时读 [references/trend-and-timing.md](../references/trend-and-timing.md)；涉及精确产品或竞品事实时读 [references/product-knowledge.md](../references/product-knowledge.md)。社媒采集始终读取 [统一读取 Skill](../../read-social-links-with-social-helper/MODULE.md)，不再使用本地 `social-helper-reading.md` 作为规则源。仅当检查器出现系统性同质化或用户要求专项审稿时读 [references/low-homogeneity.md](../references/low-homogeneity.md)。
 
 ## 状态与交付
 

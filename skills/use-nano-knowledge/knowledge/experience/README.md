@@ -4,7 +4,7 @@
 
 最新补入[周末拍后整理](cases.md#nano-exp-014)、[车前分段拍法](cases.md#nano-exp-015)和[水面／水下成片喜好](cases.md#nano-exp-016)。它们来自9月6日已有导出，本轮实际复看相应画面；历史采集日期与本轮复看日期分别保存。
 
-直接读[16件作品与原话](cases.md)、[真实主评与回复](discussions.md)；查[你的原句与判断](feedback.md)；需要定位原始文件时用[来源记录](source-register.jsonl)。新增培训稿继续走[共用写手](/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md)，这些材料不改变每日任务的交付要求。
+直接读[16件作品与原话](cases.md)、[真实主评与回复](discussions.md)；查[你的原句与判断](feedback.md)；需要定位原始文件时用[来源记录](source-register.jsonl)。新增培训稿继续走[共用写手](/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md)，这些材料不改变每日任务的交付要求。
 
 准备为培训选材时，可从[15条真实材料到场景／卖点的检索路径](selection-map.md)进入。每行只取一个兴趣，扩展出来的场景仍是假设，不当作原作者经历。
 
@@ -42,7 +42,7 @@
 
 目前已保留完整本地视频文件或全部已导出静态图片、原帖正文定位，以及设备和处理说明的已知／未知。本轮读完5件全部18张静态JPG，补审亲子/咖啡全时段密集抽帧、眼镜佩戴104–137秒的上下文，并完成[户外评测120帧与10段定位补读](../../../outputs/nano/2026-09-08-experience-materials/long-review/review.md)。视频仍不能据文件或抽帧存在宣称完整视听；Live动态、原视频、未听对白和未展示安装步骤按件标注。
 
-真实评论补读集合共10件，统一登记在[本轮账本](../../../outputs/nano/2026-09-08-experience-materials/comment-input-ledger.json)，已有成功的正文和媒体复用。要记录实际主评、回复的直接对象、原作者是否再次发言及本次可见范围；部分楼层不称完整讨论，零回复不补写对话。采集仍只使用[统一社媒技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)。
+真实评论补读集合共10件，统一登记在[本轮账本](../../../outputs/nano/2026-09-08-experience-materials/comment-input-ledger.json)，已有成功的正文和媒体复用。要记录实际主评、回复的直接对象、原作者是否再次发言及本次可见范围；部分楼层不称完整讨论，零回复不补写对话。采集仍只使用[统一社媒技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)。
 
 当前10件中1件已通过统一技能的外部Chrome原页降级读到4组真实讨论，其余9件小红书评论仍未提交。10件是本次补读待办集合，不是“真实接话已有覆盖”的数量门槛。原共享验证码已由用户完成验证，dm队列完成后，Pocket协调确认轮到Nano。Nano鲜读终态并按10–30秒设置一次填入全部9条；评论表单提示首条链接缺少`xsec_token`，现存9条链接均无分享参数，未点击开始。首条原页另显示“当前笔记暂时无法浏览”，不推定其他8件也不可见。已请求这9件的原始分享文本；当前无需再次处理原验证码。浏览器已释放给后续Mobile轮次，见[本次预检](../../../outputs/nano/2026-09-08-experience-materials/resumed/preflight.json)和[逐件账本](../../../outputs/nano/2026-09-08-experience-materials/comment-input-ledger.json)。第11–16件仍只复用既有作品，未请求新增评论。
 

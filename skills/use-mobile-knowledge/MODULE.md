@@ -14,9 +14,9 @@ description: 调用 DJI Osmo Mobile／DJI OM 产品知识、卖点、详细场�
 - **使用场景发散、卖点如何使用及培训选材**：查[详细场景库](knowledge/use_cases/guide.md)或[按卖点反查场景](knowledge/use_cases/selling-point-map.md)，取发生时刻、拍摄难点、人物取舍和相关表达方向。需要交给写手时按[选材接入说明](knowledge/use_cases/WRITER_HANDOFF.md)保留资料性质；这些字段不是成稿步骤，虚构细节只进当批人物状态。
 - **手机拍法发生什么变化、真实使用感受及接话学习**：读[拍法与表达材料](knowledge/experience_materials/guide.md)，区分同手机的过程与成片、实际手机／App／配件组合、公开自述、完整讨论范围和用户反馈。先查材料状态与缺口；编辑指南、旧款讨论、部分父句或待采集链接不补成当前型号完整实拍。材料可以完整，具体评论只取当前最值得说的兴趣，不拼接整段使用流程。
 - **使用人群、动机和心理表达分析**：先读[角色心理指南](knowledge/audiences/guide.md)的方法与角色概览，再按角色ID／关键词取当前相关卡片和依据，不要求每次全读；需要产品能力解释时再关联事实。一般分析不必要求用户先选型号，涉及具体能力时再细分型号与组合。
-- **真实评论资料**：用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/SKILL.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
-- **主评论、回复、改写、培训案例或批量风格校准**：检索少量相关产品事实、必要卖点及角色线索，随后进入[共享消费者写手](../write-consumer-comments/SKILL.md)。若当前项目已有写手入口且已经读过，继续同一共享流程，不回调项目入口或 Mobile 写作入口。`product_line=osmo_mobile`，新稿保持 `content_mode=training_fiction`。
-- **明确的真实资料核验或旧稿审查**：使用[Mobile 原有审查入口](../write-dji-osmo-mobile-comments/SKILL.md)对应分支，仍以本库及当前官方依据核对产品。旧稿不改标训练稿；审查不授权发布。
+- **真实评论资料**：用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](../read-social-links-with-social-helper/MODULE.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
+- **主评论、回复、改写、培训案例或批量风格校准**：检索少量相关产品事实、必要卖点及角色线索，随后进入[共享消费者写手](../write-consumer-comments/MODULE.md)。若当前项目已有写手入口且已经读过，继续同一共享流程，不回调项目入口或 Mobile 写作入口。`product_line=osmo_mobile`，新稿保持 `content_mode=training_fiction`。
+- **明确的真实资料核验或旧稿审查**：使用[Mobile 原有审查入口](../write-dji-osmo-mobile-comments/MODULE.md)对应分支，仍以本库及当前官方依据核对产品。旧稿不改标训练稿；审查不授权发布。
 
 ## 必须保留的边界
 
@@ -29,7 +29,7 @@ description: 调用 DJI Osmo Mobile／DJI OM 产品知识、卖点、详细场�
 
 ## 检索与维护
 
-从本次发现的 `SKILL.md` 所在目录定位 `knowledge/`，不要从当前工作目录猜 op 路径。可用 `rg` 查完整 JSONL；具体命令见[索引](knowledge/INDEX.md#本地检索)。[事实检索脚本](knowledge/scripts/query.py)支持精确型号、事实编号与关键词，并同时返回相关型号缺口；[场景检索脚本](knowledge/scripts/use_cases.py)的query子命令支持场景编号、型号、关键词和卖点编号，展开完整依据与缺口。
+从本次发现的 `MODULE.md` 所在目录定位 `knowledge/`，不要从当前工作目录猜 op 路径。可用 `rg` 查完整 JSONL；具体命令见[索引](knowledge/INDEX.md#本地检索)。[事实检索脚本](knowledge/scripts/query.py)支持精确型号、事实编号与关键词，并同时返回相关型号缺口；[场景检索脚本](knowledge/scripts/use_cases.py)的query子命令支持场景编号、型号、关键词和卖点编号，展开完整依据与缺口。
 
 结构化事实与兼容记录是产品维护源；角色记录单独维护。按[维护说明](knowledge/MAINTENANCE.md)保存旧快照、更新关联问答／差异／场景／角色引用并运行审计。共享写法只维护在共用写手，不复制到本技能。
 

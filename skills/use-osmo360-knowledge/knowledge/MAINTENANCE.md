@@ -43,7 +43,7 @@ python3 -m unittest discover -s knowledge/osmo360/tests -v
 
 ## 项目调用与心理指南的维护
 
-[项目技能](../../.agents/skills/use-osmo360-knowledge/SKILL.md)负责将产品问答、人群心理和评论训练送到相应资料；[心理指南](../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)维护抽象需求假设。假设统一标记 `editorial_hypothesis / unvalidated`，不加入 `products/*.facts.jsonl`。历史人物、原句和审核记录继续放在原批次 `outputs/`；新稿另建本批人物与状态，不继承历史通过结论。
+[项目技能](../../.agents/skills/use-osmo360-knowledge/MODULE.md)负责将产品问答、人群心理和评论训练送到相应资料；[心理指南](../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)维护抽象需求假设。假设统一标记 `editorial_hypothesis / unvalidated`，不加入 `products/*.facts.jsonl`。历史人物、原句和审核记录继续放在原批次 `outputs/`；新稿另建本批人物与状态，不继承历史通过结论。
 
 更新入口时同步检查项目 `AGENTS.md`、共用写手入口和本库索引的路径；保持已读入口不循环加载。验收应包含一个不依赖历史聊天的产品查询与一个心理／表达任务。技能结构检查、知识审计和训练稿检查各自只证明相应范围，均不能代替产品语义核验或用户表达认可。
 

@@ -36,7 +36,7 @@
 
 ## CW5.4.2 教学完整交付条件（结构沿用 CW5）
 
-以下为当前[共享写手](/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md)规则的 KPI 映射，以该文件当前版本为准。
+以下为当前[共享写手](/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md)规则的 KPI 映射，以该文件当前版本为准。
 
 1. 先理解整帖，简记产品角色、主要吸引力和最顺的表达方向，需要辨别细类时再读[帖子类型与产品话题](/Users/luocaihua/.codex/skills/write-consumer-comments/references/post-type-selection.md)。每条主评的产品兴趣独立成立：产品明确且效果已展示时可直接喜欢，相关场景期待和假想使用感受也可由整帖引起，不要求原帖出现同一地点、人物或动作。任务产品或历史标签不能证明原片设备、作者测评对象；主观喜欢不证明客观能力或效果全由设备造成。产品事实、原帖内容与假想人物经历分开。
 2. 每帖以 **3–4 条主评**为主。确实只有两个不同且成立的角度时可写 **2 条**，在选材记录说明具体原因。

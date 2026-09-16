@@ -203,7 +203,7 @@ class LH13ProjectContractTests(unittest.TestCase):
         state = json.loads((ROOT/"assets/pocket_comment_state.lh13.template.json").read_text())
         self.assertEqual(state["rule_version"], CHECKER.LH13_RULE_VERSION)
         self.assertEqual(state["draft_sha256"], "")
-        self.assertEqual(state["capture_policy"]["source_skill"], "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md")
+        self.assertEqual(state["capture_policy"]["source_skill"], "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md")
         self.assertEqual(state["qa"]["semantic_review"]["seeding_review"], [])
         self.assertEqual(len(self.allocation(state)["groups"]), 1)
         self.assertEqual(self.allocation(state)["groups"][0]["product_facts"], [])

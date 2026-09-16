@@ -89,7 +89,7 @@ CW5.3不改变此接口。短问、感受、偏爱与简短附和可以进入展
 
 ## 绑定与检查
 
-在state所在目录运行以下标准库命令，按实际文件名替换 `state.json`。`<技能目录>`替换为本次实际读取的`SKILL.md`所在目录的绝对路径，保留引号：
+在state所在目录运行以下标准库命令，按实际文件名替换 `state.json`。`<技能目录>`替换为本次实际读取的`MODULE.md`所在目录的绝对路径，保留引号：
 
 ```bash
 python3 -c 'import hashlib,json,pathlib; p=pathlib.Path("state.json"); s=json.loads(p.read_text()); s["draft_sha256"]=hashlib.sha256((p.parent/s["draft"]).read_bytes()).hexdigest(); p.write_text(json.dumps(s,ensure_ascii=False,indent=2)+"\n")'

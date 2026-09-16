@@ -219,7 +219,7 @@ def catalog_paths(root, query, competitor, limit, skills_root, gaps):
         if not isinstance(name, str) or not re.fullmatch(r"[a-z0-9][a-z0-9-]*", name):
             gaps.append({"code": "invalid_skill_name", "route_id": item.get("id")})
             continue
-        path = (skills_root / name / "SKILL.md").absolute()
+        path = (skills_root / name / "MODULE.md").absolute()
         routes.append({**{k: item.get(k) for k in ("id", "title", "skill", "scope")},
                        "resolved_path": str(path), "available": path.is_file(), "body_read": False})
     return docs, context, routes

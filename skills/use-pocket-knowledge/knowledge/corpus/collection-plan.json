@@ -18,7 +18,7 @@
     "discussions_with_confirmed_reply": 150,
     "max_works_per_platform_author": 2
   },
-  "source_policy": "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md",
+  "source_policy": "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md",
   "discovery_is_evidence": false,
   "legacy_counts_toward_target": false,
   "holdout_policy": "Keep every existing frozen train/holdout assignment and keep holdout content out of normal retrieval and learning. The original 30-work/10-per-platform acceptance quota is cancelled for this delivery; no evaluated/pass status is inferred from organizing existing material.",

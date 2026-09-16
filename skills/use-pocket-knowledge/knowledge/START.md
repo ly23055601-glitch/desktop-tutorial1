@@ -1,4 +1,4 @@
-> 跨项目查询：将命令中的 `<技能目录>` 替换为当前个人技能 SKILL.md 所在绝对目录；不从工作目录猜原项目路径。
+> 跨项目查询：将命令中的 `<技能目录>` 替换为当前个人技能 MODULE.md 所在绝对目录；不从工作目录猜原项目路径。
 
 # Pocket 统一知识库
 
@@ -33,7 +33,7 @@ python3 "<技能目录>/knowledge/scripts/pocket_library.py" brief '挂绳 容�
 
 ## 接入执行能力
 
-写评、改稿、培训案例使用[共享写手](../../write-consumer-comments/SKILL.md)和[Pocket边界](../../write-dji-pocket-comments/SKILL.md)。Apify 话题发现已按用户 2026-09-10 要求停用；已有研究材料继续保留。读取三平台链接使用[统一社媒读取](../../read-social-links-with-social-helper/SKILL.md)。已读入口不循环调用，知识库不重复维护采集、文风、数量或交付规则。
+写评、改稿、培训案例使用[共享写手](../../write-consumer-comments/MODULE.md)和[Pocket边界](../../write-dji-pocket-comments/MODULE.md)。Apify 话题发现已按用户 2026-09-10 要求停用；已有研究材料继续保留。读取三平台链接使用[统一社媒读取](../../read-social-links-with-social-helper/MODULE.md)。已读入口不循环调用，知识库不重复维护采集、文风、数量或交付规则。
 
 研究中保留正反意见；培训写作按任务目标与共享当前规则选材。独立训练人物与公共原话、本人经历分开保存。纯知识整理不计培训新稿，本次没有新建定时任务；另行授权的每日研究按自己的计划运行。
 

@@ -7,9 +7,9 @@ description: Draft or revise DJI Osmo Nano consumer-comment training fiction thr
 
 ## 默认训练路由
 
-写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=nano`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/SKILL.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
+写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=nano`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/MODULE.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
 
-本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/SKILL.md)。
+本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/MODULE.md)。
 
 ## 产品专属边界
 

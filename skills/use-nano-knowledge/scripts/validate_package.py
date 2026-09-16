@@ -116,7 +116,7 @@ def validate():
         if 'value_facets' in row:
             facets=row['value_facets']
             check(isinstance(facets,list) and bool(facets) and all(isinstance(f,dict) and all(isinstance(f.get(k),str) and f[k].strip() for k in ['focus','viewer_or_user_value','material_cue']) for f in facets),f'{row["id"]}: invalid value facets')
-    shared_route_files = {root/'AGENTS.md', root/'.agents/skills/write-consumer-training-comments/SKILL.md'}
+    shared_route_files = {root/'AGENTS.md', root/'.agents/skills/write-consumer-training-comments/MODULE.md'}
     documents = [*kb.rglob('*.md'), *skill.rglob('*.md'), *sorted(shared_route_files)]
     link_checks = 0
     out_of_scope_links = []

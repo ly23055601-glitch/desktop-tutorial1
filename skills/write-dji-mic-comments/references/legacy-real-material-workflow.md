@@ -52,7 +52,7 @@ description: Draft link-specific DJI Mic comments from verified post evidence, c
 
 ### 社媒助手批量读取
 
-- 需要从抖音、小红书或 B站链接读取或采集内容时，先完整读取并遵循 [统一读取 Skill](../../read-social-links-with-social-helper/SKILL.md)。它是 Chrome、社媒助手、分平台批次、小红书节流、字段、评论深度、问题交人工、导出下载、账本及一次证据验收的唯一规则源；本技能和 references 中的旧采集描述均不得覆盖它。
+- 需要从抖音、小红书或 B站链接读取或采集内容时，先完整读取并遵循 [统一读取 Skill](../../read-social-links-with-social-helper/MODULE.md)。它是 Chrome、社媒助手、分平台批次、小红书节流、字段、评论深度、问题交人工、导出下载、账本及一次证据验收的唯一规则源；本技能和 references 中的旧采集描述均不得覆盖它。
 - 一次性交给统一读取 Skill 当前请求中这些平台的完整待读取链接集合，并保留原序号；由它统一去重、分平台、分批和处理失败项。不得为了逐链接锚点、证据胶囊或写作分工而拆成多次单链接调用；逐链接分析只消费其返回的证据包。
 - 本技能只消费统一证据包并追加 Mic 所需的声音片段、测试条件、型号确认与事实限制。成功项先进入写作，失败项保留原序号；不得拿相似作品替代。
 - 用户已经提供足够材料并明确无需实时读取时，可直接使用其导出、截图、录屏、字幕或正文；不得将普通网页搜索或其他来源冒充成社媒助手结果。
@@ -115,7 +115,7 @@ description: Draft link-specific DJI Mic comments from verified post evidence, c
 - 4 个以上链接建立滚动账本；多于 8 个可读链接时按 6–10 条分块。主任务先分配不同的关注任务、开头、句长、产品位置、互动路径和种草机制，各块只共享摘要与禁用组合。
 - 抓取完成后只携带证据胶囊，不反复加载长对话、原始导出和旧评论全文。历史成品只作为跨批相似度基线，不作为正面模板。
 - 在批次工作目录根据 [assets/mic_comment_state.template.json](../assets/mic_comment_state.template.json) 创建 `mic_comment_state.json`。只记录规则版本、证据路径、成功/失败序号、op 同步游标、账本摘要、输出路径、QA 与未解决项；禁止保存账号、Cookie、Token 或密码。
-- 草稿完成后，以本 `SKILL.md` 所在目录为基准运行 `python3 <skill目录>/scripts/check_comment_homogeneity.py <draft.md>`；跨批续写时加 `--baseline <recent-output.md>`。不得假定当前工作目录就是技能目录。错误必须修复，警告需结合真实证据复核，只局部重写命中组。
+- 草稿完成后，以本 `MODULE.md` 所在目录为基准运行 `python3 <skill目录>/scripts/check_comment_homogeneity.py <draft.md>`；跨批续写时加 `--baseline <recent-output.md>`。不得假定当前工作目录就是技能目录。错误必须修复，警告需结合真实证据复核，只局部重写命中组。
 
 ## 交付
 

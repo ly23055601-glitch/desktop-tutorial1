@@ -1,6 +1,6 @@
 # Mobile 产品依据入口
 
-各项目统一使用[Mobile 知识库索引](../../use-mobile-knowledge/knowledge/INDEX.md)作为可维护产品事实入口；[能力技能](../../use-mobile-knowledge/SKILL.md)提供角色心理与共享写手路由。先查具体型号和组合，保留条件、来源及核验日期，并按当前官方依据确认；pending/conflict不进入肯定答案。已读资料不循环调用写作入口。
+各项目统一使用[Mobile 知识库索引](../../use-mobile-knowledge/knowledge/INDEX.md)作为可维护产品事实入口；[能力技能](../../use-mobile-knowledge/MODULE.md)提供角色心理与共享写手路由。先查具体型号和组合，保留条件、来源及核验日期，并按当前官方依据确认；pending/conflict不进入肯定答案。已读资料不循环调用写作入口。
 
 [2026-09-01 历史资料](product-knowledge-2026-09-01-archive.md)仅供旧稿溯源，其中“模块2仅8P”等旧限制不能作为现行结论。新库已保存8固件更新及模块2手册；历史条目遇到较新依据需明确版本，不以旧资料覆盖已核更新。旧数量、文风、人物经历限制不进入training_fiction。
 

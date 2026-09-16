@@ -1,6 +1,6 @@
 # DJI Mic 批量评论低同质化
 
-本参考用于 4 个以上链接、跨批续写或用户明确要求进一步去 AI。目标是去掉固定生产骨架，同时保留真实锚点与 Mic 产品关联。阈值是复核护栏，不是新的文案配额。实时采集必须先遵循 [统一读取 Skill](../../read-social-links-with-social-helper/SKILL.md)，本参考只处理完成后的证据包与文案。
+本参考用于 4 个以上链接、跨批续写或用户明确要求进一步去 AI。目标是去掉固定生产骨架，同时保留真实锚点与 Mic 产品关联。阈值是复核护栏，不是新的文案配额。实时采集必须先遵循 [统一读取 Skill](../../read-social-links-with-social-helper/MODULE.md)，本参考只处理完成后的证据包与文案。
 
 ## 证据卡与滚动账本
 
@@ -104,7 +104,7 @@ python3 <skill目录>/scripts/check_comment_homogeneity.py draft.md --baseline r
 python3 <skill目录>/scripts/check_comment_homogeneity.py draft.md --format json
 ~~~
 
-`<skill目录>` 指向包含本技能 `SKILL.md` 的绝对目录；不要依赖任务当前工作目录。
+`<skill目录>` 指向包含本技能 `MODULE.md` 的绝对目录；不要依赖任务当前工作目录。
 
 检查器兼容两套纯净稿：
 

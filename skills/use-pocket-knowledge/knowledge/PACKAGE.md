@@ -16,6 +16,6 @@ _provenance中是旧记录引用的归档材料，不是当前写作指令。历
 python3 knowledge/pocket/packaging/build_package.py
 ```
 
-该命令只刷新个人技能的knowledge目录和manifest，不采集、不调用模型，不修改原语料或其他个人技能。已有快照移到非扫描的backups目录，避免重复发现同名技能。SKILL.md、agents元数据和共享写法由各自维护入口更新。没有自动同步或后台续采。
+该命令只刷新个人技能的knowledge目录和manifest，不采集、不调用模型，不修改原语料或其他个人技能。已有快照移到非扫描的backups目录，避免重复发现同名技能。MODULE.md、agents元数据和共享写法由各自维护入口更新。没有自动同步或后台续采。
 
 原资料中的构建命令、采集队列和大规模验收设计仅是历史工程说明；当前查询按本包INDEX使用。迁移设备时复制完整use-pocket-knowledge文件夹；若要生成正式评论，还需安装上述共享写作依赖，不能从归档旧规则拼出替代流程。

@@ -7,7 +7,7 @@ description: Lightweight DJI Pocket adapter for the shared consumer-comment trai
 
 # DJI Pocket 产品适配入口
 
-先读取包内共享写手规则：`../../../core/write-consumer-comments/SKILL.md`
+先读取包内共享写手规则：`../../../core/write-consumer-comments/MODULE.md`
 
 本入口只负责 Pocket 的型号、命名和事实边界，不复制写作逻辑，也不把历史案例当成产品事实。评论均为培训用假想消费者草稿，不用于发布。
 

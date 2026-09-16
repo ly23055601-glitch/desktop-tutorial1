@@ -37,7 +37,7 @@ description: Draft DJI Pocket comments from social posts and real personal mater
 
 ## 读取原帖
 
-需要实时读取抖音、小红书或B站链接时，先完整读取并遵循 [统一社媒读取技能](../../read-social-links-with-social-helper/SKILL.md)。它是平台识别、外部Chrome与社媒助手、批量首采、节流、问题交人工、导出和一次证据验收的唯一规则源，本技能不另建采集流程。
+需要实时读取抖音、小红书或B站链接时，先完整读取并遵循 [统一社媒读取技能](../../read-social-links-with-social-helper/MODULE.md)。它是平台识别、外部Chrome与社媒助手、批量首采、节流、问题交人工、导出和一次证据验收的唯一规则源，本技能不另建采集流程。
 
 一次性交给统一读取技能当前请求中这些平台的完整待读取链接集合并保留原序号，由它统一去重、分平台、分批和处理失败项。不得为了逐帖锚点、证据卡或写作分工而拆成多次单链接调用；返回证据包后再逐帖提取材料和起草。
 

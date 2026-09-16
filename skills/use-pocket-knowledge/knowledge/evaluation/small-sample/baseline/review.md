@@ -7,7 +7,7 @@
 
 仅实际读取：
 - 两份small-sample/inputs原始JSON，split与frozen_split均为holdout
-- 共享write-consumer-comments/SKILL.md、writing-reference.md、training-contract.md与state模板
+- 共享write-consumer-comments/MODULE.md、writing-reference.md、training-contract.md与state模板
 - 独立官方网页，限确认写作所用型号名称
 
 未读取本次Pocket产品事实库、voice/scenarios、知识库检索结果、学习卡、研究归纳或其他组草稿

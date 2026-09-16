@@ -7,7 +7,7 @@ description: Lightweight DJI Mic adapter for the shared consumer-comment trainin
 
 # DJI Mic 产品适配入口
 
-先读取包内共享写手规则：`../../../core/write-consumer-comments/SKILL.md`
+先读取包内共享写手规则：`../../../core/write-consumer-comments/MODULE.md`
 
 本入口只补 Mic 的型号、连接和音频证据边界。评论是培训用假想消费者草稿，不用于发布；购买、持有和使用经历不能代替产品事实。
 

@@ -11,7 +11,7 @@
 - `使用 $use-nano-knowledge，查清 Nano 的存储和分体监看条件。`
 - `调用 $write-dji-nano-comments，结合当前材料写培训评论。`
 
-[项目 AGENTS](../../../AGENTS.md)、[项目写手入口](../../../.agents/skills/write-consumer-training-comments/SKILL.md)均指向[新 Nano 入口](../../../.agents/skills/use-nano-knowledge/SKILL.md)。原个人 Nano 技能调用名继续可用；真实材料核验与旧稿审查保留原分支。
+[项目 AGENTS](../../../AGENTS.md)、[项目写手入口](../../../.agents/skills/write-consumer-training-comments/MODULE.md)均指向[新 Nano 入口](../../../.agents/skills/use-nano-knowledge/MODULE.md)。原个人 Nano 技能调用名继续可用；真实材料核验与旧稿审查保留原分支。
 
 ## 验收范围与证据
 

@@ -201,7 +201,7 @@
   },
   "capture_policy": {
     "authority": "read-social-links-with-social-helper",
-    "source_skill": "../read-social-links-with-social-helper/SKILL.md",
+    "source_skill": "../read-social-links-with-social-helper/MODULE.md",
     "mode": "mirror_returned_evidence_only",
     "primary_surface": "connected_google_chrome_social_media_assistant",
     "primary_surface_values": [

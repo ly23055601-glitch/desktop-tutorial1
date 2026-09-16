@@ -333,7 +333,7 @@ def freeze(plan, destination):
     if destination.exists():
         raise PrepareError("destination_exists_no_overwrite")
     root, snap = plan["root"], plan["snapshot"]
-    rules = root.parent.parent / ".agents/skills/write-pocket-seeding-comments/SKILL.md"
+    rules = root.parent.parent / ".agents/skills/write-pocket-seeding-comments/MODULE.md"
     protocol = root / "evaluation/README.md"
     _, rules_data = snap.read(str(rules))
     if RULE_VERSION.encode() not in rules_data["bytes"]:

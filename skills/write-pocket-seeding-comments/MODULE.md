@@ -5,7 +5,7 @@ description: Route op-project DJI Pocket comment drafting and calibration throug
 
 # Pocket评论｜共享能力库接入口
 
-入口版本：`2026-09-15-CW5.4.2-SHARED-POCKET-ROUTER`。写评、改写和案例演示统一作为`training_fiction`培训教育稿，先读取[跨产品评论写手能力库](/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md)，表达版本以该文件当前内容为准，使用其选材、人物、种草、表达与教学诊断，以及数量、格式、互动和训练检查规则。本项目和其他项目共用同一份表达能力，不在此处复制第二套写法。原帖属于同场景实拍、成片对照、排名横测或使用后取舍时，按共享当前横测分支处理；Pocket作为目标产品时至少一条主评明确点名大疆或准确型号，竞品只作参照；普通选购求助不误判为横测
+入口版本：`2026-09-15-CW5.4.2-SHARED-POCKET-ROUTER`。写评、改写和案例演示统一作为`training_fiction`培训教育稿，先读取[跨产品评论写手能力库](/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md)，表达版本以该文件当前内容为准，使用其选材、人物、种草、表达与教学诊断，以及数量、格式、互动和训练检查规则。本项目和其他项目共用同一份表达能力，不在此处复制第二套写法。原帖属于同场景实拍、成片对照、排名横测或使用后取舍时，按共享当前横测分支处理；Pocket作为目标产品时至少一条主评明确点名大疆或准确型号，竞品只作参照；普通选购求助不误判为横测
 
 ## Pocket专属部分
 
@@ -30,7 +30,7 @@ python3 /Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/scripts/po
 
 培训正文中的产品断言按共享[训练契约](/Users/luocaihua/.codex/skills/write-consumer-comments/references/training-contract.md)绑定实际核验的`product`来源与`product_fact`断言；检索中的`claim_id`和登记提示供LH13旧审查接口使用，不是共享培训流程的注册门槛。公共语料和历史本人素材保留真实归属，不能改标为假想资料或移植为训练人物的经历。独立训练人物只存在于训练state；本次知识库研究与[对照验收](/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/README.md)仍按研究约定追溯实际第一人称经历，不用虚构经历补研究材料
 
-[原项目知识库](/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/INDEX.md)继续作为维护源，更新后显式刷新个人技能快照；跨项目读取不依赖本项目目录。纯产品、需求或表达材料分析可直接调用[个人Pocket知识技能](/Users/luocaihua/.codex/skills/use-pocket-knowledge/SKILL.md)，实际写评仍回到同一共享写手，已读入口不循环加载
+[原项目知识库](/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/INDEX.md)继续作为维护源，更新后显式刷新个人技能快照；跨项目读取不依赖本项目目录。纯产品、需求或表达材料分析可直接调用[个人Pocket知识技能](/Users/luocaihua/.codex/skills/use-pocket-knowledge/MODULE.md)，实际写评仍回到同一共享写手，已读入口不循环加载
 
 拍摄观感、个人审美、使用习惯与实际接话可按需读[观感与表达](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/aesthetics/README.md)，只取与当前整帖有关的一组；完整作品、有限抽帧、作者原话和用户表达反馈分别使用，未补齐项不充当已读效果。
 

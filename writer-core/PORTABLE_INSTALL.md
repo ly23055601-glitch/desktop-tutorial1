@@ -2,11 +2,11 @@
 
 ## Generic 模式
 
-只读取 `core/write-consumer-comments/SKILL.md`，输入原帖材料和产品资料即可写作。宿主没有社媒读取能力时，使用用户提供的正文、转写、可见画面和评论材料，不把搜索摘要、抽帧或推测写成完整事实。
+只读取 `core/write-consumer-comments/MODULE.md`，输入原帖材料和产品资料即可写作。宿主没有社媒读取能力时，使用用户提供的正文、转写、可见画面和评论材料，不把搜索摘要、抽帧或推测写成完整事实。
 
 ## DJI Product Pack 模式
 
-在 Generic 模式上，按产品读取一个 `products/dji/*/SKILL.md`。适配入口只提供命名、事实边界和资料接口，不替代当前官方资料核验。
+在 Generic 模式上，按产品读取一个 `products/dji/*/MODULE.md`。适配入口只提供命名、事实边界和资料接口，不替代当前官方资料核验。
 
 ## op 适配模式
 

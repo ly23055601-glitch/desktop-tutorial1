@@ -6,12 +6,12 @@
 
 ## 复用入口
 
-- [项目360技能](../../../.agents/skills/use-osmo360-knowledge/SKILL.md)：产品问答、竞品、心理与表达按任务取用。
+- [项目360技能](../../../.agents/skills/use-osmo360-knowledge/MODULE.md)：产品问答、竞品、心理与表达按任务取用。
 - [人群与心理指南](../../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)：23种可重叠情境、8个心理关注方向及使用阶段，均为待验证编辑假设。
 - [知识库索引](../INDEX.md)：八模块、五型号、FAQ、自测与调用示例。
 - 项目 `AGENTS.md`、共用写手入口已增加360路由；保留其他产品与真实材料审查规则，已读入口不循环加载。
 
-依据[OpenAI官方本地技能说明](https://learn.chatgpt.com/docs/build-skills)，项目技能放在 `.agents/skills`，以 `SKILL.md` 名称与描述被发现，支持显式或按任务匹配调用。本次采用项目内入口和普通文件链接；未测试已有对话界面是否立即刷新技能列表，未创建用户可见的新任务。
+依据[OpenAI官方本地技能说明](https://learn.chatgpt.com/docs/build-skills)，项目技能放在 `.agents/skills`，以 `MODULE.md` 名称与描述被发现，支持显式或按任务匹配调用。本次采用项目内入口和普通文件链接；未测试已有对话界面是否立即刷新技能列表，未创建用户可见的新任务。
 
 ## 本次发现与修复
 

@@ -21,7 +21,7 @@ class Fixture:
         (self.corpus / "raw").mkdir()
         (self.root / "evaluation").mkdir()
         (self.root / "evaluation/README.md").write_text("Synthetic evaluation protocol", encoding="utf-8")
-        skill = self.root.parent.parent / ".agents/skills/write-pocket-seeding-comments/SKILL.md"
+        skill = self.root.parent.parent / ".agents/skills/write-pocket-seeding-comments/MODULE.md"
         skill.parent.mkdir(parents=True)
         skill.write_text(prep.RULE_VERSION, encoding="utf-8")
         # These must never be read, even by the default metadata operation.

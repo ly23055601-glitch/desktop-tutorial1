@@ -57,7 +57,7 @@ python3 knowledge/pocket/scripts/reconcile_comment_batch.py \
 
 `normalized/*.quality-review.json` 记录实际讨论上下文的人工审读；`*.review.json` 记录作品型号与使用阶段的证据范围。留出作品可以做必要的采样资格核对，不用于表达规律归纳。最终留出输入通过 [离线冻结工具](../evaluation/PREPARE_INPUTS.md)生成。
 
-采集行为以[统一社媒读取技能](../../../read-social-links-with-social-helper/SKILL.md)为唯一规则源，本目录不重新定义采集限制、异常重试或停止条件。
+采集行为以[统一社媒读取技能](../../../read-social-links-with-social-helper/MODULE.md)为唯一规则源，本目录不重新定义采集限制、异常重试或停止条件。
 
 ## 用户收口后的状态
 

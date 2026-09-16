@@ -2,7 +2,7 @@
 
 2026-09-08 约21:17（上海）补读。[原帖：大疆Nano相机平价神仙配件自费实测分享](https://www.bilibili.com/video/BV12t8m6WEQu/)，作者 Y科技，对应[EXP001完整背景与佩戴条件](cases.md#nano-exp-001)。沿用原类型“配件与设备方案／测评与使用反馈”，不另造帖子类型。
 
-社媒助手评论表单的提交前间隔设置未能确认，未提交采集。依[统一技能的降级规则](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)，读取已打开的外部 Chrome 原页。页面显示评论8，在“最热”排序下实际核对4条主评与4条作者回复，滚到“没有更多评论”。以下仅代表本次可见列表；没有平台评论ID与可见赞数，不补ID、不称高赞。
+社媒助手评论表单的提交前间隔设置未能确认，未提交采集。依[统一技能的降级规则](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)，读取已打开的外部 Chrome 原页。页面显示评论8，在“最热”排序下实际核对4条主评与4条作者回复，滚到“没有更多评论”。以下仅代表本次可见列表；没有平台评论ID与可见赞数，不补ID、不称高赞。
 
 ## 四组实际讨论
 

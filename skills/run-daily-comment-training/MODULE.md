@@ -5,7 +5,7 @@ description: 在 op 项目以产品代码加链接、材料启动每日评论培
 
 # 每日培训草稿执行
 
-本入口只维护每日调用、留档和计量。先读取[项目级统一产出工作流](references/project-workflow.md)，再按其中顺序执行。产品映射使用[项目约定](../../../AGENTS.md)，采集使用[统一社媒读取技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)，写法使用[项目写手入口](../write-consumer-training-comments/SKILL.md)及其共享技能当前文件；不复制采集参数、旧审核评分或产品规则。
+本入口只维护每日调用、留档和计量。先读取[项目级统一产出工作流](references/project-workflow.md)，再按其中顺序执行。产品映射使用[项目约定](../../../AGENTS.md)，采集使用[统一社媒读取技能](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)，写法使用[项目写手入口](../write-consumer-training-comments/MODULE.md)及其共享技能当前文件；不复制采集参数、旧审核评分或产品规则。
 
 产出顺序：核对当前规则与近期反馈 → 登记完整输入 → 统一采集并核对证据范围 → 按整帖选择消费者关注和产品知识（识别当前横测分支）→ 每 10 个输入位置写作、同帖及跨帖复核 → 运行 `training_cw5` 质检 → 交付 → 更新台账与反馈。采集完成、材料足够写作、教学完整交付、质检状态和用户认可分别判断。
 

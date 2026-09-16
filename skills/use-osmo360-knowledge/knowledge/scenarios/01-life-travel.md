@@ -2,7 +2,7 @@
 
 整理日期：2026-09-07。范围：Osmo 360 与 Osmo 360 II；简体中文、中国大陆使用环境。SC01～SC16 是 **editorial_hypothesis / unvalidated** 的假想场景与编辑选材材料，不是用户研究、真实反馈或成品消费者评论。角色、关系和事件只用于讨论；任何人的实际需求都需另行了解。
 
-每卡只设一个主卖点和一个可选辅卖点。选材角度是第三人称叙事问题，后续写成消费者评论时接入[项目共用写手入口](../../../.agents/skills/write-consumer-training-comments/SKILL.md)，另建 `training_fiction` 人物与状态。产品能力依事实卡及[本轮官方来源复读](../sources/recheck-scenarios-2026-09-07.md)，编辑流程不是官方操作教程，不编造 App 按钮、实测结果、购买满意结局或竞品胜负。
+每卡只设一个主卖点和一个可选辅卖点。选材角度是第三人称叙事问题，后续写成消费者评论时接入[项目共用写手入口](../../../.agents/skills/write-consumer-training-comments/MODULE.md)，另建 `training_fiction` 人物与状态。产品能力依事实卡及[本轮官方来源复读](../sources/recheck-scenarios-2026-09-07.md)，编辑流程不是官方操作教程，不编造 App 按钮、实测结果、购买满意结局或竞品胜负。
 
 返回[场景总入口](../scenario-bank.md)，按卖点反查[任务变化矩阵](../training/scenario-to-copy.md#value-matrix)。
 

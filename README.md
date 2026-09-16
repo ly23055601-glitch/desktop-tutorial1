@@ -1,6 +1,6 @@
 # 阿豹追猎 · DJI AI 技能包
 
-此仓库保存 `阿豹追猎.zip` 中的 `dji-ai-skills-portable-20260915-v1` 技能包，包含 20 个 `SKILL.md` 入口及其知识资料、参考文件和脚本。目录已解压，便于查看和导入。
+此仓库保存 `阿豹追猎.zip` 中的 `dji-ai-skills-portable-20260915-v1` 技能包，包含 20 个 `MODULE.md` 入口及其知识资料、参考文件和脚本。目录已解压，便于查看和导入。
 
 ## 获取文件
 
@@ -17,18 +17,20 @@
 
 | 用途 | 文件 |
 | --- | --- |
-| 共享写作规则 | [SKILL.md](writer-core/core/write-consumer-comments/SKILL.md) |
-| Pocket 知识 | [SKILL.md](skills/use-pocket-knowledge/SKILL.md) |
-| Osmo Mobile 知识 | [SKILL.md](skills/use-mobile-knowledge/SKILL.md) |
-| DJI Mic 知识 | [SKILL.md](skills/use-mic-knowledge/SKILL.md) |
-| Osmo Nano 知识 | [SKILL.md](skills/use-nano-knowledge/SKILL.md) |
-| Osmo 360 知识 | [SKILL.md](skills/use-osmo360-knowledge/SKILL.md) |
+| 共享写作规则 | [MODULE.md](writer-core/core/write-consumer-comments/MODULE.md) |
+| Pocket 知识 | [MODULE.md](skills/use-pocket-knowledge/MODULE.md) |
+| Osmo Mobile 知识 | [MODULE.md](skills/use-mobile-knowledge/MODULE.md) |
+| DJI Mic 知识 | [MODULE.md](skills/use-mic-knowledge/MODULE.md) |
+| Osmo Nano 知识 | [MODULE.md](skills/use-nano-knowledge/MODULE.md) |
+| Osmo 360 知识 | [MODULE.md](skills/use-osmo360-knowledge/MODULE.md) |
 
 ## 在 DeepSeek 中使用
 
 GitHub 用于保存与下载文件；上传到仓库不会自动在 DeepSeek 中完成安装。导入方法取决于使用的 DeepSeek 网页、App 或接入 DeepSeek 模型的智能体客户端。
 
-- 支持 `SKILL.md` 和本地文件读取的客户端：按客户端的技能导入方式注册入口，并保留配套知识目录和相对路径。以 `INSTALL.md` 为准。
+DeepSeek++ 新人培训请先阅读：[完整安装、导入、分阶段使用和质检手册](DEEPSEEK-PLUS-PLUS-新人培训手册.md)。仓库根目录只导入 `deepseek/abao-controller/SKILL.md`，原 20 个入口已经作为内部 `MODULE.md` 保留。
+
+- 支持 `MODULE.md` 和本地文件读取的客户端：按客户端的技能导入方式注册入口，并保留配套知识目录和相对路径。以 `INSTALL.md` 为准。
 - 仅能聊天或上传附件的界面：提供总提示词、所需技能正文及实际引用的知识材料，作为当前对话的上下文；仅发送仓库链接不能保证它读取整个仓库。
 
 社媒读取需要目标设备另行连接浏览器或社媒助手。可选 Python 脚本需要运行环境。本仓库的上传不代表已完成目标客户端的兼容性或运行验证。

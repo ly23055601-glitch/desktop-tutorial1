@@ -2,7 +2,7 @@
 
 本参考用于挑选观看位置与开口理由，不用于制造发布者身份
 区别体现在回应什么、为什么想说、有什么情绪，不靠自报职业、年龄或虚构持有经历
-数量、点名、格式见 [SKILL.md](../SKILL.md)，七类型与带前提教学例见 [style-examples.md](style-examples.md)
+数量、点名、格式见 [MODULE.md](../MODULE.md)，七类型与带前提教学例见 [style-examples.md](style-examples.md)
 
 ## 动态选角
 

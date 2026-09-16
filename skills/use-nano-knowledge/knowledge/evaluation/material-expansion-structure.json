@@ -19,7 +19,7 @@
   "local_link_targets_checked": 617,
   "shared_route_scope": "Nano edges only; all links inside Nano knowledge and skill files are checked, including shared dependencies.",
   "out_of_scope_route_notes": [
-    ".agents/skills/write-consumer-training-comments/SKILL.md: unrelated route target missing: /Users/luocaihua/.codex/skills/use-mobile-knowledge/knowledge/use_cases/guide.md",
+    ".agents/skills/write-consumer-training-comments/MODULE.md: unrelated route target missing: /Users/luocaihua/.codex/skills/use-mobile-knowledge/knowledge/use_cases/guide.md",
     "AGENTS.md: unrelated route target missing: knowledge/mobile/use_cases/guide.md",
     "AGENTS.md: unrelated route target missing: knowledge/mobile/use_cases/selling-point-map.md"
   ],

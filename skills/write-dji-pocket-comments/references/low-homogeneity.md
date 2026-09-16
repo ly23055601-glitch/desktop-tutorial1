@@ -1,6 +1,6 @@
 # Pocket同帖与整批差异（LH12）
 
-每次写作均读取，同帖差异从一个链接开始检查；4个以上真实链接或跨批续写再维护整批账本。写作逻辑见 [入口](../SKILL.md)，证据字段见 [需求与产品证据](product-seeding.md)。采集仍以 [统一社媒读取技能](../../read-social-links-with-social-helper/SKILL.md) 为唯一规则源。
+每次写作均读取，同帖差异从一个链接开始检查；4个以上真实链接或跨批续写再维护整批账本。写作逻辑见 [入口](../MODULE.md)，证据字段见 [需求与产品证据](product-seeding.md)。采集仍以 [统一社媒读取技能](../../read-social-links-with-social-helper/MODULE.md) 为唯一规则源。
 
 ## 选材与分配
 

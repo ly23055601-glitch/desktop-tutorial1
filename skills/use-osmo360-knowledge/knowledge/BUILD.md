@@ -49,7 +49,7 @@ python3 knowledge/osmo360/scripts/knowledge.py search 'IX5-005'
 
 ## 2026-09-06 · 项目复用封装与二次验收
 
-新增[项目360技能](../../.agents/skills/use-osmo360-knowledge/SKILL.md)及[人群与心理指南](../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)，在项目 `AGENTS.md`、共用写手入口和本库索引增加调用路径。其他对话可按产品问题、角色心理或评论训练取用当前文件，不依赖历史聊天；23种情境标签和8个心理关注方向均保留未验证假设状态。
+新增[项目360技能](../../.agents/skills/use-osmo360-knowledge/MODULE.md)及[人群与心理指南](../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)，在项目 `AGENTS.md`、共用写手入口和本库索引增加调用路径。其他对话可按产品问题、角色心理或评论训练取用当前文件，不依赖历史聊天；23种情境标签和8个心理关注方向均保留未验证假设状态。
 
 本次修复型号词导致的检索误排及未知主题假命中，支持常见中文二代写法；新增7项真实知识卡回归，现有19项测试通过。II档案的透明保护镜摘要补齐官方避免雨雪／水上使用的建议；该值原已在D2-045、配件模块和相关FAQ中保留，题目答案无需改动。
 

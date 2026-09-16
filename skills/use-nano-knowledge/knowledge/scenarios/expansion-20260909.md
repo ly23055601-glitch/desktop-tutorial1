@@ -60,7 +60,7 @@
 
 **成长与亲密关系不必靠大事件。** 同一只不配套的杯子、对旧物记忆不一致、轮流拍摄后发现对方注意到不同细节，都可以成为选材方向。没有实际材料时，只作为合成训练命题；不回填成原帖作者经历。
 
-新增卡中的 `observable_details` 是后续可寻找的细节，不表示已经看见或听见；`interest_branches` 是可分别选择的兴趣，不是规定的角色台词。实际评论继续由[项目写手入口](../../../.agents/skills/write-consumer-training-comments/SKILL.md)使用当前共享标准完成，保持 `training_fiction`。
+新增卡中的 `observable_details` 是后续可寻找的细节，不表示已经看见或听见；`interest_branches` 是可分别选择的兴趣，不是规定的角色台词。实际评论继续由[项目写手入口](../../../.agents/skills/write-consumer-training-comments/MODULE.md)使用当前共享标准完成，保持 `training_fiction`。
 
 可按需求检索完整卡及关联条件：
 

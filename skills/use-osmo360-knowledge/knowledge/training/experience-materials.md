@@ -2,7 +2,7 @@
 
 补充日期：2026-09-08。来源：本任务用户对后续材料的明确要求。**空间视角与拍后选择是优先补强方向，其他卖点与使用兴趣继续开放。**现有[18项卖点](../selling-points.md)和[48张场景卡](../scenario-bank.md)用于查知识、提出解释；真实使用感受需要具体材料支持，不能从SC假想场景中反推。
 
-五个品线共用的原话、讨论、使用阶段与逐句反馈收录方式，见[共用体验材料指南](/Users/luocaihua/.codex/skills/write-consumer-comments/references/experience-materials.md)。本页只补360的观察重点。**材料可以完整，评论只取其中最值得说的一点。**材料整理不等于现在必须写成评论；实际成稿按[项目共用写手入口](../../../.agents/skills/write-consumer-training-comments/SKILL.md)当前规则执行。
+五个品线共用的原话、讨论、使用阶段与逐句反馈收录方式，见[共用体验材料指南](/Users/luocaihua/.codex/skills/write-consumer-comments/references/experience-materials.md)。本页只补360的观察重点。**材料可以完整，评论只取其中最值得说的一点。**材料整理不等于现在必须写成评论；实际成稿按[项目共用写手入口](../../../.agents/skills/write-consumer-training-comments/MODULE.md)当前规则执行。
 
 <a id="one-work"></a>
 ## 围绕同一份作品，留下四种能互相对应的材料

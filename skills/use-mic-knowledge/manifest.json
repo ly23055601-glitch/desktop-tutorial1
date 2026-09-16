@@ -39,7 +39,7 @@
     "materials/recording-process.md": "f21438841acc0b7da912ef044a4c6a72836cbd05bd55dd086de854581561f39c",
     "materials/utterances-and-feedback.md": "ee6fb014b178f0e3ee8b16107564baf8ee598447d5251deb642f87c8803c152f",
     "materials/walking-vlog.md": "99854304b7ba398ff74f0adc69d4108078d525ded43ce2e4d6ef27ebd6b1d3af",
-    "packaging/skill/SKILL.md": "fcb7a76eb0fb2dcc9a97479061c1122d5f1b243bec3c1a1fecaeaa51f82c343f",
+    "packaging/skill/MODULE.md": "fcb7a76eb0fb2dcc9a97479061c1122d5f1b243bec3c1a1fecaeaa51f82c343f",
     "packaging/skill/agents/openai.yaml": "1d355e8e3aefefd7ee48eafbf9fdfba6d32ae38dd0726317adb77b7ce71f6893",
     "packaging/skill/references/package.md": "6aa3eeda852ebc8777c0a9659033eaff02f9708b9376376ed56fe69e94c00161",
     "packaging/skill/scripts/mic.py": "089171d884ec5258b612e7b5d82216eaed9a0341fec8aad49d4055525ef5453e",
@@ -181,7 +181,7 @@
     "writing_scenarios/selling-point-map.md": "d246ebdadb1f3a57a607eb88b43c16a709bfb61d99a317957f8195de2152bce2"
   },
   "files": {
-    "SKILL.md": "fcb7a76eb0fb2dcc9a97479061c1122d5f1b243bec3c1a1fecaeaa51f82c343f",
+    "MODULE.md": "fcb7a76eb0fb2dcc9a97479061c1122d5f1b243bec3c1a1fecaeaa51f82c343f",
     "agents/openai.yaml": "1d355e8e3aefefd7ee48eafbf9fdfba6d32ae38dd0726317adb77b7ce71f6893",
     "references/knowledge/CHANGELOG.md": "d8d5f77e6e507cc666edd0646f3ef87f727300c30067b4cbd5a96a46417e24f8",
     "references/knowledge/COVERAGE.md": "9e1aee73a43dc254cb368c4f89942b9c5dbdc9028acb8c05f9e267616eac3e0f",

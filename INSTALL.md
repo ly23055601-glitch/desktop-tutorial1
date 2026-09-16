@@ -2,11 +2,11 @@
 
 版本：2026-09-15-v1。此包来自 op、写手培训、om、dm、ow、oq 六个任务的当前有效入口。
 
-## 安装到支持 SKILL.md 的 AI
+## 安装到支持 MODULE.md 的 AI
 
 1. 将本目录整体复制到目标设备。
-2. 把 `writer-core/core/write-consumer-comments/SKILL.md` 注册为共享写作技能。
-3. 按任务再注册对应 `skills/use-*-knowledge/SKILL.md`；产品写作时先加载产品知识，再加载共享写手。
+2. 把 `writer-core/core/write-consumer-comments/MODULE.md` 注册为共享写作技能。
+3. 按任务再注册对应 `skills/use-*-knowledge/MODULE.md`；产品写作时先加载产品知识，再加载共享写手。
 4. 需要评论培训时加载 `writer-core/adapters/op/` 中的路由说明；需要每日批次时才加载 `skills/run-daily-comment-training/`。
 5. 抖音、小红书、B站读取必须由目标设备已有的社媒助手/浏览器连接完成；没有该连接时只使用用户提供的正文、画面、转写和评论材料。
 
@@ -14,8 +14,8 @@
 
 - 产品问答：`use-<product>-knowledge` → 返回事实、条件、来源和待核项。
 - 评论培训：产品知识 → `writer-core/core/write-consumer-comments` → 输出顶部标注 `training_fiction`。
-- Pocket：可再加载 `skills/write-pocket-seeding-comments/SKILL.md` 保留 Pocket 型号命名边界。
-- 多链接采集：先加载 `skills/read-social-links-with-social-helper/SKILL.md`，一次提交完整链接集合。
+- Pocket：可再加载 `skills/write-pocket-seeding-comments/MODULE.md` 保留 Pocket 型号命名边界。
+- 多链接采集：先加载 `skills/read-social-links-with-social-helper/MODULE.md`，一次提交完整链接集合。
 
 ## 重要边界
 

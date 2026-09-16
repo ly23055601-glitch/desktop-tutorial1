@@ -13,7 +13,7 @@
 | 从真实材料延伸到不同培训题材 | [15条选材路径](experience/selection-map.md)，兴趣与未知分别保留，关联新场景仍为编辑假设 |
 | 同一身份还能有哪些动机与顾虑 | [人群分析方法](../../.agents/skills/use-nano-knowledge/references/audience-guide.md) |
 | 某种使用方式的事实与条件是否成立 | [完整事实条目](products/facts.jsonl)、[产品阅读版](products/guide.md)、[待核项](GAPS.md) |
-| 已选好内容，开始写正式培训评论 | [项目写手入口](../../.agents/skills/write-consumer-training-comments/SKILL.md)，继续使用共享写手当前规则 |
+| 已选好内容，开始写正式培训评论 | [项目写手入口](../../.agents/skills/write-consumer-training-comments/MODULE.md)，继续使用共享写手当前规则 |
 
 ## 让选材能落到一句话
 

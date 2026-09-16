@@ -7,11 +7,11 @@ description: Draft or revise DJI Pocket consumer-comment training fiction throug
 
 ## 默认训练路由
 
-写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=pocket`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/SKILL.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
+写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=pocket`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/MODULE.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
 
-本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/SKILL.md)。
+本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/MODULE.md)。
 
-理解当前材料、目标型号和开口理由后，直接按[个人Pocket知识索引](../use-pocket-knowledge/knowledge/INDEX.md)检索相关产品事实、场景与有来源的表达材料；检索方式和证据边界见[产品知识](references/product-knowledge.md)。主库聚焦Pocket4/Pocket4P，其他代际须另核对应资料。已从知识入口或共享写手进入时只取必要资料，不回调完整入口。产品问答或知识分析可单独使用[个人Pocket知识技能](../use-pocket-knowledge/SKILL.md)。
+理解当前材料、目标型号和开口理由后，直接按[个人Pocket知识索引](../use-pocket-knowledge/knowledge/INDEX.md)检索相关产品事实、场景与有来源的表达材料；检索方式和证据边界见[产品知识](references/product-knowledge.md)。主库聚焦Pocket4/Pocket4P，其他代际须另核对应资料。已从知识入口或共享写手进入时只取必要资料，不回调完整入口。产品问答或知识分析可单独使用[个人Pocket知识技能](../use-pocket-knowledge/MODULE.md)。
 
 按需取[卖点与使用价值](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/selling_points/guide.md)和[详细场景选材](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/use_cases/guide.md)，先看当前帖的触发线索，再选相关任务、取舍和产品依据；用途是编辑解释，场景是假设，不给每条评论分配固定卖点槽位
 

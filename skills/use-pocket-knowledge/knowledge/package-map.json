@@ -541,11 +541,11 @@
     "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/works.jsonl": "voice/works.jsonl",
     "knowledge/pocket/voice/works.jsonl": "voice/works.jsonl",
     "voice/works.jsonl": "voice/works.jsonl",
-    "/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md": "_provenance/personal/write-consumer-comments/SKILL.source.md",
+    "/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md": "_provenance/personal/write-consumer-comments/SKILL.source.md",
     "/Users/luocaihua/.codex/skills/write-consumer-comments/references/feedback.md": "_provenance/personal/write-consumer-comments/references/feedback.md",
     "/Users/luocaihua/.codex/skills/write-consumer-comments/references/writing-reference.md": "_provenance/personal/write-consumer-comments/references/writing-reference.md",
-    "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/SKILL.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
-    ".agents/skills/write-pocket-seeding-comments/SKILL.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
+    "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/MODULE.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
+    ".agents/skills/write-pocket-seeding-comments/MODULE.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
     "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md",
     ".agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md": "_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md",
     "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json": "_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json",
@@ -733,59 +733,59 @@
   "external_routes": [
     {
       "page": "TRAINING.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "INDEX.md",
-      "target": "../write-consumer-comments/SKILL.md"
+      "target": "../write-consumer-comments/MODULE.md"
     },
     {
       "page": "INDEX.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "BUILD.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "PROJECT-INDEX.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "START.md",
-      "target": "../write-consumer-comments/SKILL.md"
+      "target": "../write-consumer-comments/MODULE.md"
     },
     {
       "page": "START.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "START.md",
-      "target": "../read-social-links-with-social-helper/SKILL.md"
+      "target": "../read-social-links-with-social-helper/MODULE.md"
     },
     {
       "page": "research/handoff.md",
-      "target": "../read-social-links-with-social-helper/SKILL.md"
+      "target": "../read-social-links-with-social-helper/MODULE.md"
     },
     {
       "page": "context/README.md",
-      "target": "../write-consumer-comments/SKILL.md"
+      "target": "../write-consumer-comments/MODULE.md"
     },
     {
       "page": "corpus/README.md",
-      "target": "../read-social-links-with-social-helper/SKILL.md"
+      "target": "../read-social-links-with-social-helper/MODULE.md"
     },
     {
       "page": "feedback/README.md",
-      "target": "../write-consumer-comments/SKILL.md"
+      "target": "../write-consumer-comments/MODULE.md"
     },
     {
       "page": "voice/README.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "evaluation/HISTORICAL-30-POST-PROTOCOL.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "evaluation/HISTORICAL-30-POST-PROTOCOL.md",
@@ -797,11 +797,11 @@
     },
     {
       "page": "evaluation/README.md",
-      "target": "../write-dji-pocket-comments/SKILL.md"
+      "target": "../write-dji-pocket-comments/MODULE.md"
     },
     {
       "page": "aesthetics/gaps.md",
-      "target": "../read-social-links-with-social-helper/SKILL.md"
+      "target": "../read-social-links-with-social-helper/MODULE.md"
     }
   ],
   "source_policy": "Archive bytes and original path/hash fields are preserved. Resolve paths only inside this package; do not fall back to the original project."

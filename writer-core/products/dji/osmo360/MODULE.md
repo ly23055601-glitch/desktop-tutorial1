@@ -7,7 +7,7 @@ description: Lightweight DJI Osmo 360 adapter for the shared consumer-comment tr
 
 # DJI Osmo 360 产品适配入口
 
-先读取包内共享写手规则：`../../../core/write-consumer-comments/SKILL.md`
+先读取包内共享写手规则：`../../../core/write-consumer-comments/MODULE.md`
 
 本入口只补 Osmo 360 的代际、全景／平面和后期证据边界。评论是培训用假想消费者草稿，不用于发布；不继承 Pocket 的命名限制。
 

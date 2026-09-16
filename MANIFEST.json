@@ -1,6 +1,8 @@
 {
   "bundle": "dji-ai-skills-portable",
   "version": "2026-09-15-v1",
+  "controller": "deepseek/abao-controller/SKILL.md",
+  "architecture": "DeepSeek++ 导入 controller；原 20 个入口作为 MODULE.md 按阶段内部读取",
   "source_threads": {
     "op": "01a075d1-5e29-7d91-b29e-61ad1b7d9013",
     "写手培训": "01a06fbb-8440-78a0-9364-0b783262f150",
@@ -10,26 +12,26 @@
     "oq": "01a0760e-d797-7681-a0df-67ab6d8783c1"
   },
   "skills": {
-    "core_writer": "writer-core/core/write-consumer-comments/SKILL.md",
-    "pocket_knowledge": "skills/use-pocket-knowledge/SKILL.md",
-    "mobile_knowledge": "skills/use-mobile-knowledge/SKILL.md",
-    "mic_knowledge": "skills/use-mic-knowledge/SKILL.md",
-    "nano_knowledge": "skills/use-nano-knowledge/SKILL.md",
-    "osmo360_knowledge": "skills/use-osmo360-knowledge/SKILL.md",
-    "social_reader": "skills/read-social-links-with-social-helper/SKILL.md",
-    "project_router": "skills/write-consumer-training-comments/SKILL.md",
-    "pocket_router": "skills/write-pocket-seeding-comments/SKILL.md",
-    "daily_runner": "skills/run-daily-comment-training/SKILL.md",
+    "core_writer": "writer-core/core/write-consumer-comments/MODULE.md",
+    "pocket_knowledge": "skills/use-pocket-knowledge/MODULE.md",
+    "mobile_knowledge": "skills/use-mobile-knowledge/MODULE.md",
+    "mic_knowledge": "skills/use-mic-knowledge/MODULE.md",
+    "nano_knowledge": "skills/use-nano-knowledge/MODULE.md",
+    "osmo360_knowledge": "skills/use-osmo360-knowledge/MODULE.md",
+    "social_reader": "skills/read-social-links-with-social-helper/MODULE.md",
+    "project_router": "skills/write-consumer-training-comments/MODULE.md",
+    "pocket_router": "skills/write-pocket-seeding-comments/MODULE.md",
+    "daily_runner": "skills/run-daily-comment-training/MODULE.md",
     "product_wrappers": [
-      "skills/write-dji-mic-comments/SKILL.md",
-      "skills/write-dji-nano-comments/SKILL.md",
-      "skills/write-dji-osmo-mobile-comments/SKILL.md",
-      "skills/write-dji-osmo360-comments/SKILL.md",
-      "skills/write-dji-pocket-comments/SKILL.md"
+      "skills/write-dji-mic-comments/MODULE.md",
+      "skills/write-dji-nano-comments/MODULE.md",
+      "skills/write-dji-osmo-mobile-comments/MODULE.md",
+      "skills/write-dji-osmo360-comments/MODULE.md",
+      "skills/write-dji-pocket-comments/MODULE.md"
     ]
   },
   "portable_scope": {
-    "included": "current SKILL.md files, effective text knowledge, scripts, indexes, writer references, and text source tables",
+    "included": "current MODULE.md files, effective text knowledge, scripts, indexes, writer references, and text source tables",
     "excluded": "historical provenance, raw spreadsheets, evaluation archives, and binary social media media",
     "external_dependencies": [
       "Python 3.9+ for optional query scripts",

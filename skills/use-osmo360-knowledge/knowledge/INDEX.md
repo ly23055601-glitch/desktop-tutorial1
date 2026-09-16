@@ -13,7 +13,7 @@
 - “调用360消费者心理库，深入分析骑行者为什么想拍、为什么可能不用，以及表达线索”
 - “按项目360标准，用两个不同角色写培训评论，保留产品依据”
 
-也可明确调用 `$use-osmo360-knowledge`。入口文件是[项目360技能](../../.agents/skills/use-osmo360-knowledge/SKILL.md)，由项目 `AGENTS.md` 和共用写手入口接入；不需要重读本次历史聊天。若当前对话尚未发现新技能，直接让它读取这个入口文件即可。
+也可明确调用 `$use-osmo360-knowledge`。入口文件是[项目360技能](../../.agents/skills/use-osmo360-knowledge/MODULE.md)，由项目 `AGENTS.md` 和共用写手入口接入；不需要重读本次历史聊天。若当前对话尚未发现新技能，直接让它读取这个入口文件即可。
 
 [人群与心理指南](../../.agents/skills/use-osmo360-knowledge/references/audience-guide.md)包括23种重叠情境标签、8个心理关注方向、使用阶段与访谈验证问题，均是待验证编辑假设。实际评论仍由共用写手库完成；[历史8条示例](../../outputs/osmo360/2026-09-06-audience-psychology/draft.md)只是待校准训练材料。
 

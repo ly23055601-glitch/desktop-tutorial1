@@ -18,7 +18,7 @@
             "brandColor": null,
             "defaultPrompt": "使用 $use-nano-knowledge，结合当前问题查询Nano产品资料，分析相关人群的使用心理与表达。"
           },
-          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/SKILL.md",
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/MODULE.md",
           "scope": "repo",
           "enabled": true,
           "pluginId": null
@@ -42,7 +42,7 @@
             "brandColor": null,
             "defaultPrompt": "使用 $use-nano-knowledge，结合当前问题查询Nano产品资料，分析相关人群的使用心理与表达。"
           },
-          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/SKILL.md",
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/MODULE.md",
           "scope": "repo",
           "enabled": true,
           "pluginId": null

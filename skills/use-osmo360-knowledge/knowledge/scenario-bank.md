@@ -116,6 +116,6 @@
 - “调用Osmo360卖点库，把收音卖点展开成不同场景，说明已有设备够用的情况”
 - “这个角色适合讲哪些卖点？按具体事件、心理矛盾、条件和可写角度给培训选材”
 
-项目[360技能](../../.agents/skills/use-osmo360-knowledge/SKILL.md)负责检索本库。用户只要发散或分析时交付选材；需要实际消费者评论时继续[共用写手入口](../../.agents/skills/write-consumer-training-comments/SKILL.md)，按当前规则生成培训用假想消费者草稿。人物经历单独设定，SC不是产品事实，也不是原帖证据；不要把技术清单或整张卡直接改写成评论。
+项目[360技能](../../.agents/skills/use-osmo360-knowledge/MODULE.md)负责检索本库。用户只要发散或分析时交付选材；需要实际消费者评论时继续[共用写手入口](../../.agents/skills/write-consumer-training-comments/MODULE.md)，按当前规则生成培训用假想消费者草稿。人物经历单独设定，SC不是产品事实，也不是原帖证据；不要把技术清单或整张卡直接改写成评论。
 
 本轮[官方依据复读](sources/recheck-scenarios-2026-09-07.md)没有新造参数或改变未读卡的日期。设备／导出矩阵、特定安装组合、播放端兼容及价格等不足继续按[缺口清单](GAPS.md)处理，未知不等于不支持。维护时保留SC编号，受影响的SP、事实卡、培训命题和入口一起检查。[本轮验收](evaluation/scenario-expansion-2026-09-07.md)。

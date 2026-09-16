@@ -14,8 +14,8 @@ description: 在op项目调用Osmo 360两代产品、卖点与用户价值及心
 - **使用场景更详细、发散卖点或为后续培训文案选材**：查[48张详细场景卡](knowledge/scenario-bank.md)，按具体事件选择SC，再由[任务变化与选材矩阵](knowledge/training/scenario-to-copy.md)反查主SP及H假设。读取单卡同时保留所在文件顶部的适用后期前提；材料允许发散，功能不扩展。只要选材时不自动生成消费者评论，不把144个角度当固定写作配额。
 - **补充真实使用体验、空间视角与拍后选择材料、原话或完整讨论**：读[360体验材料指南](knowledge/training/experience-materials.md)和[现有材料盘点](knowledge/materials/STATUS.md)，关联同一原片、实际导出、已知处理与本人偏好；缺失不由成片倒推。该方向不限制其他卖点，材料完整不等于评论必须复述过程。这里只整理材料时不进入每日新稿统计。
 - **谁会用、为什么买、为什么搁置、使用心理或表达分析**：读[人群与心理使用指南](references/audience-guide.md)，组合场景、需求假设、使用阶段及后期投入；需要解释产品如何帮助时再查精确型号的事实卡。
-- **真实评论资料**：用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
-- **主评论、回复、改写或案例示范**：先读[项目共用写手入口](../../writer-core/adapters/op/write-consumer-training-comments.md)，由共享消费者写作技能承担表达与检查；本库提供产品事实及角色假设。用户调用[360个人入口](/Users/luocaihua/.codex/skills/write-dji-osmo360-comments/SKILL.md)时保留其型号与证据边界。已读取的入口不循环加载，不复制另一套写作规则。
+- **真实评论资料**：用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。
+- **主评论、回复、改写或案例示范**：先读[项目共用写手入口](../../writer-core/adapters/op/write-consumer-training-comments.md)，由共享消费者写作技能承担表达与检查；本库提供产品事实及角色假设。用户调用[360个人入口](/Users/luocaihua/.codex/skills/write-dji-osmo360-comments/MODULE.md)时保留其型号与证据边界。已读取的入口不循环加载，不复制另一套写作规则。
 - **验收或维护**：按[维护说明](knowledge/MAINTENANCE.md)复核变化项，运行现有检索审计；心理假设与训练稿另行检查，不写进官方事实卡。
 
 项目代码 `oq` 仍按 `AGENTS.md` 指向本入口。用户给 `oq` 加链接或材料要求新稿时，先按 `AGENTS.md` 进入每日培训入口，再由统一读取与本库选材接入共用写手；用户明确只分析、查询或维护知识时完成对应任务，不计每日新稿。卖点专题不是预制评论库，不要求把全部卖点塞进每条表达。

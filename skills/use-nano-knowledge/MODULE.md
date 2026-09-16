@@ -16,8 +16,8 @@ description: Use the op project's DJI Osmo Nano facts, selling points, scenarios
 | 佩戴体验、第一视角观看感受、真实使用阶段与原句 | 读[体验材料](knowledge/experience/README.md)，按原帖子类型检索作品、原话与设备／处理说明；区分作者自述、实际视觉证据、真实回复及其缺口。用户表达偏好单查[原句反馈](knowledge/experience/feedback.md) |
 | 还有哪些可能使用的人群 | 读[人群分析方法](references/audience-guide.md)，按拍摄任务和需求扩展；不要把身份直接等同于需求或购买意愿 |
 | 深入理解角色动机、犹豫和表达 | 从[角色需求假设](references/audience-hypotheses.jsonl)选取或新建分析角度，结合当前材料解释心理如何影响措辞；这些是假设，不是用户研究结论 |
-| 真实评论资料 | 用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。 |
-| 写或改 Nano 主评论、回复、批量培训稿 | 完成必要产品检索后，使用[共享消费者写手](/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md)；数量、人物、互动、表达、训练状态和检查均由它负责 |
+| 真实评论资料 | 用户于 2026-09-10 停用本次接入的 Apify 付费采集工具；不再调用其话题发现入口。已有真实评论和来源可继续分析；需要读取抖音、小红书、B站时，将当前请求完整链接集合一次性交给[统一社媒读取](/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/MODULE.md)。产品知识和默认培训路径继续使用，研究不计培训新稿 KPI。 |
+| 写或改 Nano 主评论、回复、批量培训稿 | 完成必要产品检索后，使用[共享消费者写手](/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md)；数量、人物、互动、表达、训练状态和检查均由它负责 |
 
 仅问产品时直接回答产品；仅分析心理时不强制生成评论批次。需要短句解释表达差别时，遵循共享写手的表达原则，并明确为培训用假想示例。正式评论批次才按共享训练契约保存完整人物、来源、断言、稿件和检查记录。
 
@@ -42,7 +42,7 @@ Nano 的准确名称可以包含 Osmo。保留主相机与多功能图传模块�
 - 新写、改写与案例演示保持 `training_fiction`。具体人物经历保存在当批训练输出，不写入产品事实库。分析方法与需求假设存本技能的 references，不冒充官方资料。
 - [现有 10 类心理表达示例](../../../outputs/nano/2026-09-06-audience-psychology/analysis.md)仅供解释方法，状态仍为 `pending_user_calibration`。不得复制成通用答案，也不得因本次封装或自动检查通过而改为用户认可范文。
 - 实际产品断言按共享训练契约绑定当前核验的 `product` 来源和 `product_fact` 断言；知识 ID 只用于检索追溯，不替代证据或引入旧审查 claim 注册流程。
-- 明确要求真实材料核验或旧稿审查时，进入[Nano 个人入口](/Users/luocaihua/.codex/skills/write-dji-nano-comments/SKILL.md)的对应分支，保留材料性质；不把旧稿重标为训练稿。所有分支均不授权发布。
+- 明确要求真实材料核验或旧稿审查时，进入[Nano 个人入口](/Users/luocaihua/.codex/skills/write-dji-nano-comments/MODULE.md)的对应分支，保留材料性质；不把旧稿重标为训练稿。所有分支均不授权发布。
 
 ## 调用关系
 

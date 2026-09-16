@@ -1,10 +1,10 @@
 # 产品事实与表达用途
 
-当前调用入口是[个人Pocket知识索引](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/INDEX.md)，结构化事实在[个人快照products/facts.jsonl](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/products/facts.jsonl)，每条保留型号、使用条件、用途、不可推断内容、来源定位和核验日期。主库聚焦Pocket4/Pocket4P，按当前帖检索相关项，无需一次读取全库；检索脚本使用[项目写作入口](../SKILL.md)中的个人技能绝对路径，不依赖当前工作目录。本页保留写作边界，不重复知识卡正文
+当前调用入口是[个人Pocket知识索引](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/INDEX.md)，结构化事实在[个人快照products/facts.jsonl](/Users/luocaihua/.codex/skills/use-pocket-knowledge/knowledge/products/facts.jsonl)，每条保留型号、使用条件、用途、不可推断内容、来源定位和核验日期。主库聚焦Pocket4/Pocket4P，按当前帖检索相关项，无需一次读取全库；检索脚本使用[项目写作入口](../MODULE.md)中的个人技能绝对路径，不依赖当前工作目录。本页保留写作边界，不重复知识卡正文
 
 [原项目Pocket知识库](/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/INDEX.md)仍是维护源，修改后显式刷新个人技能快照。真实表达保留来源和个案／规律层级，场景中的编辑假设不是用户研究；历史来源不能证明当前帖内容，独立培训人物不写回真实语料或产品事实。已读知识或写作入口只消费必要资料，不循环加载
 
-当前写作从[项目写作入口](../SKILL.md)调用共享表达库。产品断言需重读当前官方资料，保留型号、条件、来源定位和核验日期，并按共享[训练契约](/Users/luocaihua/.codex/skills/write-consumer-comments/references/training-contract.md)放入该帖的`product`来源，绑定最终正文中的`product_fact`断言与实际证据原文。知识卡是查证索引，短定位锚点不等于整条断言已被充分证明；训练人物也不能为产品能力补证
+当前写作从[项目写作入口](../MODULE.md)调用共享表达库。产品断言需重读当前官方资料，保留型号、条件、来源定位和核验日期，并按共享[训练契约](/Users/luocaihua/.codex/skills/write-consumer-comments/references/training-contract.md)放入该帖的`product`来源，绑定最终正文中的`product_fact`断言与实际证据原文。知识卡是查证索引，短定位锚点不等于整条断言已被充分证明；训练人物也不能为产品能力补证
 
 只有真实材料专项核验或旧LH13稿复核才使用`product_facts`与claim注册接口。2026-09-05基线使用过的双镜头/3倍物理镜头、实体变焦键、旋转运镜、跟随等claim继续在 [product-claims.json](product-claims.json)查询；旧核验日期不是今天已核验。在该接口中，未登记的说法先核当前官网再补登记，知识库尚未覆盖的旧claim也须按注册来源复核后使用，不因缺卡就把历史稿判成新事实
 
