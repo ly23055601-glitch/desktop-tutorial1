@@ -1,6 +1,8 @@
 ---
 name: dji-nano-comment-adapter
-description: 只读参考：总控或S3写手按需读取Osmo Nano命名与事实边界，不自动触发或调度其他技能。
+version: CW5.4.2-portable
+product_line: nano
+description: Lightweight DJI Osmo Nano adapter for the shared consumer-comment training skill
 ---
 
 # DJI Osmo Nano 产品适配入口
@@ -21,6 +23,6 @@ description: 只读参考：总控或S3写手按需读取Osmo Nano命名与事�
 
 画面只能证明当前展示，不能自动外推普遍稳定性、画质、收音或耐候表现。抽帧不能代替未取得的完整叙事、对白或拍摄条件。
 
-## 写作参考约束
+## 交给共享写手
 
 整帖理解优先于某一帧。根据作者是在展示佩戴、记录第一视角、分享玩法还是求助，选择消费者真正想尝试的视角、佩戴习惯或操作感受。简短偏好可以停下，不强加完整户外故事或参数清单。

@@ -13,7 +13,7 @@
 
 - [安装与DeepSeek使用](INSTALL.md)
 - [可粘贴总提示词](SYSTEM_PROMPT.md)
-- [总控入口](skills/write-consumer-training-comments/SKILL.md)
+- [总控入口](deepseek/abao-controller/SKILL.md)
 - [阶段与返工规则](skills/write-consumer-training-comments/references/stage-contract.md)
 - [统一质检](skills/write-consumer-training-comments/references/final-quality.md)
 - [全批机器检查脚本](scripts/check_batch_quality.py)及[批次模板](examples/batch.template.json)

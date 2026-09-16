@@ -1,10 +1,11 @@
 ---
 name: write-dji-pocket-comments
-description: 兼容调用名：仅用户显式指定时把Pocket任务交给唯一总控；不独立采集、写作、执行旧检查器或交付。
+description: Draft or revise DJI Pocket consumer-comment training fiction through the shared consumer-writing skill, with Pocket-specific names and product facts. Also route explicit real-material verification or legacy draft review to the preserved workflow. Training and review only, never publishing.
 ---
 
+# DJI Pocket 消费者评论入口
 
-# Pocket兼容入口
+## 默认训练路由
 
 写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=pocket`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/MODULE.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
 

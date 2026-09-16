@@ -1,32 +1,34 @@
 ---
 name: use-pocket-knowledge
-description: 仅由总控S2派单或显式知识查询读取Pocket事实、场景与表达资料；返回来源和缺口，不启动采集、写作或质检。
+description: 调用 DJI Pocket 产品知识、卖点、使用场景、拍摄观感与真实表达，重点 Pocket4、Pocket4P。用于“调用Pocket知识库”“Pocket卖点”“Pocket使用场景”、个人审美、使用习惯、型号比较及 op 产品路径；需要评论时接入共享写手。
 ---
 
+# Pocket 产品与用户表达能力
 
-# S2 Pocket知识
+本技能自带知识资料和必要来源，可在其他项目或对话独立使用，无需读取原项目或历史聊天。重点是Pocket4、Pocket4P；旧代资料用于辨认型号和比较，不能混为两款当前人群。先按任务取用[知识索引](knowledge/INDEX.md)。
 
-输入具体问题、品线/型号、S1材料范围与本轮已有事实包。只查相关资料，完成后返回总控；用户只问知识时返回分析即可。product_line=`pocket`。
+日常先用[统一入口](knowledge/START.md)，将产品、场景、真实表达、审美、比较、反馈与[已确认上下文](knowledge/context/README.md)连起来。它们仍各有唯一维护表，资料类型与实时技能路由登记在[能力目录](knowledge/library.json)；不从归档聊天或旧通过记录恢复写法。
 
-## 按需检索
+需要围绕一个问题形成完整写作参考时，先运行统一简报；只查单项事实或原检索时，保留下节的`pocket_knowledge.py search`。统一简报不自动写稿、采集、核验官网或把场景假设当亲历。
 
-- [事实索引](knowledge/INDEX.md)
-- [统一资料入口](knowledge/START.md)
-- [卖点](knowledge/selling_points/guide.md)
-- [详细场景](knowledge/use_cases/guide.md)
-- [观感与审美](knowledge/aesthetics/README.md)
-- [真实表达](knowledge/voice/README.md)
-- [比较](knowledge/comparisons/README.md)
+```bash
+python3 "<技能目录>/knowledge/scripts/pocket_library.py" brief '独自旅行 人像 跟随' --model pocket_4p
+python3 "<技能目录>/knowledge/scripts/pocket_library.py" brief '同场景 不换 取舍' --model pocket_4p --competitor Pocket3
+```
 
-可选本地查询脚本：`knowledge/scripts/pocket_knowledge.py`，先查脚本用法，路径以本技能目录为基准。无Python时直接阅读索引与命中记录。完整知识、场景、来源和原话仍在包内，不要一次全读。
+## 按问题检索
 
 将 `<技能目录>` 替换为本次发现的 `MODULE.md` 所在目录的绝对路径；不要从当前工作目录猜原项目位置。查询只需Python 3.9+标准库，不需要社媒助手或重新采集。
 
-重点资料包含Pocket4/Pocket4P及旧代，但仅说Pocket时不能默认型号。区分云台、镜头/焦段、变焦、跟随、拍摄模式、收音、导出与配件条件。不能从漂亮成片推断设备或参数。Pocket评论正文专属禁用Osmo，不能扩散至其他品线。
+```bash
+python3 "<技能目录>/knowledge/scripts/pocket_knowledge.py" search '独自拍摄 跟随' --model pocket_4
+python3 "<技能目录>/knowledge/scripts/pocket_knowledge.py" search '人物 中焦 收音' --model pocket_4p
+python3 "<技能目录>/knowledge/scripts/pocket_knowledge.py" search '收纳 麻烦 闲置' --platform xiaohongshu
+```
 
-保留fact_id、claim、准确型号/组件、conditions、限制、source、checked_at与status。verified只表示记录日期的核验，不是实测或永久有效；写入当前产品结论前按实际条件复核官方依据，不能把封装日期写成核验日期。来源不可读则标明历史快照；pending/conflict只能作为缺口，没命中不等于不支持。
+通常先读默认Markdown简报；需要结构化处理时才加`--format json`并将完整输出保存文件，避免关联来源展开占满上下文。完整事实ID每次查一个，不把多个ID拼成关键词；多个问题分开按需查。
 
-原话保持作者归属与完整父句/来源范围；第三方自述不是当前说话者亲历。场景/用途价值/心理推演明确是编辑假设，不冒充人群调研、占比或产品承诺。抽帧、历史稿、用户偏爱不能证明设备参数。
+型号可用`pocket_1/2/3/4/4p`或明确的Pocket4、Pocket4P；只有Pocket时省略型号，不默认最新款。默认每类返回少量结果，holdout排除；若没回答具体问题，换成具体操作或用事实ID检索。零结果不是不支持。`resolved_source_path`指向包内依据；原字段仍记录采集时路径。其他归档路径用`resolve-source '原路径'`定位。
 
 ## 卖点与详细场景选材
 

@@ -1,6 +1,8 @@
 ---
 name: dji-osmo360-comment-adapter
-description: 只读参考：总控或S3写手按需读取Osmo 360命名与事实边界，不自动触发或调度其他技能。
+version: CW5.4.2-portable
+product_line: osmo360
+description: Lightweight DJI Osmo 360 adapter for the shared consumer-comment training skill
 ---
 
 # DJI Osmo 360 产品适配入口
@@ -20,6 +22,6 @@ description: 只读参考：总控或S3写手按需读取Osmo 360命名与事实
 
 按当前任务填充 `facts.template.json`，每条参数、模式、配件、拼接、隐形、增稳、夜景或水下断言保留型号、拍法／导出条件、来源和核验日期。总像素或全景分辨率不能单独推出裁切画质；成片不能反推机位、长杆或设置。
 
-## 写作参考约束
+## 交给共享写手
 
 先判断整帖是在展示全景玩法、记录运动过程、比较成片、分享导出还是求助，再选消费者真正想了解的视角、取景自由度、后期负担或使用取舍。能由一处结果引起兴趣，但不能只抓某一帧硬贴卖点；有话可聊再展开回复。
