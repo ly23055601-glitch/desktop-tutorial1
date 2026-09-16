@@ -1,4 +1,6 @@
 interface:
-  display_name: "Pocket 产品与用户表达库"
-  short_description: "查询Pocket4与Pocket4P卖点、场景、拍摄观感及真实表达"
-  default_prompt: "调用 $use-pocket-knowledge，结合当前问题检索 Pocket 卖点、使用场景、拍摄观感与用户表达资料"
+  display_name: use-pocket-knowledge
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $use-pocket-knowledge，完成职责后返回总控，不自行扩展全链。
+policy:
+  allow_implicit_invocation: false

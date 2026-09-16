@@ -1,4 +1,6 @@
 interface:
-  display_name: "DJI Mic 消费者评论"
-  short_description: "使用共享消费者写法起草Mic培训评论，保留型号连接与声音证据边界"
-  default_prompt: "使用 $write-dji-mic-comments，按共享消费者写法起草DJI Mic培训用假想消费者评论，并核对本产品命名与所需事实。"
+  display_name: write-dji-mic-comments
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $write-dji-mic-comments，完成职责后返回总控，不自行扩展全链。
+policy:
+  allow_implicit_invocation: false

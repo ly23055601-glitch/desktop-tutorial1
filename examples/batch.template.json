@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "task_id": "填写本轮任务ID",
+  "revision": 1,
+  "batch_id": "B001",
+  "expected_link_ids": [],
+  "inputs": [],
+  "tasks": [],
+  "semantic_review": {
+    "status": "pending",
+    "reviewer": null,
+    "notes": [],
+    "reviewed_fingerprints": [],
+    "candidate_decisions": []
+  }
+}

@@ -1,29 +1,11 @@
 ---
 name: write-dji-mic-comments
-description: Draft or revise DJI Mic consumer-comment training fiction through the shared consumer-writing skill, with Mic-specific model, connection and audio-evidence checks. Also support explicit real-material verification and legacy draft review. Training and review only, never publishing.
+description: 兼容调用名：仅用户显式指定时把DJI Mic任务交给唯一总控；不独立采集、写作、执行旧检查器或交付。
 ---
 
-# DJI Mic 消费者评论入口
 
-## 默认训练路由
+# DJI Mic兼容入口
 
-写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=mic`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/SKILL.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
+识别目标品线`mic`，保留用户明确型号、原帖材料、数量、写稿/改稿/审核意图。将这些信息交给[唯一总控](../write-consumer-training-comments/SKILL.md)，本入口结束。
 
-本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/SKILL.md)。
-
-## 产品专属边界
-
-- 目标是DJI Mic收音产品及当前任务自然涉及的竞品收音设备；相机、手机或其他DJI设备只在连接宿主等相关语境中出现。
-- 逐字区分`DJIMicMini`、`DJIMicMini2`、`DJIMicMini2S`、`DJIMic2`、`DJIMic3`及当前材料支持的其他型号。精确型号未确认时可用`这个麦`、`发射器`、`接收器`或`这套收音设备`。
-- 指代清楚时可用`大疆Mic`、`MicMini`等称呼；不单用容易与无人机混淆的`大疆Mini`，也不把裸`Mic`当作清楚的型号指认。正文中的产品名称内部连写。
-- 涉及参数、连接、内录、降噪或套装时，优先从[独立 Mic 知识库](../use-mic-knowledge/references/knowledge/INDEX.md)按精确型号检索，保留事实 ID、部件、条件、来源和核验日期，并复核当前官方来源；待核／冲突不作肯定能力。人群与心理问题按需读[角色心理指南](../use-mic-knowledge/references/knowledge/audience/guide.md)，假设和教学样例不当作真实反馈或认可范文。继续保留[产品核验边界](references/product-knowledge.md)；价格与竞品按当日官方资料另核。数据索引不回调完整技能入口，已读共享层不重复加载。
-- 评价真实原帖的声音效果时，须对应实际可听片段及测试条件；平台压缩、BGM、响度和后期会改变听感。不能由封面或画面推出音质、降噪、风噪或抗干扰的客观结论。训练角色可表达假想录音经历中的主观听感和偏爱，但不能据此补造原帖音轨、测试、参数或普遍性能。
-- 区分发射器内录、接收端输出与平台成片；32-bit浮点不代表所有失真都能恢复，标称传输距离不代表复杂环境的稳定距离。混连、声道及直连要核对双方型号和模式。
-
-## 按需资料与兼容模式
-
-`op-style-sync.md`、旧平台／同质化参考及产品种草参考中的表达链路、S级配额、固定回复数、禁设经历等写法只供下述真实材料／旧稿模式使用；训练不回读op或载入这些风格规则。
-
-产品资料只消费型号、机制、参数、核验入口和事实条件；其中任何旧数量、先强卖点、固定槽位、结尾、角色经历或可迁移文风要求均不覆盖共享层，也不沿产品资料回读完整旧入口。
-
-只有用户明确要求对真实消费者资料、本人亲历进行专门核验或复核旧稿时，才对该核验／审查任务使用`content_mode=real_material`并读取[保留的真实材料与旧稿流程](references/legacy-real-material-workflow.md)。旧稿不为通过审查而重标为训练稿，核验与审查均不授权发布。原脚本、测试、状态模板和事实注册表保持原状，供其兼容流程使用；`training_fiction`使用共享层训练检查，不调用旧真实性严格检查器。
+总控已派单时不回调总控；只返回上述产品约束，不启动其他写作链。实际产品命名和能力边界由S2事实包及共享写手对应产品适配承担。旧稿审查走总控Q的review_existing分支，不重新标注培训稿，不运行历史LH13写作流程。旧references/assets仅供用户显式历史复盘，不作为新稿入口。

@@ -1,13 +1,11 @@
 ---
 name: dji-mic-comment-adapter
-version: CW5.4.2-portable
-product_line: mic
-description: Lightweight DJI Mic adapter for the shared consumer-comment training skill
+description: 只读参考：总控或S3写手按需读取DJI Mic命名与事实边界，不自动触发或调度其他技能。
 ---
 
 # DJI Mic 产品适配入口
 
-先读取包内共享写手规则：`../../../core/write-consumer-comments/SKILL.md`
+本文件只由总控或S3共享写手按需读取，返回产品边界；不调用写手或任何其他技能。
 
 本入口只补 Mic 的型号、连接和音频证据边界。评论是培训用假想消费者草稿，不用于发布；购买、持有和使用经历不能代替产品事实。
 
@@ -24,6 +22,6 @@ description: Lightweight DJI Mic adapter for the shared consumer-comment trainin
 
 评价真实原帖的声音效果必须有可听片段和测试条件。封面、画面或训练人物的主观听感不能证明原帖音质、降噪或抗干扰表现；平台压缩、BGM、响度和后期也需作为证据范围记录。
 
-## 交给共享写手
+## 写作参考约束
 
 先判断整帖在展示声音、记录过程、开箱、比较还是求助，再选一个消费者真正会在意的听感、连接、佩戴或后期问题。可以直接喜欢声音结果，也可以表达自己的录音场景期待；不要逐项报参数或反复索取博主设置。产品事实、原帖音频证据和培训人物分开保存。

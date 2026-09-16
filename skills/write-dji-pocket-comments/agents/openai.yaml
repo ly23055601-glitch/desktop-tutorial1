@@ -1,4 +1,6 @@
 interface:
-  display_name: "DJI Pocket 消费者评论"
-  short_description: "使用共享消费者写法起草Pocket培训评论，保留产品命名与事实边界"
-  default_prompt: "使用 $write-dji-pocket-comments，按共享消费者写法起草DJI Pocket培训用假想消费者评论，并核对本产品命名与所需事实。"
+  display_name: write-dji-pocket-comments
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $write-dji-pocket-comments，完成职责后返回总控，不自行扩展全链。
+policy:
+  allow_implicit_invocation: false

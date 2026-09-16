@@ -1,6 +1,6 @@
 interface:
-  display_name: "Pocket评论｜共享能力库"
-  short_description: "调用共用写法生成Pocket培训评论，允许假想使用感受并保留产品事实边界"
-  default_prompt: "使用 $write-pocket-seeding-comments，为以下材料写Pocket培训用假想消费者评论，按内容选择主评和回复"
+  display_name: write-pocket-seeding-comments
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $write-pocket-seeding-comments，完成职责后返回总控，不自行扩展全链。
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false
