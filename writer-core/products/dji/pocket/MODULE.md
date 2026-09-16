@@ -1,8 +1,6 @@
 ---
 name: dji-pocket-comment-adapter
-version: CW5.4.2-portable
-product_line: pocket
-description: Lightweight DJI Pocket adapter for the shared consumer-comment training skill
+description: 只读参考：总控或S3写手按需读取Pocket命名与事实边界，不自动触发或调度其他技能。
 ---
 
 # DJI Pocket 产品适配入口
@@ -21,12 +19,12 @@ description: Lightweight DJI Pocket adapter for the shared consumer-comment trai
 
 ## 事实资料接口
 
-按当前任务只载入 `facts.template.json` 中有来源、有适用型号和条件的条目。实际资料可由宿主 AI、用户提供的官方页面、说明书或当前产品知识库填入；本轻量包不内置大体量知识库。
+按当前任务只载入 `facts.template.json` 中有来源、有适用型号和条件的条目。实际资料可由宿主 AI、用户提供的官方页面、说明书或当前产品知识库填入；实际事实以本轮S2知识包为准，空白模板不是事实。
 
 每条产品断言至少保留：`claim`、`model`、`conditions`、`source`、`checked_at` 和 `evidence_level`。漂亮成片、训练人物经历或抽帧不能单独证明型号、功能、参数或产品因果。
 
 涉及云台、镜头、变焦、模式、成片效果、价格、套装、兼容或竞品比较时，先核对具体型号和使用条件；待核项只能写成兴趣、期待或问题，不能写成肯定事实。
 
-## 交给共享写手
+## 写作参考约束
 
 先理解整帖，再从产品与原帖的实际联系中选消费者关注点。直接喜欢画面、联想到场景、分享假想使用感受、表达外观或操作偏好都可以成立；不要为了植入强加购买故事、教程追问或完整参数表。产品资料、原帖证据和 `training_fiction` 人物设定分开保存。

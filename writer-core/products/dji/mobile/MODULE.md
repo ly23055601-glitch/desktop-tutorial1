@@ -1,8 +1,6 @@
 ---
 name: dji-mobile-comment-adapter
-version: CW5.4.2-portable
-product_line: mobile
-description: Lightweight DJI Osmo Mobile adapter for the shared consumer-comment training skill
+description: 只读参考：总控或S3写手按需读取Osmo Mobile / DJI OM命名与事实边界，不自动触发或调度其他技能。
 ---
 
 # DJI Osmo Mobile 产品适配入口
@@ -22,6 +20,6 @@ description: Lightweight DJI Osmo Mobile adapter for the shared consumer-comment
 
 按当前任务填充 `facts.template.json`，每条兼容或功能断言保留手机与配件条件、软件／固件、来源和核验日期。能夹住手机不等于完整兼容；机械旋转、创意运镜、跟随、遥控和最终增稳也分别核对。续航、补光、距离等量化能力不得脱离测试条件。
 
-## 交给共享写手
+## 写作参考约束
 
 先判断整帖在展示跟拍结果、自拍流程、运镜玩法、兼容问题还是购买取舍，再选择一个消费者会在意的操作或场景。可以直接喜欢跟拍效果，也可以联想到自己的手机拍摄习惯；不把每条写成“功能＋购买理由”的完整论证。

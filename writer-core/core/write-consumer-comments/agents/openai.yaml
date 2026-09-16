@@ -1,0 +1,6 @@
+policy:
+  allow_implicit_invocation: false
+interface:
+  display_name: write-consumer-comments
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $write-consumer-comments，完成职责后返回总控，不自行扩展全链。

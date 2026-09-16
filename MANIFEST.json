@@ -44,5 +44,124 @@
     "SYSTEM_PROMPT.md",
     "MANIFEST.json",
     "SHA256SUMS"
+  ],
+  "entrypoint": "skills/write-consumer-training-comments/SKILL.md",
+  "skill_count": 20,
+  "execution": {
+    "mode": "sequential-single-executor",
+    "stages": [
+      "S0",
+      "S1",
+      "S2",
+      "S3",
+      "Q",
+      "D"
+    ],
+    "final_quality_owner": "write-consumer-training-comments",
+    "implicit_entrypoints": [
+      "write-consumer-training-comments"
+    ]
+  },
+  "skills_inventory": [
+    {
+      "name": "read-social-links-with-social-helper",
+      "path": "skills/read-social-links-with-social-helper/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "run-daily-comment-training",
+      "path": "skills/run-daily-comment-training/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "use-mic-knowledge",
+      "path": "skills/use-mic-knowledge/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "use-mobile-knowledge",
+      "path": "skills/use-mobile-knowledge/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "use-nano-knowledge",
+      "path": "skills/use-nano-knowledge/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "use-osmo360-knowledge",
+      "path": "skills/use-osmo360-knowledge/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "use-pocket-knowledge",
+      "path": "skills/use-pocket-knowledge/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-consumer-training-comments",
+      "path": "skills/write-consumer-training-comments/SKILL.md",
+      "implicit": true
+    },
+    {
+      "name": "write-dji-mic-comments",
+      "path": "skills/write-dji-mic-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-dji-nano-comments",
+      "path": "skills/write-dji-nano-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-dji-osmo-mobile-comments",
+      "path": "skills/write-dji-osmo-mobile-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-dji-osmo360-comments",
+      "path": "skills/write-dji-osmo360-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-dji-pocket-comments",
+      "path": "skills/write-dji-pocket-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-pocket-seeding-comments",
+      "path": "skills/write-pocket-seeding-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "write-consumer-comments",
+      "path": "writer-core/core/write-consumer-comments/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "dji-mic-comment-adapter",
+      "path": "writer-core/products/dji/mic/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "dji-mobile-comment-adapter",
+      "path": "writer-core/products/dji/mobile/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "dji-nano-comment-adapter",
+      "path": "writer-core/products/dji/nano/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "dji-osmo360-comment-adapter",
+      "path": "writer-core/products/dji/osmo360/SKILL.md",
+      "implicit": false
+    },
+    {
+      "name": "dji-pocket-comment-adapter",
+      "path": "writer-core/products/dji/pocket/SKILL.md",
+      "implicit": false
+    }
   ]
 }

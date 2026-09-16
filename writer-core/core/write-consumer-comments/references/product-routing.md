@@ -1,8 +1,12 @@
-# 产品资料与命名路由
+# S3产品适配参考
 
-共享库只提供表达与训练检查。按本页读取必要产品资料，防止旧风格循环载入。旧版“固定三组、至少两回复、每条强卖点、禁止虚构经历”等属于旧写作模式，不随产品资料进入training_fiction
+仅消费S2已核事实，以下文件只补命名和边界，不反向调用写手或知识入口。缺少事实返回总控。
 
-下表的产品知识与核验资料是按需使用的外部依赖，产品适配包可放在本包根目录的`products/dji/`下，也可以由宿主提供等价资料。若缺少某项，使用本次充分的用户产品材料或当前官方资料核验，并说明详细场景库是否可用，不能用历史教学稿代替。读取社媒链接由宿主环境负责，不因只安装共享写手而假定具备平台访问能力
+- Pocket：[pocket](../../../products/dji/pocket/SKILL.md)
+- DJI Mic：[mic](../../../products/dji/mic/SKILL.md)
+- Osmo Mobile / DJI OM：[mobile](../../../products/dji/mobile/SKILL.md)
+- Osmo Nano：[nano](../../../products/dji/nano/SKILL.md)
+- Osmo 360：[osmo360](../../../products/dji/osmo360/SKILL.md)
 
 | product_line | 适用范围与产品资料 | 命名和限制 |
 |---|---|---|

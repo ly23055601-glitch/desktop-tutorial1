@@ -1,6 +1,6 @@
 interface:
-  display_name: "Osmo 360 产品、卖点与人群知识库"
-  short_description: "查询两代卖点与详细场景，结合用户心理发散选材，并衔接项目评论培训"
-  default_prompt: "使用 $use-osmo360-knowledge，按当前问题检索Osmo 360产品事实、卖点、详细使用场景或角色心理；需要表达示例时接入项目共用写手库。"
+  display_name: use-osmo360-knowledge
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $use-osmo360-knowledge，完成职责后返回总控，不自行扩展全链。
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

@@ -1,9 +1,9 @@
 ---
 name: write-consumer-comments
-description: Draft and calibrate natural Chinese consumer seeding comments and replies for any product. Defaults to clearly labeled fictional consumer training drafts, allowing invented ownership and use experiences while keeping product facts and original post evidence separate. Use for comment writing, reply interaction, cross-product style calibration and batch diversity; not for publishing, long-form posts or scripts.
+description: 仅由总控S3派单起草或定点修订培训评论，消费已有原帖及产品事实，返回候选稿与state；不采集、不调知识、不终审、不独立交付。
 ---
 
-# 跨产品评论写手能力库
+# S3 共享评论写手
 
 版本：`2026-09-15-CW5.4.2`。所有项目共用此处的写法；产品资料只补型号、能力与命名。读懂材料与任务，找到消费者会产生兴趣的部分，再选择说法。横测培训以任务指定的目标产品为种草中心，比较是素材，不把评论写成中立导购。复杂表达不优先，简短表达也不自动更好
 
@@ -13,11 +13,11 @@ description: Draft and calibrate natural Chinese consumer seeding comments and r
 
 原帖事实、产品事实与假想人物分开。假想亲测不能证明功能、参数、兼容、量化效果、普遍性能或原片设置；主观喜欢不自动证明效果全由设备造成。仅明确核验真实亲历、真实材料或复核旧稿时进入原产品审查流程，保留旧稿模式。本技能不用于实际生产、发布或账号操作
 
-需要读取社交平台链接时，由宿主环境提供正文、字幕、评论和媒体证据；有批量读取工具时先按其规定一次提交完整链接集，本技能只消费返回的证据。没有读取能力时只使用用户提供的材料，不能把搜索摘要、抽帧或推测写成完整视频事实。充分用户材料可直接用；没有原帖的合成命题须明示，不能冒充已采集帖子或热评。涉及讲解、声音、笑点或完整叙事时须有相应材料，抽帧不能代替未听到的对白。问题链接、缺失材料和不完整证据需保留范围并交由宿主处理，不以补读或猜测填空
+本阶段只消费总控交付的原帖证据及S2事实包；缺少材料返回missing_evidence，不自行采集或调度其他技能。没有读取能力时只使用用户提供的材料，不能把搜索摘要、抽帧或推测写成完整视频事实。充分用户材料可直接用；没有原帖的合成命题须明示，不能冒充已采集帖子或热评。涉及讲解、声音、笑点或完整叙事时须有相应材料，抽帧不能代替未听到的对白。问题链接、缺失材料和不完整证据需保留范围并交由宿主处理，不以补读或猜测填空
 
 ## 读取与选材
 
-写稿或改稿时读[表达参考](references/writing-reference.md)；需要识别细类时读[帖子类型选材](references/post-type-selection.md)，它保留用户分类资料的出处。按[产品路由](references/product-routing.md)只取当前产品知识，不回调完整旧写作流程。已读资料不循环加载，无专属技能的产品也可用充分商品资料与官方来源
+写稿或改稿时读[表达参考](references/writing-reference.md)；需要识别细类时读[帖子类型选材](references/post-type-selection.md)，它保留用户分类资料的出处。按[产品适配参考](references/product-routing.md)只取当前品线命名与约束，产品事实只使用总控交付的S2包，不另开检索或核验流程。已读资料不循环加载，无专属技能的产品也可用充分商品资料与官方来源
 
 补充体验语料、完整讨论、使用阶段或逐句反馈时，按[体验材料收录](references/experience-materials.md)保留原话与上下文，沿用帖子类型分类。材料可以完整，评论只取最值得说的一点；优先补强方向不限定品线卖点，真实短讨论不改变当前新稿展开与交付要求。
 
@@ -49,21 +49,13 @@ description: Draft and calibrate natural Chinese consumer seeding comments and r
 
 讨论或关联不足时从已有材料重新选材，缺证按上方问题交人工规则处理；仍不足须标明教学交付未完成，不能删成零回复后算完整。用户当次明确数量优先；超出检查器支持范围如实说明，不伪造通过
 
-## 检查与交付
+## 返回总控，不提前终审
 
-用[现有state模板](assets/training-state.template.json)及[检查契约](references/training-contract.md)绑定唯一最终编号稿、SHA256、来源、人物、父句和事实断言，新稿显式运行：
+按[训练state模板](assets/training-state.template.json)和[检查契约](references/training-contract.md)建立候选编号稿、SHA256、来源、人物、父句和断言映射；一份稿对应一个link_id，文件内部章节编号从1开始。交接draft_path、state_path、product、link_id和未解决项。事实断言须绑定实际证据；不要为通过检查虚构来源。
 
-```sh
-python3 "<本次技能目录>/scripts/check_training_comments.py" training-state.json --profile cw5 --json
-```
+这里只写候选或按repair_ticket定点修订，不运行checker、不宣称质检通过、不交付最终版本。检查契约中的命令供总控Q运行。数量超出既有CW5检查能力时尊重用户数量，返回custom_quantity说明，不能删减以伪装机器通过。
 
-机器检查2–4条主评、每楼最多8回复、每帖至少一楼达到5条；通常展开1–2楼及两主评减量理由由内容审稿判断。第5–8回复同样检查人物、父句、事实和来源。state与接口不变；省略profile仍为旧数量规则，仅供兼容，不用于新稿绕过展开要求
-
-审稿先看原帖和正文，再看创作说明，分别判断整体理解、每条产品兴趣与自然程度，逐条读到最后回复。先逐链接比较主评与回复的声音、篇幅，再看跨帖关注、句式与对话走向；长度仅作线索，不设字数比例、标点配额或机器自然度分。保留自然长句，减少反复的背景＋用途＋价值总结及无用三连列举，不按逗号数判失败
-
-修改定位到原句，保留已经成立的表达；新旧比较先乱序读正文，允许原句更好。教学说明简记整体、选材取舍、回复关系和删改理由，不能为生硬正文辩护。适用时独立审稿；结构通过不证明自然或获得用户认可
-
-审稿区分术语重复与意思重复、明确禁提与减少重复的反馈；不把“少提”执行为全删，也不统一加回条件或替换成新句式。主评与回复一起判断，需要变化时先确认每句话想说什么
+Q会统一审查所有主评和回复：同帖声音、跨帖角度/句式/对话、事实、自然度与格式。准确术语重复不等于意思重复，不靠换同义词制造差异。返工保留成立好句，每次修改同步state及SHA256；仅返回改动项和新版路径，再由总控Q全批复检。
 
 ## 校准与接续
 

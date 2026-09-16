@@ -1,11 +1,10 @@
 ---
 name: write-dji-osmo360-comments
-description: Draft or revise DJI Osmo 360 consumer-comment training fiction through the shared consumer-writing skill, retaining generation, panoramic-video and post-evidence checks. Also support explicit real-material verification and legacy draft review. Training and review only, never publishing.
+description: 兼容调用名：仅用户显式指定时把Osmo 360任务交给唯一总控；不独立采集、写作、执行旧检查器或交付。
 ---
 
-# DJI Osmo 360 消费者评论入口
 
-## 默认训练路由
+# Osmo 360兼容入口
 
 写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=osmo360`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/MODULE.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
 

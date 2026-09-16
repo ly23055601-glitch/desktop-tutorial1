@@ -1,17 +1,24 @@
-# 阿豹追猎 · DJI AI 技能包
+# 阿豹追猎 · 20 Skills 总控版
 
 此仓库保存 `阿豹追猎.zip` 中的 `dji-ai-skills-portable-20260915-v1` 技能包，包含 20 个 `MODULE.md` 入口及其知识资料、参考文件和脚本。目录已解压，便于查看和导入。
 
-## 获取文件
+```text
+总控 S0 → 材料 S1 → 当前品线事实 S2 → 共享写手 S3
+                                              ↓
+交付 ← 全批主评/回复去重、事实、表达、格式 Q
+          └─ 有问题：定点返工 → 全批复检
+```
 
-- [下载完整 ZIP](https://github.com/ly23055601-glitch/desktop-tutorial1/archive/refs/heads/main.zip)，解压后保留整个目录结构。
-- 或使用 Git：`git clone https://github.com/ly23055601-glitch/desktop-tutorial1.git`
+保留原包20个SKILL：1个总控、1个日批规划、1个材料读取、5个知识、1个共享写手、5个只读适配、6个兼容调用名。Q是总控的终审流程，不增加技能数量。
 
-## 从这里开始
+- [安装与DeepSeek使用](INSTALL.md)
+- [可粘贴总提示词](SYSTEM_PROMPT.md)
+- [总控入口](skills/write-consumer-training-comments/SKILL.md)
+- [阶段与返工规则](skills/write-consumer-training-comments/references/stage-contract.md)
+- [统一质检](skills/write-consumer-training-comments/references/final-quality.md)
+- [全批机器检查脚本](scripts/check_batch_quality.py)及[批次模板](examples/batch.template.json)
 
-1. 阅读 [安装说明](INSTALL.md)。
-2. 查看 [技能清单](MANIFEST.json)，选择任务需要的技能。
-3. 参考 [总提示词](SYSTEM_PROMPT.md)，加载相应知识与写作规则。
+脚本检查结构、版本绑定和文本相似候选，语义、事实与自然度仍需逐项审阅。没有脚本运行能力时可以内容复核，但不声称机器检查通过。适配元数据是否生效取决于宿主，不能仅靠上传ZIP保证平台级串行锁。
 
 常用入口：
 

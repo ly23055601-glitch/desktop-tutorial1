@@ -1,6 +1,6 @@
 interface:
-  display_name: "Nano产品与人群能力库"
-  short_description: "查询Nano事实、卖点与细场景，连接使用心理和评论培训选材"
-  default_prompt: "使用 $use-nano-knowledge，结合当前材料检索Nano卖点、具体场景与人物关注点，为培训文案选材。"
+  display_name: use-nano-knowledge
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $use-nano-knowledge，完成职责后返回总控，不自行扩展全链。
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

@@ -1,13 +1,12 @@
 ---
 name: write-pocket-seeding-comments
-description: Route op-project DJI Pocket comment drafting and calibration through the shared cross-product consumer writing library. Uses fictional consumer training drafts; preserve Pocket model and naming boundaries. Use the legacy LH13 workflow only for explicit real-material verification or old-draft review, never publishing.
+description: 兼容调用名：仅用户显式指定时把Pocket任务交给唯一总控；不独立采集、写作、执行旧检查器或交付。
 ---
 
-# Pocket评论｜共享能力库接入口
 
 入口版本：`2026-09-15-CW5.4.2-SHARED-POCKET-ROUTER`。写评、改写和案例演示统一作为`training_fiction`培训教育稿，先读取[跨产品评论写手能力库](/Users/luocaihua/.codex/skills/write-consumer-comments/MODULE.md)，表达版本以该文件当前内容为准，使用其选材、人物、种草、表达与教学诊断，以及数量、格式、互动和训练检查规则。本项目和其他项目共用同一份表达能力，不在此处复制第二套写法。原帖属于同场景实拍、成片对照、排名横测或使用后取舍时，按共享当前横测分支处理；Pocket作为目标产品时至少一条主评明确点名大疆或准确型号，竞品只作参照；普通选购求助不误判为横测
 
-## Pocket专属部分
+识别目标品线`pocket`，保留用户明确型号、原帖材料、数量、写稿/改稿/审核意图。将这些信息交给[唯一总控](../write-consumer-training-comments/SKILL.md)，本入口结束。
 
 - `product_line`为`pocket`；本入口只处理Pocket，其他产品直接调用共享库或对应产品入口
 - 可使用Pocket、大疆Pocket及准确的连写型号；同帖多条主评点名时变换清晰的全称和简称，不固定排列，不为变化猜代际。只有Pocket评论正文禁止Osmo。型号由当前目标、原帖或假想角色明确设定，角色型号不证明原片设备型号

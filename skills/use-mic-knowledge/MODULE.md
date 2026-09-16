@@ -1,34 +1,30 @@
 ---
 name: use-mic-knowledge
-description: 调用 DJI Mic 产品与人群能力库，回答六款 Mic 的产品和连接问题，关联卖点、详细使用场景、角色心理与培训文案选材。适用于“调用Mic知识库”“Mic卖点”“Mic使用场景”“Mic使用人群”“Mic使用心理”及 dm 产品路径。评论培训接入共享写手；场景与用途价值不作为用户研究。
+description: 仅由总控S2派单或显式知识查询读取DJI Mic事实、场景与表达资料；返回来源和缺口，不启动采集、写作或质检。
 ---
 
-# DJI Mic 产品与人群能力库
 
-这是可从任意项目使用的独立资料包。先按任务选择下述资料，无需读取原项目或历史聊天。包内数据是所列核验日期的快照；引用当前产品能力时复核对应官方来源。
+# S2 DJI Mic知识
 
-## 产品问答
+输入具体问题、品线/型号、S1材料范围与本轮已有事实包。只查相关资料，完成后返回总控；用户只问知识时返回分析即可。product_line=`mic`。
 
 读取[产品索引](references/knowledge/INDEX.md)，按精确型号检索。将下面的 `<技能目录>` 替换为当前 MODULE.md 所在目录的绝对路径；命令不依赖工作目录，仅需 Python 3.9+ 标准库。
 
-```bash
-python3 "<技能目录>/scripts/mic.py" search '四个人接相机能分开声道吗' --model mic_3
-python3 "<技能目录>/scripts/mic.py" search '手机版接收器怎么连接' --model mic_mini_2s --format json
-python3 "<技能目录>/scripts/mic.py" audit --format json
-```
+- [事实索引](references/knowledge/INDEX.md)
+- [卖点](references/knowledge/selling_points/guide.md)
+- [价值解读](references/knowledge/selling_points/value-expansion.md)
+- [场景](references/knowledge/writing_scenarios/guide.md)
+- [缺口](references/knowledge/GAPS.md)
 
-六款型号：`mic`、`mic_2`、`mic_3`、`mic_mini`、`mic_mini_2`、`mic_mini_2s`。重点为 Mic 3、Mic Mini 2S；不确定型号时呈现各型号归属，不能默认最新款或把多款能力合并。
+可选本地查询脚本：`scripts/mic.py`，先查脚本用法，路径以本技能目录为基准。无Python时直接阅读索引与命中记录。完整知识、场景、来源和原话仍在包内，不要一次全读。
 
-回答保留事实 ID、具体部件、连接方式、条件、限制、官方来源定位和实际核验日期。`pending`／`conflict` 不能成为肯定能力；[缺口](references/knowledge/GAPS.md)与明确不支持分别处理。发射器内录、接收器输出、宿主保存与平台音轨分别核对；标准和手机版接收器、蓝牙与 OsmoAudio 不能互推。官方冲突按条件、地区和版本处理，不能按页面种类或更有利的结论覆盖另一方。
+## 型号与证据
 
-## 卖点与用途价值
+区分mic、mic_2、mic_3、mic_mini、mic_mini_2、mic_mini_2s，不合并不同型号能力。发射器内录、接收器输出、手机/相机保存和平台音轨分别核对；接收器版本、蓝牙、OsmoAudio及连接路径不能互推。
 
-读取[卖点指南](references/knowledge/selling_points/guide.md)，按具体型号、任务或困扰选择相关卖点：
+保留fact_id、claim、准确型号/组件、conditions、限制、source、checked_at与status。verified只表示记录日期的核验，不是实测或永久有效；写入当前产品结论前按实际条件复核官方依据，不能把封装日期写成核验日期。来源不可读则标明历史快照；pending/conflict只能作为缺口，没命中不等于不支持。
 
-```bash
-python3 "<技能目录>/scripts/mic.py" selling-points --model mic_3 --limit 20
-python3 "<技能目录>/scripts/mic.py" selling-points '四人采访备份' --model mic_mini_2s --format json
-```
+原话保持作者归属与完整父句/来源范围；第三方自述不是当前说话者亲历。场景/用途价值/心理推演明确是编辑假设，不冒充人群调研、占比或产品承诺。抽帧、历史稿、用户偏爱不能证明设备参数。
 
 每张卡关联官方事实、适用角色、用途价值、条件、限制及本次来源复核。用途价值是编辑推导，不能当作官方承诺、真实用户心理、实测优越或购买结果。选材围绕当前任务，不要求凑齐功能，不按一个卖点复制同一套人物心理。内录、输出与后期保存等多条件问题可拆开检索；卖点卡不能替代底层事实和当前官方核验。具体评论仍交共享写手表达。
 

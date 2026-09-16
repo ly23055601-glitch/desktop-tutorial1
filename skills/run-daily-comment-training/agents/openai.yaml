@@ -1,4 +1,6 @@
 interface:
-  display_name: "每日培训草稿执行"
-  short_description: "每日核对最新写手与采集规则，按产品调知识库，每十个链接一组输出培训草稿"
-  default_prompt: "使用 $run-daily-comment-training 核对最新写手与采集规则，按产品代码调用知识库，完整集合采集后每十个链接一组交付培训草稿并记录 KPI。"
+  display_name: run-daily-comment-training
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $run-daily-comment-training，完成职责后返回总控，不自行扩展全链。
+policy:
+  allow_implicit_invocation: false

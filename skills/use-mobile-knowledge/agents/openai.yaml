@@ -1,6 +1,6 @@
 interface:
-  display_name: "DJI Mobile 产品与人群能力库"
-  short_description: "查询Mobile产品与兼容条件，关联卖点、详细场景、人群心理及培训选材"
-  default_prompt: "使用 $use-mobile-knowledge，按具体型号查询 DJI Mobile 产品事实、卖点与详细场景，分析相关人群的动机和取舍；需要培训评论时接入共享写手，区分官方事实、编辑假设与训练人物。"
+  display_name: use-mobile-knowledge
+  short_description: 由总控按阶段派单的内部技能或兼容入口
+  default_prompt: 仅在总控派单或显式指定时使用 $use-mobile-knowledge，完成职责后返回总控，不自行扩展全链。
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

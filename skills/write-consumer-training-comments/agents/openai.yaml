@@ -1,6 +1,6 @@
 interface:
-  display_name: "项目写手能力库"
-  short_description: "调用跨产品消费者表达与教学改稿能力，按材料产出自然的培训评论和回复"
-  default_prompt: "使用 $write-consumer-training-comments，按项目写手标准为以下产品和材料产出培训用假想消费者评论"
+  display_name: 阿豹追猎总控
+  short_description: 唯一入口：分阶段单点调度，最后整批去重质检
+  default_prompt: 使用 $write-consumer-training-comments 处理当前请求，按需单点执行阶段并在最后统一质检。
 policy:
   allow_implicit_invocation: true
