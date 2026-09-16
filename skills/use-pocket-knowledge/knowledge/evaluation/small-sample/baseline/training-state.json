@@ -1,0 +1,126 @@
+{
+  "content_mode": "training_fiction",
+  "draft": "draft.md",
+  "draft_sha256": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c",
+  "posts": [
+    {
+      "section": 1,
+      "id": "6a4335f10000000017008cde",
+      "title": "https://www.xiaohongshu.com/search_result/6a4335f10000000017008cde",
+      "product_line": "pocket",
+      "sources": {
+        "original": {
+          "kind": "post",
+          "path": "../inputs/012-6a4335f10000000017008cde.json",
+          "description": "机械导出的同帖原始输入；只读正文和导出评论文字及明确关系，media_read=false；保留holdout，不认证经历和设备；来源边界及原文件provenance见该JSON"
+        },
+        "official_names": {
+          "kind": "product",
+          "path": "evidence/official-names.md",
+          "description": "2026-09-06独立打开DJI官方支持产品表，仅核对Pocket4、Pocket4P名称"
+        }
+      },
+      "english_aliases": [
+        "Pocket4"
+      ],
+      "personas": {
+        "A": "假想消费者，仅设此刻想尝试树荫场景、偏爱清淡绿色；没有购买、持有、职业或旅行经历设定",
+        "B": "假想消费者，仅设此刻喜欢浓绿色的审美偏好；回复A，不设过去经历",
+        "C": "假想消费者，仅设此刻想比较作者参数与滤镜前后效果的好奇；没有看过媒体或使用设备的设定"
+      },
+      "reply_context": {
+        "1.1": {
+          "speaker": "B",
+          "parent_id": "1",
+          "parent_speaker": "A",
+          "parent_text": "这份Pocket4参数先留着，想找个有树荫的地方试试，绿色别调得太浓就好"
+        }
+      },
+      "assertions": [
+        {
+          "comment_id": "1",
+          "text": "这份Pocket4参数",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "Pocket4 适合夏天的一些参数🍃"
+            }
+          ]
+        },
+        {
+          "comment_id": "1",
+          "text": "Pocket4",
+          "kind": "product_fact",
+          "evidence": [
+            {
+              "source": "official_names",
+              "quote": "Osmo Pocket 4"
+            }
+          ]
+        },
+        {
+          "comment_id": "2",
+          "text": "大师云开到30",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "滤镜：大师云（30）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "id": "6a40a5d40000000007021f64",
+      "title": "https://www.xiaohongshu.com/search_result/6a40a5d40000000007021f64",
+      "product_line": "pocket",
+      "sources": {
+        "original": {
+          "kind": "post",
+          "path": "../inputs/032-6a40a5d40000000007021f64.json",
+          "description": "机械导出的同帖原始输入；只读正文和导出评论文字及明确关系，media_read=false；保留holdout，不认证经历和设备；来源边界及原文件provenance见该JSON"
+        },
+        "official_names": {
+          "kind": "product",
+          "path": "evidence/official-names.md",
+          "description": "2026-09-06独立打开DJI官方支持产品表，仅核对Pocket4、Pocket4P名称"
+        }
+      },
+      "english_aliases": [
+        "Pocket4P"
+      ],
+      "personas": {
+        "D": "假想消费者，仅设此刻关注整套器材的收纳、条件式出门用途和对散放配件的感受；不设亲历",
+        "E": "假想消费者，仅设此刻观望和对室内人像原片的兴趣；不设已购买、使用或看过媒体"
+      },
+      "reply_context": {},
+      "assertions": [
+        {
+          "comment_id": "1",
+          "text": "看你说装上手柄就塞不进袋子",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "4p只有一个收纳袋，加上螺纹手柄之后完全放不进去！"
+            }
+          ]
+        },
+        {
+          "comment_id": "2",
+          "text": "Pocket4P",
+          "kind": "product_fact",
+          "evidence": [
+            {
+              "source": "official_names",
+              "quote": "Osmo Pocket 4P"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

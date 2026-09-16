@@ -1,0 +1,39 @@
+{
+  "split": "legacy",
+  "works": 18,
+  "comments": 372,
+  "roots": 75,
+  "replies": 297,
+  "text_records": 371,
+  "records_without_text": 1,
+  "known_direct_parents": 289,
+  "replies_without_direct_parent": 8,
+  "new_work_count_contribution": 0,
+  "new_holdout_count_contribution": 0,
+  "works_by_platform": {
+    "douyin": 6,
+    "xiaohongshu": 6,
+    "bilibili": 6
+  },
+  "comments_by_platform": {
+    "douyin": 126,
+    "xiaohongshu": 120,
+    "bilibili": 126
+  },
+  "works_by_model": {
+    "pocket_3": 7,
+    "unknown": 10,
+    "pocket_4p": 1
+  },
+  "voice_cards": 12,
+  "voice_card_statuses": {
+    "pattern": 7,
+    "case": 5
+  },
+  "scenario_cards": 10,
+  "scenario_bases": {
+    "evidence": 6,
+    "editorial_hypothesis": 4
+  },
+  "explicit_user_feedback_records": 1
+}

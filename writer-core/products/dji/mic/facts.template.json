@@ -1,0 +1,10 @@
+{
+  "product_line": "mic",
+  "target_model": null,
+  "facts": [],
+  "field_contract": {
+    "required": ["claim", "model", "conditions", "source", "checked_at", "evidence_level"],
+    "evidence_levels": ["official", "manual", "user_provided", "training_assumption"],
+    "note": "Audio claims require an actual audible source and recording conditions; do not infer from visuals."
+  }
+}

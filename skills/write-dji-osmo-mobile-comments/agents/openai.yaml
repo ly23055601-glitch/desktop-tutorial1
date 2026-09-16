@@ -1,0 +1,7 @@
+interface:
+  display_name: "DJI Osmo Mobile 消费者评论"
+  short_description: "使用共享消费者写法起草OM培训评论，保留云台型号跟随与兼容边界"
+  default_prompt: "使用 $write-dji-osmo-mobile-comments，按共享消费者写法起草DJI Osmo Mobile培训用假想消费者评论，并核对本产品命名与所需事实。"
+
+policy:
+  allow_implicit_invocation: true

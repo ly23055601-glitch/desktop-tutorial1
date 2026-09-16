@@ -1,0 +1,17 @@
+
+===== PDF PAGE 1 =====
+DJI Mic 3 四声道兼容列表  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+操作系统 软件 是否支持 
+Mac OS 
+Logic Pro √ 
+Audition √ 
+Cubase √ 
+Windows Audacity √ 
+iOS GarageBand √ 

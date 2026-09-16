@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目写手能力库"
+  short_description: "调用跨产品消费者表达与教学改稿能力，按材料产出自然的培训评论和回复"
+  default_prompt: "使用 $write-consumer-training-comments，按项目写手标准为以下产品和材料产出培训用假想消费者评论"
+policy:
+  allow_implicit_invocation: true

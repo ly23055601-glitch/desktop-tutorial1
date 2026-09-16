@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-06",
+  "reviewer_agent": "/root/audit_product_knowledge",
+  "review_type": "independent_train_source_semantic_and_provenance_review",
+  "scope_card_ids": [
+    "post_voice_001",
+    "post_voice_002",
+    "post_voice_003",
+    "post_voice_004",
+    "post_voice_005",
+    "post_voice_006",
+    "post_voice_007",
+    "post_voice_008"
+  ],
+  "conclusion": "no_blocking_findings; both suggested refinements applied",
+  "reviewed_card_snapshot_sha256": "34b7cce2998f2fadcd20f99ce7188d245148ce2701e8029d745197b2c31c13d7",
+  "final_card_snapshot_sha256": "17fd9da53efcdf1b079b4327d87ea0b79057bf3be1d60259afcb9863d37e3988",
+  "independently_checked_support_works": 17,
+  "independently_checked_exact_excerpts": 23,
+  "final_exact_excerpts": 24,
+  "pattern_unique_works": 14,
+  "pattern_distinct_exported_accounts": 14,
+  "max_distinct_pattern_works_per_account": 1,
+  "blocked_author_cluster_pattern_references": 0,
+  "refinements_applied": [
+    {
+      "card_id": "post_voice_001",
+      "change": "Add a concrete inconvenience quote from input48; exact source position checked locally."
+    },
+    {
+      "card_id": "post_voice_005",
+      "change": "Limit need to convenience in workflow or use choice; increased desire to shoot is not stated as a shared intent."
+    }
+  ],
+  "limits": [
+    "Review covers only these eight new public_post cards, not the legacy cards.",
+    "Actual experience, identity, product truth and commercial independence were not authenticated.",
+    "No holdout post body or platform UI was read.",
+    "Case007 remains tutorial-author expression; case008 remains two posts from one account, without causal inference."
+  ]
+}

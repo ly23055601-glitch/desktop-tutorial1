@@ -1,0 +1,2650 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-06",
+  "basis": {
+    "facts_file": "facts.jsonl",
+    "sources_file": "../sources/official.jsonl",
+    "method": "主题分类依据当前facts及sources；2026-09-06另实际读取4P中国攻略3.1两张静态操作图并补核正文，新增031–038操作事实。bounded_followup_checks只记录另外两项未闭合问题的证据边界。缺口是尚待回答的研究问题，不是能力不存在的结论。"
+  },
+  "status_definitions": {
+    "covered": "限定问题有已核事实可回答，仍需连同其条件使用。",
+    "partial": "主题已有可回答问题，但仍存在待核事实或未覆盖关键问题。",
+    "gap": "具体问题尚无可供肯定回答的已核事实；不是产品不支持。"
+  },
+  "counts": {
+    "total_facts": 129,
+    "verified_facts": 127,
+    "pending_facts": 2,
+    "official_sources": 24,
+    "primary_unique_facts": 82,
+    "primary_verified_unique_facts": 80,
+    "primary_pending_unique_facts": 2,
+    "shared_between_primary": 14
+  },
+  "models": [
+    {
+      "model_id": "pocket_4",
+      "label": "Pocket4",
+      "topics": [
+        {
+          "topic_id": "prepare",
+          "label": "准备",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "机身可用存储多少，能否扩展？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-005"
+              ]
+            },
+            {
+              "question": "旧代手机转接头能否沿用，标准套装是否包含补光灯？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-002",
+                "PKF-P4-006"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-005",
+            "PKF-S-002",
+            "PKF-P4-006"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "首次激活的手机要求、完整步骤和无网限制是什么？",
+            "充电器协议、充电时长及测试条件是什么，拍摄时如何供电？",
+            "按目标码率怎样选卡，推荐卡型号与格式化前检查是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4-GUIDE",
+            "DJI-S-CONNECT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "power_buttons",
+          "label": "开关及按键",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "取出后怎样开机，旋屏即拍需要什么设置？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-001",
+                "PKF-P4-017"
+              ]
+            },
+            {
+              "question": "变焦键单击、双击、再次按下有什么区别？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-007"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-001",
+            "PKF-P4-017",
+            "PKF-P4-007"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "拍摄中和非拍摄中如何关机，旋屏方向与横竖锁定怎样影响停录？",
+            "5D摇杆与自定义键各按法、默认动作、重新映射的完整操作是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4-GUIDE",
+            "DJI-P4-MANUAL"
+          ],
+          "source_regions": [
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "setup_framing",
+          "label": "架设和构图",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "竖拍裁切与横向握持拍4K竖屏如何区别？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-016"
+              ]
+            },
+            {
+              "question": "旋转运镜可做什么，为什么不能和跟随同时用？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-002",
+                "PKF-P4-008"
+              ]
+            },
+            {
+              "question": "近物展示对焦和轨迹延时对焦有什么模式边界？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-012",
+                "PKF-S-013"
+              ]
+            },
+            {
+              "question": "三轴机械增稳减轻拍摄抖动的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-018"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-016",
+            "PKF-P4-002",
+            "PKF-P4-008",
+            "PKF-S-012",
+            "PKF-S-013",
+            "PKF-S-018"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "三脚架、拓展件和续航手柄如何安装并检查机位？",
+            "跟随、俯仰锁定、FPV等云台模式的完整选择路径和适用动作是什么？",
+            "曝光、白平衡、对焦和构图参考线怎样按场景设置？"
+          ],
+          "source_ids": [
+            "DJI-P4-GUIDE",
+            "DJI-P4-MANUAL",
+            "DJI-P4-PRODUCT-DE",
+            "DJI-S-FOCUS",
+            "DJI-S-VERTICAL"
+          ],
+          "source_regions": [
+            "CN",
+            "DE",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "tracking",
+          "label": "跟随",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "人脸追焦与云台跟随有什么区别，黄框消失代表失焦吗？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-010",
+                "PKF-S-011"
+              ]
+            },
+            {
+              "question": "哪些模式不支持基础跟随？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-008"
+              ]
+            },
+            {
+              "question": "手势控制怎样保持有效操作距离？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-016"
+              ]
+            },
+            {
+              "question": "手势分别控制跟随和拍摄的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-021"
+              ]
+            },
+            {
+              "question": "选定主体后让云台跟随的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-022"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-010",
+            "PKF-S-011",
+            "PKF-P4-008",
+            "PKF-P4-016",
+            "PKF-P4-021",
+            "PKF-P4-022"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "基础跟随如何选目标、退出、重新选取，支持对象与遮挡恢复规则是什么？",
+            "主角登记、优先跟随、多人跟随的设置与上限分别是什么？",
+            "不同倍率、距离、光照下的跟随限制和固件差异是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4-FAQ-CH",
+            "DJI-P4-MANUAL",
+            "DJI-S-FOCUS"
+          ],
+          "source_regions": [
+            "CH",
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "capture_modes",
+          "label": "视频、照片、慢动作与夜间",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "Live Photo与视频自动低光增强对应哪条已读版本记录？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-014",
+                "PKF-P4-015"
+              ]
+            },
+            {
+              "question": "哪些风格功能互斥，竖拍和轨迹延时有哪些已知边界？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-003",
+                "PKF-S-012",
+                "PKF-S-016"
+              ]
+            },
+            {
+              "question": "一英寸成像与14挡动态范围条件的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-018"
+              ]
+            },
+            {
+              "question": "4K高帧率属于慢动作的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-019"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-014",
+            "PKF-P4-015",
+            "PKF-P4-003",
+            "PKF-S-012",
+            "PKF-S-016",
+            "PKF-P4-018",
+            "PKF-P4-019"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "照片、普通视频、慢动作、低光和延时各自的分辨率、帧率、倍率完整矩阵是什么？",
+            "低光模式与自动低光增强有什么操作区别，何时开启/关闭？",
+            "夜景运动模糊、降噪和曝光取舍如何通过实际设置与测试回答？",
+            "Live Photo捕捉前后时长、导出限制与当前固件支持范围是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4-FAQ-CH",
+            "DJI-P4-GUIDE",
+            "DJI-P4-PRODUCT-DE",
+            "DJI-P4-RN",
+            "DJI-S-FOCUS",
+            "DJI-S-VERTICAL"
+          ],
+          "source_regions": [
+            "CH",
+            "CN",
+            "DE",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "audio",
+          "label": "收音",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "相机可同时接几台兼容无线发射器？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-004"
+              ]
+            },
+            {
+              "question": "音频备份保存在哪里，哪些输出/拍摄模式不支持？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-009"
+              ]
+            },
+            {
+              "question": "网络摄像头下怎样用Mic2蓝牙收音？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-017"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-004",
+            "PKF-P4-009",
+            "PKF-S-017"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "当前具体发射器兼容表、对频步骤、断连提示与重连方法是什么？",
+            "内置麦指向、增益、风噪处理、声道分配如何设置？",
+            "有线外接麦、无线双发与发射器自身内录的限制怎样分别确认？"
+          ],
+          "source_ids": [
+            "DJI-P4-GUIDE",
+            "DJI-P4-MANUAL",
+            "DJI-S-WEBCAM"
+          ],
+          "source_regions": [
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "accessories",
+          "label": "配件",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "补光灯套装边界、增广镜全景限制和旧转接头兼容边界是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-006",
+                "PKF-P4-012",
+                "PKF-S-002"
+              ]
+            },
+            {
+              "question": "续航手柄随相机升级时有什么操作限制？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-013"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-006",
+            "PKF-P4-012",
+            "PKF-S-002",
+            "PKF-P4-013"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "补光灯亮度/色温、滤镜与增广镜安装拆卸步骤是什么？",
+            "续航手柄的供电优先级、增时测试条件与热插拔限制是什么？",
+            "FrameTap是否兼容Pocket4，以及各遥控功能是否可用？",
+            "不同支架、保护件与云台活动范围如何核对？"
+          ],
+          "source_ids": [
+            "DJI-P4-GUIDE",
+            "DJI-P4-MANUAL",
+            "DJI-S-CONNECT"
+          ],
+          "source_regions": [
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "transfer",
+          "label": "传输",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "手机转存有哪些路径，OTG依赖哪些手机与线材条件？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-010",
+                "PKF-S-005",
+                "PKF-S-006"
+              ]
+            },
+            {
+              "question": "电脑文件传输与继续拍摄能否同时进行？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-011"
+              ]
+            },
+            {
+              "question": "连接失败、退出OTG或出现格式化提示，先查什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-003",
+                "PKF-S-007",
+                "PKF-S-008"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4-010",
+            "PKF-S-005",
+            "PKF-S-006",
+            "PKF-P4-011",
+            "PKF-S-003",
+            "PKF-S-007",
+            "PKF-S-008"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "Mimo无线传输速率、机身有线速率及实际测试条件是什么？",
+            "素材分段、单文件限制、批量下载和断点恢复规则是什么？",
+            "剪辑前如何核对原始文件、备份完整性及安全拔线？"
+          ],
+          "source_ids": [
+            "DJI-P4-MANUAL",
+            "DJI-S-OTG",
+            "DJI-S-GIMBAL",
+            "DJI-S-EXPORT"
+          ],
+          "source_regions": [
+            "unspecified",
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "editing_color",
+          "label": "剪辑色彩",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "Pocket4的D-Log需要哪一型号和配置的还原LUT？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-014"
+              ]
+            },
+            {
+              "question": "机内美肤与胶片影调能否叠加，Live Photo按已读版本如何导出？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-003",
+                "PKF-P4-014"
+              ]
+            },
+            {
+              "question": "普通视频D-Log及监看还原的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-020"
+              ]
+            },
+            {
+              "question": "普通视频可在机内调整美肤的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-019"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-014",
+            "PKF-P4-003",
+            "PKF-P4-014",
+            "PKF-P4-020",
+            "PKF-S-019"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "LUT在Mimo/剪辑软件怎样导入、预览和导出，适用版本是什么？",
+            "D-Log各拍摄规格的支持矩阵、监看还原与文件实际色彩有何区别？",
+            "手机剪辑高规格素材的兼容、代理、导出色彩和HDR/SDR转换如何验证？"
+          ],
+          "source_ids": [
+            "DJI-P4-FAQ-CH",
+            "DJI-P4-GUIDE",
+            "DJI-P4-MANUAL",
+            "DJI-P4-RN",
+            "DJI-S-LUT"
+          ],
+          "source_regions": [
+            "CH",
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "storage_maintenance",
+          "label": "收纳维护",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "云台有阻挡或受损迹象时，检查与清理有什么前提？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-004"
+              ]
+            },
+            {
+              "question": "设备要求格式化但仍能回放时，素材应怎样先保全？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-008"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-004",
+            "PKF-S-008"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "关机、取下灯/镜片、安装云台夹和装袋的完整顺序是什么？",
+            "镜片/触点/卡槽怎样清洁，防水防尘和温度范围是什么？",
+            "长期存放电量、充放电维护和运输保护要求是什么？"
+          ],
+          "source_ids": [
+            "DJI-S-GIMBAL",
+            "DJI-S-EXPORT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "troubleshooting",
+          "label": "故障",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "云台保护或退出OTG后不动，按什么线索排查？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-003",
+                "PKF-S-004"
+              ]
+            },
+            {
+              "question": "iPhone15提示耗电大、电脑不识别、要求格式化时如何区分？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-006",
+                "PKF-S-007",
+                "PKF-S-008"
+              ]
+            },
+            {
+              "question": "登记主角黄框消失是否意味着追焦停止？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-011"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-003",
+            "PKF-S-004",
+            "PKF-S-006",
+            "PKF-S-007",
+            "PKF-S-008",
+            "PKF-S-011"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "黑屏、卡顿、发热停录、无法开机和充电异常分别如何排查？",
+            "无线连接、麦克风、录音缺失和录像中断怎样交叉定位？",
+            "哪些情况应停用送检，需要收集什么日志和版本证据？"
+          ],
+          "source_ids": [
+            "DJI-S-GIMBAL",
+            "DJI-S-OTG",
+            "DJI-S-EXPORT",
+            "DJI-S-FOCUS"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "firmware",
+          "label": "固件",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "通过什么应用升级，开始前电量条件是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-009"
+              ]
+            },
+            {
+              "question": "已装续航手柄升级时能否拆下？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-013"
+              ]
+            },
+            {
+              "question": "已读v01.01.32.02版本增加了哪些已入库功能？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4-014",
+                "PKF-P4-015"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-009",
+            "PKF-P4-013",
+            "PKF-P4-014",
+            "PKF-P4-015"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "本地区当前最新相机/Mimo版本及版本历史是什么？",
+            "升级失败、升级中断、手柄单独失败的恢复步骤是什么？",
+            "新旧版本中菜单与功能限制的变化如何追踪？"
+          ],
+          "source_ids": [
+            "DJI-S-FIRMWARE",
+            "DJI-P4-MANUAL",
+            "DJI-P4-RN"
+          ],
+          "source_regions": [
+            "CN",
+            "unspecified"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        }
+      ],
+      "fact_counts": {
+        "verified": 39,
+        "pending": 0,
+        "total": 39
+      },
+      "unmapped_fact_ids": [],
+      "topic_status_counts": {
+        "partial": 12
+      },
+      "covered_question_count": 37,
+      "gap_question_count": 37
+    },
+    {
+      "model_id": "pocket_4p",
+      "label": "Pocket4P",
+      "topics": [
+        {
+          "topic_id": "prepare",
+          "label": "准备",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "内置存储多少，容量时长和电池续航为何要分开看？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-003",
+                "PKF-P4P-012",
+                "PKF-P4P-042"
+              ]
+            },
+            {
+              "question": "准备连接手机时哪些旧配件和并行连接不可沿用？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-002",
+                "PKF-P4P-014"
+              ]
+            },
+            {
+              "question": "首次激活怎样进入Mimo连接流程，FrameTap应先怎样处理？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-036"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-003",
+            "PKF-P4P-012",
+            "PKF-S-002",
+            "PKF-P4P-014",
+            "PKF-P4P-036",
+            "PKF-P4P-042"
+          ],
+          "pending_fact_ids": [
+            "PKF-P4P-015"
+          ],
+          "gap_questions": [
+            "首次激活支持哪些手机和Mimo版本，联网要求、未激活限制与失败恢复规则是什么？",
+            "充电/边拍边供电、标准与Vlog套装的本地区清单及测试条件是什么？",
+            "拍摄目标对应的推荐存储卡、预留空间和准备检查是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-S-CONNECT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "power_buttons",
+          "label": "开关及按键",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "左实体键在不同当前倍率下怎样单击、双击与长按？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-020"
+              ]
+            },
+            {
+              "question": "右自定义键长按和快捷映射分别做什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-021"
+              ]
+            },
+            {
+              "question": "遥控器屏幕如何切换摇杆用途和回放？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-027"
+              ]
+            },
+            {
+              "question": "拍摄键如何开机、开拍停录和在非拍摄状态关机？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-031"
+              ]
+            },
+            {
+              "question": "机身摇杆如何回中和翻转朝向，C键默认动作怎样查？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-035",
+                "PKF-P4P-021"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-020",
+            "PKF-P4P-021",
+            "PKF-P4P-027",
+            "PKF-P4P-031",
+            "PKF-P4P-035"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "不同固件的可选改键动作、变焦速度菜单和按键组合限制如何确认？",
+            "旋屏即拍、录像中旋屏和长按摇杆的两种锁定方式如何配置，分别怎样影响当前拍摄？",
+            "FrameTap实体键、摇杆单击/双击/三击及快捷键如何操作？"
+          ],
+          "source_ids": [
+            "DJI-P4P-STORE-GB",
+            "DJI-P4P-GUIDE"
+          ],
+          "source_regions": [
+            "GB",
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "setup_framing",
+          "label": "架设和构图",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "两颗镜头的焦段与工作关系是什么，近拍对焦距离有何差别？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-001",
+                "PKF-P4P-002",
+                "PKF-P4P-025"
+              ]
+            },
+            {
+              "question": "竖拍裁切和横向握持4K竖屏怎样区别？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-016"
+              ]
+            },
+            {
+              "question": "机身怎样进入对焦设置，展示与轨迹延时如何区分？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-016",
+                "PKF-S-012",
+                "PKF-S-013"
+              ]
+            },
+            {
+              "question": "离开机位时FrameTap怎样配对和调画面？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-010",
+                "PKF-P4P-026",
+                "PKF-P4P-027"
+              ]
+            },
+            {
+              "question": "摇杆上下为什么有时调俯仰、有时变焦，怎样切换？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-034"
+              ]
+            },
+            {
+              "question": "三轴机械增稳减轻拍摄抖动的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-040"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-001",
+            "PKF-P4P-002",
+            "PKF-P4P-025",
+            "PKF-S-016",
+            "PKF-P4P-016",
+            "PKF-S-012",
+            "PKF-S-013",
+            "PKF-P4P-010",
+            "PKF-P4P-026",
+            "PKF-P4P-027",
+            "PKF-P4P-034",
+            "PKF-P4P-040"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "三脚架、扩展转接件、续航手柄的安装与站位检查是什么？",
+            "云台各模式、曝光/白平衡/对焦、构图辅助的完整操作是什么？",
+            "镜头切换边界、过渡效果与不同拍摄规格的关系是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-FOCUS",
+            "DJI-S-VERTICAL"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "tracking",
+          "label": "跟随",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "主角跟随、多人居中、人脸追焦分别控制什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-004",
+                "PKF-P4P-019",
+                "PKF-S-010",
+                "PKF-S-011"
+              ]
+            },
+            {
+              "question": "怎样用手势或FrameTap启动目标跟随？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-005",
+                "PKF-P4P-010"
+              ]
+            },
+            {
+              "question": "可跟随哪些非人主体，哪些模式与倍率不能直接套用？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-030",
+                "PKF-P4P-028",
+                "PKF-P4P-024"
+              ]
+            },
+            {
+              "question": "在屏幕上怎样选择智能跟随对象，怎样退出？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-033"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-004",
+            "PKF-P4P-019",
+            "PKF-S-010",
+            "PKF-S-011",
+            "PKF-P4P-005",
+            "PKF-P4P-010",
+            "PKF-P4P-030",
+            "PKF-P4P-028",
+            "PKF-P4P-024",
+            "PKF-P4P-033"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "中国大陆目标固件的多人跟随上限与禁用变焦条件如何复核？",
+            "基础跟随在遮挡后怎样恢复，目标切换、登记主角与不同模式下的操作怎样衔接？",
+            "不同倍率、光照、距离的有效范围与宠物快速运动限制是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-FOCUS"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "capture_modes",
+          "label": "视频、照片、慢动作与夜间",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "双镜头慢动作上限和12x禁用模式分别是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-023",
+                "PKF-P4P-024"
+              ]
+            },
+            {
+              "question": "D-Log2倍率与竖拍分辨率有哪些已知限制？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-022",
+                "PKF-S-016"
+              ]
+            },
+            {
+              "question": "App美颜预览、补光灯和展示对焦有哪些使用前提？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-006",
+                "PKF-P4P-017",
+                "PKF-S-013"
+              ]
+            },
+            {
+              "question": "录制前怎样选择模式并进入拍摄参数？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-032"
+              ]
+            },
+            {
+              "question": "双镜头的成像基础各不相同的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-039"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-023",
+            "PKF-P4P-024",
+            "PKF-P4P-022",
+            "PKF-S-016",
+            "PKF-P4P-006",
+            "PKF-P4P-017",
+            "PKF-S-013",
+            "PKF-P4P-032",
+            "PKF-P4P-039"
+          ],
+          "pending_fact_ids": [
+            "PKF-P4P-007"
+          ],
+          "gap_questions": [
+            "各镜头在照片/视频/慢动作/低光/延时下的分辨率、帧率、色彩、倍率完整矩阵是什么？",
+            "低光模式与自动低光增强的实际入口、自动切换和禁用组合是什么？",
+            "Live Photo的拍摄、回放、导出限制与固件条件是什么？",
+            "胶片影调慢动作支持范围的CN/GB差异对应什么固件？",
+            "开始录制后，1x与3x互切在各分辨率、帧率、色彩和拍摄模式下分别是否可用，是否需要先停录？英国FAQ的一般录制说明未提供完整组合矩阵。",
+            "正在录制时能否由普通视频切入慢动作、或由慢动作切回普通视频？已读慢动作操作指南只给出录制前选模式和参数的顺序，尚不能回答录制中切换规则。"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-FOCUS",
+            "DJI-S-VERTICAL"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "audio",
+          "label": "收音",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "哪些兼容发射器可以双发直连，怎样配对和确认连接？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-009"
+              ]
+            },
+            {
+              "question": "网络摄像头如何使用Mic2蓝牙收音？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-017"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-009",
+            "PKF-S-017"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "4P内置麦音频备份的AAC/附加音轨、开启路径与禁用模式是什么？",
+            "双发、四声道、内置环境声和播放默认音轨如何分配？",
+            "内置麦指向、增益、风噪、降噪和有线外接的操作与限制是什么？",
+            "发射器自身内录、相机备份、掉线后重连的功能条件怎样分别确认？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-S-WEBCAM"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "accessories",
+          "label": "配件",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "滤镜怎样旋转锁紧，补光灯怎样安装并调挡？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-011",
+                "PKF-P4P-017"
+              ]
+            },
+            {
+              "question": "FrameTap怎样配对、监看、回放并安排遥控距离？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-010",
+                "PKF-P4P-026",
+                "PKF-P4P-027"
+              ]
+            },
+            {
+              "question": "网络摄像头时FrameTap能否控制云台，Mimo能否同时连？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-029",
+                "PKF-P4P-014"
+              ]
+            },
+            {
+              "question": "旧代手机转接头和当前兼容无线麦应怎样分别判断？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-002",
+                "PKF-P4P-009"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-011",
+            "PKF-P4P-017",
+            "PKF-P4P-010",
+            "PKF-P4P-026",
+            "PKF-P4P-027",
+            "PKF-P4P-029",
+            "PKF-P4P-014",
+            "PKF-S-002",
+            "PKF-P4P-009"
+          ],
+          "pending_fact_ids": [
+            "PKF-P4P-015"
+          ],
+          "gap_questions": [
+            "续航手柄增时为什么有两个数字，完整测试和热插拔条件是什么？",
+            "FrameTap实体键、升级、续航、充电和文件传输能力如何确认？",
+            "配件叠加、非官方支架、保护件与云台活动范围有什么限制？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-WEBCAM",
+            "DJI-S-CONNECT"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "transfer",
+          "label": "传输",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "OTG连接手机依赖哪些设备、线材和连接顺序条件？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-005",
+                "PKF-S-006"
+              ]
+            },
+            {
+              "question": "电脑不识别或出现格式化提示时，先检查和保存什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-007",
+                "PKF-S-008"
+              ]
+            },
+            {
+              "question": "FrameTap回放、Mimo连接和OTG退出后的状态怎样区分？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-027",
+                "PKF-P4P-014",
+                "PKF-S-003"
+              ]
+            },
+            {
+              "question": "拍完怎样在机身查看照片和视频？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-037"
+              ]
+            },
+            {
+              "question": "导出到手机或电脑有哪些已核基本路径？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-038"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-005",
+            "PKF-S-006",
+            "PKF-S-007",
+            "PKF-S-008",
+            "PKF-P4P-027",
+            "PKF-P4P-014",
+            "PKF-S-003",
+            "PKF-P4P-037",
+            "PKF-P4P-038"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "4P到Mimo、手机文件管理及电脑的完整导出/重连/安全移除步骤是什么？基本路径和机身回放已核，异常与批量操作尚未完整覆盖。",
+            "800MB/s和90MB/s各自测试条件、线材接口及手机要求是什么？",
+            "录制中是否能传输、单文件分段、批量下载和断点恢复规则是什么？",
+            "FrameTap监看是否占用哪些无线资源，是否支持其他传输路径并行？"
+          ],
+          "source_ids": [
+            "DJI-S-OTG",
+            "DJI-S-EXPORT",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-CONNECT",
+            "DJI-S-GIMBAL",
+            "DJI-P4P-GUIDE"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "editing_color",
+          "label": "剪辑色彩",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "机身哪里设D-Log2，它有哪些已核倍率条件？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-018",
+                "PKF-P4P-022"
+              ]
+            },
+            {
+              "question": "D-Log和D-Log2对应哪些本型号LUT？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-015"
+              ]
+            },
+            {
+              "question": "App美颜怎样预览，机内美肤和胶片影调能否并用？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-006",
+                "PKF-P4P-008"
+              ]
+            },
+            {
+              "question": "普通视频可在机内调整美肤的明确范围是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-041"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-018",
+            "PKF-P4P-022",
+            "PKF-S-015",
+            "PKF-P4P-006",
+            "PKF-P4P-008",
+            "PKF-P4P-041"
+          ],
+          "pending_fact_ids": [
+            "PKF-P4P-007"
+          ],
+          "gap_questions": [
+            "两种Log的完整帧率/镜头/模式矩阵及监看还原开关是什么？",
+            "LUT在Mimo与其他软件如何导入、管理和正确导出？",
+            "胶片影调在慢动作的本地区固件支持范围是什么？",
+            "手机剪辑高规格、音轨选择、色彩和HDR/SDR转换有哪些兼容限制？",
+            "Pocket4P素材添加产品型号水印需要哪个Mimo版本、手机系统和机身固件？已读水印攻略图片的机型说明截至2025-09-05，未列Pocket4P，不能据此确认现版本兼容性。",
+            "部分素材不能加水印时，原始相机视频、已剪辑再导出视频、照片/截图/Live Photo及第三方导入素材各有什么限制？需区分“水印设置/截图”和“贴纸”入口，再用原文件及当前App版本核对。"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-P4P-STORE-GB",
+            "DJI-S-LUT"
+          ],
+          "source_regions": [
+            "CN",
+            "GB"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "storage_maintenance",
+          "label": "收纳维护",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "关机收纳前要先取下哪些配件？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-013"
+              ]
+            },
+            {
+              "question": "镜片、云台清理和受损检查有什么前提？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-011",
+                "PKF-S-004"
+              ]
+            },
+            {
+              "question": "存储异常时为何应先保全可回放素材？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-008"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-013",
+            "PKF-P4P-011",
+            "PKF-S-004",
+            "PKF-S-008"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "保护夹/包袋的正确安装、长期存放电量和运输要求是什么？",
+            "防水防尘、温度、湿气与高频振动的实际限制是什么？",
+            "机身、镜头、触点和卡槽完整维护方法是什么？"
+          ],
+          "source_ids": [
+            "DJI-P4P-GUIDE",
+            "DJI-S-GIMBAL",
+            "DJI-S-EXPORT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "troubleshooting",
+          "label": "故障",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "Mimo搜不到相机时，FrameTap的状态应怎样处理？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-014"
+              ]
+            },
+            {
+              "question": "云台保护、OTG退出和黄框消失应怎样分别判断？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-003",
+                "PKF-S-004",
+                "PKF-S-011"
+              ]
+            },
+            {
+              "question": "iPhone15、电脑不识别和存储格式化提示有何已核排查项？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-006",
+                "PKF-S-007",
+                "PKF-S-008"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-P4P-014",
+            "PKF-S-003",
+            "PKF-S-004",
+            "PKF-S-011",
+            "PKF-S-006",
+            "PKF-S-007",
+            "PKF-S-008"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "黑屏、发热停录、自动关机、充电和存储卡异常完整排查流程是什么？",
+            "双镜头切换/合焦异常、跟随丢失、FrameTap断连怎样定位？",
+            "音轨缺失、麦克风无声、升级失败需要哪些交叉测试和日志？"
+          ],
+          "source_ids": [
+            "DJI-S-CONNECT",
+            "DJI-S-GIMBAL",
+            "DJI-S-FOCUS",
+            "DJI-S-OTG",
+            "DJI-S-EXPORT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        },
+        {
+          "topic_id": "firmware",
+          "label": "固件",
+          "coverage_status": "partial",
+          "covered_questions": [
+            {
+              "question": "相机通过什么应用升级，升级前电量要求是什么？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-S-009"
+              ]
+            },
+            {
+              "question": "连接Mimo升级前应怎样处理FrameTap连接？",
+              "status": "covered",
+              "fact_ids": [
+                "PKF-P4P-014"
+              ]
+            }
+          ],
+          "verified_fact_ids": [
+            "PKF-S-009",
+            "PKF-P4P-014"
+          ],
+          "pending_fact_ids": [],
+          "gap_questions": [
+            "4P完整用户手册、当前固件号和可读版本历史在哪里？",
+            "CN/GB页面差异是否来自地区、固件或文档更新时间？",
+            "FrameTap、相机、无线麦各自的升级顺序、版本匹配和失败恢复是什么？"
+          ],
+          "source_ids": [
+            "DJI-S-FIRMWARE",
+            "DJI-S-CONNECT"
+          ],
+          "source_regions": [
+            "CN"
+          ],
+          "source_condition_notice": "引用时读取各事实conditions及对应source_refs的地区/语言；GB条目不得默认替代CN目标固件，pending仅显示冲突不提供肯定答案。"
+        }
+      ],
+      "fact_counts": {
+        "verified": 55,
+        "pending": 2,
+        "total": 57
+      },
+      "unmapped_fact_ids": [],
+      "topic_status_counts": {
+        "partial": 12
+      },
+      "covered_question_count": 46,
+      "gap_question_count": 44
+    }
+  ],
+  "fact_reference_index": {
+    "PKF-P4-001": {
+      "title": "旋屏或按键开机",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-002": {
+      "title": "旋转运镜",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE",
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "属于视频模式中的Smart Gimbal功能；不能与ActiveTrack并用"
+      ]
+    },
+    "PKF-P4-003": {
+      "title": "美肤与胶片影调互斥",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-004": {
+      "title": "可同时连接两台无线发射器",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE"
+      ],
+      "conditions": [
+        "具体麦克风型号须按当日支持列表核对"
+      ]
+    },
+    "PKF-P4-005": {
+      "title": "可用内置存储107GB",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-006": {
+      "title": "标准套装补光灯另购",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-GUIDE"
+      ],
+      "conditions": [
+        "套装地区、版本与实际订单清单需复核"
+      ]
+    },
+    "PKF-P4-007": {
+      "title": "实体变焦键",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "4倍仅部分拍摄模式支持"
+      ]
+    },
+    "PKF-P4-008": {
+      "title": "跟随和旋转不能并用",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "横持相机并使用FPV时也不可用"
+      ]
+    },
+    "PKF-P4-009": {
+      "title": "内置麦可备份外部收音",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "可存独立aac或附加音轨；延时、Webcam、DisplayPort传输不支持"
+      ]
+    },
+    "PKF-P4-010": {
+      "title": "手机导出路径",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-011": {
+      "title": "电脑传输期间不能录制",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-012": {
+      "title": "增广镜不适合全景",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-013": {
+      "title": "升级时不要拔续航手柄",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": []
+    },
+    "PKF-P4-014": {
+      "title": "Live Photo版本记录",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-RN"
+      ],
+      "conditions": [
+        "2026-04-16版本说明；需启用对应功能并用 Mimo 导出"
+      ]
+    },
+    "PKF-P4-015": {
+      "title": "低光增强可自动切入",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-RN"
+      ],
+      "conditions": [
+        "是否启用以本机设置与固件为准"
+      ]
+    },
+    "PKF-P4P-001": {
+      "title": "20mm和60mm物理双摄",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-002": {
+      "title": "每次仅一个镜头工作",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-003": {
+      "title": "可用内置存储103GB",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-004": {
+      "title": "主角跟随可登记三位优先对象",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "该条是智能拍摄的主角跟随；不同于对焦菜单的登记主角优先，后者不带动云台，见PKF-S-010"
+      ]
+    },
+    "PKF-P4P-005": {
+      "title": "两种手势有不同用途",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "先开启手势控制；照片为3秒倒计时"
+      ]
+    },
+    "PKF-P4P-006": {
+      "title": "App美颜的预览与模式限制",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-007": {
+      "title": "胶片影调慢动作支持范围存在地区来源冲突",
+      "status": "pending",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE",
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "CN(zh-CN)指南与GB(en-GB)商品FAQ表述冲突，均未列可比较固件版本",
+        "先核对目标地区与设备固件，再判断慢动作可用性；不能默认中国大陆规则被英国页面覆盖"
+      ]
+    },
+    "PKF-P4P-008": {
+      "title": "美肤和胶片影调互斥",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-009": {
+      "title": "兼容麦克风可双发直连",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "攻略列Mic2、MicMini、Mic3、MicMini2、MicMini2S；用前复核固件与兼容型号",
+        "连接路径：下拉菜单→系统设置→无线麦克风，按提示对频；成功后主界面顶部有音量条",
+        "首次配对成功后，再次开机可自动连接；本条不证明各发射器有相同内录/降噪/备份能力"
+      ]
+    },
+    "PKF-P4P-010": {
+      "title": "取景遥控器可远程选跟随目标",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "须完成配对；连接与距离条件另核",
+        "遥控器开机搜索并选择相机，在相机核对验证码后接受；后续双方开机可自动重连",
+        "远程回放和监看不等于遥控器自身存储或素材导出"
+      ]
+    },
+    "PKF-P4P-011": {
+      "title": "滤镜安装有旋转锁定步骤",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "镜头与镜片两面应洁净"
+      ]
+    },
+    "PKF-P4P-012": {
+      "title": "存储时长不是电池时长",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-013": {
+      "title": "收纳前移除外接灯和增广镜",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-014": {
+      "title": "FrameTap与Mimo不能同时连接",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-CONNECT"
+      ],
+      "conditions": [
+        "连接Mimo前先关闭FrameTap，再用手机搜索设备"
+      ]
+    },
+    "PKF-P4P-015": {
+      "title": "续航手柄延长分钟数待核",
+      "status": "pending",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "3.5.5为150；FAQ为130，后者有25°C/1080p24/息屏关Wi-Fi条件"
+      ]
+    },
+    "PKF-S-002": {
+      "title": "不支持旧代手机转接头连接",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-CONNECT"
+      ],
+      "conditions": []
+    },
+    "PKF-S-003": {
+      "title": "退出OTG后的云台保护",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-GIMBAL"
+      ],
+      "conditions": []
+    },
+    "PKF-S-004": {
+      "title": "云台保护需先排查外物和受损",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-GIMBAL"
+      ],
+      "conditions": [
+        "碰撞变形应按官方指引送检；清理前关机"
+      ]
+    },
+    "PKF-S-005": {
+      "title": "支持OTG手机传输的型号",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-OTG"
+      ],
+      "conditions": [
+        "手机与相机均需支持OTG/U盘模式，接口和线材须能正常传输数据；先在机身设置选择OTG有线连接",
+        "Android部分手机需确认文件传输/查看；iPhone 15 USB-C方案与需供电的Lightning相机转换器方案不能混写"
+      ]
+    },
+    "PKF-S-006": {
+      "title": "iPhone15配件耗电提示",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-OTG"
+      ],
+      "conditions": [
+        "仅按该官方指引描述的iPhone15系列情形"
+      ]
+    },
+    "PKF-S-007": {
+      "title": "电脑不识别先检查数据线",
+      "status": "verified",
+      "models": [
+        "pocket_2",
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-EXPORT"
+      ],
+      "conditions": []
+    },
+    "PKF-S-008": {
+      "title": "出现格式化提示先保全素材",
+      "status": "verified",
+      "models": [
+        "pocket_2",
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-EXPORT"
+      ],
+      "conditions": [
+        "有重要素材时不要格式化或反复修复，按官方建议寻求恢复帮助"
+      ]
+    },
+    "PKF-S-009": {
+      "title": "新三代用Mimo升级",
+      "status": "verified",
+      "models": [
+        "pocket_3",
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-FIRMWARE"
+      ],
+      "conditions": []
+    },
+    "PKF-S-010": {
+      "title": "锁人脸焦点不等于云台跟随",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-FOCUS"
+      ],
+      "conditions": [
+        "基础智能跟随才同时锁定对象并带动云台"
+      ]
+    },
+    "PKF-S-011": {
+      "title": "登记主角黄框消失不等于失焦",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-FOCUS"
+      ],
+      "conditions": []
+    },
+    "PKF-S-012": {
+      "title": "轨迹延时不能对焦近物",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-FOCUS"
+      ],
+      "conditions": []
+    },
+    "PKF-S-013": {
+      "title": "展示对焦需视频模式",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-FOCUS"
+      ],
+      "conditions": [
+        "不能由此推断低光视频或慢动作也有展示模式"
+      ]
+    },
+    "PKF-P4-016": {
+      "title": "手势控制有操作距离建议",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "先开启手势控制；以屏幕识别提示为准"
+      ]
+    },
+    "PKF-P4-017": {
+      "title": "旋屏即拍需要开启设置",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-P4-MANUAL"
+      ],
+      "conditions": [
+        "使用上次参数；录制中再转屏的行为还受横竖设置影响"
+      ]
+    },
+    "PKF-P4P-016": {
+      "title": "对焦模式从Pro选择",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-017": {
+      "title": "补光灯触点安装与调节",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": []
+    },
+    "PKF-P4P-018": {
+      "title": "图像菜单含D-Log2设置",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "具体规格和固件组合需另核；英国商品FAQ对10-bit D-Log 2仅列1x，见PKF-P4P-022"
+      ]
+    },
+    "PKF-P4P-019": {
+      "title": "多人跟随让人物群体居中",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE",
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "英国商品FAQ称最多8人；启用多人跟随时不能变焦，宜先在普通视频设置倍率",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-020": {
+      "title": "实体变焦键的三种动作",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB",
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "单击前要核对当前倍率；CN图列切换到3x及从变焦倍率返回1x，GB FAQ明确为1x→3x、其他倍率→1x",
+        "双击6x、长按放大的按键说明不替代各模式倍率上限；模式限制仍需分别核对",
+        "匀速变焦速度可调整的说明来自GB FAQ；CN静态图未给出速度设置路径",
+        "CN与GB均有实体变焦键动作依据，但页面未注明对应固件版本，不推断菜单和全部组合限制相同"
+      ]
+    },
+    "PKF-P4P-021": {
+      "title": "自定义键默认动作与重新映射",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB",
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "上述动作仅指中国攻略静态图列出的默认设置；用户重新映射后须按自己的配置判断",
+        "GB FAQ另说明可调整变焦速度；该设置路径并未在CN图中展开",
+        "CN和GB来源都没有标出对应固件版本，不推断每个固件的可选映射完全相同"
+      ]
+    },
+    "PKF-P4P-022": {
+      "title": "D-Log 2仅支持1倍",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "17挡是该色彩模式下的上限标称，非全部镜头和倍率",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-023": {
+      "title": "双镜头慢动作上限不同",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "慢动作规格不是普通视频帧率；竖拍模式不支持4K，横向握持方案需另看竖拍指引",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-024": {
+      "title": "12倍并非各模式通用",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "本条只列12x的禁用模式，不补推各模式最大可用倍率",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-025": {
+      "title": "两镜头最近对焦距离不同",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "两者上限均为无穷远；实际是否合焦仍需检查",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-026": {
+      "title": "FrameTap遥控距离与稳定建议",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "页面未列干扰和障碍测试条件；不是所有环境的保证距离",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-027": {
+      "title": "FrameTap屏幕可切换摇杆用途",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "左滑退出回放；左上存储信息只显示，不能在该位置操作",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-028": {
+      "title": "基础跟随的禁用模式",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-STORE-GB"
+      ],
+      "conditions": [
+        "官方建议在明亮环境使用跟随；更新通过Mimo，页面未列适用版本",
+        "来源为英国(en-GB)官方商品FAQ；未声明适用固件版本，不能默认中国大陆同版本已具备完全相同菜单/限制"
+      ]
+    },
+    "PKF-P4P-029": {
+      "title": "FrameTap可控制网络摄像头云台",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-WEBCAM"
+      ],
+      "conditions": [
+        "相机开机后通过数据线连电脑，在相机选择网络摄像头；本条不扩推完整遥控功能"
+      ]
+    },
+    "PKF-S-014": {
+      "title": "Pocket4需匹配D-Log还原LUT",
+      "status": "verified",
+      "models": [
+        "pocket_4"
+      ],
+      "source_ids": [
+        "DJI-S-LUT"
+      ],
+      "conditions": [
+        "该表不列照片D-Log；本轮未下载测试LUT"
+      ]
+    },
+    "PKF-S-015": {
+      "title": "4P两种Log有分别匹配的LUT",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-LUT"
+      ],
+      "conditions": [
+        "本条不补推各模式的帧率；D-Log 2倍率条件另见PKF-P4P-022"
+      ]
+    },
+    "PKF-S-016": {
+      "title": "竖拍裁切与横向握持要区分",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-VERTICAL"
+      ],
+      "conditions": [
+        "可旋屏至与机身重合或设置锁定竖拍；横向握持不是同一竖拍模式的4K选项"
+      ]
+    },
+    "PKF-S-017": {
+      "title": "网络摄像头可用蓝牙Mic2收音",
+      "status": "verified",
+      "models": [
+        "pocket_4",
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-S-WEBCAM"
+      ],
+      "conditions": [
+        "电脑软件需支持选择音频输入；相机视频输入与电脑麦克风输入是分别设置的"
+      ]
+    },
+    "PKF-P4P-030": {
+      "title": "智能跟随支持宠物等非人对象",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "中国快速攻略3.4.1的能力说明，不表示每段素材都能成功跟住",
+        "全焦段和最高12x的表述仍受模式限制；已读英国脚注排除项见PKF-P4P-024/028，地区和固件需具体核对"
+      ]
+    },
+    "PKF-P4P-031": {
+      "title": "拍摄键开机与开拍停录",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "拍照或录像动作取决于当前拍摄模式；正文2.2把关机步骤限定为非拍摄状态",
+        "正文也列出顺时针旋屏开机、非拍摄状态逆时针旋屏关机",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-032": {
+      "title": "先选拍摄模式再设置规格",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "指南列照片、视频、低光视频、慢动作、全景及延时等模式；可调参数随模式不同",
+        "本条是录制前选模式和参数的入口，不回答正在录制时能否切换模式",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-033": {
+      "title": "屏幕双击选跟随对象，摇杆单击退出",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "拍摄画面的单击是对焦和测光，不能与双击智能跟随混叫",
+        "五维摇杆单击也可能用于返回上一级菜单，动作取决于当前界面",
+        "此处是智能跟随的操作入口；对象范围与模式限制分别查PKF-P4P-030/028，GB模式脚注不能默认替代CN目标固件",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-034": {
+      "title": "摇杆上下动作取决于俯仰或变焦选择",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "未启用摇杆防误触时，拨动幅度影响云台转动或变焦速度；开启摇杆防误触可关闭这种幅度控制",
+        "摇杆防误触入口在下拉控制中心；本条不替代云台模式及变焦支持范围说明",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-035": {
+      "title": "摇杆双击回中、三击切换朝向",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "操作对象是机身五维摇杆，不是FrameTap摇杆或变焦键",
+        "本条只确认回中与前后朝向动作，不把长按的两种锁定方式合并成一种",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-036": {
+      "title": "首次激活经Mimo连接相机",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "如果已与FrameTap配对，先关闭FrameTap再连接Mimo",
+        "来源提供基本连接顺序，没有给出完整手机兼容、网络要求和失败恢复规则",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-037": {
+      "title": "机身回放从拍摄界面右滑进入",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "这是相机本机回放入口；FrameTap回放能力另见PKF-P4P-027",
+        "本条没有说明回放时能否继续录制、删除恢复或Live Photo的具体播放限制",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    },
+    "PKF-P4P-038": {
+      "title": "拍后素材可走手机或电脑传输路径",
+      "status": "verified",
+      "models": [
+        "pocket_4p"
+      ],
+      "source_ids": [
+        "DJI-P4P-GUIDE"
+      ],
+      "conditions": [
+        "此处确认传输方向与路径，不保证达到宣传峰值速度；接口、线材、设备及测试条件需另外核对",
+        "手机OTG具体操作与兼容条件见PKF-S-005/006；Mimo连接前关闭FrameTap见PKF-P4P-014",
+        "本条不提供完整电脑端安全移除、批量恢复或所有无线并行组合的操作",
+        "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+      ]
+    }
+  },
+  "source_reference_index": {
+    "DJI-P4-GUIDE": {
+      "url": "https://repair.dji.com/help/content?customId=01700043653&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "Osmo Pocket 4 快速攻略",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-P4-MANUAL": {
+      "url": "https://dl.djicdn.com/downloads/DJI_Osmo_Pocket_4/UM/v1.0/Osmo_Pocket_4_User_Manual_en.pdf",
+      "title": "Osmo Pocket 4 User Manual v1.0",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日通过 web 读取官方 PDF 文本，重点为操作、模式边界、收音、传输；与后续固件说明分开记录；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "unspecified",
+      "locale": "en"
+    },
+    "DJI-P4-RN": {
+      "url": "https://dl.djicdn.com/downloads/DJI_Osmo_Pocket_4/RN/DJI_Osmo_Pocket_4_Release_Notes_en.pdf",
+      "title": "Osmo Pocket 4 Release Notes（2026-04-16）",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日通过 web 读取该官方版本说明全文；仅记录该版本引入能力，不宣称它是当日最新固件；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "unspecified",
+      "locale": "en"
+    },
+    "DJI-P4P-GUIDE": {
+      "url": "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17",
+      "title": "Osmo Pocket 4P 新手快速攻略",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文，并实际查看3.1的实体按键与拍摄界面两张静态图；其余嵌入视频、动图和图片未据此视为已读。excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator及下列image_evidence；不是原页全文快照。",
+      "region": "CN",
+      "locale": "zh-CN",
+      "image_evidence": [
+        {
+          "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/0d7cec71b5774b8eab24d12189dabc71.png",
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-buttons-20260906.png",
+          "sha256": "d529e8e054b7cbe38bee2a2a846c6e98cb4d1f9b011b4677433c3274f1060f2f",
+          "locator": "3.1 实体按键图",
+          "checked_at": "2026-09-06",
+          "read_scope": "实际打开静态图逐项读图"
+        },
+        {
+          "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/8138a4542e2b4d6b8d0eb0debb2a4e30.png",
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-screen-20260906.png",
+          "sha256": "5cb523b19175e25c135559d90120b9f34901a6a4d8ea0877646a0852c4616187",
+          "locator": "3.1 拍摄界面图",
+          "checked_at": "2026-09-06",
+          "read_scope": "实际打开静态图逐项读图"
+        }
+      ]
+    },
+    "DJI-P4P-STORE-GB": {
+      "url": "https://store.dji.com/uk/product/osmo-pocket-4p-vlog-combo?set_region=GB&vid=241311",
+      "title": "Buy Osmo Pocket 4P — DJI Store United Kingdom：产品 FAQ 与脚注",
+      "region": "GB",
+      "locale": "en-GB",
+      "read_scope": "2026-09-06通过web open实际读到完整文本页面；未读取图片/视频；页面没有声明对应固件版本。摘录为定位用短词合集，不是完整原文快照。",
+      "checked_at": "2026-09-06"
+    },
+    "DJI-S-CONNECT": {
+      "url": "https://repair.dji.com/help/content?customId=01700009275&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "Osmo Pocket 系列无法连接 DJI Mimo App",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-GIMBAL": {
+      "url": "https://repair.dji.com/help/content?customId=01700011802&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "Pocket 4 系列/Pocket 3 开机云台保护排查",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-OTG": {
+      "url": "https://repair.dji.com/help/content?customId=zh-cn03400007307&lang=zh-CN&re=CN&spaceId=34",
+      "title": "Osmo 系列 OTG 连接手机指引",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-EXPORT": {
+      "url": "https://repair.dji.com/help/content?customId=01700009294&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "Osmo 系列连接电脑无法识别设备排查",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-FIRMWARE": {
+      "url": "https://repair.dji.com/help/content?customId=01700006836&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "手持系列产品固件升级操作指南",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-FOCUS": {
+      "url": "https://repair.dji.com/help/content?customId=01700009262&documentType=&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "Pocket 4 系列/Pocket 3 对焦模式介绍",
+      "checked_at": "2026-09-06",
+      "read_scope": "当日读取原页正文；未观看其中嵌入视频或图片；下列短摘为定位锚点，不是原页全文快照；excerpt为逐条引用的去重短定位锚点合集，核实完整断言须回到对应locator的原页或PDF章节",
+      "region": "CN",
+      "locale": "zh-CN"
+    },
+    "DJI-S-WEBCAM": {
+      "url": "https://repair.dji.com/help/content?customId=zh-cn03400006962&lang=zh-CN&re=CN&spaceId=34",
+      "title": "大疆网络摄像头功能使用介绍",
+      "region": "CN",
+      "locale": "zh-CN",
+      "read_scope": "web open读取全文文字，采用明确点名4/4P的操作条目。未测试电脑软件兼容性；未以其他设备条目推断4P。摘录为定位短词，不是完整原文快照。",
+      "checked_at": "2026-09-06"
+    },
+    "DJI-S-LUT": {
+      "url": "https://repair.dji.com/help/content?customId=01700007105&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "哪些机型支持 D-Log 模式？是否有 LUT 文件提供？",
+      "region": "CN",
+      "locale": "zh-CN",
+      "read_scope": "通过web open读取型号表；未下载或测试LUT文件。摘录为定位短词，不是完整原文快照。",
+      "checked_at": "2026-09-06"
+    },
+    "DJI-S-VERTICAL": {
+      "url": "https://repair.dji.com/help/content?customId=01700007470&documentType=&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "title": "手持系列产品竖拍模式使用介绍",
+      "region": "CN",
+      "locale": "zh-CN",
+      "read_scope": "web open读取Pocket系列文字小节，未用其他产品小节补推Pocket功能。摘录为定位短词，不是完整原文快照。",
+      "checked_at": "2026-09-06"
+    }
+  },
+  "updated_at": "2026-09-14",
+  "bounded_followup_checks": [
+    {
+      "id": "P4P-RECORD-SWITCH",
+      "model_id": "pocket_4p",
+      "checked_at": "2026-09-06",
+      "coverage_status": "partial",
+      "existing_fact_ids": [
+        "PKF-P4P-002",
+        "PKF-P4P-019",
+        "PKF-P4P-020",
+        "PKF-P4P-022",
+        "PKF-P4P-023",
+        "PKF-P4P-024"
+      ],
+      "finding": "现有事实可回答按倍率切换镜头、实体变焦键、多人跟随不能变焦、D-Log2仅1x及慢动作上限；不能把这些条目扩成录制中所有模式组合均可切换。",
+      "actual_read_sources": [
+        {
+          "registered_source_id": "DJI-P4P-STORE-GB",
+          "url": "https://store.dji.com/uk/product/osmo-pocket-4p-vlog-combo?set_region=GB&vid=241311",
+          "title": "Osmo Pocket 4P Vlog Combo — UK store FAQ",
+          "region": "GB",
+          "locale": "en-GB",
+          "locator": "FAQ：两个镜头能否同时录像、拍摄时能否切换镜头；正文约L377–383",
+          "read_scope": "实际读取FAQ正文；一般说明录制时按倍率选择对应镜头，未给完整模式矩阵或可比固件版本。"
+        },
+        {
+          "registered_source_id": null,
+          "url": "https://repair.dji.com/help/content?customId=01700006756&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+          "title": "手持系列产品慢动作视频拍摄操作指南",
+          "region": "CN",
+          "locale": "zh-CN",
+          "locator": "Osmo Pocket 4P 章节；正文约L119–127",
+          "read_scope": "实际读取本型号操作段：选慢动作、设置参数、开始录制；未见正在录制时切换普通/慢动作的明确说明。"
+        }
+      ],
+      "gap_questions": [
+        "开始录制后，1x与3x互切在各分辨率、帧率、色彩和拍摄模式下分别是否可用，是否需要先停录？英国FAQ的一般录制说明未提供完整组合矩阵。",
+        "正在录制时能否由普通视频切入慢动作、或由慢动作切回普通视频？已读慢动作操作指南只给出录制前选模式和参数的顺序，尚不能回答录制中切换规则。"
+      ],
+      "not_infer": [
+        "不能由先选模式后录制的步骤推断录制中一定允许或一定禁止切模式。",
+        "GB一般说明不能直接替代中国大陆目标固件的完整限制矩阵。"
+      ],
+      "fact_registry_changes": false
+    },
+    {
+      "id": "P4P-MIMO-WATERMARK",
+      "model_id": "pocket_4p",
+      "checked_at": "2026-09-06",
+      "coverage_status": "gap",
+      "existing_fact_ids": [],
+      "finding": "实际读到官方攻略正文和两张操作图，但图中适用机型/发布范围截至2025-09-05；未取得足够原文确认Pocket4P当前水印兼容性或这类个案的具体原因。",
+      "actual_read_sources": [
+        {
+          "registered_source_id": null,
+          "url": "https://repair.dji.com/help/content?customId=01700043604&documentType=&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+          "title": "手持设备水印添加攻略",
+          "region": "CN",
+          "locale": "zh-CN",
+          "locator": "正文及“方法1 水印设置功能”“方法2 贴纸功能”两张图片；图片脚注截至2025-09-05",
+          "read_scope": "实际读取正文并查看两张官方原图。图示区分型号水印与贴纸入口，包含旧适用机型/版本条件；不据此新增Pocket4P事实。",
+          "image_sources": [
+            {
+              "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/602c43638c23470997d2cd090c17b3ab.jpg",
+              "sha256": "dacb144bee2a3a77856935065ad543d4f2b1cbcb3295648402e78f6a06b14577",
+              "locator": "方法1；适用机型与编辑后导出视频限制脚注"
+            },
+            {
+              "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/34d742fc05c84458992f132e4ae23831.jpg",
+              "sha256": "9e3ff166ff193173463b32c7c975cdf64b872fd338742ecaf3423dea2c47c1c8",
+              "locator": "方法2；版本与截至日期脚注"
+            }
+          ]
+        }
+      ],
+      "gap_questions": [
+        "Pocket4P素材添加产品型号水印需要哪个Mimo版本、手机系统和机身固件？已读水印攻略图片的机型说明截至2025-09-05，未列Pocket4P，不能据此确认现版本兼容性。",
+        "部分素材不能加水印时，原始相机视频、已剪辑再导出视频、照片/截图/Live Photo及第三方导入素材各有什么限制？需区分“水印设置/截图”和“贴纸”入口，再用原文件及当前App版本核对。"
+      ],
+      "not_infer": [
+        "旧型号水印设置限制不能直接套用为Pocket4P现固件结论。",
+        "未列Pocket4P不等于Pocket4P不支持；“部分素材不可用”的个案原因仍待原文件、入口和版本核对。"
+      ],
+      "fact_registry_changes": false
+    }
+  ],
+  "historical_counts_20260906": {
+    "total_facts": 118,
+    "verified_facts": 116,
+    "pending_facts": 2,
+    "official_sources": 22,
+    "primary_unique_facts": 71,
+    "primary_verified_unique_facts": 69,
+    "primary_pending_unique_facts": 2,
+    "shared_between_primary": 14
+  },
+  "selling_update": {
+    "updated_at": "2026-09-07",
+    "fact_ids": [
+      "PKF-P4-018",
+      "PKF-P4-019",
+      "PKF-P4-020",
+      "PKF-P4-021",
+      "PKF-P4-022",
+      "PKF-P4P-039",
+      "PKF-S-018",
+      "PKF-S-019",
+      "PKF-P4P-040",
+      "PKF-P4P-041"
+    ],
+    "scope": "Added bounded answers for selling-point research; open questions remain except parts directly answered by these cards. Does not mark entire workflows covered."
+  }
+}

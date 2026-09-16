@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "name": "Pocket 产品与表达知识库",
+  "maintenance_source": "knowledge/pocket",
+  "context_entry": "context/README.md",
+  "domains": [
+    {
+      "id": "products",
+      "title": "产品事实与操作条件",
+      "kind": "official_fact",
+      "entry": "products/topic-coverage.md",
+      "tags": [
+        "产品",
+        "型号",
+        "参数",
+        "操作",
+        "模式",
+        "配件",
+        "兼容",
+        "跟随",
+        "对焦"
+      ]
+    },
+    {
+      "id": "value",
+      "title": "卖点与使用价值",
+      "kind": "editorial_interpretation",
+      "entry": "selling_points/guide.md",
+      "tags": [
+        "卖点",
+        "价值",
+        "为什么",
+        "方便",
+        "麻烦",
+        "值得"
+      ]
+    },
+    {
+      "id": "detailed_scenes",
+      "title": "详细拍摄场景",
+      "kind": "editorial_hypothesis",
+      "entry": "use_cases/guide.md",
+      "tags": [
+        "场景",
+        "旅行",
+        "人像",
+        "亲子",
+        "宠物",
+        "夜间",
+        "独自",
+        "使用过程",
+        "剪辑"
+      ]
+    },
+    {
+      "id": "needs",
+      "title": "真实材料中的处境与需求",
+      "kind": "case_or_labeled_hypothesis",
+      "entry": "scenarios/README.md",
+      "tags": [
+        "需求",
+        "心理",
+        "人群",
+        "使用阶段",
+        "顾虑",
+        "换机",
+        "容量",
+        "挂绳"
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "真实表达和回复承接",
+      "kind": "public_expression",
+      "entry": "voice/README.md",
+      "tags": [
+        "口吻",
+        "表达",
+        "原话",
+        "回复",
+        "楼中楼",
+        "父句",
+        "自然",
+        "说话"
+      ]
+    },
+    {
+      "id": "aesthetics",
+      "title": "拍摄观感与审美",
+      "kind": "bounded_media_or_source_statement",
+      "entry": "aesthetics/works.md",
+      "tags": [
+        "画面",
+        "观感",
+        "色彩",
+        "肤色",
+        "滤镜",
+        "直出",
+        "调色",
+        "审美",
+        "好看",
+        "电影感"
+      ]
+    },
+    {
+      "id": "habits",
+      "title": "个人偏好与使用习惯",
+      "kind": "public_case",
+      "entry": "aesthetics/preferences.md",
+      "tags": [
+        "习惯",
+        "偏好",
+        "闲置",
+        "上手",
+        "携带",
+        "配件",
+        "学习",
+        "负担"
+      ]
+    },
+    {
+      "id": "discussion",
+      "title": "完整讨论与制作来源",
+      "kind": "public_thread_evidence",
+      "entry": "aesthetics/discussions.md",
+      "tags": [
+        "讨论",
+        "接话",
+        "附和",
+        "纠正",
+        "父句",
+        "后期",
+        "原片"
+      ]
+    },
+    {
+      "id": "comparisons",
+      "title": "竞品与代际比较表达",
+      "kind": "public_comparison_case",
+      "entry": "comparisons/README.md",
+      "tags": [
+        "竞品",
+        "比较",
+        "横测",
+        "手机",
+        "微单",
+        "运动相机",
+        "云台相机",
+        "升级",
+        "不换",
+        "取舍",
+        "Pocket3"
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "用户明确反馈与本人素材",
+      "kind": "scoped_user_feedback",
+      "entry": "feedback/README.md",
+      "tags": [
+        "用户反馈",
+        "认可",
+        "退回",
+        "改稿",
+        "本人",
+        "经历",
+        "风格",
+        "反馈"
+      ]
+    },
+    {
+      "id": "line_feedback",
+      "title": "原句与修改前后对照",
+      "kind": "scoped_quote_review",
+      "entry": "aesthetics/feedback.md",
+      "tags": [
+        "原句",
+        "修改",
+        "多余",
+        "长句",
+        "短句",
+        "认可",
+        "自然"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "研究来源与本批增量",
+      "kind": "research_provenance",
+      "entry": "research/README.md",
+      "tags": [
+        "研究",
+        "评论采集",
+        "近7天",
+        "来源",
+        "样本",
+        "增量",
+        "去重"
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "实际覆盖与未完成项",
+      "kind": "audit_and_gap",
+      "entry": "COVERAGE.md",
+      "tags": [
+        "覆盖",
+        "数量",
+        "统计",
+        "验收",
+        "清单"
+      ]
+    },
+    {
+      "id": "gaps",
+      "title": "待核能力与证据缺口",
+      "kind": "unresolved",
+      "entry": "GAPS.md",
+      "tags": [
+        "待核",
+        "缺口",
+        "不确定",
+        "固件",
+        "HDR",
+        "冲突",
+        "没读"
+      ]
+    },
+    {
+      "id": "context",
+      "title": "已确认上下文与适用边界",
+      "kind": "scoped_project_context",
+      "entry": "context/README.md",
+      "tags": [
+        "上下文",
+        "要求",
+        "边界",
+        "范围",
+        "目标",
+        "约定"
+      ]
+    },
+    {
+      "id": "research_handoff",
+      "title": "研究资料入库交接",
+      "kind": "research_workflow",
+      "entry": "research/handoff.md",
+      "tags": [
+        "每日",
+        "热评",
+        "累计",
+        "入库",
+        "更新",
+        "快照"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "writer",
+      "title": "共享消费者写手",
+      "skill": "write-consumer-comments",
+      "scope": "实际写评、改稿与培训案例才读取当前入口；知识简报不自动写稿"
+    },
+    {
+      "id": "pocket_writer",
+      "title": "Pocket 写作边界",
+      "skill": "write-dji-pocket-comments",
+      "scope": "写Pocket评论时保留目标型号、名称和事实要求；只路由，不复制共享写法"
+    },
+    {
+      "id": "social_reader",
+      "title": "统一社媒读取",
+      "skill": "read-social-links-with-social-helper",
+      "scope": "需要读取三平台链接时，一次交入完整集合；本知识库不另建采集规则"
+    }
+  ]
+}

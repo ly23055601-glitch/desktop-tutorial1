@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "date": "YYYY-MM-DD",
+  "batch_id": "B001",
+  "started_at": "填写真实的带时区 ISO 开始时间",
+  "inputs": [],
+  "sources": [],
+  "tasks": [],
+  "quality": {
+    "profile": "training_cw5",
+    "summary_ref": null,
+    "deep_review_coverage": null,
+    "unreviewed_count": 0
+  },
+  "external_blocks": []
+}

@@ -1,0 +1,1777 @@
+{
+  "schema_version": "pocket-evaluation-input-v1",
+  "rule_version": "2026-09-06-CW2-POCKET",
+  "content_mode": "training_fiction",
+  "split": "holdout",
+  "frozen_split": "holdout",
+  "work_id": "6a4335f10000000017008cde",
+  "input_order": 12,
+  "platform": "xiaohongshu",
+  "split_provenance": {
+    "basis": "unchanged_frozen_corpus_ledger",
+    "ledger": {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/input-ledger.jsonl",
+      "sha256": "b87bb14d363e8e22260f3267051dff5e6c528d7becb86d3b4dd4448c8d7269c1",
+      "line": 12
+    },
+    "recorded_split_frozen_at": null,
+    "input_set_id": null
+  },
+  "canonical_url": "https://www.xiaohongshu.com/search_result/6a4335f10000000017008cde",
+  "discussion_model_id": "pocket_4",
+  "model_evidence_level": "M1_text_declaration_or_discussion_context_only",
+  "actual_capture_model": "not_confirmed_by_this_input",
+  "read_scope": [
+    "exported_post_text_metadata_only",
+    "exported_comment_text_and_explicit_relationship_fields; limited_to_recorded_export"
+  ],
+  "post": {
+    "material_kind": "public_post",
+    "speaker_scope": "work_author",
+    "thread_role": "post",
+    "title": "Pocket4 适合夏天的一些参数🍃",
+    "text": "📷【相机参数设置】\n▪️模式：4k60fps\n▪️曝光：-0.3EV\n▪️色彩：普通10bit\n▪️码率：高（屏幕下拉设置里\n▪️白平衡：自动\n▪️ISO：50-100\n▪️图像调节：2-1（参数页最下面\n\t\n🎨后期调色\n软件：Djimimo\n滤镜：大师云（30）\n▫️阴影：-5\n▫️高光：-3\n▫️对比度：+7\n▫️自然饱和度：+10\n#滤镜调色教程[话题]#\n#大疆[话题]#\n#大疆pocket4[话题]#\n#pocket4滤镜[话题]#\n#pocket4参数[话题]#\n#pocket4教程[话题]#\n#live图[话题]#\n#高清参数设置[话题]#\n#夏天[话题]#",
+    "author_id": "606914b500000000010079a2",
+    "created_at": "2026-06-30T11:20:17",
+    "collected_at": "2026-09-06T16:49:50.475000",
+    "timestamp_timezone": "not_recorded_unless_explicit_in_export_value",
+    "read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+    "provenance": {
+      "normalized": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+        "sha256": "ca9ae4245cc5a4350d520f4b73f73a281d6303ae3a87902f86f250036cf05433",
+        "line": 12
+      },
+      "raw": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+        "sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+        "row": {
+          "sheet": "Sheet1",
+          "row": 13
+        },
+        "cells": {
+          "post_title": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "D",
+            "cell": "D13",
+            "header": "笔记标题"
+          },
+          "post_text": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "E",
+            "cell": "E13",
+            "header": "笔记内容"
+          },
+          "captured_at": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "N",
+            "cell": "N13",
+            "header": "采集时间"
+          }
+        }
+      }
+    },
+    "media_read": false,
+    "authored_statement_is_experience_confirmation": false
+  },
+  "comments": [
+    {
+      "id": "xiaohongshu:6a43797c0000000004038069",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "收藏好了，周末出门出游就照着这个设置拍，省事又出片",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "荔小枝想怎样",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-30T16:08:28",
+      "collected_at": "2026-09-06T17:33:15.070000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 189
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 190
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 190,
+                "column": "B",
+                "cell": "B190",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 190,
+                "column": "A",
+                "cell": "A190",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 190,
+                "column": "J",
+                "cell": "J190",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 190,
+                "column": "L",
+                "cell": "L190",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 190,
+                "column": "V",
+                "cell": "V190",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a43807c0000000015001fcd",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "[偷笑R]好好好",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a43797c0000000004038069",
+      "root_id": "xiaohongshu:6a43797c0000000004038069",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-06-30T16:38:21",
+      "collected_at": "2026-09-06T17:33:15.071000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 190
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 191
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 191,
+                "column": "B",
+                "cell": "B191",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 191,
+                "column": "A",
+                "cell": "A191",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 191,
+                "column": "J",
+                "cell": "J191",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 191,
+                "column": "L",
+                "cell": "L191",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 191,
+                "column": "V",
+                "cell": "V191",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a44d8e3000000002b002102",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "所以pocket 3可以这么调色吗",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "🎀💓Tina💓",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-01T17:07:48",
+      "collected_at": "2026-09-06T17:33:15.072000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 191
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 192
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 192,
+                "column": "B",
+                "cell": "B192",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 192,
+                "column": "A",
+                "cell": "A192",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 192,
+                "column": "J",
+                "cell": "J192",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 192,
+                "column": "L",
+                "cell": "L192",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 192,
+                "column": "V",
+                "cell": "V192",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a44f98c0000000015004d39",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "可以",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a44d8e3000000002b002102",
+      "root_id": "xiaohongshu:6a44d8e3000000002b002102",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-07-01T19:27:08",
+      "collected_at": "2026-09-06T17:33:15.072000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 192
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 193
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 193,
+                "column": "B",
+                "cell": "B193",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 193,
+                "column": "A",
+                "cell": "A193",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 193,
+                "column": "J",
+                "cell": "J193",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 193,
+                "column": "L",
+                "cell": "L193",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 193,
+                "column": "V",
+                "cell": "V193",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a5055b3000000002b002ae5",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "拍的也太美了",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "雪",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-10T10:15:16",
+      "collected_at": "2026-09-06T17:33:15.073000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 193
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 194
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 194,
+                "column": "B",
+                "cell": "B194",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 194,
+                "column": "A",
+                "cell": "A194",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 194,
+                "column": "J",
+                "cell": "J194",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 194,
+                "column": "L",
+                "cell": "L194",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 194,
+                "column": "V",
+                "cell": "V194",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a506eb70000000015011215",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "[偷笑R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a5055b3000000002b002ae5",
+      "root_id": "xiaohongshu:6a5055b3000000002b002ae5",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-07-10T12:01:59",
+      "collected_at": "2026-09-06T17:33:15.073000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 194
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 195
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 195,
+                "column": "B",
+                "cell": "B195",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 195,
+                "column": "A",
+                "cell": "A195",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 195,
+                "column": "J",
+                "cell": "J195",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 195,
+                "column": "L",
+                "cell": "L195",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 195,
+                "column": "V",
+                "cell": "V195",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a994299000000001402c176",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "这个尺寸是电影尺寸吗，好宽[偷笑R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "栗子🍉",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-09-03T17:49:14",
+      "collected_at": "2026-09-06T17:33:15.074000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 195
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 196
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 196,
+                "column": "B",
+                "cell": "B196",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 196,
+                "column": "A",
+                "cell": "A196",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 196,
+                "column": "J",
+                "cell": "J196",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 196,
+                "column": "L",
+                "cell": "L196",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 196,
+                "column": "V",
+                "cell": "V196",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a994d1e000000000f02dbe4",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "就是普通1倍的[偷笑R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a994299000000001402c176",
+      "root_id": "xiaohongshu:6a994299000000001402c176",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-09-03T18:34:07",
+      "collected_at": "2026-09-06T17:33:15.074000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 196
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 197
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 197,
+                "column": "B",
+                "cell": "B197",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 197,
+                "column": "A",
+                "cell": "A197",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 197,
+                "column": "J",
+                "cell": "J197",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 197,
+                "column": "L",
+                "cell": "L197",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 197,
+                "column": "V",
+                "cell": "V197",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "我这个滤镜好看吗",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "我是卜NANA",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-05T23:45:31",
+      "collected_at": "2026-09-06T17:33:15.075000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 197
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 198
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 198,
+                "column": "B",
+                "cell": "B198",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 198,
+                "column": "A",
+                "cell": "A198",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 198,
+                "column": "J",
+                "cell": "J198",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 198,
+                "column": "L",
+                "cell": "L198",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 198,
+                "column": "V",
+                "cell": "V198",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 1,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4f2f1e000000002a02e9a1",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "很假[笑哭R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "我是布拿拿",
+      "parent_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-07-09T13:18:23",
+      "collected_at": "2026-09-06T17:33:15.076000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 198
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 199
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 199,
+                "column": "B",
+                "cell": "B199",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 199,
+                "column": "A",
+                "cell": "A199",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 199,
+                "column": "J",
+                "cell": "J199",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 199,
+                "column": "L",
+                "cell": "L199",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 199,
+                "column": "V",
+                "cell": "V199",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4a83a400000000140382a1",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "自己喜欢最重要",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-07-06T00:17:41",
+      "collected_at": "2026-09-06T17:33:29.393000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 199
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 200
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 200,
+                "column": "B",
+                "cell": "B200",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 200,
+                "column": "A",
+                "cell": "A200",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 200,
+                "column": "J",
+                "cell": "J200",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 200,
+                "column": "L",
+                "cell": "L200",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 200,
+                "column": "V",
+                "cell": "V200",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4b6610000000002203f938",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "不好看，但不直说[偷笑R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "1 分钟听故事",
+      "parent_id": "xiaohongshu:6a4a83a400000000140382a1",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-07-06T16:23:44",
+      "collected_at": "2026-09-06T17:33:29.393000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 200
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 201
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 201,
+                "column": "B",
+                "cell": "B201",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 201,
+                "column": "A",
+                "cell": "A201",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 201,
+                "column": "J",
+                "cell": "J201",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 201,
+                "column": "L",
+                "cell": "L201",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 201,
+                "column": "V",
+                "cell": "V201",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6d8fd20000000009017b70",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "这个动态视频是怎么剪辑到一起的？",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "vlar_zZ",
+      "parent_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-01T14:18:59",
+      "collected_at": "2026-09-06T17:33:29.394000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 201
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 202
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 202,
+                "column": "B",
+                "cell": "B202",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 202,
+                "column": "A",
+                "cell": "A202",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 202,
+                "column": "J",
+                "cell": "J202",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 202,
+                "column": "L",
+                "cell": "L202",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 202,
+                "column": "V",
+                "cell": "V202",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6d908e000000002a02d4af",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "大疆app里面直接拼一块的",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "我是卜NANA",
+      "parent_id": "xiaohongshu:6a6d8fd20000000009017b70",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-01T14:22:07",
+      "collected_at": "2026-09-06T17:33:29.394000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 202
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 203
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 203,
+                "column": "B",
+                "cell": "B203",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 203,
+                "column": "A",
+                "cell": "A203",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 203,
+                "column": "J",
+                "cell": "J203",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 203,
+                "column": "L",
+                "cell": "L203",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 203,
+                "column": "V",
+                "cell": "V203",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a8a6ba3000000000a01ccd7",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "不好看",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "豆乐儿🐾",
+      "parent_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "root_id": "xiaohongshu:6a4a7c120000000029035fd7",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-23T11:40:20",
+      "collected_at": "2026-09-06T17:33:29.395000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 203
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 204
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 204,
+                "column": "B",
+                "cell": "B204",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 204,
+                "column": "A",
+                "cell": "A204",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 204,
+                "column": "J",
+                "cell": "J204",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 204,
+                "column": "L",
+                "cell": "L204",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 204,
+                "column": "V",
+                "cell": "V204",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "pocket4就是这个像素吗，我感觉有点糊呢，是因为我贴镜头膜了还是因为我平时撞倒哪里了呀",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "YW",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "root",
+      "parent_basis": "not_provided",
+      "created_at": "2026-08-01T04:02:36",
+      "collected_at": "2026-09-06T17:33:29.395000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 204
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 205
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 205,
+                "column": "B",
+                "cell": "B205",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 205,
+                "column": "A",
+                "cell": "A205",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 205,
+                "column": "J",
+                "cell": "J205",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 205,
+                "column": "L",
+                "cell": "L205",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 205,
+                "column": "V",
+                "cell": "V205",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 1,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6d304d0000000015002409",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "不要贴膜",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "root_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-01T07:31:26",
+      "collected_at": "2026-09-06T17:33:29.396000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 205
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 206
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 206,
+                "column": "B",
+                "cell": "B206",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 206,
+                "column": "A",
+                "cell": "A206",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 206,
+                "column": "J",
+                "cell": "J206",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 206,
+                "column": "L",
+                "cell": "L206",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 206,
+                "column": "V",
+                "cell": "V206",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6d306a00000000140385d4",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "用的时候也不要手动变焦 就用1和2倍",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一半淡咸",
+      "parent_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "root_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-01T07:31:54",
+      "collected_at": "2026-09-06T17:33:42.570000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 206
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 207
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 207,
+                "column": "B",
+                "cell": "B207",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 207,
+                "column": "A",
+                "cell": "A207",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 207,
+                "column": "J",
+                "cell": "J207",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 207,
+                "column": "L",
+                "cell": "L207",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 207,
+                "column": "V",
+                "cell": "V207",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a6dd501000000002902407d",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "好的谢谢～",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "YW",
+      "parent_id": "xiaohongshu:6a6d304d0000000015002409",
+      "root_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-01T19:14:10",
+      "collected_at": "2026-09-06T17:33:42.571000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 207
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 208
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 208,
+                "column": "B",
+                "cell": "B208",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 208,
+                "column": "A",
+                "cell": "A208",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 208,
+                "column": "J",
+                "cell": "J208",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 208,
+                "column": "L",
+                "cell": "L208",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 208,
+                "column": "V",
+                "cell": "V208",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a7e5c9d0000000014004a0d",
+      "work_id": "6a4335f10000000017008cde",
+      "platform": "xiaohongshu",
+      "text": "啊，刚刚贴了膜，是有影响是吗",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "圈圈",
+      "parent_id": "xiaohongshu:6a6d304d0000000015002409",
+      "root_id": "xiaohongshu:6a6cff3f000000002a02cb98",
+      "thread_role": "reply",
+      "parent_basis": "exported_reference_id",
+      "created_at": "2026-08-14T08:09:02",
+      "collected_at": "2026-09-06T17:33:42.572000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+            "sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+            "line": 208
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+            "sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 209
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 209,
+                "column": "B",
+                "cell": "B209",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 209,
+                "column": "A",
+                "cell": "A209",
+                "header": "评论ID"
+              },
+              "root_comment_id": {
+                "sheet": "Sheet1",
+                "row": 209,
+                "column": "J",
+                "cell": "J209",
+                "header": "一级评论ID"
+              },
+              "referenced_comment_id": {
+                "sheet": "Sheet1",
+                "row": 209,
+                "column": "L",
+                "cell": "L209",
+                "header": "引用的评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 209,
+                "column": "V",
+                "cell": "V209",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-01"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "explicit_record_same_work",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态"
+      ]
+    }
+  ],
+  "media_read": false,
+  "boundaries": [
+    "仅包含实际导出文字与明确关系字段；图片、连续视频、音轨及设备UI未读取。",
+    "作者自述仅证明作者写过这段话，不确证拍摄设备、持有、购买或亲历。",
+    "型号字段是已记录的讨论对象，不证明原片摄制设备或评论者使用型号。",
+    "缺父句不补关系；一级评论ID不等于直接父句ID；未读媒体不补画面。",
+    "公共原话保留归属，不能移植为新说话者的经历；产品说法需另核当前官方。",
+    "这是留出验收输入，不进入学习卡或常规检索，也不代表验收通过。"
+  ],
+  "research_constraints": {
+    "no_invented_experience": true,
+    "no_public_quote_reassignment": true,
+    "both_arms_verify_current_official_product_facts": true
+  },
+  "knowledge_or_training_card_references": []
+}

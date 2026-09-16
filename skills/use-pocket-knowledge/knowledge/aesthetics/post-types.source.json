@@ -1,0 +1,427 @@
+{
+  "source_workbook": "/Users/luocaihua/Desktop/大疆历史帖子类型整理_20260908.xlsx",
+  "source_sha256": "26603863c3b813b7059b96ff8cb1089acfaa9b5f2efc416bbbf4e1b62f064a78",
+  "read_date": "2026-09-08",
+  "scope": "用户提供历史分类与扩展选题；未重新读取社媒或对429帖重新分类",
+  "historical_records": 429,
+  "classification_status": {
+    "明确": 376,
+    "待判定": 19,
+    "暂定": 34
+  },
+  "product_counts": {
+    "DJI Mic": 13,
+    "Osmo Nano": 83,
+    "Osmo 360": 150,
+    "Pocket": 183
+  },
+  "types": [
+    {
+      "name": "生活与过程记录",
+      "definition": "记录日常、旅行、运动或工作过程。",
+      "history_count": 129,
+      "example_summary": "P205 崂山环海公路双人摩托追日出",
+      "source_range": "类型汇总!A7:E7",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "成片与作品展示",
+      "definition": "欣赏照片、人像、风景或作品成品。",
+      "history_count": 116,
+      "example_summary": "P153 南京燕雀湖水鸟与水杉",
+      "source_range": "类型汇总!A8:E8",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "创意玩法展示",
+      "definition": "展示特殊机位、全景变形、转场等创意效果。",
+      "history_count": 74,
+      "example_summary": "P096 地铁站旋转人像",
+      "source_range": "类型汇总!A9:E9",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "剧情与娱乐互动",
+      "definition": "剧情、段子、表演或互动娱乐。",
+      "history_count": 19,
+      "example_summary": "P011 冰冻纸巾ASMR表演",
+      "source_range": "类型汇总!A10:E10",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "拍摄与剪辑教学",
+      "definition": "讲解拍法、机位、参数、操作或后期步骤。",
+      "history_count": 13,
+      "example_summary": "P128 街边积水倒影与调色",
+      "source_range": "类型汇总!A11:E11",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "开箱与购入分享",
+      "definition": "收货、开箱、晒单和到手感受。",
+      "history_count": 13,
+      "example_summary": "P167 生日礼物相机拆箱",
+      "source_range": "类型汇总!A12:E12",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "测评与使用反馈",
+      "definition": "讨论具体测试、体验、优缺点和问题反馈。",
+      "history_count": 12,
+      "example_summary": "P250 新手夜间全景试拍与重影困惑",
+      "source_range": "类型汇总!A13:E13",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "对比与选购建议",
+      "definition": "比较产品、代际、升级与购买方案。",
+      "history_count": 9,
+      "example_summary": "P180 两机握持与日夜样片对照",
+      "source_range": "类型汇总!A14:E14",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "观点与情绪表达",
+      "definition": "表达消费观点、个人感悟或情绪。",
+      "history_count": 8,
+      "example_summary": "P112 室内对镜自拍与自我接纳",
+      "source_range": "类型汇总!A15:E15",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "产品介绍与上手",
+      "definition": "介绍外观、功能、操作和初次体验。",
+      "history_count": 5,
+      "example_summary": "P001 麦克风功能与手机连接展示",
+      "source_range": "类型汇总!A16:E16",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "提问与求助",
+      "definition": "向观众询问选购、设置或排障答案。",
+      "history_count": 5,
+      "example_summary": "P088 演唱会拍摄设备选择求助",
+      "source_range": "类型汇总!A17:E17",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "生活经验与攻略",
+      "definition": "讲解旅行、住宿办事、运动或日常生活知识。",
+      "history_count": 4,
+      "example_summary": "P220 日本酒店入住与行李寄存",
+      "source_range": "类型汇总!A18:E18",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "配件与设备方案",
+      "definition": "介绍配件、安装搭配或设备工作流。",
+      "history_count": 3,
+      "example_summary": "P031 相机与模块的折叠盒收纳",
+      "source_range": "类型汇总!A19:E19",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "新品资讯与前瞻",
+      "definition": "新品信息、传闻、爆料和发布期待。",
+      "history_count": 0,
+      "example_summary": "本次未发现",
+      "source_range": "类型汇总!A20:E20",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "活动与商业信息",
+      "definition": "促销、活动通知、商业服务等信息。",
+      "history_count": 0,
+      "example_summary": "本次未发现",
+      "source_range": "类型汇总!A21:E21",
+      "status": "original_taxonomy"
+    },
+    {
+      "name": "人物故事",
+      "definition": "围绕人物经历、关键选择或关系变化形成叙事主线。",
+      "history_count": null,
+      "example_summary": "一个摄影爱好者为何坚持每年给父母拍一分钟",
+      "source_range": "类型汇总!A41:E41",
+      "status": "extension_not_relabelled"
+    },
+    {
+      "name": "纪实专题",
+      "definition": "围绕明确问题或专题组织现场观察、访谈与过程证据。",
+      "history_count": null,
+      "example_summary": "一条老街从第一家开门到最后一家收摊",
+      "source_range": "类型汇总!A42:E42",
+      "status": "extension_not_relabelled"
+    },
+    {
+      "name": "影像赏析",
+      "definition": "解释画面、剪辑、声音如何形成情绪与叙事意义。",
+      "history_count": null,
+      "example_summary": "同一段画面换配乐，为什么像换了故事",
+      "source_range": "类型汇总!A43:E43",
+      "status": "extension_not_relabelled"
+    }
+  ],
+  "extended_directions": [
+    {
+      "id": "E01",
+      "direction": "人物故事型",
+      "suggested_main_type": "人物故事",
+      "mechanism": "人物变化；关键选择",
+      "content": "围绕一个人的经历、选择和变化展开。",
+      "synthetic_topic_example": "他为什么坚持每年给父母拍一分钟",
+      "boundary": "需要人物叙事主线；纯情绪独白归观点与情绪表达。",
+      "source_range": "扩展选题!A7:G7"
+    },
+    {
+      "id": "E02",
+      "direction": "关系与情感型",
+      "suggested_main_type": "人物故事",
+      "mechanism": "关系变化；共同记忆",
+      "content": "讲述家人、情侣或朋友之间的影像故事。",
+      "synthetic_topic_example": "把妈妈手机里的视频剪成一封信",
+      "boundary": "关系与经历是主线时归人物故事；只展示剪辑成品可归作品展示。",
+      "source_range": "扩展选题!A8:G8"
+    },
+    {
+      "id": "E03",
+      "direction": "职业纪实型",
+      "suggested_main_type": "纪实专题",
+      "mechanism": "工作现场；团队协作",
+      "content": "跟随一个人或团队完成工作，呈现过程与选择。",
+      "synthetic_topic_example": "跟着婚礼摄影师，从凌晨拍到散场",
+      "boundary": "需要职业观察或专题主线；普通上班日记归生活与过程记录。",
+      "source_range": "扩展选题!A9:G9"
+    },
+    {
+      "id": "E04",
+      "direction": "专题观察型",
+      "suggested_main_type": "纪实专题",
+      "mechanism": "问题驱动；多点观察",
+      "content": "围绕一个地方或问题组织持续观察。",
+      "synthetic_topic_example": "这条老街，从第一家开门到最后一家收摊",
+      "boundary": "围绕问题组织观察与证据；旅行随拍仍归生活记录或作品展示。",
+      "source_range": "扩展选题!A10:G10"
+    },
+    {
+      "id": "E05",
+      "direction": "影像赏析型",
+      "suggested_main_type": "影像赏析",
+      "mechanism": "视觉语言；情绪表达",
+      "content": "解释画面、剪辑和声音为什么打动人。",
+      "synthetic_topic_example": "为什么同一段画面，换首音乐就像换了故事",
+      "boundary": "以审美和叙事分析为主；具体操作步骤归拍摄与剪辑教学。",
+      "source_range": "扩展选题!A11:G11"
+    },
+    {
+      "id": "E06",
+      "direction": "创作幕后型",
+      "suggested_main_type": "生活与过程记录",
+      "mechanism": "幕后现场；创作过程",
+      "content": "展示现场分工、沟通、准备和意外。",
+      "synthetic_topic_example": "这十秒成片，现场到底发生了什么",
+      "boundary": "讲具体拍法归教学；人物协作或专题观察为主时可归人物故事或纪实专题。",
+      "source_range": "扩展选题!A12:G12"
+    },
+    {
+      "id": "E07",
+      "direction": "失败复盘型",
+      "suggested_main_type": "拍摄与剪辑教学",
+      "mechanism": "失败归因；修正决策",
+      "content": "分析拍废、错过、剪不出来的原因及补救。",
+      "synthetic_topic_example": "旅行回来一百段素材，为什么剪不成一条片",
+      "boundary": "需要可说明的分析与修正；仅吐槽经历归使用反馈或观点表达。",
+      "source_range": "扩展选题!A13:G13"
+    },
+    {
+      "id": "E08",
+      "direction": "限制挑战型",
+      "suggested_main_type": "创意玩法展示",
+      "mechanism": "限制条件；命题创作",
+      "content": "通过镜头数、地点或表达限制产生新作品。",
+      "synthetic_topic_example": "只用五个镜头，记录一家早餐店",
+      "boundary": "按最终内容主旨归类；讲步骤可归教学，娱乐任务可归剧情与娱乐互动。",
+      "source_range": "扩展选题!A14:G14"
+    },
+    {
+      "id": "E09",
+      "direction": "拍法验证型",
+      "suggested_main_type": "拍摄与剪辑教学",
+      "mechanism": "方法验证；变量对照",
+      "content": "复现网络拍法，展示条件、过程与结果。",
+      "synthetic_topic_example": "网上很火的转场，普通人在家能复现吗",
+      "boundary": "验证拍法归教学；验证设备性能归测评与使用反馈。",
+      "source_range": "扩展选题!A15:G15"
+    },
+    {
+      "id": "E10",
+      "direction": "长期追踪型",
+      "suggested_main_type": "生活与过程记录",
+      "mechanism": "连载追踪；时间变化",
+      "content": "持续记录使用习惯、技能或生活变化。",
+      "synthetic_topic_example": "连续记录三十天，我的镜头发生了什么变化",
+      "boundary": "有明确观察问题可归纪实专题；长期器材体验归测评，不能仅凭连载改主类。",
+      "source_range": "扩展选题!A16:G16"
+    },
+    {
+      "id": "E11",
+      "direction": "定点复拍型",
+      "suggested_main_type": "成片与作品展示",
+      "mechanism": "定点复拍；时间对照",
+      "content": "同一地点、人物或构图跨时间对照。",
+      "synthetic_topic_example": "同一扇窗，拍完春夏秋冬",
+      "boundary": "复拍是时间结构；人物变化或观察问题为主时另按相应主类判断。",
+      "source_range": "扩展选题!A17:G17"
+    },
+    {
+      "id": "E12",
+      "direction": "旧素材再创作型",
+      "suggested_main_type": "成片与作品展示",
+      "mechanism": "档案重剪；记忆重组",
+      "content": "整理旧照片、零散视频和家庭档案。",
+      "synthetic_topic_example": "把去年没剪完的旅行，重新剪成一条片",
+      "boundary": "展示结果归作品；讲重剪方法归教学，人物记忆叙事可归人物故事。",
+      "source_range": "扩展选题!A18:G18"
+    },
+    {
+      "id": "E13",
+      "direction": "声音作品型",
+      "suggested_main_type": "成片与作品展示",
+      "mechanism": "声景创作；声音叙事",
+      "content": "以声景、声音日记或声音叙事形成作品。",
+      "synthetic_topic_example": "只用一分钟声音，带你走完我的回家路",
+      "boundary": "声音是载体；器材音质测试归测评，不能从标题或静帧断言声音表现。",
+      "source_range": "扩展选题!A19:G19"
+    },
+    {
+      "id": "E14",
+      "direction": "多人共创型",
+      "suggested_main_type": "成片与作品展示",
+      "mechanism": "多人共创；素材接力",
+      "content": "多人围绕同一素材或主题完成不同版本。",
+      "synthetic_topic_example": "同一段素材，五个人剪出了五个故事",
+      "boundary": "展示作品归作品类；招募共创归活动信息，比较叙事效果可归影像赏析。",
+      "source_range": "扩展选题!A20:G20"
+    },
+    {
+      "id": "E15",
+      "direction": "观众投稿诊断型",
+      "suggested_main_type": "拍摄与剪辑教学",
+      "mechanism": "投稿点评；问题修正",
+      "content": "分析观众提交的构图、收音或剪辑问题。",
+      "synthetic_topic_example": "这段视频哪里不舒服？一起改一版",
+      "boundary": "需有具体投稿与分析；只有征集问题时归提问与求助。",
+      "source_range": "扩展选题!A21:G21"
+    },
+    {
+      "id": "E16",
+      "direction": "盲测与投票型",
+      "suggested_main_type": "测评与使用反馈",
+      "mechanism": "盲测；投票互动",
+      "content": "隐藏设备信息后收集对画面或声音的偏好。",
+      "synthetic_topic_example": "先不看设备名，你更喜欢哪段画面",
+      "boundary": "设备表现归测评；购买比较归选购，审美和叙事偏好归影像赏析。",
+      "source_range": "扩展选题!A22:G22"
+    },
+    {
+      "id": "E17",
+      "direction": "需求诊断型",
+      "suggested_main_type": "对比与选购建议",
+      "mechanism": "需求匹配；使用条件",
+      "content": "从实际拍摄任务出发判断需要什么。",
+      "synthetic_topic_example": "只想记录孩子，应该先解决哪些拍摄问题",
+      "boundary": "提出需求匹配建议归选购；作者求答案归提问与求助。",
+      "source_range": "扩展选题!A23:G23"
+    },
+    {
+      "id": "E18",
+      "direction": "不适用与取舍型",
+      "suggested_main_type": "对比与选购建议",
+      "mechanism": "不适用边界；取舍说明",
+      "content": "讨论设备使用边界和个人选择。",
+      "synthetic_topic_example": "这几种出门方式，我会把相机留在家里",
+      "boundary": "有使用条件和决策依据；仅表态可归观点与情绪表达。",
+      "source_range": "扩展选题!A24:G24"
+    },
+    {
+      "id": "E19",
+      "direction": "闲置与重启型",
+      "suggested_main_type": "生活与过程记录",
+      "mechanism": "闲置重启；习惯重建",
+      "content": "记录买后闲置和重新开始拍摄的过程。",
+      "synthetic_topic_example": "相机吃灰半年，我决定先拍好一顿晚饭",
+      "boundary": "记录过程归生活；人物转变为叙事核心时可归人物故事。",
+      "source_range": "扩展选题!A25:G25"
+    },
+    {
+      "id": "E20",
+      "direction": "使用问题与售后记录型",
+      "suggested_main_type": "测评与使用反馈",
+      "mechanism": "故障经历；售后过程",
+      "content": "记录故障表现、排查经过和实际处理结果。",
+      "synthetic_topic_example": "设备出现异常后，我经历了哪些处理步骤",
+      "boundary": "分享经历归反馈；求解决办法归提问；个案结果不推为普遍售后政策。",
+      "source_range": "扩展选题!A26:G26"
+    },
+    {
+      "id": "E21",
+      "direction": "完整成本型",
+      "suggested_main_type": "对比与选购建议",
+      "mechanism": "总持有成本；预算拆解",
+      "content": "整理设备以外的配件、存储和时间投入。",
+      "synthetic_topic_example": "开始拍视频以后，还有哪些容易漏算的成本",
+      "boundary": "记录具体口径与日期；不把单个用户支出当作所有人的必要成本。",
+      "source_range": "扩展选题!A27:G27"
+    },
+    {
+      "id": "E22",
+      "direction": "升级与旧机去留型",
+      "suggested_main_type": "对比与选购建议",
+      "mechanism": "升级决策；旧机去留",
+      "content": "展示继续用、添设备、升级或转手的取舍。",
+      "synthetic_topic_example": "旧设备还能完成我的任务，要不要换",
+      "boundary": "有比较和建议归选购；作者征求答案归提问与求助。",
+      "source_range": "扩展选题!A28:G28"
+    },
+    {
+      "id": "E23",
+      "direction": "设备协作与工作流型",
+      "suggested_main_type": "配件与设备方案",
+      "mechanism": "设备协同；素材管理",
+      "content": "展示拍摄、收音、传输、整理到剪辑的完整流程。",
+      "synthetic_topic_example": "一个人完成一期探店视频，设备怎么分工",
+      "boundary": "搭配分工归设备方案；具体拍摄剪辑操作为主时归教学，连接能力按型号核实。",
+      "source_range": "扩展选题!A29:G29"
+    },
+    {
+      "id": "E24",
+      "direction": "知识解释与误区澄清型",
+      "suggested_main_type": "拍摄与剪辑教学",
+      "mechanism": "原理概念；误区澄清",
+      "content": "解释拍摄原理，分析常见说法及适用条件。",
+      "synthetic_topic_example": "画面看起来不稳，可能涉及哪些因素",
+      "boundary": "拍摄原理归教学；产品功能概念归产品介绍；叙事审美分析归影像赏析。",
+      "source_range": "扩展选题!A30:G30"
+    },
+    {
+      "id": "E25",
+      "direction": "新品期待与需求征集型",
+      "suggested_main_type": "提问与求助",
+      "mechanism": "需求收集；新品期待",
+      "content": "讨论期待解决的问题，收集用户需求。",
+      "synthetic_topic_example": "下一代如果只能改一个地方，你选什么",
+      "boundary": "愿望与征集不算新品事实；有发布消息或明确传闻来源才归新品资讯与前瞻。",
+      "source_range": "扩展选题!A31:G31"
+    },
+    {
+      "id": "E26",
+      "direction": "活动与创作招募型",
+      "suggested_main_type": "活动与商业信息",
+      "mechanism": "活动招募；参与说明",
+      "content": "摄影活动、主题征稿、作品征集或线上挑战。",
+      "synthetic_topic_example": "用十秒钟，交一份你的城市夏天作业",
+      "boundary": "通知与招募归活动；活动之后的作品或纪实按实际内容重新归类。",
+      "source_range": "扩展选题!A32:G32"
+    }
+  ],
+  "interpretation": "历史标签用于检索和比较，扩展方向是选题示例，不是真实新采集；表内产品归属不证明原片设备/型号或产品性能；所有统计仅针对该历史母集"
+}

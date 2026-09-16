@@ -1,0 +1,10 @@
+{
+  "product_line": "mobile",
+  "target_model": null,
+  "facts": [],
+  "field_contract": {
+    "required": ["claim", "model", "conditions", "source", "checked_at", "evidence_level"],
+    "evidence_levels": ["official", "manual", "user_provided", "training_assumption"],
+    "note": "Compatibility and tracking claims must include the phone, app, firmware and accessory conditions."
+  }
+}

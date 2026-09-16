@@ -1,0 +1,514 @@
+DJI Mic Mini - 常见问题 - DJI 大疆创新
+跳转至正文内容
+航拍无人机
+手持摄影设备
+储能及家居科技
+户外电源
+清洁机器人
+商用产品及方案
+行业应用
+农业应用
+运载应用
+教育应用
+探索精彩
+关于我们
+天空之城
+大疆社区
+媒体中心
+官方周边
+招聘精英
+服务与支持
+购买渠道
+欢迎, 
+{{nick_name}}
+我的帐号
+登出
+登录
+注册
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+Hong Kong, China
+English
+Indonesia
+English
+日本
+日本語
+中國澳門
+繁體中文
+Singapore
+English
+대한민국
+한국어
+中國台灣
+繁體中文
+Australia
+English
+New Zealand
+English
+欧洲
+Österreich
+Deutsch
+Россия
+Pусский
+Belgium
+English
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+España
+Español
+Sweden
+English
+Switzerland
+English
+United Kingdom
+English
+中东
+UAE
+English
+北美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+南美洲
+Brasil
+Português (BR)
+其他国家或地区
+Other Regions
+English
+中国大陆
+商城
+正在加载...
+去结算
+搜索结果建议
+快速链接
+请更换您的浏览器
+该页面不支持使用 IE 浏览器，建议您更换至其他浏览器。
+仍要继续浏览
+DJI Mic Mini
+配件
+对比
+按拍摄场景探索
+技术参数
+视频
+下载
+常见问题
+立即购买
+常见问题
+DJI Mic Mini
+DJI Mic Mini 背夹磁铁
+DJI Mic Mini 发射器
+DJI Mic Mini 接收器
+DJI Mic Mini 配件
+DJI Mic 系列手机版接收器
+DJI Mic Mini
+DJI Mic Mini 可以搭配哪些产品使用？
+目前可以搭配使用相机、智能手机（支持 Type-C、Lightning 接口连接或蓝牙直连）、电脑、Osmo Mobile 6（需搭载手机）。
+DJI Mic Mini 支持 DJI OsmoAudio™连接生态，发射器可直连 Osmo 360、Osmo Action 5 Pro、Osmo Action 4 或 Osmo Pocket 3，带来原声级音质，也简化了创作装备与流程。
+设备兼容列表详见
+DJI Mic Mini 官网下载页面
+DJI Mic Mini 不同产品套装有什么区别？我应该怎么选择？
+DJI Mic Mini（两发一收）包含充电盒、一个接收器和两个发射器（碳素黑），适用于双人收音，满足长续航需求。
+DJI Mic Mini（一发一收）包含一个接收器和一个发射器（碳素黑），主要针对单人收音场景，更适合单人创作。
+DJI Mic Mini 发射器（云感白）、DJI Mic Mini 发射器（碳素黑）可搭配手机、Osmo Action 5 Pro、Osmo Action 4 或 Osmo Pocket 3 使用。
+DJI Mic Mini 是否需要激活？
+DJI Mic Mini 无需激活即可使用。您可以扫描包装箱上的延保二维码，登记可享一年延保服务。
+DJI Mic Mini 发射器、接收器如何进行固件升级？
+1、DJI Mic Mini 接收器通过 Type-C 连接头连接手机，可在 DJI Mimo app 内升级接收器与发射器固件。
+2、DJI Mic Mini 发射器通过蓝牙直连手机，实现单发射器固件升级。
+3、iOS 系统手机仅支持蓝牙升级发射器、接收器固件。
+DJI Mic Mini 发射器和接收器如何对频？
+接收器和发射器在出厂前已完成对频操作，若需要重新对频，可以参考以下方法：
+方法一：将接收器与发射器放入充电盒中即可完成对频操作；
+方法二：开启发射器和接收器电源，分别长按发射器、接收器配对按键，发射器指示灯处于绿、蓝灯交替快闪状态，表示正在对频；常亮表明已完成配对。
+配对过程中可以关机以中断配对。
+DJI Mic Mini 有哪几种声道模式？
+DJI Mic Mini 可提供单声道、立体声和安全音轨三种声道模式。
+1、立体声模式：两个发射器收录的音频分别记录到对应的单独通道上输出。
+2、单声道模式：两个发射器收录的音频组合成一个音频输出。
+3、单声道模式，且已开启安全音轨功能：DJI Mic Mini  将以双音轨的形式录音，主音轨为正常音量，并以 -6 分贝的音量录制第二音轨作为备份，以避免声源意外变大导致主音轨收音失真。
+使用安全音轨需要后期进行音轨分离。
+DJI Mic Mini 充电盒有什么功能？
+DJI Mic Mini 充电盒可用于发射器与接收器配对，还可以收纳发射器、接收器、手机连接头（Type-C、Lightning）、防风毛套，充电盒在满电状态下可为一个接收器和两个发射器提供约 3.6 次完整充电。
+Lightning 连接头需单独购买。
+DJI Mic Mini 的 USB-C 和 Lightning 转接头是否与DJI Mic、DJI Mic 2、DJI Pocket 2 的手机转接头通用？
+不通用。
+DJI Mic Mini 发射器、接收器是否兼容 DJI Mic、DJI Mic 2 发射器、接收器？
+不兼容。
+DJI Mic Mini 发射器和接收器最大传输距离是多少？
+400 米。
+在空旷、无干扰、无遮挡环境下测得，仅供参考。
+DJI Mic Mini 充电盒给发射器、接收器充满电分别需要多长时间？单独给充电盒充满电需要多长时间？
+建议使用规格 5 伏、2 安（最大）的充电器为 DJI Mic Mini 发射器、接收器和充电盒充电。
+在室温下，DJI Mic Mini 充电盒给接收器、发射器充满电分别需约 100 分钟*、90 分钟*。单独给充电盒充满电需约 2 小时*。
+* 在受控测试环境下所得测量值，仅供参考。
+如何开启 DJI Mic Mini 的降噪功能？如何调节降噪挡位？
+可通过单击 DJI Mic Mini 发射器的开关按键，开启/关闭降噪功能。
+使用手机或相机录音的用户，可通过 DJI Mimo app 设置强、弱降噪挡位*。
+使用 DJI OsmoAudio™直连 Osmo Action 5 Pro、Osmo Action 4 或 Osmo Pocket 3 时，可通过上述产品的菜单设置。
+* 使用手机直连发射器时，Mimo app 不支持调节降噪挡位，默认为强挡。
+DJI Mic Mini 对比 DJI Mic 2 有哪些更新点？
+详见
+官网 DJI Mic 系列对比页
+。
+DJI Mic Mini 是否支持自动省电、超时自动关机功能？
+DJI Mic Mini 发射器支持自动省电，且仅在发射器开机状态下生效。当发射器开机，并且未检测到接收器信号时，将自动进入休眠状态；当再次检测到信号时，它将自动唤醒并连接接收器。
+DJI Mic Mini 支持超时自动关机功能，需提前在 DJI Mimo app 内分别对接收器与发射器设置，且超时关机时间为 15 分钟。具体运作逻辑如下：
+1、接收器与发射器均开启：发射器未检测到信号，自动省电不关机，接收器持续开机运作；15 分钟后两者均自动关机。
+2、接收器开启，发射器不开启：发射器未检测到信号，自动省电不关机，接收器持续开机运作；15 分钟后接收器自动关机，发射器继续保持自动省电但不关机。
+3、接收器不开启，发射器开启：发射器未检测到信号，发射器自动省电不关机，接收器持续开机运作；15 分钟后发射器自动关机，接收器持续开机运作。
+4、接收器与发射器均不开启：只有发射器自动省电运作，两者均不会自动关机。
+DJI Mic Mini 背夹磁铁
+DJI Mic Mini 背夹磁铁的吸力是多少？
+DJI Mic Mini 背夹磁铁的吸力为 23 牛。
+DJI Mic Mini 采用单极充磁方式，能吸起 2.3 千克的铁块。
+DJI Mic Mini 背夹磁铁是否会影响银行卡？
+所有的磁铁产品均含有磁，建议将 DJI Mic Mini 背夹磁铁远离银行卡、心脏起搏器、RAM 芯片和硬盘等产品。
+DJI Mic Mini 背夹磁铁在使用时会有哪些限制条件？
+1、请勿在穿着厚衣物（如毛衣、羽绒服等）时使用，避免吸力削弱，导致发射器脱落。
+2、在剧烈运动（如跳跃、快跑或其他更剧烈的运动）时请谨慎使用。
+DJI Mic Mini 发射器
+DJI Mic Mini 发射器可以安装至哪里使用？
+建议使用机身背夹将 DJI Mic Mini 发射器固定在衣领等位置，或者配合 DJI Mic Mini 背夹磁铁安装使用。
+DJI Mic Mini 发射器以哪种方式收音？指向或全向？
+DJI Mic Mini 发射器为全向收音。
+DJI Mic Mini 发射器有哪几种工作模式？
+1、发射器连接接收器，通过 2.4 GHz 频段连接。
+2、发射器蓝牙直连手机。
+3、发射器通过 DJI OsmoAudio™直连 DJI 部分产品。
+发射器通过蓝牙直连手机时能否实现直播收音？如何连接？
+1、取决于直播软件和手机系统是否支持，您可以使用蓝牙耳机测试支持情况。若直播时蓝牙耳机无法收音，则无法使用发射器蓝牙直连手机进行直播收音。软件兼容列表详见
+DJI Mic Mini 官网的下载页面
+。
+2、连接方式如下：开启发射器电源后，长按 2 秒发射器对频按键，此时手机会自动搜索可连接的蓝牙设备，找到 DJI Mic Mini 后并点选配对。若发射器指示灯处于蓝灯常亮状态，表明配对成功；若手机蓝牙无法搜索到 DJI Mic Mini，请重启手机蓝牙功能，并按上述方式重新配对。
+DJI Mic Mini 发射器可无线连接哪些设备？这些设备最多可同时连接多少个发射器？
+DJI Mic Mini 支持 DJI OsmoAudio™连接生态，发射器可直连 DJI 部分产品：Osmo Action 4 可直连 1 个发射器，Osmo Pocket 3、Osmo Action 5 Pro 均最多直连 2 个发射器。
+DJI Mic Mini 发射器支持蓝牙直连手机。此时 DJI Mimo app 不支持调节降噪挡位，默认为强挡；且 Mimo app 不支持低切设置。
+DJI Mic Mini 发射器能否作为录音笔使用？
+DJI Mic Mini 发射器内部没有存储空间，所以不支持作为录音笔使用。
+DJI Mic Mini 接收器
+DJI Mic Mini 接收器最多支持连接多少个发射器？
+DJI Mic Mini 接收器最多可同时连接两个 DJI Mic Mini 发射器。
+DJI Mic Mini 接收器是否支持传输音频数据至 XLR 输入接口的设备？
+不支持。
+DJI Mic Mini 接收器与手机连接时，手机能否回放声音？
+无需移除接收器，即可实现手机回放声音。
+DJI Mic Mini 是否支持手机和接收器同时充电？
+支持，当 DJI Mic Mini 接收器通过手机连接头连接手机时，你可以使用充电线通过接收器 Type-C 接口连接外部电源，同时为手机和接收器充电。
+DJI Mic Mini 通过手机连接头连接手机时，是否支持立体声模式？
+详见
+DJI Mic Mini 官网下载页面
+的设备兼容列表。
+DJI Mic Mini 接收器输出的是数字信号还是模拟信号？
+DJI Mic Mini 接收器 OUT 接口输出模拟信号，用于连接相机。
+DJI Mic Mini 接收器 Type-C 接口和手机转接头（Type-C、Lightning）输出数字信号。
+DJI Mic Mini 的相机同步开关机功能是什么？如何使用？
+DJI Mic Mini 接收器通过 3.5 毫米 TRS 线连接相机使用时，可以在 DJI Mimo app 内开启相机同步开关机功能，实现接收器与相机同步开关机。
+DJI Mic Mini 配件
+DJI Mic Mini 搭配 DJI Mic 系列热靴转接件时，可以实现哪些功能？
+DJI Mic 系列热靴转接件可将 DJI Mic Mini 接收器与索尼相机的 MI 热靴接口连接，无需使用相机连接线（3.5 毫米 TRS）即可实现收音，且支持 48 kHz 24-bit 数字音频收音。在使用该转接件时，索尼相机还能为 DJI Mic Mini 接收器供电。
+在 DJI Mimo app 中开启同步相机开关机功能后，当 DJI Mic Mini 接收器通过热靴连接相机时，相机开机，接收器会自动开机；相机关机，接收器会自动关机。
+此外，该转接件还能解决部分索尼相机（如 A7S3、FX3、A6700 等）在通过 3.5 毫米线材连接某些麦克风时可能产生电流声的情况。
+DJI Mic 系列热靴转接件可以在哪些相机上使用？
+DJI Mic 系列热靴转接件仅适用于索尼 MI 热靴接口相机。设备兼容列表详见
+DJI Mic Mini 官网下载页面
+。
+DJI Mic 系列热靴转接件可以与 DJI Mic 或 DJI Mic 2 搭配使用吗？
+不可以。
+使用 DJI Mic 系列热靴转接件和使用相机连接线（3.5 毫米 TRS）有什么区别？
+DJI Mic 系列热靴转接件可实现数字音频收音，并为接收器供电，而相机连接线（3.5 毫米 TRS）则提供模拟音频收音。无论采用哪种连接方式，接收器都支持随相机同步开关机。
+DJI Mic 系列热靴转接件连接相机后，相机提示不兼容，该如何处理？
+若相机不支持数字音频信号，将无法识别 DJI Mic 系列热靴转接件。设备兼容列表详见
+DJI Mic Mini 官网下载页面
+。
+DJI Mic 系列手机版接收器
+手机版接收器最多可连接多少个发射器？
+手机版接收器最多可同时连接两个发射器。
+手机版接收器支持哪些型号的发射器？是否支持同时连接不同型号的发射器？
+手机版接收器最多可同时连接两个 DJI Mic Mini 发射器。长按接收器上的配对按键，即可进入配对模式（指示灯绿灯闪烁）。随后，依次长按每个发射器的配对按键，使其进入配对模式。配对成功后，发射器和接收器的状态指示灯均显示为绿色。
+通过双击接收器上的配对按键，再长按配对按键，使其重新进入配对模式（指示灯蓝灯闪烁）。此时可连接两个 DJI Mic 2/Mic 3 发射器，或混连 Mic Mini、Mic 2 与 Mic 3 发射器。配对成功后，发射器和接收器的状态指示灯均显示为蓝色。
+发射器兼容信息详见
+DJI Mic Mini 官网下载页面
+的《DJI Mic 系列手机版接收器混连兼容列表》。
+如何在手机版接收器上开启降噪功能？连接手机版接收器后，还能通过发射器控制降噪吗？
+手机版接收器支持通过降噪挡位切换开关快速调节降噪，分别对应关闭（O）、弱挡（L）、强挡（H）三挡。
+发射器连接至手机版接收器后，仅可通过接收器上的降噪挡位切换开关调节降噪，无法通过 DJI Mimo app 或发射器本身开启/关闭降噪功能。
+手机版接收器如何调节增益？
+将手机版接收器通过 USB-C 接头或 DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning）连接至手机后，打开 DJI Mimo app，可在设备页面调节增益参数。
+连接手机版接收器后，DJI Mic Mini、Mic 2 和 Mic 3 发射器是否支持参数调节？
+DJI Mic Mini、Mic 2 和 Mic 3 发射器连接至手机版接收器后，除可通过降噪挡位切换开关调节降噪外，你还可在 DJI Mimo app 中调节更多发射器参数。
+发射器兼容信息详见
+DJI Mic Mini 官网下载页面
+的《DJI Mic 系列手机版接收器混连兼容列表》。
+手机版接收器支持手机边用边充吗？
+手机版接收器通过 USB-C 接头与手机连接时，可由手机为其供电。如手机采用 Lightning 接口，则需另购 DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning）实现手机为接收器供电。
+同时，接收器上的 USB-C 充电接口与外部电源连接后，可以同时为接收器和手机充电，实现边用边充。
+移除外部电源会造成音频暂时中断，请勿在使用时移除外部电源。
+手机版接收器支持立体声吗？如何确认当前的声道模式？
+手机版接收器支持单声道、立体声（双声道）和安全音轨模式。
+将手机版接收器通过 USB-C 接头或 DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning）连接至手机后，打开 DJI Mimo app，可在设备页面查看当前声道模式。
+手机版接收器可以搭配哪些设备使用？
+目前可搭配智能手机（支持 USB-C 或 Lightning 接口）、电脑（需配备 USB-C 接口）、Osmo Action 4（支持 USB-C 接口）、Action 5 Pro（支持 USB-C 接口）、Osmo Pocket 3（支持 USB-C 接口）、Osmo 360（支持 USB-C 接口）等使用。
+Lightning 接口的 iPhone 支持使用手机版接收器吗？
+需单独购买 DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning）后方可使用。
+手机版接收器可以连接相机使用吗？
+不支持通过 3.5 毫米音频线连接相机。
+如需与支持热靴功能的索尼相机配合使用，可通过 DJI Mic 系列热靴转接件实现连接。
+手机版接收器支持搭配 DJI Mic 系列热靴转接件使用吗？
+支持。
+手机版接收器支持监听吗？如何进行监听？
+手机版接收器的 USB-C 充电接口支持监听功能，可兼容通过模拟传输的 USB-C 接口耳机，或通过模拟传输的转接线连接 3.5 毫米音频接口耳机进行监听。
+监听音量可在 DJI Mimo app 中调节。
+手机版接收器支持固件升级吗？能否为发射器升级？
+手机版接收器可通过 USB-C 接头或 DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning）连接手机，最多同时给两个 DJI Mic Mini 发射器升级；若此时手机版接收器连接了两个 DJI Mic 2/Mic 3 发射器，或混连 Mic Mini、Mic 2 与 Mic 3 发射器（通过蓝灯模式），则无法直接升级两个发射器，需要单独为每个发射器进行升级，具体方式请分别参考 DJI Mic 2 与 Mic 3 官网。
+发射器兼容信息详见
+DJI Mic Mini 官网下载页面
+的《DJI Mic 系列手机版接收器混连兼容列表》。
+手机版接收器的无线传输距离是多少？与 DJI Mic Mini 接收器有差异吗？
+DJI Mic 系列手机版接收器连接两个 DJI Mic Mini 发射器时，最大无线传输距离为 300 米。
+DJI Mic Mini 接收器连接两个 DJI Mic Mini 发射器时，最大无线传输距离为 400 米。
+DJI Mic 系列手机版接收器混连一个 DJI Mic Mini 和一个 DJI Mic 2/Mic 3 发射器时，最大无线传输距离为 200 米。
+发射器兼容信息详见
+DJI Mic Mini 官网下载页面
+的《DJI Mic 系列手机版接收器混连兼容列表》。
+仅在大疆商城 app
+在线试飞，体验飞行乐趣；官方社区，随时交流想法；设备绑定，享一站式官方服务。
+立即下载
+提交成功！
+感谢您对大疆的关注和支持。
+感谢您的订阅，大疆最新动态将会在第一时间发送给您。
+关闭
+订阅我们
+订阅我们
+第一时间获取最新产品资讯、优惠信息和免费上手体验机会。
+第一时间获得大疆的最新动态
+提交
+请输入正确的手机号
+您可通过
+大疆隐私政策
+了解我们的信息管理方式。
+热门产品分类
+消费级
+专业级
+行业级
+系统模块
+增值服务
+DJI Care 随心换
+DJI Care Pro
+DJI Care 行业无忧
+行业无人机保养服务
+农机关怀计划
+线上商城
+官方商城
+平台官方渠道
+大疆商城 App
+线下门店
+线下零售店
+商用产品购买渠道
+行业应用
+农业植保机
+专业影像
+企业合作
+成为授权经销商
+安全飞行
+安全飞行指引
+大疆飞行指南
+帮助与支持
+产品支持
+服务申请与信息支持
+帮助中心
+售后服务政策
+下载中心
+安全与隐私
+探索精彩大疆
+媒体中心
+官方周边
+社区
+天空之城
+大疆社区
+开发者
+订阅我们
+订阅我们
+第一时间获得大疆的最新动态
+第一时间获得大疆的最新动态
+关于我们
+联系我们
+招聘精英
+代理商门户
+供应商门户
+RoboMaster
+慧飞培训中心
+隐私权政策
+使用条款
+疆湖名录
+无障碍声明
+网站问题反馈
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+Hong Kong, China
+English
+Indonesia
+English
+日本
+日本語
+中國澳門
+繁體中文
+Singapore
+English
+대한민국
+한국어
+中國台灣
+繁體中文
+Australia
+English
+New Zealand
+English
+欧洲
+Österreich
+Deutsch
+Россия
+Pусский
+Belgium
+English
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+España
+Español
+Sweden
+English
+Switzerland
+English
+United Kingdom
+English
+中东
+UAE
+English
+北美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+南美洲
+Brasil
+Português (BR)
+其他国家或地区
+Other Regions
+English
+中国大陆 / 简体中文
+Copyright © 2026 DJI 大疆创新 版权所有
+粤ICP备2022092332号
+本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）
+收起
+退出

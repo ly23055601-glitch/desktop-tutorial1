@@ -1,0 +1,81 @@
+{
+  "rule_version": "2026-09-02-MIC-SYNC1",
+  "product_family": "DJI Mic",
+  "op_style_sync": {
+    "project_label": "op",
+    "source_project_id": "d5ca25fa-5ab9-437c-ac11-bb1c80961cf2",
+    "source_thread_id": "01a04bae-82a9-7eb3-b569-1555d174111b",
+    "last_user_feedback_turn_id": "",
+    "source_updated_at": "2026-09-02",
+    "portable_rules_applied": [
+      "batch_read_and_failure_isolation",
+      "evidence_capsules_and_context_compression",
+      "one_comment_one_moment",
+      "non_staged_reply_threads",
+      "benefit_led_product_seeding",
+      "rolling_homogeneity_qa"
+    ],
+    "blocked_product_specific_rules": [
+      "source_product_models_and_aliases",
+      "source_product_features_and_parameters",
+      "source_links_examples_and_finished_copy"
+    ]
+  },
+  "input_path": "",
+  "evidence_path": "",
+  "baseline_paths": [],
+  "readable_ids": [],
+  "failed_ids": [],
+  "block_allocations": [
+    {
+      "block_id": "",
+      "ids": [],
+      "reserved_patterns": [],
+      "forbidden_patterns": [],
+      "draft_path": ""
+    }
+  ],
+  "ledger_summary": {
+    "window_links": 0,
+    "recent_openings": [],
+    "attention_task_counts": {},
+    "tone_counts": {},
+    "product_exposure_counts": {},
+    "reply_count_counts": {},
+    "interaction_path_counts": {},
+    "seeding_mechanism_counts": {},
+    "evidence_level_counts": {},
+    "s_level_counts": {},
+    "fingerprint_path": ""
+  },
+  "draft_paths": [],
+  "output_path": "",
+  "qa": {
+    "checked_at": "",
+    "errors": 0,
+    "warnings_reviewed": 0,
+    "remaining_warnings": [],
+    "diagnostic_counts": {},
+    "checker_output_path": "",
+    "under_target_ids": [],
+    "reviewed_warning_exceptions": [
+      {
+        "id": "",
+        "code": "",
+        "reason": ""
+      }
+    ],
+    "semantic_review": {
+      "reviewed_links": 0,
+      "anchor_credibility_pass": 0,
+      "audio_evidence_boundary_pass": 0,
+      "product_causality_pass": 0,
+      "user_benefit_pass": 0,
+      "expression_credibility_pass": 0,
+      "anti_staging_pass": 0,
+      "review_ids": [],
+      "summary": ""
+    }
+  },
+  "unresolved": []
+}

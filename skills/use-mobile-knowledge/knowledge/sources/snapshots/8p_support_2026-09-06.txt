@@ -1,0 +1,245 @@
+提取方式：Python HTMLParser，去除script/style后按文本节点换行。
+实际URL：https://repair.dji.com/help/content?customId=01700043680&documentType=&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17
+Osmo Mobile 8P 新手快速攻略
+dji-brand_black_42×24
+Created with Sketch.
+帮助中心
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+HongKong
+English
+Indonesia
+English
+대한민국
+한국어
+日本
+日本語
+中國澳门
+繁體中文
+中國台灣
+繁體中文
+New Zealand
+English
+Australia
+English
+Singapore
+English
+欧洲
+Österreich
+Deutsch
+Belgium
+Français
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+Spain
+English
+Sweden
+English
+Switzerland
+English
+Switzerland
+Français
+United Kingdom
+English
+美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+其他
+Other Regions
+English
+Osmo Mobile 8P 新手快速攻略
+Osmo Mobile 8P 有哪些新功能？相较 Osmo Mobile 8 有哪些提升？取景遥控器怎么用？答案全都在这里，快来跟着攻略开启您的 DJI 玩机之旅吧！
+适用产品：
+Osmo Mobile 8P
+01  产品开箱
+打开包装盒，依次取出产品及配件，确认数量与清单相符并检查外观是否完好无损，详情参考如下图。
+Osmo Mobile 8P 标准套装
+Osmo Mobile 8P AI 追踪模块套装
+Osmo Mobile 8P 全能 Vlog 套装
+02  使用准备
+2.1  设备兼容性
+Osmo Mobile 8P 支持宽度 67  毫米至 84  毫米、厚度 6.9 毫米至 11 毫米、重量 170 克至 300 克的手机。
+如需查阅更全面的兼容信息，请
+访问 DJI 大疆官网查看手机兼容列表
+。
+2.2  设备充电
+请使用随附的充电线为云台充电，直至电量指示灯熄灭。
+【提示】
+完全充满需约 2.5 小时。
+2.3  展开与折叠设备
+展开
+横滚轴出厂默认为锁定状态，先旋转解锁横滚轴，再展开轴臂。云台与手柄上的取景遥控器会同步自动开机。
+折叠（收纳）
+收回内置延长杆，长按电源按键，云台自动旋转至适合折叠的位置并关机。
+【提示】
+内置延长杆含弹簧，长期（超过一周）处于拉伸状态可能导致形变，建议使用结束后收回并折叠放置。
+2.4  安装手机
+1. 从云台上取下手机夹，安装在手机中间位置，确保手机摄像头朝正确方向。
+2. 对准磁吸接口将手机吸附上云台，手机夹磁吸到位后，云台会自动为手机增稳。如果云台卸力，单击电源键可开启增稳。
+【提示】
+手机吸附于云台时，部分手机指南针功能可能受磁场干扰，根据系统提示校准即可恢复正常。
+安装磁吸手机夹会影响手机 NFC 及无线充电功能，拆下后即可恢复
+。
+2.5  连接 DJI Mimo App
+下载安装并打开
+DJI Mimo app
+，开启手机蓝牙，将您的 Osmo Mobile 8P 与手机进行配对。
+2.6  固件升级
+连接 DJI Mimo app 后，若 app 提示有新固件，建议按照界面提示完成升级，以便获得最佳使用体验。遥控器安装在手柄上，固件会同步更新。
+【提示】
+· 升级前请确保云台电量充足，确保移动设备网络通畅。
+· 升级过程中请勿取下取景遥控器，请勿关闭 DJI Mimo app 或将其切换至后台。
+· 若升级失败，重启 DJI Mimo app，重新连接蓝牙后再次尝试。
+2.7  新手教学指引
+首次使用，建议完成 DJI Mimo app 的新手教学指引。
+03  功能介绍
+3.1 按键及触控屏功能
+·
+按键与接口功能
+· 触控屏功能
+观看视频，了解更多按键及触控屏功能。
+3.2 使用取景遥控器
+Osmo FrameTap 取景遥控器可在 10 米范围内通过蓝牙或 Wi-Fi 远程控制云台。
+3.3  低角度运镜
+Osmo Mobile 8P 支持低角度运镜，拉出内置延长杆，将平移轴前掰至底后，云台可贴近地面拍摄，轻松捕捉宠物、花草等独特低角度视角，使画面更具创意与亲近感。
+3.4  云台跟随模式
+云台开机默认为双轴跟随模式，单击电源按键可依次切换模式，根据不同拍摄需求灵活调整。
+3.5  DJI Mimo 智能跟随
+开启 DJI Mimo app 的智能跟随功能后，云台可精准追踪人物或其他拍摄主体，支持人物、猫、狗、车辆及任意物体框选跟随，无论走到哪里，都能享受到如同专属摄影师般的拍摄体验。
+3.6  原生跟拍功能
+支持直连系统相机或第三方 app 实现丝滑的主角人物智能追踪。
+· 设备要求
+型号
+系统
+Apple DockKit 追踪
+iPhone 12 系列及后续机型（不含 iPhone SE 第三代和 iPhone 16e）
+iOS 18.5 及以上系统
+鸿蒙智能追焦
+HUAWEI Mate 60 或 Pura 70 系列及后续机型
+HarmonyOS 6 及以上系统
+· 配对及使用
+【提示】
+原生跟拍功能不支持与追踪模块或 DJI Mimo app 跟随功能同时使用。
+3.7  手表遥控
+搭配智能手表，可实时查看拍摄画面、远程控制云台及开启智能跟随。
+查阅支持的手表设备型号
+。
+04  配件使用
+4.1  DJI OM 多功能追踪模块 2
+安装多功能追踪模块 2，可实现智能跟随、补光及手势控制等功能，追踪模块的画面可同步投屏至取景遥控器屏幕。
+4.2 DJI OM 磁吸快拆背贴
+如果您已购买
+磁吸快拆背贴
+，可以快速安装 iPhone 至云台，让操作步骤更简便（视频教程以 Osmo Mobile 7P 为例）。
+05  售后政策
+5.1 保修服务
+在产品有效保修期内，因非人为原因导致产品出现性能故障，可
+申请官方免费维修服务
+。具体保修期限请
+查看主要部件保修期限表
+。
+5.2 增值服务
+DJI Care 随心换可为您的产品提供全方位意外呵护，贴心保障意外进水、自然磨损、磕碰变形等因素导致的产品损坏场景。
+• 加入 DJI Care 随心换（1 年版）
+• 加入 DJI Care 随心换（2 年版）
+06  猜你想问
+· 相比 Osmo Mobile 8，Osmo Mobile 8P 有哪些提升？
+1. 新增 Osmo FrameTap 取景遥控器，支持远程控制、手机投屏及追踪模块控制。
+2. 升级至 DJI OM 多功能追踪模块 2，新增对车辆及任意物品的检测跟随能力（需单独购买或选购套装）。
+3. 升级至第五代磁吸手机夹（DJI OM 磁吸手机夹 5），尺寸更小、装夹更稳、遮挡屏幕更小。
+4. 内置三脚架优化为三个支腿可独立展开，平地放置更稳固。
+07  服务与支持
+大疆服务致力于为您提供全方位的产品服务与支持，让您享受无忧的玩机体验。
+·
+设备信息查询
+：随时掌握您的设备信息，包括激活时间、保修状态及服务历史记录。
+·
+换货服务
+：在收货后 30 天内，如果您的设备出现问题并符合换货条件，我们将提供便捷的换货服务。
+·
+服务进度查询
+：实时查看设备维修进度，包括报价单、物流信息和检测报告等服务信息，掌握服务进度。
+如需申请更多服务，请
+点击此处
+。
+内容是否有帮助？
+是
+否
+感谢您的反馈。
+感谢您的反馈，填写体验不佳的原因以让我们做得更好：
+未涵盖我想了解的内容
+已按指引操作，未解决问题
+内容难理解，看不懂
+链接/图片/视频失效
+页面展示不美观
+其他
+您也可以描述具体问题让我们更好地帮助到您：
+（可选）
+提交
+联系我们
+在线客服
+周一至周日：9:00-21:00（北京时间）
+联系在线客服
+dji-brand/en/48
+Created with Sketch.
+Copyright © 2026 DJI 大疆创新 版权所有
+|
+隐私权政策

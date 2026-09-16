@@ -1,0 +1,76 @@
+{
+  "source_kind": "public_comment",
+  "batch": "C1",
+  "split": "train",
+  "reviewed_train_records": 227,
+  "reviewed_work_orders": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    13,
+    15,
+    16,
+    20
+  ],
+  "excluded_before_text_analysis": {
+    "unknown_model_input_orders": [
+      3
+    ],
+    "sampling_excluded_input_orders": [
+      7,
+      17,
+      18
+    ],
+    "all_holdout": true
+  },
+  "new_cards": 5,
+  "new_patterns": 2,
+  "new_cases": 3,
+  "unique_referenced_comments": 27,
+  "unique_referenced_works": 8,
+  "distinct_work_publisher_accounts": 8,
+  "exact_quote_occurrences": 29,
+  "verified_direct_parent_pairs_including_reuse": 20,
+  "unique_verified_direct_parent_pairs": 19,
+  "new_records_created": 0,
+  "new_main_comment_count_contribution": 0,
+  "existing_comment_ids_reused": true,
+  "commenter_identity_unverified": true,
+  "all_selected_parent_chains_resolve_to_actual_root": true,
+  "source_snapshot": {
+    "comments": "f0b65882a76b113b053207f3a229ce4bb074fb4f9816c0c8d7dec3712964be67",
+    "works": "df33e80326e3459304fce0dbb576829e2ee7b3268c32448b6928fd0bc7e4f93d",
+    "cards": "d1f45ecc4f8e032b41b6b4f9fc7ece70f95651f8bec9a39314d24d176222f002"
+  },
+  "independent_review_status": "passed_with_two_nonblocking_refinements_applied",
+  "limitations": [
+    "只读取本批实际导出的train评论文字及线程字段；图片、连续视频、音轨和设备UI均未读取。",
+    "commenter_identity_unverified：本批评论者author_id为空；昵称不作为个人身份、独立消费者或亲历认证。",
+    "pattern的作者去重指作品发布账号；至少3独立作品和3个可核对作品作者，不表示3位已认证消费者、人口比例或商业独立性。",
+    "stage只表示这句话呈现的处境，不推断人口身份、职业、年龄或长期熟练度。",
+    "第一人称保持原评论者归属，只证明其写过这段话；公共原话不能替换成写手的经历。",
+    "父句仅按实际parent_id定位同work的评论；root_id只作根线程，不据相邻行或昵称补父句。",
+    "作品主型号是讨论对象，不证明每位评论者持有该型号；比较帖中的旧型号和4P提及保留原义。",
+    "评论中的产品、参数、价格、补贴和效果说法不自动成为事实；写入新文稿需另核官方来源与条件。"
+  ],
+  "scenario_ids_with_new_comment_support": [
+    "scenario_002",
+    "scenario_003",
+    "scenario_004",
+    "scenario_005",
+    "scenario_009"
+  ],
+  "scenario_original_basis_changed": false,
+  "independent_review_ref": "knowledge/pocket/voice/comment-c1-independent-review.json",
+  "structural_audit": {
+    "integrity_ok": true,
+    "error_codes": [],
+    "voice_patterns": 14,
+    "voice_cases": 11
+  }
+}

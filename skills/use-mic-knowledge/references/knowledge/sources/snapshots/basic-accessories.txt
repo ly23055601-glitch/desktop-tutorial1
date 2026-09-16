@@ -1,0 +1,719 @@
+DJI Mic 系列配件通用性
+dji-brand_black_42×24
+Created with Sketch.
+帮助中心
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+HongKong
+English
+Indonesia
+English
+대한민국
+한국어
+日本
+日本語
+中國澳门
+繁體中文
+中國台灣
+繁體中文
+New Zealand
+English
+Australia
+English
+Singapore
+English
+欧洲
+Österreich
+Deutsch
+Belgium
+Français
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+Spain
+English
+Sweden
+English
+Switzerland
+English
+Switzerland
+Français
+United Kingdom
+English
+美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+其他
+Other Regions
+English
+DJI Mic 系列配件通用性
+如果您想了解 DJI Mic 系列的配件是否可以通用，如接收器、发射器、充电盒等，可以参考本篇内容获取帮助。
+适用产品：
+不涉及
+📖 相关阅读推荐：
+手持系列产品配件通用性
+参考如下表格，了解 DJI Mic 系列配件通用情况：
+配件名称
+DJI Mic 3
+DJI Mic 2
+DJI Mic
+DJI Mic Mini 2S
+DJI Mic Mini 2
+DJI Mic Mini
+DJI Mic 系列手机版接收器
+DJI Mic 3 发射器
+√
+×
+×
+×
+×
+×
+√
+DJI Mic 3 接收器
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 3 充电盒
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 3 手机连接头（USB-C）
+√
+×
+×
+×
+×
+×
+×
+USB-C 至 USB-C 数据线
+√
+×
+×
+√
+×
+×
+×
+DJI Mic 3 带锁音频转接线（3.5 毫米 TRS 至 TRS）
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 3 防风毛套
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 3 磁铁
+√
+√
+√
+√
+√
+√
+×
+DJI Mic 3 磁吸背夹
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 3 收纳袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic 3 小型收纳袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic 3 发射器磁吸充电线
+√
+×
+×
+×
+×
+×
+×
+DJI Mic 2 接收器
+×
+√
+×
+×
+×
+×
+×
+DJI Mic 2 发射器（透明黑）
+×
+√
+×
+×
+×
+×
+√
+DJI Mic 2 发射器（珠光白）
+×
+√
+×
+×
+×
+×
+√
+DJI Mic 2 充电盒
+×
+√
+×
+×
+×
+×
+×
+DJI Mic 2 相机连接线（3.5 毫米 TRS）
+√
+√
+√
+√
+√
+√
+×
+DJI Mic 2 手机连接头（Type-C 接头）
+×
+√
+×
+×
+×
+×
+×
+DJI Mic 2 手机连接头（Lightning 接头）
+×
+√
+×
+×
+×
+×
+×
+DJI Mic 2 防风毛套
+×
+√
+×
+×
+×
+×
+×
+DJI Mic 2 背夹磁铁
+√
+√
+√
+√
+√
+√
+×
+DJI Mic 2 收纳包
+√
+√
+√
+√
+√
+√
+√
+DJI Mic 2 收纳袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic 2 相机热靴转接件
+×
+√
+×
+×
+×
+×
+×
+DJI 领夹麦
+×
+√
+√
+×
+×
+×
+×
+DJI Mic 接收器
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 发射器
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 充电盒
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 相机连接线（3.5 毫米 TRS）
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 手机连接头（Type-C 接头）
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 手机连接头（Lightning 接头）
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 防风毛套
+×
+×
+√
+×
+×
+×
+×
+DJI Mic 热靴转接板
+×
+×
+√
+×
+√
+×
+×
+DJI Mic 背夹磁铁
+√
+√
+√
+√
+√
+√
+×
+DJI Mic 束口袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic 收纳袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic USB-C 充电线
+√
+√
+√
+√
+√
+√
+×
+DJI Mic USB-C 双头充电线
+√
+√
+√
+√
+√
+√
+×
+DJI Mic Mini 发射器
+×
+×
+×
+√
+×
+√
+√
+DJI Mic Mini 接收器
+×
+×
+×
+√
+√
+√
+×
+DJI Mic Mini 充电盒
+×
+×
+×
+×
+×
+√
+×
+DJI Mic Mini 相机连接线（3.5 毫米 TRS）
+√
+√
+√
+√
+√
+√
+×
+DJI Mic Mini 手机连接头（Type-C）
+×
+×
+×
+√
+√
+√
+×
+DJI Mic Mini 手机连接头（Lightning）
+×
+×
+×
+√
+√
+√
+×
+DJI Mic Mini 防风毛套
+×
+×
+×
+×
+√
+√
+×
+DJI Mic Mini 背夹磁铁
+√
+×
+×
+×
+√
+√
+×
+DJI Mic Mini 小型收纳袋
+√
+√
+√
+√
+√
+√
+√
+DJI Mic Mini 收纳袋
+√
+×
+×
+√
+√
+√
+√
+DJI Mic Mini 发射器充电底座
+×
+×
+×
+×
+×
+√
+×
+DJI Mic 系列热靴转接件
+√
+×
+×
+√
+√
+√
+√
+DJI Mic Mini 2 发射器
+×
+×
+×
+√
+√
+√
+√
+DJI Mic Mini 2 充电盒
+×
+×
+×
+√
+√
+×
+√
+DJI Mic Mini 2 充电盒（手机版一发一收）
+×
+×
+×
+√
+√
+×
+√
+DJI Mic Mini 2 发射器磁吸充电线
+×
+×
+×
+√
+√
+×
+×
+DJI Mic Mini 2 多色磁吸前盖
+×
+×
+×
+×
+√
+×
+×
+DJI Mic Mini 2 磁吸前盖（墨曜黑）
+×
+×
+×
+×
+√
+×
+×
+DJI Mic Mini 2 磁吸前盖（云璃白）
+×
+×
+×
+×
+√
+×
+×
+DJI Mic Mini 2 时光系列磁吸前盖
+×
+×
+×
+×
+√
+×
+×
+DJI Mic Mini 2 磁吸前盖收纳盒
+×
+×
+×
+√
+√
+×
+×
+DJI Mic Mini 2 时光系列磁吸前盖收纳盒
+×
+×
+×
+√
+√
+×
+×
+DJI Mic Mini 2 多色防风毛套
+×
+×
+×
+√
+√
+×
+×
+DJI Mic Mini 2 磁吸背夹
+×
+×
+×
+√
+√
+×
+×
+DJI Mic 系列手机版接收器转接头（USB-C 至 Lightning)
+×
+×
+×
+×
+×
+×
+√
+DJI Mic 系列手机版接收器转接头（USB-C 至 USB-C）
+×
+×
+×
+×
+×
+×
+√
+DJI Mic Mini 2S 发射器
+×
+×
+×
+√
+√
+√
+√
+DJI Mic Mini 2S 接收器
+×
+×
+×
+√
+√
+√
+√
+DJI Mic Mini 2S 充电盒
+×
+×
+×
+√
+√
+×
+√
+DJI Mic Mini 2S 多色磁吸前盖
+×
+×
+×
+√
+×
+×
+×
+DJI Mic Mini 2S 磁吸前盖（墨曜黑）
+×
+×
+×
+√
+×
+×
+×
+DJI Mic Mini 2S 磁吸前盖（云璃白）
+×
+×
+×
+√
+×
+×
+×
+DJI Mic Mini 2S 时光系列磁吸前盖
+×
+×
+×
+√
+×
+×
+×
+DJI Mic Mini 2S 相机连接线（3.5 毫米 TRS）
+√
+√
+×
+√
+√
+√
+×
+内容是否有帮助？
+是
+否
+感谢您的反馈。
+感谢您的反馈，填写体验不佳的原因以让我们做得更好：
+未涵盖我想了解的内容
+已按指引操作，未解决问题
+内容难理解，看不懂
+链接/图片/视频失效
+页面展示不美观
+其他
+您也可以描述具体问题让我们更好地帮助到您：
+（可选）
+提交
+联系我们
+在线客服
+周一至周日：9:00-21:00（北京时间）
+联系在线客服
+dji-brand/en/48
+Created with Sketch.
+Copyright © 2026 DJI 大疆创新 版权所有
+|
+隐私权政策

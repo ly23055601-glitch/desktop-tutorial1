@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-09-06",
+  "audit_type": "metadata_only_prior_identifier_overlap",
+  "scope": {
+    "current_ledger": "knowledge/pocket/corpus/input-ledger.jsonl",
+    "current_ledger_sha256": "042b98eab12f0ac3e97240c72ffec73d4dd653fd489ebc7bfe6ae5f696625fff",
+    "current_works": 181,
+    "current_split_counts": {
+      "train": 151,
+      "holdout": 30
+    },
+    "historical_selection": "outputs files with input-ledger or evidence in filename (.json/.jsonl/.md), plus voice/works.jsonl",
+    "historical_files_scanned": 17,
+    "historical_distinct_work_ids_from_explicit_metadata": 111
+  },
+  "summary": {
+    "overlapping_works": 0,
+    "overlap_by_current_split": {},
+    "overlap_by_platform": {},
+    "holdout_overlapping_works": 0,
+    "holdout_overlapping_ids": [],
+    "remaining_holdout_without_prior_id_match": 30
+  },
+  "limitations": [
+    "Only work identifiers, canonical/platform work URLs and split metadata were inspected; no current holdout title, post text, comment text or media was output or learned.",
+    "An old input-ledger occurrence proves the work was queued/recorded, not that its content was actually read; an evidence-artifact occurrence requires separate status adjudication before claiming prior content exposure.",
+    "No match means no identifier match within these selected artifacts; it does not certify that a work was never seen elsewhere.",
+    "Historical copies/revisions can produce multiple occurrences for one work; unique works are counted once.",
+    "The frozen ledger and submitted queue were not changed. Holdout overlap should be adjudicated and any replacement decision recorded separately by the owner."
+  ],
+  "overlaps": [],
+  "scanned_sources": [
+    {
+      "path": "outputs/pocket-douyin-20260905-42links-lh13/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "6aa3f229ca2220064babbd3209e366430708f4381d5aeeed40a7e0fb9ff4c72b",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-douyin-20260905-42links-lh13/input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "452631c7ca38987977f83684c1614a0e9c4a2058e990940f4adb5155158c6763",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-douyin-20260905-42links-lh13-natural/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "370f9c0398a3d6c5c6e88e2774a1cc72ab0582e232388b21635b8939fe8bb050",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-douyin-20260905-42links-lh13-natural/input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "ff4d2444ecc32bd164fab1a8f0df9f159a05f1e9127d01cf3f939b2aeeafbcc2",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-douyin-20260905-9links/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "709f233cbb209d3e0fb14685a2b88b730a5eb06041f9cc67fad32cdf240590c8",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-douyin-20260905-9links/input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "c67af575b25cf7d1f771c9544e03a1304c6503ef33a13fc0d3c2f39e64ca3637",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh10-validation/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "33d59e50e80dcbcef0bb619027d31e5ed23381aa5258d49cef92782349380446",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh12-validation/delivery-input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "484447b050beb65dc744108ef45e3c16be17d635a96786156e40ae1430407bed",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh12-validation/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "5d116e289908c03e8d00b12067c0e403a6ed2bc1b49b134d761745d368c51a99",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh12-validation/holdout-evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "1841e26284d132bcdb9c5008ecc96c7066f984eb91cbe053e260c890866d3f7a",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh12-validation/research/input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "8fa18b6b6cc0a402adb71ec1ba50d59438af6307f8318c57ac7eea0852572a74",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-lh12-validation/revisions/holdout-v1/holdout-evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "1868ade34f248e166068e2f3c2f2190d99617630cc3e1efb3d45141e078de105",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-project-acceptance/fresh-trial/input-evidence.md",
+      "source_kind": "evidence_artifact",
+      "sha256": "beadcc4da3776ae9191e292758099d02fd671a04e8408bc542d1d00406aa5c46",
+      "format": ".md",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-xhs-20260905-11links/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "8649d7f790f1c952755245bed9809e04634feb694c345efec86d3e4273f74084",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_kind": "evidence_artifact",
+      "sha256": "a6661ff9ac0c4ceacd12d9c42c4eaf9c8a381f77e12fe97218c86ffc11e21d72",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "outputs/pocket-xhs-20260905-38items-lh13/input-ledger.json",
+      "source_kind": "input_ledger",
+      "sha256": "3f381245453d2d24e3dc7a68c204ce94aa8aee8936aea5506638522c423cdbd8",
+      "format": ".json",
+      "parse_status": "metadata_extracted"
+    },
+    {
+      "path": "knowledge/pocket/voice/works.jsonl",
+      "source_kind": "legacy_voice_works",
+      "sha256": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c",
+      "format": ".jsonl",
+      "parse_status": "metadata_extracted"
+    }
+  ],
+  "verification": {
+    "metadata_id_intersection_count": 0,
+    "independent_literal_id_match_count": 0,
+    "independent_literal_matches": [],
+    "purpose": "Cross-check the zero-overlap result without emitting or analyzing any source body."
+  }
+}

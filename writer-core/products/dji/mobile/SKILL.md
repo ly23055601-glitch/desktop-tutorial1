@@ -1,0 +1,27 @@
+---
+name: dji-mobile-comment-adapter
+version: CW5.4.2-portable
+product_line: mobile
+description: Lightweight DJI Osmo Mobile adapter for the shared consumer-comment training skill
+---
+
+# DJI Osmo Mobile 产品适配入口
+
+先读取包内共享写手规则：`../../../core/write-consumer-comments/SKILL.md`
+
+本入口只补 Osmo Mobile／DJI OM 的型号、兼容和跟拍边界。评论是培训用假想消费者草稿，不用于发布；不继承 Pocket 的命名限制。
+
+## 产品范围
+
+- 目标为 DJI Osmo Mobile／DJI OM 手机云台，型号和代际必须按资料确认
+- 可用 `OsmoMobile`、`DJIOM`、`OM` 及已确认的具体代际称呼
+- 区分不同代际、手机、保护壳、镜头模组、配件和软件条件，不把新代能力倒灌旧款
+- 区分 DJI Mimo 内跟随、多功能追踪模块、DockKit 与其他系统原生跟拍
+
+## 事实资料接口
+
+按当前任务填充 `facts.template.json`，每条兼容或功能断言保留手机与配件条件、软件／固件、来源和核验日期。能夹住手机不等于完整兼容；机械旋转、创意运镜、跟随、遥控和最终增稳也分别核对。续航、补光、距离等量化能力不得脱离测试条件。
+
+## 交给共享写手
+
+先判断整帖在展示跟拍结果、自拍流程、运镜玩法、兼容问题还是购买取舍，再选择一个消费者会在意的操作或场景。可以直接喜欢跟拍效果，也可以联想到自己的手机拍摄习惯；不把每条写成“功能＋购买理由”的完整论证。

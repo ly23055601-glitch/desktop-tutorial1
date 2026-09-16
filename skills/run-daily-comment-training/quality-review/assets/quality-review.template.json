@@ -1,0 +1,15 @@
+{
+  "task_ref": "B001/T053",
+  "draft_ref": "v1/comments.md",
+  "draft_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "profile": "training_cw5",
+  "coverage": "basic",
+  "dimensions": {
+    "quality_base": 0,
+    "expression": 0,
+    "teaching": 0
+  },
+  "issues": [],
+  "teaching_complete": false,
+  "user_acceptance": "pending"
+}

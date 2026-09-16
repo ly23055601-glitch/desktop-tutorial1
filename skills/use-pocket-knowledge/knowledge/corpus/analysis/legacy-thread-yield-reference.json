@@ -1,0 +1,929 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-09-06",
+  "reference_kind": "legacy_thread_yield_only",
+  "source_path": "knowledge/pocket/voice/records.jsonl",
+  "source_sha256": "01621ce70feca93a7ab54af35b4e79fe8914df3e03a21b24e1d69308ff319ccf",
+  "source_filter": {
+    "split": "legacy",
+    "material_kind": "comment_or_missing_defaults_to_comment"
+  },
+  "definitions": {
+    "root_comment_count": "thread_role=root的独立记录数；包含1条无可读文字的图片根评论，另列root_comment_with_text_count。",
+    "verifiable_direct_parent_text_reply_count": "reply的parent_basis=exported_reference_id，parent_id可回到同一作品记录，回复及直接父句均有文字和已登记来源定位。更早祖先缺失不否定已经可核对的这一条直接父句。",
+    "distinct_roots_covered_by_verifiable_replies": "可核对直接父句的回复覆盖的不同根讨论数，优先采用导出root_id对应的同作品root记录并检查父句root一致；没有导出root_id时才沿parent链解析。同一root无论有多少回复或层级只计1个。",
+    "per_work_median_and_range": "先按作品计数，再在该平台或全体18作品计算中位数与最小/最大；不是按评论数加权。",
+    "verified_replies_with_complete_parent_chain": "补充严格口径：直接父句可核对，且从parent一路回溯到root的整条祖先链也完整；不与直接父句口径混用。"
+  },
+  "overall": {
+    "works": 18,
+    "totals": {
+      "record_count": 372,
+      "root_comment_count": 75,
+      "root_comment_with_text_count": 74,
+      "reply_count": 297,
+      "direct_parent_reference_resolved_reply_count": 289,
+      "verifiable_direct_parent_text_reply_count": 288,
+      "distinct_roots_covered_by_verifiable_replies": 58,
+      "verified_replies_with_complete_parent_chain": 285,
+      "direct_replies_to_root_count": 176,
+      "direct_replies_to_reply_count": 112
+    },
+    "per_work": {
+      "root_comment_count": {
+        "median": 3.0,
+        "min": 1,
+        "max": 8,
+        "range": [
+          1,
+          8
+        ]
+      },
+      "root_comment_with_text_count": {
+        "median": 3.0,
+        "min": 1,
+        "max": 8,
+        "range": [
+          1,
+          8
+        ]
+      },
+      "reply_count": {
+        "median": 18.0,
+        "min": 12,
+        "max": 19,
+        "range": [
+          12,
+          19
+        ]
+      },
+      "verifiable_direct_parent_text_reply_count": {
+        "median": 16.5,
+        "min": 12,
+        "max": 19,
+        "range": [
+          12,
+          19
+        ]
+      },
+      "distinct_roots_covered_by_verifiable_replies": {
+        "median": 2.0,
+        "min": 1,
+        "max": 7,
+        "range": [
+          1,
+          7
+        ]
+      }
+    },
+    "reply_noncoverage_reasons": {
+      "direct_parent_missing": 8,
+      "reply_or_parent_text_not_readable": 1
+    }
+  },
+  "by_platform": {
+    "bilibili": {
+      "works": 6,
+      "totals": {
+        "record_count": 126,
+        "root_comment_count": 30,
+        "root_comment_with_text_count": 30,
+        "reply_count": 96,
+        "direct_parent_reference_resolved_reply_count": 95,
+        "verifiable_direct_parent_text_reply_count": 95,
+        "distinct_roots_covered_by_verifiable_replies": 23,
+        "verified_replies_with_complete_parent_chain": 95,
+        "direct_replies_to_root_count": 61,
+        "direct_replies_to_reply_count": 34
+      },
+      "per_work": {
+        "root_comment_count": {
+          "median": 5.0,
+          "min": 2,
+          "max": 8,
+          "range": [
+            2,
+            8
+          ]
+        },
+        "root_comment_with_text_count": {
+          "median": 5.0,
+          "min": 2,
+          "max": 8,
+          "range": [
+            2,
+            8
+          ]
+        },
+        "reply_count": {
+          "median": 16.0,
+          "min": 13,
+          "max": 19,
+          "range": [
+            13,
+            19
+          ]
+        },
+        "verifiable_direct_parent_text_reply_count": {
+          "median": 15.5,
+          "min": 13,
+          "max": 19,
+          "range": [
+            13,
+            19
+          ]
+        },
+        "distinct_roots_covered_by_verifiable_replies": {
+          "median": 4.0,
+          "min": 1,
+          "max": 7,
+          "range": [
+            1,
+            7
+          ]
+        }
+      }
+    },
+    "douyin": {
+      "works": 6,
+      "totals": {
+        "record_count": 126,
+        "root_comment_count": 16,
+        "root_comment_with_text_count": 16,
+        "reply_count": 110,
+        "direct_parent_reference_resolved_reply_count": 105,
+        "verifiable_direct_parent_text_reply_count": 105,
+        "distinct_roots_covered_by_verifiable_replies": 10,
+        "verified_replies_with_complete_parent_chain": 105,
+        "direct_replies_to_root_count": 68,
+        "direct_replies_to_reply_count": 37
+      },
+      "per_work": {
+        "root_comment_count": {
+          "median": 3.0,
+          "min": 2,
+          "max": 3,
+          "range": [
+            2,
+            3
+          ]
+        },
+        "root_comment_with_text_count": {
+          "median": 3.0,
+          "min": 2,
+          "max": 3,
+          "range": [
+            2,
+            3
+          ]
+        },
+        "reply_count": {
+          "median": 18.0,
+          "min": 18,
+          "max": 19,
+          "range": [
+            18,
+            19
+          ]
+        },
+        "verifiable_direct_parent_text_reply_count": {
+          "median": 18.0,
+          "min": 15,
+          "max": 19,
+          "range": [
+            15,
+            19
+          ]
+        },
+        "distinct_roots_covered_by_verifiable_replies": {
+          "median": 2.0,
+          "min": 1,
+          "max": 2,
+          "range": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    "xiaohongshu": {
+      "works": 6,
+      "totals": {
+        "record_count": 120,
+        "root_comment_count": 29,
+        "root_comment_with_text_count": 28,
+        "reply_count": 91,
+        "direct_parent_reference_resolved_reply_count": 89,
+        "verifiable_direct_parent_text_reply_count": 88,
+        "distinct_roots_covered_by_verifiable_replies": 25,
+        "verified_replies_with_complete_parent_chain": 85,
+        "direct_replies_to_root_count": 47,
+        "direct_replies_to_reply_count": 41
+      },
+      "per_work": {
+        "root_comment_count": {
+          "median": 5.0,
+          "min": 1,
+          "max": 8,
+          "range": [
+            1,
+            8
+          ]
+        },
+        "root_comment_with_text_count": {
+          "median": 4.5,
+          "min": 1,
+          "max": 8,
+          "range": [
+            1,
+            8
+          ]
+        },
+        "reply_count": {
+          "median": 15.0,
+          "min": 12,
+          "max": 19,
+          "range": [
+            12,
+            19
+          ]
+        },
+        "verifiable_direct_parent_text_reply_count": {
+          "median": 14.5,
+          "min": 12,
+          "max": 18,
+          "range": [
+            12,
+            18
+          ]
+        },
+        "distinct_roots_covered_by_verifiable_replies": {
+          "median": 4.5,
+          "min": 1,
+          "max": 7,
+          "range": [
+            1,
+            7
+          ]
+        }
+      }
+    }
+  },
+  "by_work": [
+    {
+      "platform": "bilibili",
+      "work_id": "BV184411M7cG",
+      "legacy_work_id": "BL04",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 7,
+      "root_comment_with_text_count": 7,
+      "reply_count": 14,
+      "direct_parent_reference_resolved_reply_count": 14,
+      "verifiable_direct_parent_text_reply_count": 14,
+      "distinct_roots_covered_by_verifiable_replies": 5,
+      "verified_replies_with_complete_parent_chain": 14,
+      "direct_replies_to_root_count": 14,
+      "direct_replies_to_reply_count": 0,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 14
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:1659193014",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:1659198766",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:1659509671",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:1661043593",
+          "verifiable_reply_count": 6
+        },
+        {
+          "root_id": "legacy:bilibili:1664084432",
+          "verifiable_reply_count": 5
+        }
+      ]
+    },
+    {
+      "platform": "bilibili",
+      "work_id": "BV1Mh4y1q7Qg",
+      "legacy_work_id": "BL01",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 3,
+      "root_comment_with_text_count": 3,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 18,
+      "verifiable_direct_parent_text_reply_count": 18,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 18,
+      "direct_replies_to_root_count": 7,
+      "direct_replies_to_reply_count": 11,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 18
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:191831419696",
+          "verifiable_reply_count": 6
+        },
+        {
+          "root_id": "legacy:bilibili:191865166416",
+          "verifiable_reply_count": 12
+        }
+      ]
+    },
+    {
+      "platform": "bilibili",
+      "work_id": "BV1Ry411B7ca",
+      "legacy_work_id": "BL03",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 8,
+      "root_comment_with_text_count": 8,
+      "reply_count": 13,
+      "direct_parent_reference_resolved_reply_count": 13,
+      "verifiable_direct_parent_text_reply_count": 13,
+      "distinct_roots_covered_by_verifiable_replies": 7,
+      "verified_replies_with_complete_parent_chain": 13,
+      "direct_replies_to_root_count": 12,
+      "direct_replies_to_reply_count": 1,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 13
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:225943962656",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:bilibili:225946259392",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:225951558976",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:bilibili:225990531280",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:226061471712",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:226077791056",
+          "verifiable_reply_count": 3
+        },
+        {
+          "root_id": "legacy:bilibili:227197999392",
+          "verifiable_reply_count": 3
+        }
+      ]
+    },
+    {
+      "platform": "bilibili",
+      "work_id": "BV1ZwF7evECw",
+      "legacy_work_id": "BL06",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 5,
+      "root_comment_with_text_count": 5,
+      "reply_count": 16,
+      "direct_parent_reference_resolved_reply_count": 15,
+      "verifiable_direct_parent_text_reply_count": 15,
+      "distinct_roots_covered_by_verifiable_replies": 4,
+      "verified_replies_with_complete_parent_chain": 15,
+      "direct_replies_to_root_count": 5,
+      "direct_replies_to_reply_count": 10,
+      "reply_noncoverage_reasons": {
+        "direct_parent_missing": 1
+      },
+      "root_assignment_basis_counts": {
+        "exported_root_id": 15
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:253491548529",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:bilibili:254054501728",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:bilibili:254140799168",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:255545690864",
+          "verifiable_reply_count": 10
+        }
+      ]
+    },
+    {
+      "platform": "bilibili",
+      "work_id": "BV1rM4m1m7GU",
+      "legacy_work_id": "BL05",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 5,
+      "root_comment_with_text_count": 5,
+      "reply_count": 16,
+      "direct_parent_reference_resolved_reply_count": 16,
+      "verifiable_direct_parent_text_reply_count": 16,
+      "distinct_roots_covered_by_verifiable_replies": 4,
+      "verified_replies_with_complete_parent_chain": 16,
+      "direct_replies_to_root_count": 8,
+      "direct_replies_to_reply_count": 8,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 16
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:228284044704",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:bilibili:228355135024",
+          "verifiable_reply_count": 5
+        },
+        {
+          "root_id": "legacy:bilibili:229154056560",
+          "verifiable_reply_count": 9
+        },
+        {
+          "root_id": "legacy:bilibili:242669842993",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "bilibili",
+      "work_id": "BV1sxraY6EEA",
+      "legacy_work_id": "BL02",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 2,
+      "root_comment_with_text_count": 2,
+      "reply_count": 19,
+      "direct_parent_reference_resolved_reply_count": 19,
+      "verifiable_direct_parent_text_reply_count": 19,
+      "distinct_roots_covered_by_verifiable_replies": 1,
+      "verified_replies_with_complete_parent_chain": 19,
+      "direct_replies_to_root_count": 15,
+      "direct_replies_to_reply_count": 4,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 19
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:bilibili:252214509376",
+          "verifiable_reply_count": 19
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7364398128839036196",
+      "legacy_work_id": "DY05",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 3,
+      "root_comment_with_text_count": 3,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 18,
+      "verifiable_direct_parent_text_reply_count": 18,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 18,
+      "direct_replies_to_root_count": 13,
+      "direct_replies_to_reply_count": 5,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 18
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7364713745794958115",
+          "verifiable_reply_count": 13
+        },
+        {
+          "root_id": "legacy:douyin:7364739898052199209",
+          "verifiable_reply_count": 5
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7462260644922821929",
+      "legacy_work_id": "DY02",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 2,
+      "root_comment_with_text_count": 2,
+      "reply_count": 19,
+      "direct_parent_reference_resolved_reply_count": 15,
+      "verifiable_direct_parent_text_reply_count": 15,
+      "distinct_roots_covered_by_verifiable_replies": 1,
+      "verified_replies_with_complete_parent_chain": 15,
+      "direct_replies_to_root_count": 14,
+      "direct_replies_to_reply_count": 1,
+      "reply_noncoverage_reasons": {
+        "direct_parent_missing": 4
+      },
+      "root_assignment_basis_counts": {
+        "exported_root_id": 15
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7462261019265581884",
+          "verifiable_reply_count": 15
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7468760395440737562",
+      "legacy_work_id": "DY03",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 3,
+      "root_comment_with_text_count": 3,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 17,
+      "verifiable_direct_parent_text_reply_count": 17,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 17,
+      "direct_replies_to_root_count": 16,
+      "direct_replies_to_reply_count": 1,
+      "reply_noncoverage_reasons": {
+        "direct_parent_missing": 1
+      },
+      "root_assignment_basis_counts": {
+        "exported_root_id": 17
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7468916483387065138",
+          "verifiable_reply_count": 3
+        },
+        {
+          "root_id": "legacy:douyin:7469692659339789113",
+          "verifiable_reply_count": 14
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7520956008148012323",
+      "legacy_work_id": "DY04",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 3,
+      "root_comment_with_text_count": 3,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 18,
+      "verifiable_direct_parent_text_reply_count": 18,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 18,
+      "direct_replies_to_root_count": 14,
+      "direct_replies_to_reply_count": 4,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 18
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7521136340495696650",
+          "verifiable_reply_count": 3
+        },
+        {
+          "root_id": "legacy:douyin:7521577748554269481",
+          "verifiable_reply_count": 15
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7560600733570075931",
+      "legacy_work_id": "DY01",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 2,
+      "root_comment_with_text_count": 2,
+      "reply_count": 19,
+      "direct_parent_reference_resolved_reply_count": 19,
+      "verifiable_direct_parent_text_reply_count": 19,
+      "distinct_roots_covered_by_verifiable_replies": 1,
+      "verified_replies_with_complete_parent_chain": 19,
+      "direct_replies_to_root_count": 9,
+      "direct_replies_to_reply_count": 10,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 19
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7562242267676099355",
+          "verifiable_reply_count": 19
+        }
+      ]
+    },
+    {
+      "platform": "douyin",
+      "work_id": "7664542474811998803",
+      "legacy_work_id": "DY06",
+      "split": "legacy",
+      "record_count": 21,
+      "root_comment_count": 3,
+      "root_comment_with_text_count": 3,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 18,
+      "verifiable_direct_parent_text_reply_count": 18,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 18,
+      "direct_replies_to_root_count": 2,
+      "direct_replies_to_reply_count": 16,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 18
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:douyin:7664603993611453221",
+          "verifiable_reply_count": 17
+        },
+        {
+          "root_id": "legacy:douyin:7664611743961187124",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "696885b9000000001a01f8a1",
+      "legacy_work_id": "XHS06",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 5,
+      "root_comment_with_text_count": 5,
+      "reply_count": 15,
+      "direct_parent_reference_resolved_reply_count": 15,
+      "verifiable_direct_parent_text_reply_count": 15,
+      "distinct_roots_covered_by_verifiable_replies": 5,
+      "verified_replies_with_complete_parent_chain": 15,
+      "direct_replies_to_root_count": 5,
+      "direct_replies_to_reply_count": 10,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 15
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:69688753000000000601c100",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6968935d00000000190016a3",
+          "verifiable_reply_count": 4
+        },
+        {
+          "root_id": "legacy:xiaohongshu:69689f700000000004003d5d",
+          "verifiable_reply_count": 8
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6968e779000000000c014ff4",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:696ae5dd00000000040008ec",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "6a4636a8000000001102e163",
+      "legacy_work_id": "XHS01",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 8,
+      "root_comment_with_text_count": 8,
+      "reply_count": 12,
+      "direct_parent_reference_resolved_reply_count": 12,
+      "verifiable_direct_parent_text_reply_count": 12,
+      "distinct_roots_covered_by_verifiable_replies": 6,
+      "verified_replies_with_complete_parent_chain": 12,
+      "direct_replies_to_root_count": 6,
+      "direct_replies_to_reply_count": 6,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 12
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:6a46903800000000150031db",
+          "verifiable_reply_count": 7
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a46f66f0000000015008129",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a4db4300000000029018c51",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a66f02e0000000015010685",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a68123300000000150158a4",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a6d7d4c0000000005016f11",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "6a54b08200000000210099c4",
+      "legacy_work_id": "XHS04",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 5,
+      "root_comment_with_text_count": 4,
+      "reply_count": 15,
+      "direct_parent_reference_resolved_reply_count": 15,
+      "verifiable_direct_parent_text_reply_count": 14,
+      "distinct_roots_covered_by_verifiable_replies": 4,
+      "verified_replies_with_complete_parent_chain": 14,
+      "direct_replies_to_root_count": 7,
+      "direct_replies_to_reply_count": 7,
+      "reply_noncoverage_reasons": {
+        "reply_or_parent_text_not_readable": 1
+      },
+      "root_assignment_basis_counts": {
+        "exported_root_id": 14
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:6a54b240000000002a031255",
+          "verifiable_reply_count": 10
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a558e43000000002a0059ff",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a562bf300000000150096fa",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a8c0bfd000000000b018af3",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "6a5756590000000008033977",
+      "legacy_work_id": "XHS05",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 8,
+      "root_comment_with_text_count": 8,
+      "reply_count": 12,
+      "direct_parent_reference_resolved_reply_count": 12,
+      "verifiable_direct_parent_text_reply_count": 12,
+      "distinct_roots_covered_by_verifiable_replies": 7,
+      "verified_replies_with_complete_parent_chain": 12,
+      "direct_replies_to_root_count": 9,
+      "direct_replies_to_reply_count": 3,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 12
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:6a5769e7000000002a02dab4",
+          "verifiable_reply_count": 2
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a5799e10000000015016965",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a59a6070000000015010839",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a5a146000000000150061e9",
+          "verifiable_reply_count": 3
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a5b4a5e000000000403a632",
+          "verifiable_reply_count": 3
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a5d003a000000002a02fb11",
+          "verifiable_reply_count": 1
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a72aff80000000007014bf4",
+          "verifiable_reply_count": 1
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "6a71a88e000000003300a3a4",
+      "legacy_work_id": "XHS02",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 1,
+      "root_comment_with_text_count": 1,
+      "reply_count": 19,
+      "direct_parent_reference_resolved_reply_count": 17,
+      "verifiable_direct_parent_text_reply_count": 17,
+      "distinct_roots_covered_by_verifiable_replies": 1,
+      "verified_replies_with_complete_parent_chain": 14,
+      "direct_replies_to_root_count": 7,
+      "direct_replies_to_reply_count": 10,
+      "reply_noncoverage_reasons": {
+        "direct_parent_missing": 2
+      },
+      "root_assignment_basis_counts": {
+        "exported_root_id": 17
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:6a73f48e0000000014026503",
+          "verifiable_reply_count": 17
+        }
+      ]
+    },
+    {
+      "platform": "xiaohongshu",
+      "work_id": "6a7ad97f000000002403dd43",
+      "legacy_work_id": "XHS03",
+      "split": "legacy",
+      "record_count": 20,
+      "root_comment_count": 2,
+      "root_comment_with_text_count": 2,
+      "reply_count": 18,
+      "direct_parent_reference_resolved_reply_count": 18,
+      "verifiable_direct_parent_text_reply_count": 18,
+      "distinct_roots_covered_by_verifiable_replies": 2,
+      "verified_replies_with_complete_parent_chain": 18,
+      "direct_replies_to_root_count": 13,
+      "direct_replies_to_reply_count": 5,
+      "reply_noncoverage_reasons": {},
+      "root_assignment_basis_counts": {
+        "exported_root_id": 18
+      },
+      "covered_roots": [
+        {
+          "root_id": "legacy:xiaohongshu:6a7fdd63000000001c010ecf",
+          "verifiable_reply_count": 17
+        },
+        {
+          "root_id": "legacy:xiaohongshu:6a8485f9000000000b01faad",
+          "verifiable_reply_count": 1
+        }
+      ]
+    }
+  ],
+  "new_target_contribution": {
+    "new_eligible_works": 0,
+    "new_main_comments": 0,
+    "new_discussions_with_verified_parent_reply": 0
+  },
+  "new_target_context": {
+    "main_comments": 450,
+    "discussions_with_verified_parent_reply": 150,
+    "interpretation": "新采样按独立主评与不同根讨论覆盖衡量，不要求每个作品采满所有子评论。"
+  },
+  "limitations": [
+    "只读取已存在voice/records中的372条legacy评论；没有读取新帖、新评论、holdout正文或平台。",
+    "这些历史数不计入新目标，也不用于承诺新批次的覆盖率、完成速度或需要多少导出行。",
+    "样本为既有选择和导出结果，作品内回复分布偏向部分根线程；不代表平台总体。",
+    "可核对仅指记录中父句关系与文字来源可追溯，不认证真人身份、经历真实性或观点正确性。",
+    "根评论含图片记录的口径已单列；配置新采样时应按实际可读与可用材料重新验收。"
+  ]
+}

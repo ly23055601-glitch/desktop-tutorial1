@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-07T10:16:12+08:00",
+  "result": "pass",
+  "facts": 81,
+  "fact_status": {
+    "verified": 79,
+    "pending": 2
+  },
+  "sources": 8,
+  "source_hashes_checked": 8,
+  "scenarios": 7,
+  "audience_hypotheses": 10,
+  "selling_points": 18,
+  "training_scenarios": 32,
+  "training_expression_angles": 112,
+  "hypothesis_review_status": {
+    "pending_user_calibration": 10
+  },
+  "local_link_targets_checked": 617,
+  "shared_route_scope": "Nano edges only; all links inside Nano knowledge and skill files are checked, including shared dependencies.",
+  "out_of_scope_route_notes": [
+    ".agents/skills/write-consumer-training-comments/SKILL.md: unrelated route target missing: /Users/luocaihua/.codex/skills/use-mobile-knowledge/knowledge/use_cases/guide.md",
+    "AGENTS.md: unrelated route target missing: knowledge/mobile/use_cases/guide.md",
+    "AGENTS.md: unrelated route target missing: knowledge/mobile/use_cases/selling-point-map.md"
+  ],
+  "pending_fact_ids": [
+    "NANO-MAN-023",
+    "NANO-MAN-024"
+  ],
+  "limitations": [
+    "Does not re-fetch official sources, check Markdown anchors, verify product truth, evaluate expression quality, or grant user endorsement."
+  ],
+  "failures": []
+}

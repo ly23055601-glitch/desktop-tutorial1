@@ -1,0 +1,132 @@
+{
+  "review_kind": "independent_model_review",
+  "reviewer_task": "/root/audit_product_knowledge",
+  "checked_at": "2026-09-06T10:21:05.515795+00:00",
+  "scope": {
+    "card_ids": [
+      "comment_c1_001",
+      "comment_c1_003",
+      "comment_c1_004",
+      "comment_c2_001",
+      "comment_c2_002"
+    ],
+    "c2_train_only": true,
+    "c2_source_comments": 12,
+    "c2_works": 7,
+    "c2_work_publishers": 7,
+    "c2_excerpts": 12,
+    "new_parent_pairs": 0,
+    "scenario_ids": [
+      "scenario_002",
+      "scenario_003",
+      "scenario_005",
+      "scenario_009"
+    ]
+  },
+  "result": "passed_with_nonblocking_scope_refinements_applied",
+  "blocking_findings": [],
+  "verified": [
+    "12处C2摘句逐字、offset、实际normalized行与原导出hash匹配",
+    "来源全部train；12条均unknown且parent/root为空",
+    "C1三张扩展卡thread_links与before-c2基线完全相同",
+    "004升pattern由4作品4发布账号的用途/条件式选择支持；003仍case且C2只补重复调参疑问",
+    "新case没有把建议或只有机器自述变成身份、效果或必买事实",
+    "4处scene没有扩大证据性质；009仍editorial_hypothesis"
+  ],
+  "refinements": [
+    {
+      "card_id": "comment_c2_002",
+      "field": "title",
+      "change": "改为交代手里只有机器，让配件问题更具体",
+      "source": "independent_reviewer",
+      "reason": "实际句序先问后交代，不写成固定先后模板",
+      "applied": true
+    },
+    {
+      "card_id": "comment_c1_001",
+      "field": "transferable[0]",
+      "change": "增加有可核对父句时条件",
+      "source": "independent_reviewer",
+      "reason": "避免忽略C2没有父句",
+      "applied": true
+    },
+    {
+      "card_id": "comment_c1_004",
+      "field": "expression_purpose",
+      "change": "覆盖推荐问题或个人决定与本句用途条件对应",
+      "source": "author_scope_check",
+      "reason": "新独立评论提出选择疑问，不全都已经决定买哪款",
+      "applied": true
+    }
+  ],
+  "source_hashes": {
+    "cards_before_refinement": "7b65bf5a611d172d01dbe21e6e6f4b94d6b6213b6994f5f730bfc05699bf0531",
+    "cards_after_refinement_and_review_annotation": "47b9e38f29db584cd7921d083bacf4da643777edc43507c3c6c8787bb30521ca",
+    "comments": "f4bff6907a869ab00706377a1f0b9687f6977af95730aabf3027d1fc7f46552e",
+    "scenarios": "475fff7f54e1d24c551ef28f03294c6ac6bf84a9d9c66518f85b84aac3d1a102",
+    "c1_base": "8152f98e5e04eb99be7e58d00a111c311b0899a8d93645f478af5bcc42f56119"
+  },
+  "structural_audit": {
+    "integrity_ok": true,
+    "error_codes": [],
+    "voice_patterns": 15,
+    "voice_cases": 12
+  },
+  "retrieval_smoke": [
+    {
+      "query": "旅行 发热 不看价格",
+      "model": "pocket_4p",
+      "hits": [
+        "comment_c1_004"
+      ],
+      "unknown_samples_have_no_parent": true,
+      "holdout_returned": false
+    },
+    {
+      "query": "基础操作 吃饭 散步",
+      "model": "pocket_4p",
+      "hits": [
+        "comment_c2_001",
+        "comment_c1_004"
+      ],
+      "unknown_samples_have_no_parent": true,
+      "holdout_returned": false
+    },
+    {
+      "query": "只有机器 配件",
+      "model": "pocket_4p",
+      "hits": [
+        "comment_c2_002",
+        "comment_c2_001"
+      ],
+      "unknown_samples_have_no_parent": true,
+      "holdout_returned": false
+    },
+    {
+      "query": "视频 截取 App",
+      "model": "pocket_4",
+      "hits": [
+        "comment_c1_001",
+        "comment_c1_003"
+      ],
+      "unknown_samples_have_no_parent": true,
+      "holdout_returned": false
+    },
+    {
+      "query": "每次 重新 调参",
+      "model": "pocket_4",
+      "hits": [
+        "comment_c1_003",
+        "comment_c1_001"
+      ],
+      "unknown_samples_have_no_parent": true,
+      "holdout_returned": false
+    }
+  ],
+  "boundaries": [
+    "这次审读只涵盖5张变化卡的C2扩展及必要C1基线，不是全库重新验收",
+    "未学习holdout、input22型号未知材料或未导出的input21",
+    "不证明评论者身份、商业独立性、亲历或建议效果，也不是用户认可",
+    "现有材料按用户要求收尾，不等待新增批次或达到150/30目标"
+  ]
+}

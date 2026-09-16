@@ -1,0 +1,49 @@
+URL: https://terra-1-g.djicdn.com/6189933d30024fc1b331bffe4fe41837/osmo-mobile-8/RN/20260616/DJI_Osmo_Mobile_8_Release_Notes_cn_1.pdf
+EXTRACTION: pypdf; page labels below are one-based PDF physical pages.
+
+=== PDF PAGE 1 ===
+DJI Osmo Mobile 8 发布记录 
+https://www.dji.com/osmo-mobile-8 
+Copyright © 2025 大疆创新 版权所有 
+1 
+ 
+ 
+ 
+ 
+发布日期： 2026.06.16 
+固件版本： V01.02.02.02 
+DJI Mimo App iOS 版本： V2.10.0 
+DJI Mimo App Android 版本： V2.10.0 
+ 
+本次更新 
+• 新增支持 DJI OM 多功能追踪模块  2。 
+• 新增云台控制iOS 原生相机变焦、前后摄切换功能。使用前，需将云台升级至最新固件，重新与
+手机蓝牙连接 ，然后在手机上进入设置 >辅助功能打开缩放功能。  
+• 修复部分已知问题。  
+ 
+注意： 
+若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。 
+若依然无法升级，请联系 DJI 技术支持解决。 
+  
+
+=== PDF PAGE 2 ===
+DJI Osmo Mobile 8 发布记录 
+https://www.dji.com/osmo-mobile-8 
+Copyright © 2025 大疆创新 版权所有 
+2 
+ 
+ 
+ 
+ 
+发布日期： 2025.10.22 
+固件版本： V01.01.02.09 
+DJI Mimo App iOS 版本： V2.5.4 
+DJI Mimo App Android 版本： V2.5.4 
+ 
+本次更新 
+• DJI OM 多功能追踪模块支持连接  DJI Mic 3 发射器。  
+• 新增鸿蒙智能追焦功能。  
+ 
+注意： 
+若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。 
+若依然无法升级，请联系 DJI 技术支持解决。 

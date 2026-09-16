@@ -1,0 +1,10 @@
+搭配 Osmo Nano
+【提示】
+Osmo Nano 支持搭配
+DJI Mic 2、DJI Mic Mini 、DJI Mic 3、DJI Mic Mini 2、
+DJI Mic Mini 2S
+产品的 TX 进行无线连接使用，不支持通过 RX 方式进行连接。
+1. 将 Osmo Nano 图传模块屏幕从上往下滑，点击麦克风图标 - 点击“TX1”\"TX2”启动配对功能；
+2. 将 DJI Mic 2/DJI Mic Mini/DJI Mic 3/DJI Mic Mini 2/
+DJI Mic Mini 2S
+的 TX 开机后，切换至蓝牙配对模式，并触发配对操作，等待配对成功即可。

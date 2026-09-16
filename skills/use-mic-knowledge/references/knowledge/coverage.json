@@ -1,0 +1,593 @@
+{
+  "generated_at": "2026-09-06T18:05:14+08:00",
+  "ok": true,
+  "errors": 0,
+  "warnings": 0,
+  "counts": {
+    "models": 6,
+    "sources": 36,
+    "facts": 128,
+    "compatibility": 79,
+    "scenarios": 12
+  },
+  "coverage": [
+    {
+      "model": "mic",
+      "facts": 11,
+      "statuses": {
+        "verified": 11
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {},
+        "audio": {
+          "verified": 1
+        },
+        "recording": {
+          "verified": 2
+        },
+        "channels": {
+          "verified": 2
+        },
+        "transmission": {
+          "verified": 1
+        },
+        "power": {},
+        "connections": {
+          "verified": 2
+        },
+        "controls": {},
+        "export": {
+          "verified": 1
+        },
+        "firmware": {},
+        "kits": {
+          "verified": 1
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 4,
+      "scenarios": 0
+    },
+    {
+      "model": "mic_2",
+      "facts": 11,
+      "statuses": {
+        "verified": 11
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {},
+        "audio": {
+          "verified": 1
+        },
+        "recording": {
+          "verified": 2
+        },
+        "channels": {
+          "verified": 2
+        },
+        "transmission": {},
+        "power": {},
+        "connections": {
+          "verified": 3
+        },
+        "controls": {},
+        "export": {
+          "verified": 1
+        },
+        "firmware": {},
+        "kits": {
+          "verified": 1
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 10,
+      "scenarios": 0
+    },
+    {
+      "model": "mic_3",
+      "facts": 45,
+      "statuses": {
+        "verified": 43,
+        "pending": 2
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {
+          "verified": 3
+        },
+        "audio": {
+          "verified": 4
+        },
+        "recording": {
+          "verified": 5
+        },
+        "channels": {
+          "verified": 3,
+          "pending": 1
+        },
+        "transmission": {
+          "verified": 2
+        },
+        "power": {
+          "verified": 5
+        },
+        "connections": {
+          "verified": 8,
+          "pending": 1
+        },
+        "controls": {
+          "verified": 4
+        },
+        "export": {
+          "verified": 2
+        },
+        "firmware": {
+          "verified": 4
+        },
+        "kits": {
+          "verified": 2
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 25,
+      "scenarios": 6
+    },
+    {
+      "model": "mic_mini",
+      "facts": 10,
+      "statuses": {
+        "verified": 10
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {},
+        "audio": {
+          "verified": 1
+        },
+        "recording": {
+          "verified": 1
+        },
+        "channels": {
+          "verified": 2
+        },
+        "transmission": {
+          "verified": 1
+        },
+        "power": {},
+        "connections": {
+          "verified": 2
+        },
+        "controls": {},
+        "export": {},
+        "firmware": {
+          "verified": 1
+        },
+        "kits": {
+          "verified": 1
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 13,
+      "scenarios": 0
+    },
+    {
+      "model": "mic_mini_2",
+      "facts": 11,
+      "statuses": {
+        "verified": 11
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {
+          "verified": 1
+        },
+        "audio": {
+          "verified": 1
+        },
+        "recording": {
+          "verified": 1
+        },
+        "channels": {
+          "verified": 2
+        },
+        "transmission": {
+          "verified": 1
+        },
+        "power": {},
+        "connections": {
+          "verified": 2
+        },
+        "controls": {},
+        "export": {},
+        "firmware": {
+          "verified": 1
+        },
+        "kits": {
+          "verified": 1
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 14,
+      "scenarios": 0
+    },
+    {
+      "model": "mic_mini_2s",
+      "facts": 40,
+      "statuses": {
+        "verified": 34,
+        "pending": 3,
+        "conflict": 3
+      },
+      "topics": {
+        "identity": {
+          "verified": 1
+        },
+        "wearing": {
+          "verified": 2
+        },
+        "audio": {
+          "verified": 4,
+          "pending": 1
+        },
+        "recording": {
+          "verified": 4
+        },
+        "channels": {
+          "verified": 4,
+          "conflict": 1,
+          "pending": 1
+        },
+        "transmission": {
+          "verified": 1
+        },
+        "power": {
+          "verified": 3,
+          "conflict": 1
+        },
+        "connections": {
+          "verified": 6,
+          "pending": 1
+        },
+        "controls": {
+          "verified": 2,
+          "conflict": 1
+        },
+        "export": {
+          "verified": 2
+        },
+        "firmware": {
+          "verified": 3
+        },
+        "kits": {
+          "verified": 2
+        }
+      },
+      "missing_topics": [],
+      "compatibility": 37,
+      "scenarios": 6
+    }
+  ],
+  "gaps": [
+    {
+      "id": "MIC3-F039",
+      "models": [
+        "mic_3"
+      ],
+      "status": "pending",
+      "statement": "热靴兼容名单中的各相机是否均可四声道录制，当前不能逐机确认。",
+      "reason": "最新已读热靴表不含各机型声道数/固件列；需继续查具体相机官方手册。",
+      "source_refs": [
+        {
+          "source_id": "MIC3-S007",
+          "locator": "PDF第1页：仅序号与相机型号两列"
+        },
+        {
+          "source_id": "MIC3-S002",
+          "locator": "如何使用四声道模式？音频怎么分配？"
+        }
+      ]
+    },
+    {
+      "id": "MIC3-F040",
+      "models": [
+        "mic_3"
+      ],
+      "status": "pending",
+      "statement": "通用手机名单未给每款手机的系统、App、接口和声道测试组合，不能逐项确认任意组合。",
+      "reason": "手机表只有品牌型号，尚缺逐机系统版本与测试链路。",
+      "source_refs": [
+        {
+          "source_id": "MIC3-S008",
+          "locator": "PDF第1—2页：品牌/型号表"
+        },
+        {
+          "source_id": "MIC3-S009",
+          "locator": "PDF第1页：蓝牙直连第三方App表"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F035",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "当前官方手机、热靴及第三方App表没有逐项给出系统、App和最低固件版本；未列型号与某手机是否支持双声道仍须逐机核对。",
+      "reason": "三份名单缺少版本条件与逐手机声道能力，无法形成这些组合的确定结论。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S011",
+          "locator": "第1-2页表头与型号列"
+        },
+        {
+          "source_id": "M2S-S009",
+          "locator": "第1页表头与相机列"
+        },
+        {
+          "source_id": "M2S-S010",
+          "locator": "第1页表头"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F036",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "FAQ将自动增益调节默认状态写为关闭，2026-07-02 V30.00.03.00发布记录称防爆音功能默认开启；两者术语及版本适用范围尚未完全对应。",
+      "reason": "防爆音可能指自动增益中的模式或独立处理功能，不能仅凭默认值不同定性冲突；需结合固件实际界面核对。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S001",
+          "locator": "“自动增益调节如何选择？”"
+        },
+        {
+          "source_id": "M2S-S004",
+          "locator": "第1页 本次更新"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F037",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "conflict",
+      "statement": "清配对长按时长未统一：手册v1.0第11页写10秒，FAQ写12秒。",
+      "reason": "相同操作在两份官方资料中时长不同，尚无明确修订解释。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S003",
+          "locator": "第11页 清除设备配对信息"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“发射器如何与接收器、手机版接收器对频？” 方法二"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F038",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "conflict",
+      "statement": "标准接收器充满电时间存在口径差异：参数页及FAQ给约70分钟，新手攻略给约100分钟。",
+      "reason": "官方来源没有明确解释70/100分钟是否来自不同充电条件；待逐路径确认。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S002",
+          "locator": "接收器/充电时间"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“充电盒给发射器、接收器充满电分别需要多长时间？”"
+        },
+        {
+          "source_id": "M2S-S012",
+          "locator": "2.2 设备充电 提示"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F039",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "conflict",
+      "statement": "商城“四声道输出”段将3.5毫米线也列入四路独立输出；FAQ明确3.5毫米仍为双声道，商城脚注12亦限定数字热靴或USB。",
+      "reason": "同一商城正文与脚注及FAQ不一致，保留冲突并限制3.5毫米的四轨宣传。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S005",
+          "locator": "“四声道输出，剪辑自如”段及脚注12"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“如何使用四声道模式？音频怎么分配？”"
+        },
+        {
+          "source_id": "M2S-S003",
+          "locator": "第13页四声道条件"
+        }
+      ]
+    },
+    {
+      "id": "M2S-F040",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "四声道软件兼容表列有iOS GarageBand，但FAQ及商城脚注未给出具体iOS设备和接法，实际链路待核。",
+      "reason": "资料覆盖范围不同不构成直接矛盾；需要iOS硬件、接口、系统及软件版本条件，才能确认完整连接方案。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S008",
+          "locator": "第1页 iOS/GarageBand 行"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“如何使用四声道模式？音频怎么分配？”"
+        },
+        {
+          "source_id": "M2S-S005",
+          "locator": "脚注12"
+        }
+      ]
+    },
+    {
+      "id": "BASIC-C023",
+      "models": [
+        "mic_mini_2",
+        "mic_3"
+      ],
+      "status": "conflict",
+      "statement": "Mini 2 FAQ 说两款 Mini 2 充电盒可收纳并充电 Mic 3 发射器，但配件总表对应 Mic 3 列标为不通用。",
+      "reason": "FAQ 明确允许仅收纳及充电，而配件总表只给通用性否定标记；需核对通用性定义或官方更正。",
+      "source_refs": [
+        {
+          "source_id": "BASIC-S006",
+          "locator": "DJI Mic Mini 2 充电盒有什么功能？"
+        },
+        {
+          "source_id": "BASIC-S002",
+          "locator": "配件通用性表／行：DJI Mic Mini 2 充电盒、DJI Mic Mini 2 充电盒（手机版一发一收）／列：DJI Mic 3"
+        }
+      ]
+    },
+    {
+      "id": "BASIC-C024",
+      "models": [
+        "mic_mini",
+        "mic_mini_2"
+      ],
+      "status": "conflict",
+      "statement": "Mini 2 FAQ 泛称与 Mini 发射器／接收器兼容，但配件总表 Mini 发射器对 Mini 2 列为不通用。",
+      "reason": "产品组合列与具体接收器的粒度不同，且官方表述不一致；保留上下文，等待用途细化。",
+      "source_refs": [
+        {
+          "source_id": "BASIC-S006",
+          "locator": "DJI Mic Mini 2 的发射器和接收器是否兼容 DJI Mic、DJI Mic 2 、DJI Mic 3、DJI Mic Mini 的发射器和接收器？"
+        },
+        {
+          "source_id": "BASIC-S002",
+          "locator": "配件通用性表／行：DJI Mic Mini 发射器／列：DJI Mic Mini 2"
+        }
+      ]
+    },
+    {
+      "id": "MIC3-C018",
+      "models": [
+        "mic_3"
+      ],
+      "status": "pending",
+      "statement": "官方四声道表列iOS GarageBand支持，但当前未确认具体iPhone/iPad和接线条件。",
+      "reason": "四声道表与FAQ对宿主范围详略不同，缺少明确iOS硬件、版本与接法。",
+      "source_refs": [
+        {
+          "source_id": "MIC3-S006",
+          "locator": "PDF第1页：iOS GarageBand行"
+        },
+        {
+          "source_id": "MIC3-S002",
+          "locator": "如何使用四声道模式？音频怎么分配？"
+        }
+      ]
+    },
+    {
+      "id": "MIC3-C021",
+      "models": [
+        "mic_3"
+      ],
+      "status": "pending",
+      "statement": "没有具体宿主和连接链路证据时，不判断Mic3是否兼容。",
+      "reason": "未列宿主或未知连接方式不等同明确不支持。",
+      "source_refs": [
+        {
+          "source_id": "MIC3-S007",
+          "locator": "PDF第1页：有限相机名单"
+        },
+        {
+          "source_id": "MIC3-S008",
+          "locator": "PDF第1—2页：手机名单"
+        },
+        {
+          "source_id": "MIC3-S009",
+          "locator": "PDF第1页：限定蓝牙App表"
+        }
+      ]
+    },
+    {
+      "id": "M2S-C017",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "未列相机的四声道支持状态尚未确认。",
+      "reason": "缺少具体相机及其四声道规格。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S009",
+          "locator": "第1页表头和19款型号"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“如何使用四声道模式？”"
+        }
+      ]
+    },
+    {
+      "id": "M2S-C020",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "四声道软件兼容表列有iOS GarageBand，但FAQ及商城脚注未给出具体iOS设备和接法，实际链路待核。",
+      "reason": "资料覆盖范围不同不构成直接矛盾；需要iOS硬件、接口、系统及软件版本条件，才能确认完整连接方案。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S008",
+          "locator": "第1页 iOS/GarageBand行"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“如何使用四声道模式？音频怎么分配？”"
+        }
+      ]
+    },
+    {
+      "id": "M2S-C033",
+      "models": [
+        "mic_mini_2s"
+      ],
+      "status": "pending",
+      "statement": "未提供具体手机、系统与App时，不能确认双声道录制与回放能力。",
+      "reason": "缺少确切终端和软件版本，以及逐设备声道依据。",
+      "source_refs": [
+        {
+          "source_id": "M2S-S011",
+          "locator": "第1-2页手机型号表"
+        },
+        {
+          "source_id": "M2S-S001",
+          "locator": "“通过手机连接头连接手机时，是否支持双声道模式？”"
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "audit_scope": "本地结构、来源定位与引用一致性；不执行联网有效性或事实正确性判定。"
+}

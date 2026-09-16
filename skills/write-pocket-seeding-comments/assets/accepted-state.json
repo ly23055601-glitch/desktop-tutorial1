@@ -1,0 +1,2919 @@
+{
+  "rule_version": "2026-09-05-LH13",
+  "claim_registry_version": "2026-09-02-LH5",
+  "delivery_mode": "with_replies",
+  "semantic_policy": {
+    "evidence_source_format": "kind:shared_anchor:detail",
+    "evidence_source_examples": [
+      "operation:t00:visible-1x-to-3x-tap",
+      "result:t00:environment-portrait-to-half-body",
+      "same_condition:t00:same-position-and-subject"
+    ],
+    "causal_evidence_sources_require": [
+      "operation_or_ui",
+      "result",
+      "shared_anchor"
+    ],
+    "comparative_evidence_sources_require": [
+      "operation_or_ui",
+      "result",
+      "same_condition_or_comparison",
+      "shared_anchor"
+    ],
+    "recognized_operation_tokens": [
+      "operation",
+      "setting",
+      "control",
+      "ui",
+      "author_demo"
+    ],
+    "recognized_result_tokens": [
+      "result",
+      "output",
+      "frame"
+    ],
+    "recognized_comparison_tokens": [
+      "same_condition",
+      "comparison"
+    ],
+    "shot_mapping_format": "shot:anchor:model:source",
+    "user_benefit_must_quote_copy": true,
+    "s3_usage_condition_and_boundary_must_quote_copy": true,
+    "actual_s_level_required": true,
+    "lh6_group_schema": {
+      "main_anchor_ids": {
+        "type": "array",
+        "min_items": 1,
+        "max_items": 1,
+        "items": "non_empty_string"
+      },
+      "main_moves": {
+        "type": "array",
+        "min_items": 1,
+        "max_items": 2,
+        "unique_items": true,
+        "allowed_values": [
+          "observation",
+          "reaction",
+          "preference",
+          "question",
+          "disagreement",
+          "joke",
+          "need",
+          "product",
+          "benefit",
+          "boundary"
+        ]
+      },
+      "seed_layers": {
+        "type": "object",
+        "required_keys": [
+          "main",
+          "replies"
+        ],
+        "allowed_values": [
+          "need",
+          "question",
+          "product",
+          "benefit",
+          "boundary"
+        ],
+        "main_max_items": 2,
+        "replies_max_items": 5,
+        "unique_items_per_scope": true
+      },
+      "light_meme_anchor": {
+        "type": "string",
+        "empty_or_main_anchor": true,
+        "required_when_main_moves_contains": "joke"
+      }
+    },
+    "lh8_personal_need": {
+      "max_s_level": "S1",
+      "claim_id_must_be_empty": true,
+      "benefit_basis_values": [
+        "workflow",
+        "visual"
+      ],
+      "need_connection_required": true,
+      "personal_context_scope": "main_author_A_and_same_A_replies_in_LH9_plus; main_only_in_LH8",
+      "personal_context_schema": {
+        "source_ref": "non_empty_user_material_locator",
+        "facts": "non_empty_array_of_real_user_material_fragments",
+        "models": "array_of_confirmed_model_ids"
+      },
+      "personal_context_is_not_post_or_hardware_evidence": true,
+      "strong_seed_quota_required": false,
+      "forbidden_copy_name": "Osmo",
+      "reply_personal_contexts_schema": {
+        "type": "object",
+        "keys": "actual_reply_numbers_as_strings",
+        "values": "same_schema_as_personal_context",
+        "scope": "LH9_plus_same_speaker_source_continuity; LH8_each_reply_only",
+        "default": {}
+      }
+    },
+    "lh9_dialogue": {
+      "required_for": "groups_with_replies",
+      "main_speaker": "A",
+      "speakers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "reply_schema": {
+        "reply": "actual_reply_number_once_in_delivery_order",
+        "speaker": "A|B|C|D|E",
+        "reply_to": "main_or_earlier_existing_reply:n_in_this_group",
+        "anchor_quote": "non_empty_actual_substring_of_parent_body_after_clean_raw",
+        "response_move": "non_empty_description_of_response"
+      },
+      "first_reply_to": "main",
+      "at_least_one_reply_to_reply": false,
+      "self_reply_allowed": false,
+      "output_labels": {
+        "main": "1. 正文",
+        "reply": "    - 正文"
+      },
+      "main_only_requires_labels_or_dialogue": false,
+      "source_continuity": "A_reuses_main_personal_context; other_speakers_reuse_own_prior_reply_personal_contexts_only",
+      "source_ref_policy": "one_source_ref_per_speaker; no_sharing_between_speakers; new_facts_same_source_ref_supplement_and_review",
+      "semantic_review_required": [
+        "response_to_parent",
+        "not_parallel_commentary",
+        "swap_order_dependency",
+        "speaker_identity_continuity",
+        "new_personal_fact_coverage",
+        "naturalness"
+      ],
+      "explicit_role_labels_required": false,
+      "explicit_role_labels_must_match_if_present": true,
+      "zero_replies": "dialogue_absent_or_empty_reply_array; no_orphan_reply_personal_contexts",
+      "reply_to_reply_is_semantic_review": true
+    },
+    "lh10_expression_review": {
+      "dominant_expression": "non_empty_free_form_description_of_what_this_group_actually_says",
+      "product_connection": "non_empty_free_form_description_of_natural_product_connection_to_the_real_single_anchor",
+      "expression_difference_is_semantic_not_enum": true,
+      "diversity_review_path": "qa.semantic_review.diversity_review",
+      "review_record_schema": {
+        "id": "allocation_id",
+        "verdict": "passed_or_revise_after_review",
+        "comparison_reason": "side_by_side_meaning_comparison_using_group_dominant_expressions"
+      },
+      "pending_or_revise_blocks_delivery": true,
+      "checker_proves_semantic_difference": false,
+      "observed_s0_may_deliver_without_feature_evidence": "valid_single_anchor_and_natural_product_connection_and_passed_semantic_review_no_hardware_or_current_result_claims",
+      "personal_need_still_requires_need_connection": true,
+      "capability_and_current_result_causality_checked_per_main_and_reply": true,
+      "new_claim_modes": [],
+      "prefill_claim_mode_or_s_level": false
+    },
+    "lh11_optional_main_name": {
+      "usual_arrangement": "content_driven_naming_without_fixed_slots; not_a_hard_ratio",
+      "product_connection_may_be_empty": "whole_group_observed_S0_visual_with_no_product_name_or_actual_product_capability_or_causality_assertion",
+      "named_label_variation_scope": "only_mains_that_actually_name_a_product",
+      "reply_does_not_need_to_add_product_name": true,
+      "single_real_anchor_and_dominant_expression_and_parallel_review_still_required": true,
+      "group_product_evidence_cannot_come_from_sibling_copy": true,
+      "explicit_device_and_spec_assertions_checked_without_named_parent": true,
+      "new_claim_modes": [],
+      "new_group_flags": []
+    },
+    "lh12_content_driven_delivery": {
+      "main_count_range": [
+        2,
+        4
+      ],
+      "reply_count_range": [
+        0,
+        4
+      ],
+      "main_only_reply_count": 0,
+      "two_mains_need_no_reduced_reason": true,
+      "template_group_is_reusable_example_not_output_count": true,
+      "main_numbering": "restart_at_1_per_section_and_contiguous",
+      "reply_mapping": "single_indent_bullets_in_appearance_order; internal_dialogue_required_for_actual_replies",
+      "final_draft_is_checker_input": true
+    },
+    "lh13_product_interest": {
+      "per_post_semantic_seeding_review_required": true,
+      "product_facts_independent_of_current_clip_evidence": true,
+      "draft_sha256_binds_reviews": true,
+      "no_fixed_name_or_reply_quota": true
+    }
+  },
+  "capture_policy": {
+    "authority": "read-social-links-with-social-helper",
+    "source_skill": "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md",
+    "mode": "mirror_returned_evidence_only",
+    "primary_surface": "connected_google_chrome_social_media_assistant",
+    "primary_surface_values": [
+      "connected_google_chrome_social_media_assistant",
+      "user_supplied_evidence",
+      "user_provided_social_media_assistant_export"
+    ],
+    "batch_ledger_path": "",
+    "note": "Copy actual returned collection status, intervals, retry/stop reasons and evidence paths; do not define acquisition or conversion rules here"
+  },
+  "capture_attempts": [
+    {
+      "platform": "抖音",
+      "work_ids": [
+        "7681886117041601194",
+        "7681694987108599269",
+        "7681693645309979109",
+        "7681876830702525878",
+        "7681690366244422129",
+        "7681658223706881457",
+        "7681657668680300787",
+        "7681640708729682866",
+        "7681653078181064895"
+      ],
+      "mode": "API",
+      "attempt": 1,
+      "state": "success",
+      "auto_skipped": 0
+    },
+    {
+      "scope": "holdout_media_followup",
+      "source_record_path": "../../../../outputs/pocket-lh12-validation/research/holdout-media-reconciliation.json",
+      "record": {
+        "id": "DY07",
+        "platform": "douyin",
+        "work_id": "7349898163047648524",
+        "metadata_source": "../../../../outputs/pocket-lh12-validation/research/douyin-holdout-post.xlsx",
+        "metadata": {
+          "视频ID": "7349898163047648524",
+          "视频链接": "https://www.douyin.com/video/7349898163047648524",
+          "视频类型": "视频",
+          "视频描述": "旅行是平淡生活的一剂猛药。#记录真实生活 #自律 #vlog日常",
+          "发布时间": "2024-03-24T19:58:46",
+          "视频时长": "1分19秒",
+          "视频标签": "随拍、生活记录、日常vlog",
+          "视频话题": "记录真实生活、自律、vlog日常",
+          "达人昵称": "罗大雄",
+          "采集时间": "2026-09-05T17:48:54.307000"
+        },
+        "read_method": "社媒助手 API post collection then native media download",
+        "queue_count": 1,
+        "interval_seconds": [
+          1,
+          3
+        ],
+        "auto_skip_enabled": true,
+        "attempt": 1,
+        "retry_count": 0,
+        "ui_completed": 1,
+        "ui_failed": 0,
+        "media_status": "completed",
+        "media_path": "/Users/luocaihua/Downloads/社媒助手/抖音/7349898163047648524/LH12留测视频.mp4",
+        "media_bytes": 20289357,
+        "ui_size_mb": 19.35,
+        "media_sha256": "5ae6e2dcd38b882a9cfa5bcde94345189b79ad8dc45912e9874efa76b1419934"
+      }
+    },
+    {
+      "scope": "holdout_media_followup",
+      "source_record_path": "../../../../outputs/pocket-lh12-validation/research/holdout-media-reconciliation.json",
+      "record": {
+        "id": "BL07",
+        "platform": "bilibili",
+        "work_id": "BV1wb411U7jh",
+        "metadata_source": "../../../../outputs/pocket-lh12-validation/research/bilibili-holdout-post.xlsx",
+        "metadata": {
+          "视频ID": "BV1wb411U7jh",
+          "视频链接": "https://www.bilibili.com/video/BV1wb411U7jh/",
+          "视频标题": "【旅拍vlog】云南是彩色的",
+          "视频描述": "去云南玩了四天，剪了一个小片子\n欢迎关注！",
+          "发布时间": "2019-02-13T15:03:13",
+          "视频时长": "3分29秒",
+          "UP主名称": "J0ey1iu",
+          "视频标签": "发现《Moments》、Vlog旅行日记、旅行、VLOG、摄影、游记、旅游、云南、短片、微电影、旅拍",
+          "视频话题": null,
+          "采集时间": "2026-09-05T17:45:30.569000"
+        },
+        "read_method": "社媒助手 API post collection then native media download",
+        "queue_count": 1,
+        "interval_seconds": [
+          1,
+          3
+        ],
+        "auto_skip_enabled": true,
+        "attempt": 1,
+        "retry_count": 0,
+        "ui_completed": 1,
+        "ui_failed": 0,
+        "media_status": "completed",
+        "media_path": "/Users/luocaihua/Downloads/社媒助手/哔哩哔哩/BV1wb411U7jh/LH12留测视频.mp4",
+        "media_bytes": 79662701,
+        "ui_size_mb": 75.97,
+        "media_sha256": "8cec2b25b3ba1896b725c477c00d6ae5fef67f359e87012e361c313ac179a81f"
+      }
+    },
+    {
+      "scope": "holdout_media_followup",
+      "source_record_path": "../../../../outputs/pocket-lh12-validation/research/holdout-media-reconciliation.json",
+      "record": {
+        "id": "XHS07",
+        "platform": "xiaohongshu",
+        "work_id": "69e0d0c6000000001a0249d7",
+        "metadata_source": "../../../../outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx",
+        "text_evidence": "../../../../outputs/pocket-lh12-validation/research/xiaohongshu-holdout-post-text.json",
+        "media_status": "blocked_by_browser_url_policy",
+        "limitation": "Browser Use rejected the known original href with explicit URL policy block; no alternate URL, surface, download route or workaround attempted; previously exported post text is available, visual/audio evidence unavailable",
+        "attempted_browser_opens": 1,
+        "alternate_routes_attempted": false,
+        "allowed_scope": "Previously exported original post text only, no visual/audio claims"
+      }
+    }
+  ],
+  "input_path": "accepted-comments.md",
+  "evidence_path": "accepted-evidence.json",
+  "readable_ids": [
+    "7681886117041601194",
+    "7681694987108599269",
+    "7681693645309979109",
+    "7681876830702525878",
+    "7681690366244422129",
+    "7681658223706881457",
+    "7681657668680300787",
+    "7681640708729682866",
+    "7681653078181064895",
+    "7349898163047648524",
+    "BV1wb411U7jh"
+  ],
+  "failed_ids": [],
+  "evidence_stop_ids": [],
+  "block_allocations": [
+    {
+      "block_id": "pocket-project-accepted-11",
+      "ids": [
+        "7681886117041601194",
+        "7681694987108599269",
+        "7681693645309979109",
+        "7681876830702525878",
+        "7681690366244422129",
+        "7681658223706881457",
+        "7681657668680300787",
+        "7681640708729682866",
+        "7681653078181064895",
+        "7349898163047648524",
+        "BV1wb411U7jh"
+      ],
+      "reserved_patterns": [],
+      "forbidden_patterns": [],
+      "persuasion_allocations": [
+        {
+          "id": "7681886117041601194",
+          "section_number": "1",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681886117041601194",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "#原创古风计划 #原创汉服计划 #大疆 #莫问归期 #pocket4p 挑战大疆4p拍摄古风视频"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "umbrella-gaze"
+              ],
+              "main_moves": [
+                "joke",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "umbrella-gaze",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被伞下对望吊起故事期待而催促开口",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "post-1-caption"
+              ],
+              "main_moves": [
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被古风作品激起把出游拍出剧情感的兴趣",
+              "product_connection": "作者标注4p的古风作品引发拍剧般的主观感受，不声称设备自动获得电影效果",
+              "product_facts": []
+            },
+            {
+              "group": 3,
+              "main_anchor_ids": [
+                "gauze-portrait"
+              ],
+              "main_moves": [
+                "question",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "纱前遮挡的人像画面触发尝试兴趣，具体追问拍摄镜头选择",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "想学白纱构图并问这段选了哪个镜头倍率",
+              "product_connection": "将白纱前人像与4P两个焦段选择相连，原片用了哪个倍率尚未知",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681694987108599269",
+          "section_number": "2",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681694987108599269",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "当我在暗光环境打开大疆Pocket4P 氛围感的神！\n#暗光 \n#拍出氛围感 \n#大疆Pocket4P"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P1",
+            "verified_claim_ids": [
+              "4p_3x_physical_lens"
+            ],
+            "checked_at": "2026-09-05",
+            "source_urls": [
+              "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+            ]
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "bedroom-wide"
+              ],
+              "main_moves": [
+                "preference",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被床边慵懒写真打动并发现日常空间也能作为题材",
+              "product_connection": "作者标注4P的室内写真引发心动，床都不用下是对已见构图的夸张感受，不承诺硬件性能",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "dim-white-dress"
+              ],
+              "main_moves": [
+                "preference",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "4p_3x_physical_lens",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "product",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [
+                "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+              ],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "对4P的3倍镜头产生室内半身取景兴趣",
+              "product_connection": "以官网确认的独立3倍中焦为拍摄选项，想尝试局部半身构图，不宣称原片已使用该镜头",
+              "product_facts": [
+                {
+                  "claim_id": "4p_3x_physical_lens",
+                  "target_model": "pocket_4p",
+                  "source_urls": [
+                    "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+                  ],
+                  "checked_at": "2026-09-05",
+                  "exact_copy_quote": "4p那个3倍镜头"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7681693645309979109",
+          "section_number": "3",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681693645309979109",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "大疆 pocket4p 开箱 可算不用抢了，都要放弃了#大疆开箱仪式 #口袋云台相机"
+          },
+          "watermark_hint": {
+            "present": false,
+            "model": "unknown",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P1",
+            "verified_claim_ids": [
+              "4p_zoom_button"
+            ],
+            "checked_at": "2026-09-05",
+            "source_urls": [
+              "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+            ]
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "post-3-caption"
+              ],
+              "main_moves": [
+                "question",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "接住快放弃后终于开箱的等待情绪",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "light-recognition"
+              ],
+              "main_moves": [
+                "reaction",
+                "preference"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": [
+                  {
+                    "reply": 1,
+                    "speaker": "B",
+                    "reply_to": "main",
+                    "anchor_quote": "Pocket4P这一包小东西，越拆越馋，尤其那个小补光灯",
+                    "response_move": "将越拆越馋接成每拆一个就多想要一个的调侃"
+                  },
+                  {
+                    "reply": 2,
+                    "speaker": "A",
+                    "reply_to": "reply:1",
+                    "anchor_quote": "哈哈哈你是每拆一包就多想要一样",
+                    "response_move": "承认欲望连收纳包也覆盖，让越拆越想要的情绪落在另一个已见对象上"
+                  }
+                ]
+              },
+              "dominant_expression": "拆出的补光灯使人想要这套开箱中的小配件",
+              "product_connection": "字幕确实点出补光灯，产品是开箱拥有欲的对象，不把所见配件概括为所有套装标配",
+              "product_facts": []
+            },
+            {
+              "group": 3,
+              "main_anchor_ids": [
+                "post-3-caption"
+              ],
+              "main_moves": [
+                "preference"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "4p_zoom_button",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "product",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [
+                "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+              ],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "喜欢屏下变焦键带来的直接操作方式",
+              "product_connection": "开箱产品触发对已核验实体按键的偏好，官网操作事实与原帖仅开箱的证据分开",
+              "product_facts": [
+                {
+                  "claim_id": "4p_zoom_button",
+                  "target_model": "pocket_4p",
+                  "source_urls": [
+                    "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+                  ],
+                  "checked_at": "2026-09-05",
+                  "exact_copy_quote": "4p那个变焦键我还挺喜欢的，按一下换远近，拍着拍着不用戳屏幕"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7681876830702525878",
+          "section_number": "4",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681876830702525878",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "天聋地哑 孤独怎么会是惩罚 建议横屏观看🌟 \n陌上人如玉，小姐世无双！又帅又飒！ \n#抖音摄影美学大赏 #运动中的关键帧 #转场 #鹤男 #大疆Pocket4P"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "4-sweeping-to-flowers"
+              ],
+              "main_moves": [
+                "joke",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "4-sweeping-to-flowers",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": [
+                  {
+                    "reply": 1,
+                    "speaker": "B",
+                    "reply_to": "main",
+                    "anchor_quote": "扫着扫着就去闯江湖了，这地今天还能扫完吗",
+                    "response_move": "顺着扫地变花担的情节，把家务先放下接成玩笑"
+                  }
+                ]
+              },
+              "dominant_expression": "调侃扫地到江湖的转场把家务搁下了",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "4-wind-sword"
+              ],
+              "main_moves": [
+                "need",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "搭剑、蓝天和人物姿态为五秒出场的想象提供依据",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被搭剑出场打动，想给自己也留一个短出场",
+              "product_connection": "4P标注作品中的搭剑姿态让观众想到自己的出场记录，不增设过去经历",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681690366244422129",
+          "section_number": "5",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681690366244422129",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "你想去很多地方 可一个人不敢～#转场 #旅游转场 #大疆pocket4 #穿搭 #有我呢"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P2",
+            "verified_claim_ids": [
+              "shared_intelligent_tracking"
+            ],
+            "checked_at": "2026-09-05",
+            "source_urls": [
+              "https://store.dji.com/cn/product/osmo-pocket-4",
+              "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+            ]
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "5-waterfall-tshirt"
+              ],
+              "main_moves": [
+                "need",
+                "question"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "瀑布前回头的人像让观看者想保留自己的旅行身影，回复围绕取回设备的代价接话",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": [
+                  {
+                    "reply": 1,
+                    "speaker": "B",
+                    "reply_to": "main",
+                    "anchor_quote": "Pocket4架着开跟随，能自己拍瀑布前回头这段吗？想把自己也拍进去",
+                    "response_move": "接住架设自拍，打趣拍完仍要走回去取设备"
+                  },
+                  {
+                    "reply": 2,
+                    "speaker": "A",
+                    "reply_to": "reply:1",
+                    "anchor_quote": "拍完还得走回去接它哈哈",
+                    "response_move": "回应多走几步的玩笑，表达愿意为拍到自己付出这个小动作"
+                  }
+                ]
+              },
+              "dominant_expression": "想把自己拍进旅行并追问跟随自拍的可行性",
+              "product_connection": "以Pocket4作为独自拍摄工具提出跟随使用疑问，未断言本片启用了跟随或效果保证",
+              "product_facts": [
+                {
+                  "claim_id": "shared_intelligent_tracking",
+                  "target_model": "pocket_4",
+                  "source_urls": [
+                    "https://store.dji.com/cn/product/osmo-pocket-4",
+                    "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+                  ],
+                  "checked_at": "2026-09-05",
+                  "exact_copy_quote": "Pocket4架着开跟随"
+                }
+              ]
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "post-5-caption"
+              ],
+              "main_moves": [
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "接住原帖文字中一个人不敢与有我呢的安慰感",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 3,
+              "main_anchor_ids": [
+                "5-airport-start"
+              ],
+              "main_moves": [
+                "reaction",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "候机座椅、机场与人物笑容触发希望拥有类似旅行片段的想法",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被候机画面带起出游情绪，想有自己的旅行记录",
+              "product_connection": "作者标注p4的机场开场激起旅行记录愿望，兴奋为观看情绪而非设备能力",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681658223706881457",
+          "section_number": "6",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681658223706881457",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "💡 谁把我的灯关上了！\n#大疆Pocket4P#关灯转场 #fgo #cos"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "6-fakeout-light"
+              ],
+              "main_moves": [
+                "joke",
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "6-fakeout-light",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "用再关一次灯的玩笑接住变装延迟的反差",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "6-room-to-water"
+              ],
+              "main_moves": [
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "白T恤到草帽造型的反差提示变装前也值得记录",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": [
+                  {
+                    "reply": 1,
+                    "speaker": "B",
+                    "reply_to": "main",
+                    "anchor_quote": "要是出cos，我得拿Pocket4P把换装前也录上，光留最后的造型还不够过瘾",
+                    "response_move": "接住不只留最后造型的想法，补充想看扶帽子的动态，不复述主评"
+                  }
+                ]
+              },
+              "dominant_expression": "想把cos变装前的普通样子也录下来",
+              "product_connection": "4P标注作品的前后造型对照触发完整记录兴趣，不声称已有cos经历",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681657668680300787",
+          "section_number": "7",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681657668680300787",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "用大疆Pocket4P拍超丝滑的转场视频…#大疆Pocket4P #转场 #拍摄设备"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "p7-raised-arm-across-places"
+              ],
+              "main_moves": [
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "重复抬手动作提供面对镜头时可做什么的具体创作线索",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "想学跨地点重复动作作为面对镜头的具体玩法",
+              "product_connection": "4P作为作者标注的拍摄设备，吸引点是可学习的抬手拍法，未把三格剪辑归为机内功能",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "p7-three-panel-person-and-scenery"
+              ],
+              "main_moves": [
+                "question",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "上下景物、中间人物的三格布局触发如何预留可裁剪画面的疑问",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "追问给三格后期留素材的拍摄构图方式",
+              "product_connection": "Pocket4P原始取景与三格后期需求相连，横拍是否必要仍是真实未回答的问题",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681640708729682866",
+          "section_number": "8",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681640708729682866",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "当我在地铁站打开大疆的旋转运镜…. #拍照教程 #转场 #地铁拍照 #jk制服 #大疆Pocket4"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P2",
+            "verified_claim_ids": [
+              "p4_spinshot_auto"
+            ],
+            "checked_at": "2026-09-05",
+            "source_urls": [
+              "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+            ]
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "post-8-caption"
+              ],
+              "main_moves": [
+                "reaction",
+                "joke"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "post-8-caption",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "p4_spinshot_auto",
+              "target_model": "pocket_4",
+              "contrast_models": [],
+              "benefit_basis": "product",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [
+                "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+              ],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "发现Pocket4可以自动旋转运镜，打趣此前脑补的操作",
+              "product_connection": "作者标题旋转运镜与官网确认的独立功能相连，不用成片证明其开启了什么参数",
+              "product_facts": [
+                {
+                  "claim_id": "p4_spinshot_auto",
+                  "target_model": "pocket_4",
+                  "source_urls": [
+                    "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+                  ],
+                  "checked_at": "2026-09-05",
+                  "exact_copy_quote": "原来Pocket4能自己转镜头"
+                }
+              ]
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "p8-hand-at-hair"
+              ],
+              "main_moves": [
+                "reaction",
+                "joke"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "p8-hand-at-hair",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "把旋转镜头和人物淡定的反差接成调侃",
+              "product_connection": "",
+              "product_facts": []
+            },
+            {
+              "group": 3,
+              "main_anchor_ids": [
+                "p8-centred-person-station-lines"
+              ],
+              "main_moves": [
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "站台横竖线随构图旋转的已见内容，使观看者想到空走廊出场",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "从站内几何线条联想到走廊里的旋转出场",
+              "product_connection": "p4沿用作者标注，描述想尝试的内容选材，不宣称不需后期或任何结果保证",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7681653078181064895",
+          "section_number": "9",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7681653078181064895",
+          "model_status": {
+            "level": "M1",
+            "claimed_model": "pocket_4p",
+            "confirmed_model": "unknown",
+            "evidence_type": "author_claim",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "至今没有找到驾驭不了的风格\n#大疆Pocket4P#大疆#卡点 #不固定风格"
+          },
+          "watermark_hint": {
+            "present": true,
+            "model": "pocket_4p",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S1",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "p9-pink-looking-down-and-black-phone"
+              ],
+              "main_moves": [
+                "reaction",
+                "preference"
+              ],
+              "seed_layers": {
+                "main": [
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "想选黑裙却被后面的泡泡人像动摇偏好",
+              "product_connection": "作者标注Pocket4P的人像合集形成具体选择的心动，黑裙与泡泡画面均由本帖独立锚点覆盖，不归因于设备自动适应风格",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "post-9-caption"
+              ],
+              "main_moves": [
+                "question",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "pocket_4p",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "多套风格的最终成片让观看者想理解拍摄到后期的完整过程",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "希望学习完整人像过程而非只看片段",
+              "product_connection": "4p人像合集触发从站姿到调色的学习需求，不声称设备一键完成流程",
+              "product_facts": []
+            },
+            {
+              "group": 3,
+              "main_anchor_ids": [
+                "p9-last-greenery-table"
+              ],
+              "main_moves": [
+                "reaction"
+              ],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "observed",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S0",
+              "actual_s_level": "S0",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "被绿植桌边肖像带进悠闲周末的情绪",
+              "product_connection": "",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "7349898163047648524",
+          "section_number": "10",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.douyin.com/video/7349898163047648524",
+          "model_status": {
+            "level": "M0",
+            "claimed_model": "unknown",
+            "confirmed_model": "unknown",
+            "evidence_type": "unknown",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "原帖文字没有提供Pocket型号信息"
+          },
+          "watermark_hint": {
+            "present": false,
+            "model": "unknown",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S0",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "DY07-nap-time"
+              ],
+              "main_moves": [
+                "reaction",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "吃粉与午睡均在同帖时间戳画面中可见，让观看者想到没有大事也可以录",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "发现小事也值得作为Pocket日常记录选材",
+              "product_connection": "Pocket只作为本人想用的记录工具，原片设备未知；没有宣称该视频用Pocket拍摄",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "DY07-breakfast-time"
+              ],
+              "main_moves": [
+                "question",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "吃粉画面引出独自吃饭如何架设机位的问题，未替博主给出答案",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "追问吃饭时的桌面机位以及Pocket高度是否适合",
+              "product_connection": "大疆Pocket是拟试拍工具，桌上机位与高度是否足够都是未回答的问题，未断言原帖设备",
+              "product_facts": []
+            }
+          ]
+        },
+        {
+          "id": "BV1wb411U7jh",
+          "section_number": "11",
+          "draft_path": "accepted-comments.md",
+          "canonical_url": "https://www.bilibili.com/video/BV1wb411U7jh",
+          "model_status": {
+            "level": "M0",
+            "claimed_model": "unknown",
+            "confirmed_model": "unknown",
+            "evidence_type": "unknown",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": "原帖文字没有提供Pocket型号信息"
+          },
+          "watermark_hint": {
+            "present": false,
+            "model": "unknown",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S0",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                "BL07-wooden-tags-bells"
+              ],
+              "main_moves": [
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "悬挂木牌的近景使已有Pocket的用户想带着设备去云南拍摄",
+              "personal_context": {
+                "source_ref": "../references/project-context.md#main-author",
+                "facts": [
+                  "我自己本身就有pocket，也有使用过的"
+                ],
+                "models": []
+              },
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "已有Pocket，被木牌近景触发带着自己的设备去云南记录的愿望",
+              "product_connection": "带着它明确指向已持有Pocket的未来用途，只有拥有与用过有本人原话支持；不新增型号、行程或既往实测",
+              "product_facts": []
+            },
+            {
+              "group": 2,
+              "main_anchor_ids": [
+                "BL07-night-street"
+              ],
+              "main_moves": [
+                "question",
+                "need"
+              ],
+              "seed_layers": {
+                "main": [
+                  "need",
+                  "product"
+                ],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "personal_need",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "workflow",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "S1",
+              "actual_s_level": "S1",
+              "need_connection": "木牌近景和夜街都让观看者喜欢，因而想了解如何选进短片，没有虚构既往剪辑经历",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "舍不得删旅行片段，追问如何从素材里作取舍",
+              "product_connection": "大疆Pocket作为条件式旅行记录工具，向博主学三分多钟成片的选材，不认定2019原片设备",
+              "product_facts": []
+            }
+          ]
+        }
+      ],
+      "forbidden_persuasion_combinations": [],
+      "draft_path": "accepted-comments.md"
+    }
+  ],
+  "ledger_summary": {
+    "window_links": 0,
+    "recent_openings": [],
+    "tone_counts": {},
+    "product_exposure_counts": {},
+    "reply_combination_counts": {},
+    "seeding_mechanism_counts": {},
+    "purchase_stage_counts": {},
+    "audience_perspective_counts": {},
+    "s_level_counts": {},
+    "model_status_counts": {},
+    "scene_need_counts": {},
+    "feature_use_counts": {},
+    "fact_status_counts": {},
+    "seeding_mechanism_guardrail": {
+      "window_links": 10,
+      "max_same_mechanism": 4,
+      "count_unit": "links",
+      "review_only": true,
+      "exceptions": []
+    },
+    "fingerprint_path": ""
+  },
+  "draft_paths": [
+    "accepted-comments.md"
+  ],
+  "output_path": "accepted-comments.md",
+  "qa": {
+    "checker_status": "passed_with_reviewed_style_warnings",
+    "draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282",
+    "checked_at": "2026-09-05T10:49:05.357529+00:00",
+    "errors": 0,
+    "warnings_reviewed": 21,
+    "remaining_warnings": [
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 3,
+            "section": "1",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 11,
+            "section": "2",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 17,
+            "section": "3",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 28,
+            "section": "4",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 36,
+            "section": "5",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 55,
+            "section": "7",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 69,
+            "section": "9",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 77,
+            "section": "10",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_ALL_COMMA_LOCAL",
+        "message": "同一链接三条主评都使用逗号骨架",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 83,
+            "section": "11",
+            "group": null
+          }
+        ],
+        "manual_conclusion": "实际逐帖比较的是完整说话目的；有逗号不等于三条同一语义，2条帖也触发了遗留提示。逐帖差异见diversity_review，未靠删标点凑比例",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_COMMA_PATTERN",
+        "message": "“画面＋逗号＋判断”句形占比过高",
+        "locations": [],
+        "metrics": {
+          "one_comma": 0.407,
+          "any_comma": 0.926
+        },
+        "manual_conclusion": "25/27条有逗号，句式集中度提示保留。正文同时包含短反应、未回答问题、配件欲望、操作偏好和条件式用途，独立编辑未发现整批必须退回的单一表达套路",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_LENGTH_BANDS_DOUYIN",
+        "message": "douyin 短句或长句比例不足，主评可能集中在同一长度档",
+        "locations": [],
+        "metrics": {
+          "count": 25,
+          "short_limit": 13,
+          "long_limit": 24,
+          "short_ratio": 0.12,
+          "long_ratio": 0.68
+        },
+        "manual_conclusion": "25条抖音主评中短句3条、长句17条，长度偏完整属实；没有为了补篇幅而延长的话题，不把字数比例设为写作配额",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_MOMENT_PHRASES",
+        "message": "“这段/那一下/最后”等瞬间指示词使用过密",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 9,
+            "section": "1",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 34,
+            "section": "4",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 38,
+            "section": "5",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 51,
+            "section": "6",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 75,
+            "section": "9",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 81,
+            "section": "10",
+            "group": 2
+          }
+        ],
+        "metrics": {
+          "ratio": 0.222
+        },
+        "manual_conclusion": "6条瞬间指示语分别指向白纱、搭剑、瀑布回头、换装后造型、绿植肖像和吃粉，具体关心的事情不同，保留原口语",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_BATCH",
+        "message": "产品词位于主评前6字的比例过高",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 7,
+            "section": "1",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 13,
+            "section": "2",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 15,
+            "section": "2",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 21,
+            "section": "3",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 26,
+            "section": "3",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 34,
+            "section": "4",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 38,
+            "section": "5",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 45,
+            "section": "5",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 63,
+            "section": "8",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 67,
+            "section": "8",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 71,
+            "section": "9",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 73,
+            "section": "9",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 85,
+            "section": "11",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 87,
+            "section": "11",
+            "group": 2
+          }
+        ],
+        "metrics": {
+          "ratio": 0.519
+        },
+        "manual_conclusion": "名称前置14/27条，偏高属实。逐帖审稿已检查产品是否有实际话题作用；第9帖1条名称略偏标签，教程主评仍承担整帖种草，作为可改进项保留",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 13,
+            "section": "2",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 15,
+            "section": "2",
+            "group": 2
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 21,
+            "section": "3",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 26,
+            "section": "3",
+            "group": 3
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 38,
+            "section": "5",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 45,
+            "section": "5",
+            "group": 3
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 63,
+            "section": "8",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 67,
+            "section": "8",
+            "group": 3
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 71,
+            "section": "9",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 73,
+            "section": "9",
+            "group": 2
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_LOCAL",
+        "message": "同一链接超过一条主评在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 85,
+            "section": "11",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 87,
+            "section": "11",
+            "group": 2
+          }
+        ],
+        "manual_conclusion": "同帖较早点名提示保留；并排主评分别谈场景、操作或用途，名称位置不作为通过或退回的唯一标准",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_PRODUCT_START_ROLLING",
+        "message": "连续12条主评中有7条在前6字出现产品词",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 7,
+            "section": "1",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 13,
+            "section": "2",
+            "group": 1
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 15,
+            "section": "2",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 21,
+            "section": "3",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 26,
+            "section": "3",
+            "group": 3
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 34,
+            "section": "4",
+            "group": 2
+          },
+          {
+            "file": "accepted-comments.md",
+            "line": 38,
+            "section": "5",
+            "group": 1
+          }
+        ],
+        "metrics": {
+          "window_start": {
+            "file": "accepted-comments.md",
+            "line": 5,
+            "section": "1",
+            "group": 1
+          },
+          "window_end": {
+            "file": "accepted-comments.md",
+            "line": 43,
+            "section": "5",
+            "group": 2
+          }
+        },
+        "manual_conclusion": "连续窗口有7/12条较早点名，与整批前置为同一线索；已按具体欲望和问题审稿，不机械挪名称",
+        "disposition": "reviewed_retained_for_project_baseline"
+      },
+      {
+        "severity": "warning",
+        "code": "W_SEED_ZERO_PROXY",
+        "message": "链接已有产品或功能露出，但未发现面向用户的可感收益线索；请人工复核种草链路",
+        "locations": [
+          {
+            "file": "accepted-comments.md",
+            "line": 63,
+            "section": "8",
+            "group": 1
+          }
+        ],
+        "metrics": {
+          "product_cue_lines": 1,
+          "benefit_proxy_lines": 0
+        },
+        "manual_conclusion": "第8帖第1条发现自动旋转运镜并对手动拧机器产生反差认识，属于功能兴趣；正文有独立官网事实，整帖另有空走廊用途，机器收益词表未覆盖，不额外硬补收益句",
+        "disposition": "reviewed_retained_for_project_baseline"
+      }
+    ],
+    "checker_output_path": "../../../../outputs/pocket-project-acceptance/checker.strict.json",
+    "evidence_paths": [
+      "accepted-evidence.json"
+    ],
+    "semantic_review": {
+      "reviewed_links": 11,
+      "review_ids": [
+        "7681886117041601194",
+        "7681694987108599269",
+        "7681693645309979109",
+        "7681876830702525878",
+        "7681690366244422129",
+        "7681658223706881457",
+        "7681657668680300787",
+        "7681640708729682866",
+        "7681653078181064895",
+        "7349898163047648524",
+        "BV1wb411U7jh"
+      ],
+      "summary": "已逐帖复核11帖产品兴趣、并排差异及6条回复；独立编辑复核最终SHA一致，最小修订后通过，无剩余必改项",
+      "diversity_review": [
+        {
+          "id": "7681886117041601194",
+          "verdict": "passed",
+          "comparison_reason": "伞下人物接话、古风成片的剧情感、白纱前1倍或3倍的取景问题，三条各有说话目的，均不假定原片所用镜头"
+        },
+        {
+          "id": "7681694987108599269",
+          "verdict": "passed",
+          "comparison_reason": "第一条被床边写真吸引，第二条想用3倍镜头做半身取景；共同对Pocket心动，但分别关注场景和镜头选择"
+        },
+        {
+          "id": "7681693645309979109",
+          "verdict": "passed",
+          "comparison_reason": "等待后的开箱情绪、补光灯等配件的拥有欲、实体变焦键操作偏好彼此独立；两条回复依次调侃欲望增加、延伸到包，便自然停下"
+        },
+        {
+          "id": "7681876830702525878",
+          "verdict": "passed",
+          "comparison_reason": "扫地转场接玩笑与搭剑出场激发拍摄欲不同；唯一回复继续扫地和花担的同一笑点，不变成指导"
+        },
+        {
+          "id": "7681690366244422129",
+          "verdict": "passed",
+          "comparison_reason": "独自把自己拍进画面的功能疑问、文字配对的安慰感、候机引发的旅行记录期待不同；两条回复接回收设备的行动和自己的态度，不替博主答技术问题"
+        },
+        {
+          "id": "7681658223706881457",
+          "verdict": "passed",
+          "comparison_reason": "关灯仍是白T的短反应与cos换装前也想记录的用途不同；回复补扶帽子的动态细节，未重复主评"
+        },
+        {
+          "id": "7681657668680300787",
+          "verdict": "passed",
+          "comparison_reason": "跨地点抬手拍法与三格剪辑的前期取景问题是不同学习重点；共同创作意图不等于同义重复，均无机内自动剪辑承诺"
+        },
+        {
+          "id": "7681640708729682866",
+          "verdict": "passed",
+          "comparison_reason": "自动转镜头的认识变化、人物淡定的短反应、空走廊拍出场的用途依次不同；没有为了补回复再做重复问答"
+        },
+        {
+          "id": "7681653078181064895",
+          "verdict": "passed",
+          "comparison_reason": "黑裙与泡泡之间的偏爱动摇、从站姿到调色的教程诉求、绿植桌边悠闲情绪不同；不因同产品能拍多风格就承诺一键效果"
+        },
+        {
+          "id": "7349898163047648524",
+          "verdict": "passed",
+          "comparison_reason": "从小事获得日常记录选材与桌面拍摄高度疑问不同；Pocket仅为拟用工具，没有认定原片设备"
+        },
+        {
+          "id": "BV1wb411U7jh",
+          "verdict": "passed",
+          "comparison_reason": "拥有Pocket后想带去云南拍木牌与旅行素材取舍问题不同；明确未来用途，未虚构到过云南、使用型号或原片设备"
+        }
+      ],
+      "seeding_review": [
+        {
+          "id": "7681886117041601194",
+          "verdict": "passed",
+          "reason": "伞下人物接话、古风成片的剧情感、白纱前1倍或3倍的取景问题，三条各有说话目的，均不假定原片所用镜头",
+          "interest_entries": [
+            {
+              "group": 2,
+              "exact_copy_quote": "4p拍古风这味儿",
+              "interest": "把普通出游拍成有剧情的古风片段"
+            },
+            {
+              "group": 3,
+              "exact_copy_quote": "Pocket4P用的1倍还是3倍呀",
+              "interest": "对白纱人像的镜头选择产生了解兴趣"
+            }
+          ]
+        },
+        {
+          "id": "7681694987108599269",
+          "verdict": "passed",
+          "reason": "第一条被床边写真吸引，第二条想用3倍镜头做半身取景；共同对Pocket心动，但分别关注场景和镜头选择",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "Pocket4P这组给我看心动了",
+              "interest": "发现卧室床边也可成为喜欢的人像题材"
+            },
+            {
+              "group": 2,
+              "exact_copy_quote": "想试试4p那个3倍镜头",
+              "interest": "想用中焦尝试半身取景"
+            }
+          ]
+        },
+        {
+          "id": "7681693645309979109",
+          "verdict": "passed",
+          "reason": "等待后的开箱情绪、补光灯等配件的拥有欲、实体变焦键操作偏好彼此独立；两条回复依次调侃欲望增加、延伸到包，便自然停下",
+          "interest_entries": [
+            {
+              "group": 2,
+              "exact_copy_quote": "Pocket4P这一包小东西，越拆越馋",
+              "interest": "被真实拆出的补光灯等配件激起拥有欲"
+            },
+            {
+              "group": 3,
+              "exact_copy_quote": "按一下换远近，拍着拍着不用戳屏幕",
+              "interest": "喜欢实体变焦键的操作方式"
+            }
+          ]
+        },
+        {
+          "id": "7681876830702525878",
+          "verdict": "passed",
+          "reason": "扫地转场接玩笑与搭剑出场激发拍摄欲不同；唯一回复继续扫地和花担的同一笑点，不变成指导",
+          "interest_entries": [
+            {
+              "group": 2,
+              "exact_copy_quote": "好想给自己也拍个出场，哪怕就五秒",
+              "interest": "把作者标注4p的帅气搭剑画面联想到自己的短出场"
+            }
+          ]
+        },
+        {
+          "id": "7681690366244422129",
+          "verdict": "passed",
+          "reason": "独自把自己拍进画面的功能疑问、文字配对的安慰感、候机引发的旅行记录期待不同；两条回复接回收设备的行动和自己的态度，不替博主答技术问题",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "想把自己也拍进去",
+              "interest": "想了解Pocket4跟随与独自拍摄的适用方式"
+            },
+            {
+              "group": 3,
+              "exact_copy_quote": "这种旅行记录好想自己也有一份",
+              "interest": "候机和出游的情绪引起自己的记录需求"
+            }
+          ]
+        },
+        {
+          "id": "7681658223706881457",
+          "verdict": "passed",
+          "reason": "关灯仍是白T的短反应与cos换装前也想记录的用途不同；回复补扶帽子的动态细节，未重复主评",
+          "interest_entries": [
+            {
+              "group": 2,
+              "exact_copy_quote": "我得拿Pocket4P把换装前也录上",
+              "interest": "希望同时保留cos换装前后的动态过程"
+            }
+          ]
+        },
+        {
+          "id": "7681657668680300787",
+          "verdict": "passed",
+          "reason": "跨地点抬手拍法与三格剪辑的前期取景问题是不同学习重点；共同创作意图不等于同义重复，均无机内自动剪辑承诺",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "4p这套拍法我想学",
+              "interest": "找到面对镜头可做的跨地点动作玩法"
+            },
+            {
+              "group": 2,
+              "exact_copy_quote": "想剪的时候人和风景都留住",
+              "interest": "关心Pocket4P前期构图如何服务三格后期"
+            }
+          ]
+        },
+        {
+          "id": "7681640708729682866",
+          "verdict": "passed",
+          "reason": "自动转镜头的认识变化、人物淡定的短反应、空走廊拍出场的用途依次不同；没有为了补回复再做重复问答",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "原来Pocket4能自己转镜头",
+              "interest": "发现设备的自动旋转运镜玩法"
+            },
+            {
+              "group": 3,
+              "exact_copy_quote": "我想找个空走廊试试",
+              "interest": "想把旋转构图应用到自己的出场片段"
+            }
+          ]
+        },
+        {
+          "id": "7681653078181064895",
+          "verdict": "passed",
+          "reason": "黑裙与泡泡之间的偏爱动摇、从站姿到调色的教程诉求、绿植桌边悠闲情绪不同；不因同产品能拍多风格就承诺一键效果",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "Pocket4P这组我选黑裙",
+              "interest": "对多风格人像形成明确偏爱和兴趣"
+            },
+            {
+              "group": 2,
+              "exact_copy_quote": "出一期4p人像的完整过程吧",
+              "interest": "愿意继续学习从站姿到调色的Pocket人像过程"
+            }
+          ]
+        },
+        {
+          "id": "7349898163047648524",
+          "verdict": "passed",
+          "reason": "从小事获得日常记录选材与桌面拍摄高度疑问不同；Pocket仅为拟用工具，没有认定原片设备",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "Pocket拍日常突然有思路了",
+              "interest": "想记录吃饭和午睡等普通小事"
+            },
+            {
+              "group": 2,
+              "exact_copy_quote": "大疆Pocket拍这个高度够不够呀",
+              "interest": "想验证桌面机位能否满足日常自拍"
+            }
+          ]
+        },
+        {
+          "id": "BV1wb411U7jh",
+          "verdict": "passed",
+          "reason": "拥有Pocket后想带去云南拍木牌与旅行素材取舍问题不同；明确未来用途，未虚构到过云南、使用型号或原片设备",
+          "interest_entries": [
+            {
+              "group": 1,
+              "exact_copy_quote": "好想带着它去云南",
+              "interest": "把已有Pocket与具体旅行细节联系为未来拍摄用途"
+            },
+            {
+              "group": 2,
+              "exact_copy_quote": "你这三分多钟怎么挑的素材呀",
+              "interest": "以拟用Pocket拍摄为起点，继续了解旅行选材方法"
+            }
+          ]
+        }
+      ],
+      "source_review_path": "../../../../outputs/pocket-project-acceptance/验收记录.json",
+      "review_scope": "exact draft SHA256; original post evidence + independently verified official facts; not conversion outcome"
+    },
+    "semantic_review_status": "passed_for_project_baseline",
+    "final_qa_path": "../../../../outputs/pocket-project-acceptance/验收记录.json",
+    "independent_editor_status": "passed",
+    "independent_editor": "acceptance_editor",
+    "independent_editor_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282",
+    "checker_summary": {
+      "files": 1,
+      "baseline_files": 0,
+      "sections": 11,
+      "baseline_sections": 0,
+      "groups": 27,
+      "mains": 27,
+      "baseline_mains": 0,
+      "replies": 6,
+      "errors": 0,
+      "warnings": 21
+    },
+    "seeding_review_check": {
+      "sections_checked": 11,
+      "records_passed": 11,
+      "draft_hash_verified": true,
+      "note": "仅校验语义审稿记录和最终稿绑定，不能自动判断种草效果、活人感或引用事实为真"
+    }
+  },
+  "unresolved": [],
+  "draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+}

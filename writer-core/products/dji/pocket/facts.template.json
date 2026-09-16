@@ -1,0 +1,10 @@
+{
+  "product_line": "pocket",
+  "target_model": null,
+  "facts": [],
+  "field_contract": {
+    "required": ["claim", "model", "conditions", "source", "checked_at", "evidence_level"],
+    "evidence_levels": ["official", "manual", "user_provided", "training_assumption"],
+    "note": "Empty template: populate only with current, model-specific evidence before making product claims."
+  }
+}

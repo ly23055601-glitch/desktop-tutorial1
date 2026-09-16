@@ -1,0 +1,1177 @@
+[
+  {
+    "inputOrder": 1,
+    "sourceInputOrders": [
+      1
+    ],
+    "platform": "抖音",
+    "workId": "7681886117041601194",
+    "canonicalUrl": "https://www.douyin.com/video/7681886117041601194",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681886117041601194?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "火锅摄影karma",
+    "title": "#原创古风计划 #原创汉服计划 #大疆 #莫问归期 #pocket4p 挑战大疆4p拍摄古风视频",
+    "bodySummary": "#原创古风计划 #原创汉服计划 #大疆 #莫问归期 #pocket4p 挑战大疆4p拍摄古风视频",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "#原创古风计划 #原创汉服计划 #大疆 #莫问归期 #pocket4p 挑战大疆4p拍摄古风视频",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 2 视频描述",
+        "id": "post-1-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "red-street-entry",
+        "claim": "汉服人物在挂红灯笼的长街中走动，之前有红门画面",
+        "sourceType": "video frame",
+        "locator": "frames/7681886117041601194/frames.json; seconds=7.3667",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681886117041601194/frames.json"
+      },
+      {
+        "id": "umbrella-gaze",
+        "claim": "两名古装人物在院落持伞对望",
+        "sourceType": "video frame",
+        "locator": "frames/7681886117041601194/frames.json; seconds=31.9",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681886117041601194/frames.json"
+      },
+      {
+        "id": "gauze-portrait",
+        "claim": "白纱遮在古装人物前，桌前侧面人物肖像",
+        "sourceType": "video frame",
+        "locator": "frames/7681886117041601194/frames.json; seconds=36.8333",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681886117041601194/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681886117041601194/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035504+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 8287185,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681886117041601194/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "#原创古风计划 #原创汉服计划 #大疆 #莫问归期 #pocket4p 挑战大疆4p拍摄古风视频"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681886117041601194",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681886117041601194/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681886117041601194/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 2,
+    "sourceInputOrders": [
+      2
+    ],
+    "platform": "抖音",
+    "workId": "7681694987108599269",
+    "canonicalUrl": "https://www.douyin.com/video/7681694987108599269",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681694987108599269?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "燎禾",
+    "title": "当我在暗光环境打开大疆Pocket4P 氛围感的神！\n#暗光 \n#拍出氛围感 \n#大疆Pocket4P",
+    "bodySummary": "当我在暗光环境打开大疆Pocket4P 氛围感的神！\n#暗光 \n#拍出氛围感 \n#大疆Pocket4P",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "当我在暗光环境打开大疆Pocket4P 氛围感的神！\n#暗光 \n#拍出氛围感 \n#大疆Pocket4P",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 3 视频描述",
+        "id": "post-2-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "bedroom-wide",
+        "claim": "白裙人物坐在床边，画面留有床铺与房间陈设",
+        "sourceType": "video frame",
+        "locator": "frames/7681694987108599269/frames.json; seconds=14.3333",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681694987108599269/frames.json"
+      },
+      {
+        "id": "hand-face-pose",
+        "claim": "白裙人物在床上，用双手靠近面颊看镜头",
+        "sourceType": "video frame",
+        "locator": "frames/7681694987108599269/frames.json; seconds=6.6667",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681694987108599269/frames.json"
+      },
+      {
+        "id": "dim-white-dress",
+        "claim": "暖暗色房间中的白裙人物安静侧身，多个坐姿肖像",
+        "sourceType": "video frame",
+        "locator": "frames/7681694987108599269/frames.json; seconds=10.5",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681694987108599269/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681694987108599269/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035616+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 1565117,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681694987108599269/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "当我在暗光环境打开大疆Pocket4P 氛围感的神！\n#暗光 \n#拍出氛围感 \n#大疆Pocket4P"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681694987108599269",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681694987108599269/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681694987108599269/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 3,
+    "sourceInputOrders": [
+      3
+    ],
+    "platform": "抖音",
+    "workId": "7681693645309979109",
+    "canonicalUrl": "https://www.douyin.com/video/7681693645309979109",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681693645309979109?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "小柱",
+    "title": "大疆 pocket4p 开箱 可算不用抢了，都要放弃了#大疆开箱仪式 #口袋云台相机",
+    "bodySummary": "大疆 pocket4p 开箱 可算不用抢了，都要放弃了#大疆开箱仪式 #口袋云台相机",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "大疆 pocket4p 开箱 可算不用抢了，都要放弃了#大疆开箱仪式 #口袋云台相机",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 4 视频描述",
+        "id": "post-3-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "unbox-bags",
+        "claim": "桌上拆开多件包材与配件；多个时间点持续拆小包装",
+        "sourceType": "video frame",
+        "locator": "frames/7681693645309979109/frames.json; seconds=106.97",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681693645309979109/frames.json"
+      },
+      {
+        "id": "light-recognition",
+        "claim": "手中拆出白色小配件，画面字幕“这是啥这是补光灯”",
+        "sourceType": "video frame",
+        "locator": "frames/7681693645309979109/frames.json; seconds=59.4",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681693645309979109/frames.json"
+      },
+      {
+        "id": "unbox-table",
+        "claim": "片尾器材收纳包敞开，桌面还有拆开包材与配件；字幕“OK那基本就是这些东西”",
+        "sourceType": "video frame",
+        "locator": "frames/7681693645309979109/frames.json; seconds=178.2667",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681693645309979109/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681693645309979109/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035621+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 22416093,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681693645309979109/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "大疆 pocket4p 开箱 可算不用抢了，都要放弃了#大疆开箱仪式 #口袋云台相机"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681693645309979109",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681693645309979109/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681693645309979109/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 4,
+    "sourceInputOrders": [
+      4
+    ],
+    "platform": "抖音",
+    "workId": "7681876830702525878",
+    "canonicalUrl": "https://www.douyin.com/video/7681876830702525878",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681876830702525878?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "牙疼老爷爷",
+    "title": "天聋地哑 孤独怎么会是惩罚 建议横屏观看🌟 \n陌上人如玉，小姐世无双！又帅又飒！ \n#抖音摄影美学大赏 #运动中的关键帧 #转场 #鹤男 #大疆Pocket4P",
+    "bodySummary": "天聋地哑 孤独怎么会是惩罚 建议横屏观看🌟 \n陌上人如玉，小姐世无双！又帅又飒！ \n#抖音摄影美学大赏 #运动中的关键帧 #转场 #鹤男 #大疆Pocket4P",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "天聋地哑 孤独怎么会是惩罚 建议横屏观看🌟 \n陌上人如玉，小姐世无双！又帅又飒！ \n#抖音摄影美学大赏 #运动中的关键帧 #转场 #鹤男 #大疆Pocket4P",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 5 视频描述",
+        "id": "post-4-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "4-wind-sword",
+        "claim": "青衣白领人物，头发飘起，手持剑柄、剑搭肩侧，后方蓝天；只写可见姿态，不推断拍摄技术",
+        "sourceType": "video frame",
+        "locator": "frames/7681876830702525878/frames.json; seconds=[24.3]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681876830702525878/frames.json"
+      },
+      {
+        "id": "4-hat-smile",
+        "claim": "先有扶黑色高帽的近景，后有戴帽人物露齿笑的近景；不认定为失误或花絮",
+        "sourceType": "video frame",
+        "locator": "frames/7681876830702525878/frames.json; seconds=[11.333, 21.067]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681876830702525878/frames.json"
+      },
+      {
+        "id": "4-sweeping-to-flowers",
+        "claim": "室内黑上衣牛仔裤人物正在扫地，字幕为“朋友在扫地的时候突然想到了一个转场”；随后青衣人物在户外挑着花担；不把字幕中的朋友关系归给评论者",
+        "sourceType": "video frame",
+        "locator": "frames/7681876830702525878/frames.json; seconds=[1.6, 4.833]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681876830702525878/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681876830702525878/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035623+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 5527313,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681876830702525878/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "天聋地哑 孤独怎么会是惩罚 建议横屏观看🌟 \n陌上人如玉，小姐世无双！又帅又飒！ \n#抖音摄影美学大赏 #运动中的关键帧 #转场 #鹤男 #大疆Pocket4P"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681876830702525878",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681876830702525878/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681876830702525878/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 5,
+    "sourceInputOrders": [
+      5
+    ],
+    "platform": "抖音",
+    "workId": "7681690366244422129",
+    "canonicalUrl": "https://www.douyin.com/video/7681690366244422129",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681690366244422129?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "所以呢",
+    "title": "你想去很多地方 可一个人不敢～#转场 #旅游转场 #大疆pocket4 #穿搭 #有我呢",
+    "bodySummary": "你想去很多地方 可一个人不敢～#转场 #旅游转场 #大疆pocket4 #穿搭 #有我呢",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "你想去很多地方 可一个人不敢～#转场 #旅游转场 #大疆pocket4 #穿搭 #有我呢",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 6 视频描述",
+        "id": "post-5-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "5-airport-start",
+        "claim": "候机区域有座椅和窗外机场建筑，人物面向镜头笑，穿黑色衣服",
+        "sourceType": "video frame",
+        "locator": "frames/7681690366244422129/frames.json; seconds=[1.9]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681690366244422129/frames.json"
+      },
+      {
+        "id": "5-outfits-places",
+        "claim": "同一视频中呈现不同衣着与背景：机场黑衣、草地白外搭、古建灰色衣裙、水边白色上衣、瀑布前蓝绿色T恤；不判断地点名称或具体行程",
+        "sourceType": "video frame",
+        "locator": "frames/7681690366244422129/frames.json; seconds=[1.9, 5.767, 9.633, 13.467, 25.033]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681690366244422129/frames.json"
+      },
+      {
+        "id": "5-waterfall-tshirt",
+        "claim": "瀑布和栏杆前，蓝绿色T恤人物回头看镜头",
+        "sourceType": "video frame",
+        "locator": "frames/7681690366244422129/frames.json; seconds=[25.033]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681690366244422129/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681690366244422129/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035625+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 7876863,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681690366244422129/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "你想去很多地方 可一个人不敢～#转场 #旅游转场 #大疆pocket4 #穿搭 #有我呢"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681690366244422129",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681690366244422129/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681690366244422129/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 6,
+    "sourceInputOrders": [
+      6
+    ],
+    "platform": "抖音",
+    "workId": "7681658223706881457",
+    "canonicalUrl": "https://www.douyin.com/video/7681658223706881457",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681658223706881457?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "桃景三酪",
+    "title": "💡 谁把我的灯关上了！\n#大疆Pocket4P#关灯转场 #fgo #cos",
+    "bodySummary": "💡 谁把我的灯关上了！\n#大疆Pocket4P#关灯转场 #fgo #cos",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "💡 谁把我的灯关上了！\n#大疆Pocket4P#关灯转场 #fgo #cos",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 7 视频描述",
+        "id": "post-6-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "6-fakeout-light",
+        "claim": "室内门边白T恤人物，之后黑屏，再次可见仍是同一白T恤，随后切至户外银发草帽cos造型；不据抽帧编造精确切点或音效",
+        "sourceType": "video frame",
+        "locator": "frames/7681658223706881457/frames.json; seconds=[0.767, 2.367, 3.933, 5.5]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681658223706881457/frames.json"
+      },
+      {
+        "id": "6-room-to-water",
+        "claim": "门边普通白T恤造型与户外水边草帽造型形成场景落差，户外可见泳池与远处水面；不猜地点，也不将水面断言为海",
+        "sourceType": "video frame",
+        "locator": "frames/7681658223706881457/frames.json; seconds=[0.767, 5.5]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681658223706881457/frames.json"
+      },
+      {
+        "id": "6-hat-hand-poses",
+        "claim": "银发草帽cos人物双手扶帽檐，之后手收至胸前；角色名未确认，只写cos与姿势",
+        "sourceType": "video frame",
+        "locator": "frames/7681658223706881457/frames.json; seconds=[7.1, 8.667, 10.233, 11.833]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681658223706881457/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681658223706881457/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035628+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 2117735,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681658223706881457/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "💡 谁把我的灯关上了！\n#大疆Pocket4P#关灯转场 #fgo #cos"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681658223706881457",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681658223706881457/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681658223706881457/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 7,
+    "sourceInputOrders": [
+      7
+    ],
+    "platform": "抖音",
+    "workId": "7681657668680300787",
+    "canonicalUrl": "https://www.douyin.com/video/7681657668680300787",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681657668680300787?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "吴禾安📷",
+    "title": "用大疆Pocket4P拍超丝滑的转场视频…#大疆Pocket4P #转场 #拍摄设备",
+    "bodySummary": "用大疆Pocket4P拍超丝滑的转场视频…#大疆Pocket4P #转场 #拍摄设备",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "用大疆Pocket4P拍超丝滑的转场视频…#大疆Pocket4P #转场 #拍摄设备",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 8 视频描述",
+        "id": "post-7-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "p7-raised-arm-across-places",
+        "claim": "三格中间的人物在站台、树荫道路和建筑前抬起一侧手臂、另一侧展开，动作跨地点重复",
+        "sourceType": "video frame",
+        "locator": "frames/7681657668680300787/frames.json; seconds=[1.6666666666666667, 3.9, 8.366666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681657668680300787/frames.json"
+      },
+      {
+        "id": "p7-medium-to-full-body",
+        "claim": "站台中间一格从较近半身人物变为较远全身人物，后者抬起手臂，背景可见轨道和列车",
+        "sourceType": "video frame",
+        "locator": "frames/7681657668680300787/frames.json; seconds=[0.5333333333333333, 1.6666666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681657668680300787/frames.json"
+      },
+      {
+        "id": "p7-three-panel-person-and-scenery",
+        "claim": "上下两格呈现轨道、河水、桥或建筑，中间格保留黑白条纹衣服人物，各处延续相同三格布置",
+        "sourceType": "video frame",
+        "locator": "frames/7681657668680300787/frames.json; seconds=[1.6666666666666667, 3.9, 6.133333333333334, 8.366666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681657668680300787/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681657668680300787/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035630+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 3300778,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681657668680300787/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "用大疆Pocket4P拍超丝滑的转场视频…#大疆Pocket4P #转场 #拍摄设备"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681657668680300787",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681657668680300787/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681657668680300787/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 8,
+    "sourceInputOrders": [
+      8
+    ],
+    "platform": "抖音",
+    "workId": "7681640708729682866",
+    "canonicalUrl": "https://www.douyin.com/video/7681640708729682866",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681640708729682866?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "葱花鱼",
+    "title": "当我在地铁站打开大疆的旋转运镜…. #拍照教程 #转场 #地铁拍照 #jk制服 #大疆Pocket4",
+    "bodySummary": "当我在地铁站打开大疆的旋转运镜…. #拍照教程 #转场 #地铁拍照 #jk制服 #大疆Pocket4",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "当我在地铁站打开大疆的旋转运镜…. #拍照教程 #转场 #地铁拍照 #jk制服 #大疆Pocket4",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 9 视频描述",
+        "id": "post-8-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "p8-route-map-upside-down",
+        "claim": "线路图初始在画面上方，后段倒置画面位于下方，人物也随整个构图倒置",
+        "sourceType": "video frame",
+        "locator": "frames/7681640708729682866/frames.json; seconds=[3.933333333333333, 11.866666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681640708729682866/frames.json"
+      },
+      {
+        "id": "p8-centred-person-station-lines",
+        "claim": "人物在画面中部，站台门框、黄线和线路图构成横竖线，后续取样中这些线随画面呈斜向或横置",
+        "sourceType": "video frame",
+        "locator": "frames/7681640708729682866/frames.json; seconds=[3.933333333333333, 5.533333333333333, 8.7]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681640708729682866/frames.json"
+      },
+      {
+        "id": "p8-hand-at-hair",
+        "claim": "人物在旋转前及斜置画面中将一只手放在耳侧头发处，开始视线朝旁边，后续取样看向镜头",
+        "sourceType": "video frame",
+        "locator": "frames/7681640708729682866/frames.json; seconds=[3.933333333333333, 5.533333333333333, 10.266666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681640708729682866/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681640708729682866/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035632+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 3082949,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681640708729682866/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "当我在地铁站打开大疆的旋转运镜…. #拍照教程 #转场 #地铁拍照 #jk制服 #大疆Pocket4"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681640708729682866",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681640708729682866/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681640708729682866/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 9,
+    "sourceInputOrders": [
+      9
+    ],
+    "platform": "抖音",
+    "workId": "7681653078181064895",
+    "canonicalUrl": "https://www.douyin.com/video/7681653078181064895",
+    "aliasRefs": [
+      "https://www.douyin.com/video/7681653078181064895?modeFrom=searchResult"
+    ],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "我的拖延症很严重",
+    "title": "至今没有找到驾驭不了的风格\n#大疆Pocket4P#大疆#卡点 #不固定风格",
+    "bodySummary": "至今没有找到驾驭不了的风格\n#大疆Pocket4P#大疆#卡点 #不固定风格",
+    "summaryBasis": "mixed",
+    "anchors": [
+      {
+        "claim": "至今没有找到驾驭不了的风格\n#大疆Pocket4P#大疆#卡点 #不固定风格",
+        "sourceType": "exported field",
+        "locator": "Sheet1 row 10 视频描述",
+        "id": "post-9-caption",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx"
+      },
+      {
+        "id": "p9-night-umbrella-and-day-bubbles",
+        "claim": "夜间撑透明伞与白天树荫路上戴白帽吹泡泡，两段气氛不同",
+        "sourceType": "video frame",
+        "locator": "frames/7681653078181064895/frames.json; seconds=[6.7, 12.466666666666667]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681653078181064895/frames.json"
+      },
+      {
+        "id": "p9-pink-looking-down-and-black-phone",
+        "claim": "粉色服装人物在木门旁垂眼；黑裙人物在傍晚河边举手机、抬眼看手机，造型和姿态形成反差",
+        "sourceType": "video frame",
+        "locator": "frames/7681653078181064895/frames.json; seconds=[4.8, 10.533333333333333]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681653078181064895/frames.json"
+      },
+      {
+        "id": "p9-last-greenery-table",
+        "claim": "末张取样为绿植围绕的桌边人物，手支头，桌上有纸张、物件和蝴蝶图案的框",
+        "sourceType": "video frame",
+        "locator": "frames/7681653078181064895/frames.json; seconds=[14.4]",
+        "source_file": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681653078181064895/frames.json"
+      }
+    ],
+    "commentsStatus": "not_requested",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7681653078181064895/视频视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体"
+    ],
+    "retrievedAt": "2026-09-05T07:47:58.035635+00:00",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "not_assessed"
+    },
+    "limitations": [
+      "画面依据每段8个均匀抽样帧；未完整转写音频；未采集评论区"
+    ],
+    "failureReason": "",
+    "mediaBytes": 3055976,
+    "framesPath": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681653078181064895/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-douyin-20260905-9links/evidence.json",
+      "live_reread": false,
+      "added_anchor_id_only": true
+    },
+    "model_status": {
+      "level": "M1",
+      "claimed_model": "pocket_4p",
+      "confirmed_model": "unknown",
+      "evidence_type": "author_claim",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "至今没有找到驾驭不了的风格\n#大疆Pocket4P#大疆#卡点 #不固定风格"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7681653078181064895",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-douyin-20260905-9links/【社媒助手】Pocket评论9条-0905-20260905-1546.xlsx",
+      "frames": "../../../../outputs/pocket-douyin-20260905-9links/frames/7681653078181064895/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7681653078181064895/视频视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 10,
+    "sourceInputOrders": [
+      10
+    ],
+    "study_id": "DY07",
+    "split": "holdout",
+    "platform": "抖音",
+    "workId": "7349898163047648524",
+    "canonicalUrl": "https://www.douyin.com/video/7349898163047648524",
+    "aliasRefs": [],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "罗大雄",
+    "title": "旅行是平淡生活的一剂猛药。#记录真实生活 #自律 #vlog日常",
+    "bodySummary": "旅行是平淡生活的一剂猛药。#记录真实生活 #自律 #vlog日常",
+    "summaryBasis": "mixed",
+    "publicationTime": "2024-03-24 19:58:46",
+    "anchors": [
+      {
+        "id": "DY07-caption",
+        "claim": "作者标题为旅行是平淡生活的一剂猛药，带记录真实生活、自律、vlog日常标签；发布于2024-03-24。标题并未说明拍摄设备",
+        "sourceType": "exported field",
+        "locator": "research/douyin-holdout-post.xlsx; Sheet1 row 2 视频描述/发布时间",
+        "source_file": "../../../../outputs/pocket-lh12-validation/research/douyin-holdout-post.xlsx"
+      },
+      {
+        "id": "DY07-breakfast-time",
+        "claim": "人物用筷子夹起一碗中的粉面，背景有绿植；画面文字为8:44am、嗦粉，不据此猜具体城市或店铺",
+        "sourceType": "video frame",
+        "locator": "frames/DY07/frames.json; actualSeconds=24.466666666666665; frame_03.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json"
+      },
+      {
+        "id": "DY07-own-towel",
+        "claim": "手中拿着浅粉色毛巾，字幕9:25am、自带浴巾；不推断住宿卫生状况或购买来源",
+        "sourceType": "video frame",
+        "locator": "frames/DY07/frames.json; actualSeconds=34.233333333333334; frame_04.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json"
+      },
+      {
+        "id": "DY07-nap-time",
+        "claim": "偏暗房间中可见覆盖腿部的白色织物，字幕1:07pm、刚好午睡；不推断午睡时长或完整行程安排",
+        "sourceType": "video frame",
+        "locator": "frames/DY07/frames.json; actualSeconds=63.6; frame_07.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json"
+      },
+      {
+        "id": "DY07-sunset-window",
+        "claim": "透过窗边可见暖色天空和水面、棕榈树，近处有人坐着；字幕5:25pm、就着落日；未确认地点、水体名称或杯中饮料",
+        "sourceType": "video frame",
+        "locator": "frames/DY07/frames.json; actualSeconds=73.4; frame_08.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json"
+      }
+    ],
+    "commentsStatus": "collected_but_withheld_from_drafter",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/抖音/7349898163047648524/LH12留测视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体",
+      "本地AVFoundation抽帧"
+    ],
+    "retrievedAt": "2026-09-05 17:48:54.307000",
+    "visualReadAt": "2026-09-05T09:54:32Z",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "withheld_from_drafter"
+    },
+    "limitations": [
+      "只查看8张等间隔抽样帧，未完整观看视频或收听/转写音轨",
+      "留测评论未读，不用于技能、范例或表达机制提炼",
+      "元数据未提供Pocket拍摄身份，不把成片效果归因于Pocket"
+    ],
+    "failureReason": "",
+    "mediaBytes": 20289357,
+    "framesPath": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-lh12-validation/research/douyin-holdout-post.xlsx",
+      "live_reread": false,
+      "metadata_and_media_collected_in_current_unified_helper_request": true
+    },
+    "deliveryInputOrder": 10,
+    "researchInputOrder": 7,
+    "researchLedgerPath": "../../../../outputs/pocket-lh12-validation/research/input-ledger.json",
+    "researchSourceInputOrders": [
+      7
+    ],
+    "finalReviewProvenance": {
+      "commentsReadByDrafter": false,
+      "commentsReadByIndependentReviewerAfterDraftLock": true,
+      "commentUse": "final comparison only; no new copy, skill examples, product facts or personal histories",
+      "evaluationPath": "../../../../outputs/pocket-lh12-validation/holdout-comment-evaluation.json"
+    },
+    "model_status": {
+      "level": "M0",
+      "claimed_model": "unknown",
+      "confirmed_model": "unknown",
+      "evidence_type": "unknown",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "原帖文字没有提供Pocket型号信息"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "7349898163047648524",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-lh12-validation/research/douyin-holdout-post.xlsx",
+      "frames": "../../../../outputs/pocket-lh12-validation/frames/DY07/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/抖音/7349898163047648524/LH12留测视频.mp4"
+      ]
+    }
+  },
+  {
+    "inputOrder": 11,
+    "sourceInputOrders": [
+      11
+    ],
+    "study_id": "BL07",
+    "split": "holdout",
+    "platform": "哔哩哔哩",
+    "workId": "BV1wb411U7jh",
+    "canonicalUrl": "https://www.bilibili.com/video/BV1wb411U7jh/",
+    "aliasRefs": [],
+    "state": "success",
+    "autoSkipped": false,
+    "attempts": 1,
+    "author": "J0ey1iu",
+    "title": "【旅拍vlog】云南是彩色的",
+    "bodySummary": "去云南玩了四天，剪了一个小片子\n欢迎关注！",
+    "summaryBasis": "mixed",
+    "publicationTime": "2019-02-13 15:03:13",
+    "anchors": [
+      {
+        "id": "BL07-caption",
+        "claim": "标题【旅拍vlog】云南是彩色的；描述去云南玩了四天，剪了一个小片子。发布于2019-02-13；导出时长3分29秒，本地媒体208.874秒；没有Pocket拍摄身份",
+        "sourceType": "exported field",
+        "locator": "research/bilibili-holdout-post.xlsx; Sheet1 row 2 视频标题/视频描述/发布时间/视频时长; frames/BL07/frames.json durationSeconds",
+        "source_file": "../../../../outputs/pocket-lh12-validation/research/bilibili-holdout-post.xlsx"
+      },
+      {
+        "id": "BL07-white-pigeons",
+        "claim": "石板地上有数只白鸽，近处有日光；不据单帧断言连续动作、地点或饲养关系",
+        "sourceType": "video frame",
+        "locator": "frames/BL07/frames.json; actualSeconds=39.125; frame_02.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/BL07/frames.json"
+      },
+      {
+        "id": "BL07-wooden-tags-bells",
+        "claim": "近景中多块棕色木牌悬挂，木牌下有小金属铃、红色绳带，部分牌面有字但不能完整识读；未确认地点、所写内容或悬挂规则",
+        "sourceType": "video frame",
+        "locator": "frames/BL07/frames.json; actualSeconds=91.375; frame_04.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/BL07/frames.json"
+      },
+      {
+        "id": "BL07-night-street",
+        "claim": "夜间窄街有多位行人，沿街木质建筑与暖色灯光可见；不能声称听过叫卖或音乐",
+        "sourceType": "video frame",
+        "locator": "frames/BL07/frames.json; actualSeconds=143.583; frame_06.jpg",
+        "source_file": "../../../../outputs/pocket-lh12-validation/frames/BL07/frames.json"
+      }
+    ],
+    "commentsStatus": "collected_but_withheld_from_drafter",
+    "visibleComments": [],
+    "mediaPaths": [
+      "/Users/luocaihua/Downloads/社媒助手/哔哩哔哩/BV1wb411U7jh/LH12留测视频.mp4"
+    ],
+    "readMethod": [
+      "社媒助手字段",
+      "社媒助手媒体",
+      "本地AVFoundation抽帧"
+    ],
+    "retrievedAt": "2026-09-05 17:45:30.569000",
+    "visualReadAt": "2026-09-05T09:48:18Z",
+    "confidenceByAspect": {
+      "metadata": "high",
+      "audiovisualContent": "medium",
+      "comments": "withheld_from_drafter"
+    },
+    "limitations": [
+      "只查看8张等间隔抽样帧，未完整观看视频或收听/转写音轨",
+      "留测评论未读，不用于技能、范例或表达机制提炼",
+      "元数据未提供Pocket拍摄身份，不把成片效果归因于Pocket",
+      "第1张抽样接近黑屏，未作为有效画面锚点"
+    ],
+    "failureReason": "",
+    "mediaBytes": 79662701,
+    "framesPath": "../../../../outputs/pocket-lh12-validation/frames/BL07/frames.json",
+    "reuse_provenance": {
+      "source_file": "../../../../outputs/pocket-lh12-validation/research/bilibili-holdout-post.xlsx",
+      "live_reread": false,
+      "metadata_and_media_collected_in_current_unified_helper_request": true
+    },
+    "deliveryInputOrder": 11,
+    "researchInputOrder": 14,
+    "researchLedgerPath": "../../../../outputs/pocket-lh12-validation/research/input-ledger.json",
+    "researchSourceInputOrders": [
+      14
+    ],
+    "finalReviewProvenance": {
+      "commentsReadByDrafter": false,
+      "commentsReadByIndependentReviewerAfterDraftLock": true,
+      "commentUse": "final comparison only; no new copy, skill examples, product facts or personal histories",
+      "evaluationPath": "../../../../outputs/pocket-lh12-validation/holdout-comment-evaluation.json"
+    },
+    "model_status": {
+      "level": "M0",
+      "claimed_model": "unknown",
+      "confirmed_model": "unknown",
+      "evidence_type": "unknown",
+      "mixed_models": [],
+      "shot_mapping": "not_applicable",
+      "shot_mapping_evidence": [],
+      "evidence": "原帖文字没有提供Pocket型号信息"
+    },
+    "feature_use": {
+      "level": "F0",
+      "claim_ids": [],
+      "evidence": ""
+    },
+    "package_provenance": {
+      "source_evidence": "../../../../outputs/pocket-lh12-validation/evidence.json",
+      "source_work_id": "BV1wb411U7jh",
+      "reused_without_live_reread": true,
+      "reviewed_for_draft_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    "source_files": {
+      "metadata": "../../../../outputs/pocket-lh12-validation/research/bilibili-holdout-post.xlsx",
+      "frames": "../../../../outputs/pocket-lh12-validation/frames/BL07/frames.json",
+      "media": [
+        "/Users/luocaihua/Downloads/社媒助手/哔哩哔哩/BV1wb411U7jh/LH12留测视频.mp4"
+      ]
+    }
+  }
+]

@@ -1,0 +1,147 @@
+提取方式：Python HTMLParser 提取实际 HTTP 响应的非 script/style 文字，非视觉快照。
+实际 URL：https://repair.dji.com/help/content?customId=01700011905&documentType=&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17
+
+DJI OM 多功能追踪模块 2/DJI OM 多功能追踪模块能在哪些 App 中实现智能跟随？
+dji-brand_black_42×24
+Created with Sketch.
+帮助中心
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+HongKong
+English
+Indonesia
+English
+대한민국
+한국어
+日本
+日本語
+中國澳门
+繁體中文
+中國台灣
+繁體中文
+New Zealand
+English
+Australia
+English
+Singapore
+English
+欧洲
+Österreich
+Deutsch
+Belgium
+Français
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+Spain
+English
+Sweden
+English
+Switzerland
+English
+Switzerland
+Français
+United Kingdom
+English
+美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+其他
+Other Regions
+English
+DJI OM 多功能追踪模块 2/DJI OM 多功能追踪模块能在哪些 App 中实现智能跟随？
+如果您想了解 DJI OM 多功能追踪模块搭配 Osmo Mobile 7 系列产品使用时，在哪些 app 可以实现智能跟随，请参考本篇内容获取帮助。 #产品使用
+适用产品：
+不涉及
+适用产品
+DJI OM 多功能追踪模块 2 兼容 Osmo Mobile 8P
+DJI OM 多功能追踪模块兼容 Osmo Mobile 8P，Osmo Mobile 8，Osmo Mobile 7P，Osmo Mobile 7
+适用场景
+多功能追踪模块可以在以下 app 中实现智能跟随：
+1. 手机原生相机，例如 iOS 设备用户可以使用手机原生相机的电影模式。
+2. 在抖音、小红书、bilibili、快手等 app 进行直播时。
+3. 使用美图秀秀等美颜拍摄 app 创作时。
+4. 进行语音通话、视频会议时。
+5. 与 Blackmagic Camera、Protake 等专业拍摄软件配合使用时。
+💡【提示】
+搭配 DJI Mimo app 使用时，不支持使用追踪模块的智能跟随功能。
+内容是否有帮助？
+是
+否
+感谢您的反馈。
+感谢您的反馈，填写体验不佳的原因以让我们做得更好：
+未涵盖我想了解的内容
+已按指引操作，未解决问题
+内容难理解，看不懂
+链接/图片/视频失效
+页面展示不美观
+其他
+您也可以描述具体问题让我们更好地帮助到您：
+（可选）
+提交
+联系我们
+在线客服
+周一至周日：9:00-21:00（北京时间）
+联系在线客服
+dji-brand/en/48
+Created with Sketch.
+Copyright © 2026 DJI 大疆创新 版权所有
+|
+隐私权政策

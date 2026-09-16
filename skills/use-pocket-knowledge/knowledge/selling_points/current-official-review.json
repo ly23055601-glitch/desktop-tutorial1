@@ -1,0 +1,276 @@
+{
+  "id": "POCKET4-4P-SELLING-POINTS-20260907",
+  "checked_at": "2026-09-07",
+  "scope": "Pocket4与Pocket4P核心卖点依据有限复核；不采集新社媒、不学习holdout、不做实机测试或用户研究。",
+  "models": [
+    "pocket_4",
+    "pocket_4p"
+  ],
+  "checks": [
+    {
+      "id": "POR-20260907-01",
+      "source_id": "DJI-P4-GUIDE",
+      "url": "https://repair.dji.com/help/content?customId=01700043653&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "region": "CN",
+      "locale": "zh-CN",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "2.2；3.3–3.6；05存储时长说明",
+      "read_scope": "实际重读开关机、机械增稳、美肤互斥、双发连接、内置存储和导出概述正文；未重看嵌入图或视频。",
+      "supported_fact_ids": [
+        "PKF-P4-001",
+        "PKF-P4-003",
+        "PKF-P4-004",
+        "PKF-P4-005",
+        "PKF-S-018"
+      ],
+      "firmware_scope": "仅来源注明的版本；未注明时不推断固件版本"
+    },
+    {
+      "id": "POR-20260907-02",
+      "source_id": "DJI-P4-MANUAL",
+      "url": "https://dl.djicdn.com/downloads/DJI_Osmo_Pocket_4/UM/v1.0/Osmo_Pocket_4_User_Manual_en.pdf",
+      "region": "unspecified",
+      "locale": "en",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "印刷页18、20、22–23、26–30（PDF零基17、19、21–22、25–29）",
+      "read_scope": "实际读取对应PDF文本：按键、D-Log监看、音频备份、手势、旋屏即拍、跟随排除与传输；没有实机验证或把手册当最新固件说明。",
+      "supported_fact_ids": [
+        "PKF-P4-007",
+        "PKF-P4-008",
+        "PKF-P4-009",
+        "PKF-P4-010",
+        "PKF-P4-011",
+        "PKF-P4-016",
+        "PKF-P4-017",
+        "PKF-P4-020",
+        "PKF-P4-021",
+        "PKF-P4-022"
+      ],
+      "firmware_scope": "仅来源注明的版本；未注明时不推断固件版本"
+    },
+    {
+      "id": "POR-20260907-03",
+      "source_id": "DJI-P4-FAQ-CH",
+      "url": "https://www.dji.com/ch/osmo-pocket-4/faq",
+      "region": "CH",
+      "locale": "en",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "Camera/General；169–199、252–287、357–389行",
+      "read_scope": "实际读取成像与动态范围脚注、慢动作限定、D-Log限定、手势范围、跟随对象、进入退出、美肤支持与互斥；未穷尽其他FAQ。",
+      "supported_fact_ids": [
+        "PKF-P4-018",
+        "PKF-P4-019",
+        "PKF-P4-020",
+        "PKF-P4-021",
+        "PKF-P4-022",
+        "PKF-S-019"
+      ],
+      "firmware_scope": "页面未声明适用固件版本；不能默认目标地区菜单和全部模式组合完全相同",
+      "requested_url": "https://www.dji.com/osmo-pocket-4/faq",
+      "redirect_note": "实际跳转CH英文页；保留地区来源"
+    },
+    {
+      "id": "POR-20260907-04",
+      "source_id": "DJI-P4-PRODUCT-DE",
+      "url": "https://www.dji.com/de/osmo-pocket-4",
+      "region": "DE",
+      "locale": "de-DE",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "148–199行",
+      "read_scope": "读取产品文本概览里的传感器、f/2.0与三轴增稳；页面返回不完整，因此不把未读脚注中的数字直接作跨模式结论。",
+      "supported_fact_ids": [
+        "PKF-P4-018",
+        "PKF-S-018"
+      ],
+      "firmware_scope": "页面未声明适用固件版本",
+      "requested_url": "https://www.dji.com/cn/osmo-pocket-4",
+      "redirect_note": "实际跳转DE德文页"
+    },
+    {
+      "id": "POR-20260907-05",
+      "source_id": "DJI-P4P-GUIDE",
+      "url": "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17",
+      "region": "CN",
+      "locale": "zh-CN",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "3.2.3–3.6.3；05双摄和存储说明",
+      "read_scope": "实际读取正文的云台、对焦/跟随、主角和多人、手势、美肤、麦克风、FrameTap、存储/传输及双摄问答；本轮未重读3.1两张静态操作图或其他媒体。",
+      "supported_fact_ids": [
+        "PKF-P4P-001",
+        "PKF-P4P-002",
+        "PKF-P4P-003",
+        "PKF-P4P-004",
+        "PKF-P4P-005",
+        "PKF-P4P-008",
+        "PKF-P4P-009",
+        "PKF-P4P-010",
+        "PKF-P4P-018",
+        "PKF-P4P-019",
+        "PKF-P4P-030",
+        "PKF-P4P-038",
+        "PKF-P4P-040",
+        "PKF-P4P-041"
+      ],
+      "firmware_scope": "仅来源注明的版本；未注明时不推断固件版本"
+    },
+    {
+      "id": "POR-20260907-06",
+      "source_id": "DJI-P4P-STORE-GB",
+      "url": "https://store.dji.com/uk/product/osmo-pocket-4p-vlog-combo?set_region=GB&vid=241311",
+      "region": "GB",
+      "locale": "en-GB",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "FAQ：375–415、453–473、508–510；脚注2/5/6/8；实体变焦按键365–369行",
+      "read_scope": "实际读取双镜头传感器/焦距/光圈/最近对焦距离、慢动作、多人跟随、D-Log2、胶片影调范围、FrameTap距离及相关排除项。P4P-020仅重核GB按键子依据，其CN图片依据日期仍保留2026-09-06。",
+      "supported_fact_ids": [
+        "PKF-P4P-001",
+        "PKF-P4P-002",
+        "PKF-P4P-019",
+        "PKF-P4P-022",
+        "PKF-P4P-023",
+        "PKF-P4P-025",
+        "PKF-P4P-026",
+        "PKF-P4P-028",
+        "PKF-P4P-039",
+        "PKF-P4P-041"
+      ],
+      "firmware_scope": "页面未声明适用固件版本；需要具体地区/设备版本时再核",
+      "partially_rechecked_fact_ids": [
+        "PKF-P4P-020"
+      ]
+    },
+    {
+      "id": "POR-20260907-07",
+      "source_id": "DJI-S-LUT",
+      "url": "https://repair.dji.com/help/content?customId=01700007105&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "region": "CN",
+      "locale": "zh-CN",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "型号表Pocket4P/Pocket4行；75/78行",
+      "read_scope": "只核对两款的视频Log种类及相匹配的Rec.709 LUT条目；未下载LUT、导入软件或测试画面。",
+      "supported_fact_ids": [
+        "PKF-S-014",
+        "PKF-S-015"
+      ],
+      "firmware_scope": "页面未声明适用固件版本；需要具体地区/设备版本时再核"
+    },
+    {
+      "id": "POR-20260907-08",
+      "source_id": "DJI-S-CONNECT",
+      "url": "https://repair.dji.com/help/content?customId=01700009275&lang=zh-CN&paperDocType=ARTICLE&re=CN&spaceId=17",
+      "region": "CN",
+      "locale": "zh-CN",
+      "checked_at": "2026-09-07",
+      "result": "read",
+      "read_method": "web原页文本或官方PDF文本",
+      "locator": "提示3；73行",
+      "read_scope": "实际重读4P无法同时连接Mimo与FrameTap及先关闭遥控器的说明；其余历史跨代连接故障事实不刷新。",
+      "supported_fact_ids": [
+        "PKF-P4P-014"
+      ],
+      "firmware_scope": "仅来源注明的版本；未注明时不推断固件版本"
+    }
+  ],
+  "new_fact_ids": [
+    "PKF-P4-018",
+    "PKF-P4-019",
+    "PKF-P4-020",
+    "PKF-P4-021",
+    "PKF-P4-022",
+    "PKF-P4P-039",
+    "PKF-S-018",
+    "PKF-S-019",
+    "PKF-P4P-040",
+    "PKF-P4P-041"
+  ],
+  "new_fact_count": 10,
+  "existing_fact_dates_refreshed": 31,
+  "source_count_read": 8,
+  "selling_point_card_count": 16,
+  "coverage": [
+    "成像/动态范围",
+    "4P双焦段",
+    "机械稳定与主体跟随",
+    "独自拍摄与远程监看",
+    "双发收音与4的音频备份",
+    "慢动作",
+    "机内美肤与Log后期",
+    "实体操控",
+    "内置存储和素材传输"
+  ],
+  "not_covered": [
+    "4P完整用户手册和当前固件号未取得；未验证所有模式/倍率/帧率/色彩组合",
+    "未解4P录制中切换普通/慢动作、音频备份格式、完整软件编辑和水印兼容",
+    "未核定充电、续航、温度、防水和防尘的完整比较条件",
+    "没有新声音或样张实测；不能推导实拍画质排名、降噪效果或跟随成功率",
+    "没有新增公共社媒、消费者研究、真实心理或用户认可案例"
+  ],
+  "unresolved": [
+    {
+      "fact_id": "PKF-P4P-007",
+      "status": "pending",
+      "reason": "CN攻略3.4.6称胶片影调支持慢动作，GB商品FAQ仅Video；此次重读仍不同，固件未可比，卖点卡不引用此项。"
+    },
+    {
+      "fact_id": "PKF-P4P-015",
+      "status": "pending",
+      "reason": "CN同页手柄增时150/130分钟两处不同；没有以复核日期冒充已解决。"
+    },
+    {
+      "fact_id": "PKF-P4-016",
+      "status": "verified_with_source_specific_scope",
+      "reason": "v1.0手册建议2m内与当前CH FAQ按倍率给出更远有效范围属于不同表述；保留2m为操作建议，不作硬性最大距离。"
+    },
+    {
+      "topic": "Pocket4胶片影调慢动作范围",
+      "status": "out_of_scope_unresolved",
+      "reason": "CH FAQ差异脚注仅Video，Pro参数列表却在Slow Motion列Film Tone。本次未新增该组合能力；S-019只取普通视频美肤与互斥共同支持部分。"
+    }
+  ],
+  "attempts_without_fact_use": [
+    {
+      "url": "https://www.dji.com/cn/osmo-pocket-4p",
+      "result": "404"
+    },
+    {
+      "url": "https://www.dji.com/osmo-pocket-4/specs",
+      "result": "404"
+    },
+    {
+      "url": "https://www.dji.com/ch/osmo-pocket-4p?from=store-product-page",
+      "result": "首次返回有限页面，定点重开报内部错误；不用其内容新增事实"
+    }
+  ],
+  "date_rules": "只把实际重读且足以支持原断言及关键条件的31条旧事实checked_at更新为2026-09-07；新增10条使用本日日期。其他事实日期不变；P4P-020整条仍为旧日，卡片注明本轮仅重核GB子依据。source.read_history/current_read_scope保留历史与当前读取范围。",
+  "validation": {
+    "self_check": {
+      "integrity_ok": true,
+      "counts": {
+        "selling": 16,
+        "scene": 0
+      },
+      "issues": [],
+      "boundary": "Reference/schema audit only; value and scenes require semantic review and do not constitute user research.",
+      "source_check_reference_errors": [],
+      "scope": "Targeted selling-point audit only: 16 cards; no scenario/voice files loaded. Semantic review remains separate."
+    },
+    "unique_selling_fact_count": 37,
+    "core_reference_audit": "2026-09-07 pocket_knowledge.py audit --format json: integrity_ok=true; historical voice warnings retained",
+    "independent_review": "awaiting root review",
+    "user_acceptance": "not_requested_not_inferred"
+  }
+}

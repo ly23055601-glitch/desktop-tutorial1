@@ -1,0 +1,1035 @@
+{
+  "schema_version": "1.0.0",
+  "registry_version": "2026-09-02-LH5",
+  "verified_at": "2026-09-02",
+  "global_invariants": {
+    "watermark_counts_as_evidence": false,
+    "product_name_only_has_s_level": false,
+    "current_post_model_assertion_min_m": "M2",
+    "causal_attribution_min_f": "F2",
+    "comparative_result_min_f": "F3",
+    "scenario_fit_min_n": "N1",
+    "scenario_fit_requires_conditional_language": true,
+    "p0_claims_forbidden_above_s1": true
+  },
+  "fact_levels": {
+    "P0": "未核验，不得用于产品卖点",
+    "P1": "DJI 官方稳定事实",
+    "P2": "已按当日官方页面复核的高时效或模式受限事实"
+  },
+  "model_ids": [
+    "pocket_4p",
+    "pocket_4",
+    "pocket_3",
+    "unknown"
+  ],
+  "known_false_assertions": [
+    {
+      "id": "pocket_4p_wrong_107gb",
+      "models": [
+        "pocket_4p"
+      ],
+      "pattern": "107\\s*GB",
+      "message": "Osmo Pocket 4P 的内置可用存储不是 107 GB；107 GB 属于 Osmo Pocket 4 的口径"
+    },
+    {
+      "id": "pocket_4p_wrong_dlog2_range",
+      "models": [
+        "pocket_4p"
+      ],
+      "pattern": "D-?Log\\s*2[^。！？；\\n]{0,20}?(?<!\\d)(?!17\\s*级)\\d{1,2}\\s*级",
+      "message": "Osmo Pocket 4P 的 D-Log 2 动态范围数字只能按已核验的 1×、10-bit、最高 17 级边界表达"
+    }
+  ],
+  "claims": {
+    "4p_physical_60mm": {
+      "label": "60 mm 实体中焦",
+      "models": [
+        "pocket_4p"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "remote_subject",
+        "stage",
+        "across_crowd",
+        "portrait_closeup",
+        "pet_distance"
+      ],
+      "text_terms": [
+        "60mm",
+        "60 mm",
+        "中焦"
+      ],
+      "boundaries": [
+        "60 mm 来自独立中焦镜头，不是 Pocket 4 的 2 倍无损变焦",
+        "20 mm 与 60 mm 不是 20–60 mm 连续光学变焦"
+      ],
+      "s3_boundary_terms": [
+        "不常拍远处",
+        "用不到中焦",
+        "不需要中焦",
+        "不用中焦",
+        "主要拍广角",
+        "不是连续光学",
+        "不等于连续变焦"
+      ],
+      "more_specific_claim": {
+        "claim_id": "4p_dual_20_60",
+        "when_all_text_groups": [
+          [
+            "1×",
+            "1x",
+            "20mm",
+            "20 mm",
+            "广角"
+          ],
+          [
+            "3×",
+            "3x",
+            "60mm",
+            "60 mm",
+            "中焦"
+          ]
+        ]
+      },
+      "forbidden_text_patterns": [
+        "(?:20\\s*[-–—~至到]\\s*60\\s*mm|20\\s*mm\\s*到\\s*60\\s*mm)\\s*(?:是|为|属于|支持|可实现|可以)?\\s*(?:连续)?光学(?:变焦)?",
+        "12\\s*[×x倍].{0,6}(?:纯)?光学(?:变焦)?"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN"
+      ]
+    },
+    "4p_dual_20_60": {
+      "label": "20 mm 广角与 60 mm 中焦双实体镜头",
+      "models": [
+        "pocket_4p"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "near_far_switch",
+        "environment_and_closeup",
+        "stage",
+        "travel_portrait"
+      ],
+      "text_terms": [
+        "双实体镜头",
+        "双镜头",
+        "双摄",
+        "1×",
+        "3×",
+        "20mm",
+        "60mm"
+      ],
+      "boundaries": [
+        "两颗镜头是 1× 与 3×切换，不是连续光学变焦",
+        "不得把最高 12×写成纯光学变焦"
+      ],
+      "s3_boundary_terms": [
+        "只拍广角",
+        "用不到中焦",
+        "不需要远近切换",
+        "不是连续光学",
+        "不能连续变焦"
+      ],
+      "required_text_groups": [
+        [
+          "1×",
+          "1x",
+          "20mm",
+          "20 mm",
+          "广角"
+        ],
+        [
+          "3×",
+          "3x",
+          "60mm",
+          "60 mm",
+          "中焦"
+        ]
+      ],
+      "forbidden_text_patterns": [
+        "(?:20\\s*[-–—~至到]\\s*60\\s*mm|20\\s*mm\\s*到\\s*60\\s*mm)\\s*(?:是|为|属于|支持|可实现|可以)?\\s*(?:连续)?光学(?:变焦)?",
+        "12\\s*[×x倍].{0,6}(?:纯)?光学(?:变焦)?"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN"
+      ]
+    },
+    "4p_dlog2_17stop_1x": {
+      "label": "1× D-Log 2 最高 17 级动态范围",
+      "models": [
+        "pocket_4p"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "high_contrast",
+        "color_grading",
+        "highlight_shadow"
+      ],
+      "text_terms": [
+        "D-Log 2",
+        "DLog 2",
+        "17级",
+        "17 级"
+      ],
+      "boundaries": [
+        "仅限广角 1×、10-bit D-Log 2 的官方最高值",
+        "不得泛化到中焦、数码倍率或全部模式"
+      ],
+      "s3_boundary_terms": [
+        "只拍直出",
+        "不调色",
+        "用不到D-Log",
+        "仅限广角",
+        "只限1×",
+        "中焦不算"
+      ],
+      "required_text_groups": [
+        [
+          "1×",
+          "1x",
+          "广角"
+        ],
+        [
+          "D-Log 2",
+          "DLog 2",
+          "d-log 2"
+        ],
+        [
+          "17级",
+          "17 级"
+        ],
+        [
+          "10-bit",
+          "10 bit",
+          "10bit"
+        ]
+      ],
+      "forbidden_text_patterns": [
+        "(?:所有|全部|全)(?:焦段|倍率|模式).{0,10}17\\s*级",
+        "17\\s*级.{0,10}(?:所有|全部|全)(?:焦段|倍率|模式)",
+        "D-?Log\\s*2[^。！？；\\n]{0,20}?(?<!\\d)(?!17\\s*级)\\d{1,2}\\s*级"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN"
+      ]
+    },
+    "4p_long_zoom_tracking": {
+      "label": "长倍率智能跟随 8.0",
+      "models": [
+        "pocket_4p"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "remote_moving_subject",
+        "stage",
+        "sports_subject"
+      ],
+      "text_terms": [
+        "智能跟随",
+        "跟随",
+        "追踪"
+      ],
+      "boundaries": [
+        "版本、倍率、目标类型和模式限制需当日核验",
+        "多人跟随期间不支持变焦"
+      ],
+      "s3_boundary_terms": [
+        "不常拍远处",
+        "用不到长焦",
+        "多人跟随期间不支持变焦",
+        "取决于模式",
+        "模式有限制"
+      ],
+      "required_text_groups": [
+        [
+          "长焦",
+          "中焦",
+          "高倍率",
+          "12×",
+          "12x",
+          "远处"
+        ]
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN"
+      ]
+    },
+    "shared_intelligent_tracking": {
+      "label": "智能跟随",
+      "models": [
+        "pocket_4p",
+        "pocket_4",
+        "pocket_3"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "moving_subject",
+        "walking",
+        "self_filming",
+        "remote_moving_subject"
+      ],
+      "text_terms": [
+        "智能跟随",
+        "跟随",
+        "追踪",
+        "锁住主体",
+        "取景框跟住"
+      ],
+      "boundaries": [
+        "不同代际的跟随版本、倍率、目标类型和不支持模式不同",
+        "稳定成片本身不能证明启用了智能跟随"
+      ],
+      "required_text_groups": [
+        [
+          "跟随",
+          "追踪",
+          "锁住主体",
+          "取景框跟住"
+        ]
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    },
+    "p4_2x_lossless": {
+      "label": "受模式限制的 2 倍无损变焦",
+      "models": [
+        "pocket_4"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "light_reframe",
+        "moderate_distance",
+        "single_camera_flexibility"
+      ],
+      "text_terms": [
+        "2倍无损",
+        "2 倍无损",
+        "2×无损",
+        "2x无损"
+      ],
+      "boundaries": [
+        "不是光学变焦",
+        "低光视频、慢动作和延时摄影不支持"
+      ],
+      "s3_boundary_terms": [
+        "不是光学",
+        "低光",
+        "慢动作",
+        "延时",
+        "更需要中焦"
+      ],
+      "required_text_groups": [
+        [
+          "不是光学",
+          "不是2倍光学",
+          "不是 2 倍光学",
+          "非光学",
+          "非2倍光学",
+          "非 2 倍光学",
+          "不算光学",
+          "不能算光学"
+        ],
+        [
+          "低光"
+        ],
+        [
+          "慢动作"
+        ],
+        [
+          "延时"
+        ]
+      ],
+      "forbidden_text_patterns": [
+        "(?:2|二)\\s*(?:倍|[x×])\\s*(?:纯)?光学(?:变焦)?",
+        "光学(?:变焦)?\\s*(?:2|二)\\s*(?:倍|[x×])"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4-creator-combo?set_region=CN"
+      ]
+    },
+    "p4_lighter_body": {
+      "label": "190.5 g 单摄随身方案",
+      "models": [
+        "pocket_4"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "daily_carry",
+        "long_handheld",
+        "light_kit"
+      ],
+      "text_terms": [
+        "190.5g",
+        "190.5 g",
+        "更轻",
+        "重量",
+        "随身"
+      ],
+      "boundaries": [
+        "轻量收益应基于可见携带需求或官方重量比较",
+        "不能据此推断画质优于 4P"
+      ],
+      "s3_boundary_terms": [
+        "不在意重量",
+        "更需要中焦",
+        "常拍远处",
+        "不能说明画质更好"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4-creator-combo?set_region=CN"
+      ]
+    },
+    "p4_runtime_240_lab": {
+      "label": "官方实验室续航 240 分钟",
+      "models": [
+        "pocket_4"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F3",
+      "scene_need_tags": [
+        "long_recording",
+        "travel_day",
+        "battery_anxiety"
+      ],
+      "text_terms": [
+        "240分钟",
+        "240 分钟",
+        "续航"
+      ],
+      "boundaries": [
+        "25℃、1080p/24fps、Wi-Fi 关闭且息屏的实验室条件",
+        "不得改写成 4K 连拍时长"
+      ],
+      "s3_boundary_terms": [
+        "实验室",
+        "测试条件",
+        "不等于4K",
+        "不是4K",
+        "更需要中焦"
+      ],
+      "required_text_groups": [
+        [
+          "240分钟",
+          "240 分钟"
+        ],
+        [
+          "实验室",
+          "测试条件"
+        ],
+        [
+          "25℃",
+          "25°C",
+          "25摄氏度"
+        ],
+        [
+          "1080p",
+          "1080P"
+        ],
+        [
+          "24fps",
+          "24 fps",
+          "24帧"
+        ],
+        [
+          "Wi-Fi关闭",
+          "WiFi关闭",
+          "关闭Wi-Fi",
+          "关闭WiFi"
+        ],
+        [
+          "息屏",
+          "屏幕关闭",
+          "关闭屏幕"
+        ]
+      ],
+      "forbidden_text_patterns": [
+        "4k.{0,12}240\\s*分钟",
+        "240\\s*分钟.{0,12}4k"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4-creator-combo?set_region=CN"
+      ]
+    },
+    "p4_internal_107gb": {
+      "label": "107 GB 内置可用存储",
+      "models": [
+        "pocket_4"
+      ],
+      "scope": "differentiator",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "storage_pressure",
+        "internal_capacity",
+        "long_recording_without_card"
+      ],
+      "text_terms": [
+        "107GB",
+        "107 GB",
+        "内置存储",
+        "机身存储"
+      ],
+      "boundaries": [
+        "107 GB 为内置可用存储口径",
+        "传输速度不能脱离线材和设备条件泛化"
+      ],
+      "s3_boundary_terms": [
+        "不缺存储",
+        "容量需求不大",
+        "更需要中焦",
+        "传输取决于",
+        "只是可用容量"
+      ],
+      "benefit_required_terms": [
+        "少删素材",
+        "少清空间",
+        "容量余量",
+        "多存",
+        "晚点清理",
+        "存储压力"
+      ],
+      "required_text_groups": [
+        [
+          "107GB",
+          "107 GB"
+        ]
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/product/osmo-pocket-4-creator-combo?set_region=CN"
+      ]
+    },
+    "shared_3axis_gimbal": {
+      "label": "三轴机械云台",
+      "models": [
+        "pocket_4p",
+        "pocket_4",
+        "pocket_3"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "walking",
+        "moving_camera",
+        "self_filming",
+        "active_framing"
+      ],
+      "text_terms": [
+        "三轴",
+        "机械云台",
+        "云台"
+      ],
+      "boundaries": [
+        "机械云台稳定镜头姿态，不等于适合水下、高冲击或固定运动机位",
+        "共享能力不能单独支撑 4P 与 4 的型号选择"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    },
+    "shared_1inch_20mm": {
+      "label": "一英寸 20 mm 广角主摄",
+      "models": [
+        "pocket_4p",
+        "pocket_4",
+        "pocket_3"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "wide_scene",
+        "selfie",
+        "travel_environment",
+        "indoor_vlog"
+      ],
+      "text_terms": [
+        "一英寸",
+        "1英寸",
+        "20mm",
+        "20 mm",
+        "广角"
+      ],
+      "boundaries": [
+        "传感器与焦段规格不能单独推出实际画质胜负",
+        "共享能力不能单独支撑 4P 比 4 更值得选"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    },
+    "shared_wide_4k240_slowmo": {
+      "label": "广角慢动作最高 4K/240fps",
+      "models": [
+        "pocket_4p",
+        "pocket_4"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P2",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "fast_action",
+        "slow_motion_detail",
+        "sports_moment"
+      ],
+      "text_terms": [
+        "慢动作",
+        "升格",
+        "240fps",
+        "240 fps"
+      ],
+      "boundaries": [
+        "仅为广角慢动作模式最高值",
+        "4P 中焦慢动作最高 4K/200fps"
+      ],
+      "required_text_groups": [
+        [
+          "慢动作",
+          "升格"
+        ],
+        [
+          "广角",
+          "1×",
+          "1x"
+        ],
+        [
+          "4K/240",
+          "4K 240",
+          "4K240",
+          "240fps",
+          "240 fps"
+        ]
+      ],
+      "forbidden_text_patterns": [
+        "普通视频\\s*(?:支持|能拍|可以拍|就是|为|有)?\\s*4k\\s*[/@]?\\s*240",
+        "(?:4p|pocket\\s*4p).{0,12}(?:中焦|60\\s*mm)\\s*(?:支持|能拍|可以拍|最高|就是|为|有)?\\s*4k\\s*[/@]?\\s*240",
+        "4k\\s*[/@]?\\s*240\\s*(?:是|为|属于)?\\s*(?:4p|pocket\\s*4p).{0,8}(?:中焦|60\\s*mm)"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    },
+    "shared_slow_motion_mode": {
+      "label": "慢动作模式",
+      "models": [
+        "pocket_4p",
+        "pocket_4",
+        "pocket_3"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "fast_action",
+        "slow_motion_detail",
+        "sports_moment",
+        "pet_action"
+      ],
+      "text_terms": [
+        "慢动作",
+        "升格"
+      ],
+      "boundaries": [
+        "不同代际、镜头和分辨率的最高帧率不同；未展示参数时只写慢动作模式本身"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    },
+    "shared_internal_storage": {
+      "label": "机身内置存储",
+      "models": [
+        "pocket_4p",
+        "pocket_4"
+      ],
+      "scope": "shared",
+      "fact_status_required": "P1",
+      "causal_min_feature_use": "F2",
+      "scene_need_tags": [
+        "forgot_card",
+        "quick_start",
+        "backup_storage"
+      ],
+      "text_terms": [
+        "内置存储",
+        "机身存储",
+        "不用存储卡",
+        "忘带卡"
+      ],
+      "boundaries": [
+        "4P 与 4 的可用容量不同",
+        "Pocket 3 无内置存储"
+      ],
+      "official_sources": [
+        "https://store.dji.com/cn/selection/handheld?set_region=CN"
+      ]
+    }
+  },
+  "lh13": {
+    "verified_at": "2026-09-05",
+    "description": "Project-only supplemental facts and sources; ignored by LH12 and earlier",
+    "claims": {
+      "4p_3x_physical_lens": {
+        "scope": "differentiator",
+        "fact_status_required": "P1",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "travel_portrait",
+          "operation_interest"
+        ],
+        "s3_boundary_terms": [
+          "不代表原片",
+          "不支持同时跟随"
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+        ],
+        "label": "独立3倍中焦镜头",
+        "models": [
+          "pocket_4p"
+        ],
+        "text_terms": [
+          "3倍镜头",
+          "3倍中焦",
+          "3×",
+          "3x",
+          "60mm",
+          "中焦"
+        ],
+        "boundaries": [
+          "3倍对应独立60mm中焦镜头，不代表12倍都是光学，也不证明当前片子用了3倍"
+        ],
+        "lh13_assertion_patterns": [
+          "3\\s*(?:倍(?:镜头|中焦)?|[×x])|60\\s*mm|中焦"
+        ],
+        "forbidden_text_patterns": [
+          "12\\s*[×x倍].{0,6}(?:纯)?光学",
+          "(?:Pocket4P|4P|这台(?:相机)?)(?:根本|本身|完全|就是)?(?:没有|不带|不具备|不支持)(?:独立|实体)?3\\s*(?:倍|[×x])(?:镜头|中焦)"
+        ]
+      },
+      "4p_zoom_button": {
+        "scope": "differentiator",
+        "fact_status_required": "P1",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "travel_portrait",
+          "operation_interest"
+        ],
+        "s3_boundary_terms": [
+          "不代表原片",
+          "不支持同时跟随"
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311",
+          "https://store.dji.com/uk/product/osmo-pocket-4p-vlog-combo?set_region=GB&vid=241311",
+          "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17"
+        ],
+        "label": "左侧实体变焦键单击切换1倍与3倍",
+        "models": [
+          "pocket_4p"
+        ],
+        "text_terms": [
+          "变焦键",
+          "实体键",
+          "按一下",
+          "换远近",
+          "戳屏幕",
+          "单击"
+        ],
+        "boundaries": [
+          "屏下左侧变焦键单击切换1倍/3倍，双击6倍，长按匀速放大；并非每次按键切任意倍率"
+        ],
+        "lh13_assertion_patterns": [
+          "(?:实体)?变焦键|(?:按一下|单击).{0,12}(?:换|切)|不用戳屏幕"
+        ],
+        "forbidden_text_patterns": [
+          "(?:右侧|右边).{0,6}变焦键",
+          "(?:单击|按一下).{0,8}(?:6倍|6×|6x|12倍)",
+          "(?:Pocket4P|4P|这台(?:相机)?)(?:根本|本身|完全|就是)?(?:没有|不带|不具备)(?:实体)?变焦键",
+          "变焦键(?:不能|无法)(?:按一下|单击|一键)?(?:换远近|切换远近|切换1倍(?:与|和)3倍)"
+        ]
+      },
+      "p4_spinshot_auto": {
+        "scope": "differentiator",
+        "fact_status_required": "P2",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "creative_rotation",
+          "self_filming"
+        ],
+        "s3_boundary_terms": [
+          "不代表原片",
+          "不支持同时跟随"
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4",
+          "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+        ],
+        "label": "Pocket4旋转运镜录制自动转动90或180度",
+        "models": [
+          "pocket_4"
+        ],
+        "text_terms": [
+          "旋转运镜",
+          "自己转镜头",
+          "自动转",
+          "旋转"
+        ],
+        "boundaries": [
+          "旋转运镜录制自动转动90或180度，不支持与智能跟随同时使用"
+        ],
+        "lh13_assertion_patterns": [
+          "旋转|(?:自己|自动)转(?:动|镜头)?"
+        ],
+        "forbidden_text_patterns": [
+          "(?:旋转|转镜头)(?:(?!不能|不支持|不可|无法|没法|不会|没有).){0,14}(?:同时|一边|也能).{0,8}(?:跟随|追踪)",
+          "(?:跟随|追踪)(?:(?!不能|不支持|不可|无法|没法|不会|没有).){0,14}(?:同时|一边|也能).{0,8}(?:旋转|转镜头)",
+          "(?:自动|自己).{0,5}(?:旋转|转动).{0,5}360",
+          "(?:Pocket4(?!P)|这台(?:相机)?)(?:根本|本身|完全|就是|本来就)?(?:不能|无法|不会|不支持|没有)(?:自己|自动)?(?:旋转|转镜头|转动)"
+        ]
+      },
+      "shared_intelligent_tracking": {
+        "label": "智能跟随",
+        "models": [
+          "pocket_4p",
+          "pocket_4",
+          "pocket_3"
+        ],
+        "scope": "shared",
+        "fact_status_required": "P2",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "moving_subject",
+          "walking",
+          "self_filming",
+          "remote_moving_subject"
+        ],
+        "text_terms": [
+          "智能跟随",
+          "跟随",
+          "追踪",
+          "锁住主体",
+          "取景框跟住"
+        ],
+        "boundaries": [
+          "不同代际的跟随版本、倍率、目标类型和不支持模式不同",
+          "稳定成片本身不能证明启用了智能跟随"
+        ],
+        "required_text_groups": [
+          [
+            "跟随",
+            "追踪",
+            "锁住主体",
+            "取景框跟住"
+          ]
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/selection/handheld?set_region=CN",
+          "https://store.dji.com/cn/product/osmo-pocket-4",
+          "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17",
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+        ]
+      },
+      "4p_dual_20_60": {
+        "label": "20 mm 广角与 60 mm 中焦双实体镜头",
+        "models": [
+          "pocket_4p"
+        ],
+        "scope": "differentiator",
+        "fact_status_required": "P1",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "near_far_switch",
+          "environment_and_closeup",
+          "stage",
+          "travel_portrait"
+        ],
+        "text_terms": [
+          "双实体镜头",
+          "双镜头",
+          "双摄",
+          "1×",
+          "3×",
+          "20mm",
+          "60mm",
+          "1倍",
+          "3倍"
+        ],
+        "boundaries": [
+          "两颗镜头是 1× 与 3×切换，不是连续光学变焦",
+          "不得把最高 12×写成纯光学变焦"
+        ],
+        "s3_boundary_terms": [
+          "只拍广角",
+          "用不到中焦",
+          "不需要远近切换",
+          "不是连续光学",
+          "不能连续变焦"
+        ],
+        "required_text_groups": [
+          [
+            "1×",
+            "1x",
+            "20mm",
+            "20 mm",
+            "广角",
+            "1倍"
+          ],
+          [
+            "3×",
+            "3x",
+            "60mm",
+            "60 mm",
+            "中焦",
+            "3倍"
+          ]
+        ],
+        "forbidden_text_patterns": [
+          "(?:20\\s*[-–—~至到]\\s*60\\s*mm|20\\s*mm\\s*到\\s*60\\s*mm)\\s*(?:是|为|属于|支持|可实现|可以)?\\s*(?:连续)?光学(?:变焦)?",
+          "12\\s*[×x倍].{0,6}(?:纯)?光学(?:变焦)?"
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN",
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311",
+          "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17"
+        ]
+      },
+      "4p_physical_60mm": {
+        "label": "60 mm 实体中焦",
+        "models": [
+          "pocket_4p"
+        ],
+        "scope": "differentiator",
+        "fact_status_required": "P1",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "remote_subject",
+          "stage",
+          "across_crowd",
+          "portrait_closeup",
+          "pet_distance"
+        ],
+        "text_terms": [
+          "60mm",
+          "60 mm",
+          "中焦"
+        ],
+        "boundaries": [
+          "60 mm 来自独立中焦镜头，不是 Pocket 4 的 2 倍无损变焦",
+          "20 mm 与 60 mm 不是 20–60 mm 连续光学变焦"
+        ],
+        "s3_boundary_terms": [
+          "不常拍远处",
+          "用不到中焦",
+          "不需要中焦",
+          "不用中焦",
+          "主要拍广角",
+          "不是连续光学",
+          "不等于连续变焦"
+        ],
+        "more_specific_claim": {
+          "claim_id": "4p_dual_20_60",
+          "when_all_text_groups": [
+            [
+              "1×",
+              "1x",
+              "20mm",
+              "20 mm",
+              "广角"
+            ],
+            [
+              "3×",
+              "3x",
+              "60mm",
+              "60 mm",
+              "中焦"
+            ]
+          ]
+        },
+        "forbidden_text_patterns": [
+          "(?:20\\s*[-–—~至到]\\s*60\\s*mm|20\\s*mm\\s*到\\s*60\\s*mm)\\s*(?:是|为|属于|支持|可实现|可以)?\\s*(?:连续)?光学(?:变焦)?",
+          "12\\s*[×x倍].{0,6}(?:纯)?光学(?:变焦)?"
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?set_region=CN",
+          "https://store.dji.com/cn/product/osmo-pocket-4p-vlog-combo?from=site-nav&set_region=CN&vid=241311"
+        ]
+      },
+      "p4_internal_107gb": {
+        "label": "107 GB 内置可用存储",
+        "models": [
+          "pocket_4"
+        ],
+        "scope": "differentiator",
+        "fact_status_required": "P1",
+        "causal_min_feature_use": "F2",
+        "scene_need_tags": [
+          "storage_pressure",
+          "internal_capacity",
+          "long_recording_without_card"
+        ],
+        "text_terms": [
+          "107GB",
+          "107 GB",
+          "内置存储",
+          "机身存储"
+        ],
+        "boundaries": [
+          "107 GB 为内置可用存储口径",
+          "传输速度不能脱离线材和设备条件泛化"
+        ],
+        "s3_boundary_terms": [
+          "不缺存储",
+          "容量需求不大",
+          "更需要中焦",
+          "传输取决于",
+          "只是可用容量"
+        ],
+        "benefit_required_terms": [
+          "少删素材",
+          "少清空间",
+          "容量余量",
+          "多存",
+          "晚点清理",
+          "存储压力"
+        ],
+        "required_text_groups": [
+          [
+            "107GB",
+            "107 GB"
+          ]
+        ],
+        "official_sources": [
+          "https://store.dji.com/cn/product/osmo-pocket-4-creator-combo?set_region=CN",
+          "https://repair.dji.com/help/content?customId=01700043653&lang=zh-TW&paperDocType=ARTICLE&re=HK&spaceId=17"
+        ]
+      }
+    },
+    "model_ids": [
+      "pocket_1",
+      "pocket_2",
+      "pocket_3",
+      "pocket_4",
+      "pocket_4p",
+      "unknown"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "quality_profile": "training_cw5",
+  "input_count": 0,
+  "sources": [],
+  "coverage": {
+    "basic": 0,
+    "deep": 0,
+    "risk_deep": 0,
+    "deep_review_coverage": {"numerator": 0, "denominator": 0, "value": null}
+  },
+  "totals": {
+    "count": 0,
+    "decision_counts": {"retain": 0, "revise": 0, "block": 0},
+    "coverage_counts": {"basic": 0, "deep": 0, "risk_deep": 0},
+    "deep_review_coverage": {"numerator": 0, "denominator": 0, "value": null},
+    "teaching_complete": {"numerator": 0, "denominator": 0, "value": null},
+    "user_acceptance_counts": {},
+    "average_score": null,
+    "average_dimensions": {"quality_base": null, "expression": null, "teaching": null, "total": null},
+    "issue_count": 0,
+    "issue_codes": {},
+    "severity_counts": {},
+    "revision_count": {"total": 0, "average": null, "with_revisions": 0}
+  },
+  "by_writer": {},
+  "by_product": {},
+  "by_platform": {},
+  "by_batch": {},
+  "issue_codes": {},
+  "severity_counts": {},
+  "records": []
+}

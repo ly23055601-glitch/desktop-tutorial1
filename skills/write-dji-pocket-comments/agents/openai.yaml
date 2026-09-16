@@ -1,0 +1,4 @@
+interface:
+  display_name: "DJI Pocket 消费者评论"
+  short_description: "使用共享消费者写法起草Pocket培训评论，保留产品命名与事实边界"
+  default_prompt: "使用 $write-dji-pocket-comments，按共享消费者写法起草DJI Pocket培训用假想消费者评论，并核对本产品命名与所需事实。"

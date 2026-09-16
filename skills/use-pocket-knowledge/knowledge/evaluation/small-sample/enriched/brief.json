@@ -1,0 +1,394 @@
+{
+  "arm": "B",
+  "status": "pending_user_calibration",
+  "content_mode": "training_fiction",
+  "input_orders": [
+    12,
+    32
+  ],
+  "draft_sha256": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f",
+  "baseline_or_arm_A_read": false,
+  "new_social_collection": false,
+  "corpus_or_split_changed": false,
+  "holdout_added_to_learning": false,
+  "media_reviewed": false,
+  "queries": [
+    {
+      "input_order": 12,
+      "command": [
+        "python3",
+        "knowledge/pocket/scripts/pocket_knowledge.py",
+        "search",
+        "普通10bit 调色 参数 日常",
+        "--model",
+        "pocket_4",
+        "--platform",
+        "xiaohongshu",
+        "--limit",
+        "2",
+        "--format",
+        "json"
+      ],
+      "invocation_count": 2,
+      "repeat_reason": "same query repeated only to preserve complete tool output",
+      "holdout_included": false,
+      "result_path": "evidence/search-012.json",
+      "result_sha256": "539cea784bf1fa545daf29bc7a061897542dc5fed4d799ad92b2538d4e8cbcb0"
+    },
+    {
+      "input_order": 12,
+      "command": [
+        "python3",
+        "knowledge/pocket/scripts/pocket_knowledge.py",
+        "search",
+        "普通 10bit 色彩",
+        "--model",
+        "pocket_4",
+        "--platform",
+        "xiaohongshu",
+        "--limit",
+        "2",
+        "--format",
+        "json"
+      ],
+      "invocation_count": 1,
+      "repeat_reason": null,
+      "holdout_included": false,
+      "result_path": "evidence/search-012-focused.json",
+      "result_sha256": "afe0b849a39ee67a827d6ae9cd665e11f4e3c34ba45ff824110077afdac3ab6c"
+    },
+    {
+      "input_order": 32,
+      "command": [
+        "python3",
+        "knowledge/pocket/scripts/pocket_knowledge.py",
+        "search",
+        "收纳 手柄 便携 外观",
+        "--model",
+        "pocket_4p",
+        "--platform",
+        "xiaohongshu",
+        "--limit",
+        "2",
+        "--format",
+        "json"
+      ],
+      "invocation_count": 2,
+      "repeat_reason": "same query repeated only to preserve complete tool output",
+      "holdout_included": false,
+      "result_path": "evidence/search-032.json",
+      "result_sha256": "9cad7679159266eb7a65ea4b10ff59ca831c2fb5f583b93229250c63540517fd"
+    },
+    {
+      "input_order": 32,
+      "command": [
+        "python3",
+        "knowledge/pocket/scripts/pocket_knowledge.py",
+        "search",
+        "中焦 人像 焦距",
+        "--model",
+        "pocket_4p",
+        "--platform",
+        "xiaohongshu",
+        "--limit",
+        "2",
+        "--format",
+        "json"
+      ],
+      "invocation_count": 1,
+      "repeat_reason": null,
+      "holdout_included": false,
+      "result_path": "evidence/search-032-focused.json",
+      "result_sha256": "96936b240ffc73681e23ed7e99833dc7f57b48b8d3fa8648892650dc877d2d99"
+    }
+  ],
+  "selected_knowledge": [
+    {
+      "id": "scenario_003",
+      "title": "素材拍好了，下一步怎么剪",
+      "source_kind": "editorial_synthesis",
+      "split": "legacy",
+      "limitations": [
+        "单一作品案例；不能据此概括所有新手",
+        "评论里的4K、10bit、软件兼容与iPad经历尚不是官方事实",
+        "workflow是供写手组织需求的步骤；未作为实操教程核验",
+        "target_models是本库写作服务目标，不证明历史来源使用这些型号，也不概括Pocket4/4P使用人群",
+        "产品事实连接仅说明可核的相关能力和条件；不证明来源用了该功能、不证明场景完整可行，也不提升语言材料的研究证据等级",
+        "OTG传输还需手机支持OTG、端口和线材支持数据传输，并在机身选择OTG有线连接；Lightning与USB-C的接法分别核对，不把某一种转接方式用于所有iPhone"
+      ],
+      "source_post_locators": [
+        {
+          "work_id": "BV1Mh4y1q7Qg",
+          "source_path": "outputs/pocket-lh12-validation/research/bilibili-learning.json",
+          "json_pointer": "/0/post_fields"
+        }
+      ],
+      "evidence_work_ids": [
+        "BV1Mh4y1q7Qg"
+      ],
+      "input_order": 12,
+      "type": "scenarios",
+      "result_path": "evidence/search-012.json",
+      "usage_reason": "分开拍摄与后期尝试，避免把全套参数写成成片保证"
+    },
+    {
+      "id": "voice_012",
+      "title": "从喜欢成片走到具体制作问题",
+      "status": "pattern",
+      "source_kind": "editorial_synthesis_of_legacy_visible_comments",
+      "split": "legacy",
+      "limitations": [
+        "本卡是有来源的编辑归纳，不是用户人口画像、平台规律或效果承诺",
+        "pattern只表示至少3个独立作品有例证，不表示统计代表性"
+      ],
+      "input_order": 12,
+      "type": "voice",
+      "result_path": "evidence/search-012.json",
+      "example_source": [
+        {
+          "id": "legacy:xiaohongshu:6a5a146000000000150061e9",
+          "work_id": "6a5756590000000008033977",
+          "source_path": "outputs/pocket-lh12-validation/research/xiaohongshu-learning.json",
+          "source_locator": {
+            "json_pointer": "/4/comments/9",
+            "original_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx",
+            "sheet": "Sheet1",
+            "row": 91
+          },
+          "split": "legacy"
+        },
+        {
+          "id": "legacy:xiaohongshu:69689f700000000004003d5d",
+          "work_id": "696885b9000000001a01f8a1",
+          "source_path": "outputs/pocket-lh12-validation/research/xiaohongshu-learning.json",
+          "source_locator": {
+            "json_pointer": "/5/comments/11",
+            "original_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx",
+            "sheet": "Sheet1",
+            "row": 113
+          },
+          "split": "legacy"
+        }
+      ],
+      "usage_reason": "问当前文字未回答的光线条件，不重问已有滤镜名称"
+    },
+    {
+      "id": "comment_c1_001",
+      "title": "想复现成片，先问清拍摄和导出路径",
+      "status": "pattern",
+      "source_kind": "public_comment",
+      "split": "train",
+      "limitations": [
+        "只读取本批实际导出的train评论文字及线程字段；图片、连续视频、音轨和设备UI均未读取。",
+        "commenter_identity_unverified：本批评论者author_id为空；昵称不作为个人身份、独立消费者或亲历认证。",
+        "pattern的作者去重指作品发布账号；至少3独立作品和3个可核对作品作者，不表示3位已认证消费者、人口比例或商业独立性。",
+        "stage只表示这句话呈现的处境，不推断人口身份、职业、年龄或长期熟练度。",
+        "第一人称保持原评论者归属，只证明其写过这段话；公共原话不能替换成写手的经历。",
+        "父句仅按实际parent_id定位同work的评论；root_id只作根线程，不据相邻行或昵称补父句。",
+        "作品主型号是讨论对象，不证明每位评论者持有该型号；比较帖中的旧型号和4P提及保留原义。",
+        "评论中的产品、参数、价格、补贴和效果说法不自动成为事实；写入新文稿需另核官方来源与条件。",
+        "C2导出没有根评论或引用关系字段；C2记录thread_role=unknown、parent_id/root_id=null，不称主评、回复承接或已证对话。",
+        "C2摘句只支持单句中的观点、问题或建议；不据语气、昵称、相邻行或帖子内容补父句。",
+        "评论者身份、实际持有、个人经历、商业独立性与建议效果未认证；产品、环境与效果说法不当官方事实。"
+      ],
+      "input_order": 12,
+      "type": "voice",
+      "result_path": "evidence/search-012-focused.json",
+      "example_source": [
+        {
+          "id": "xiaohongshu:69feddb3000000002701519e",
+          "work_id": "69f0d574000000001f005845",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 63
+          },
+          "split": "train"
+        },
+        {
+          "id": "xiaohongshu:6a26b11c000000002702a216",
+          "work_id": "6a2182d80000000008000d39",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 210
+          },
+          "split": "train"
+        }
+      ],
+      "usage_reason": "区分拍摄与后期路径，不把滤镜当相机一键能力"
+    },
+    {
+      "id": "scenario_002",
+      "title": "设备有了，却总是拿出又收回",
+      "source_kind": "editorial_synthesis",
+      "split": "legacy",
+      "limitations": [
+        "已有设备、闲置、担心云台等均是来源自述，不分配给新角色",
+        "不将两帖体验归纳为所有用户或所有代际的产品缺陷",
+        "workflow是供写手组织需求的步骤；未作为实操教程核验",
+        "target_models是本库写作服务目标，不证明历史来源使用这些型号，也不概括Pocket4/4P使用人群",
+        "产品事实连接仅说明可核的相关能力和条件；不证明来源用了该功能、不证明场景完整可行，也不提升语言材料的研究证据等级"
+      ],
+      "source_post_locators": [
+        {
+          "work_id": "7560600733570075931",
+          "source_path": "outputs/pocket-lh12-validation/research/douyin-learning.json",
+          "json_pointer": "/0/post_fields"
+        },
+        {
+          "work_id": "6a71a88e000000003300a3a4",
+          "source_path": "outputs/pocket-lh12-validation/research/xiaohongshu-learning.json",
+          "json_pointer": "/1/post_fields"
+        }
+      ],
+      "evidence_work_ids": [
+        "7560600733570075931",
+        "6a71a88e000000003300a3a4"
+      ],
+      "input_order": 32,
+      "type": "scenarios",
+      "result_path": "evidence/search-032.json",
+      "usage_reason": "从装袋动作理解随手携带偏好，不升级为产品普遍缺陷"
+    },
+    {
+      "id": "comment_c1_004",
+      "title": "比较4与4P，先说自己的用途和取舍条件",
+      "status": "pattern",
+      "source_kind": "public_comment",
+      "split": "train",
+      "limitations": [
+        "只读取本批实际导出的train评论文字及线程字段；图片、连续视频、音轨和设备UI均未读取。",
+        "commenter_identity_unverified：本批评论者author_id为空；昵称不作为个人身份、独立消费者或亲历认证。",
+        "pattern的作者去重指作品发布账号；至少3独立作品和3个可核对作品作者，不表示3位已认证消费者、人口比例或商业独立性。",
+        "stage只表示这句话呈现的处境，不推断人口身份、职业、年龄或长期熟练度。",
+        "第一人称保持原评论者归属，只证明其写过这段话；公共原话不能替换成写手的经历。",
+        "父句仅按实际parent_id定位同work的评论；root_id只作根线程，不据相邻行或昵称补父句。",
+        "作品主型号是讨论对象，不证明每位评论者持有该型号；比较帖中的旧型号和4P提及保留原义。",
+        "评论中的产品、参数、价格、补贴和效果说法不自动成为事实；写入新文稿需另核官方来源与条件。",
+        "C2导出没有根评论或引用关系字段；C2记录thread_role=unknown、parent_id/root_id=null，不称主评、回复承接或已证对话。",
+        "C2摘句只支持单句中的观点、问题或建议；不据语气、昵称、相邻行或帖子内容补父句。",
+        "评论者身份、实际持有、个人经历、商业独立性与建议效果未认证；产品、环境与效果说法不当官方事实。"
+      ],
+      "input_order": 32,
+      "type": "voice",
+      "result_path": "evidence/search-032.json",
+      "example_source": [
+        {
+          "id": "xiaohongshu:6a3a9114000000002a0270da",
+          "work_id": "6a37a7be000000001c025d8a",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 22
+          },
+          "split": "train"
+        },
+        {
+          "id": "xiaohongshu:6a4cf3fe0000000015009660",
+          "work_id": "6a438478000000001102e2fb",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 92
+          },
+          "split": "train"
+        }
+      ],
+      "usage_reason": "把兴趣落在中焦半身用途，不移植第三方经历"
+    },
+    {
+      "id": "PKF-P4P-001",
+      "title": "20mm和60mm物理双摄",
+      "status": "verified",
+      "conditions": [],
+      "not_infer": [
+        "不能写成两路同时录制或20–60mm连续光变"
+      ],
+      "sources": [
+        {
+          "source_id": "DJI-P4P-GUIDE",
+          "url": "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17",
+          "locator": "05 猜你想问，真双摄问题",
+          "checked_at": "2026-09-06"
+        }
+      ],
+      "input_order": 32,
+      "type": "facts",
+      "result_path": "evidence/search-032-focused.json",
+      "usage_reason": "经当前官方确认中焦镜头存在，正文不写画质与构图效果保证"
+    }
+  ],
+  "scope": "two fixed holdout posts, four main comments, zero replies; not 30-post evaluation or user-approved examples",
+  "facts_registered_in": "training-state.json",
+  "official_evidence": "evidence/product-pocket4p.md",
+  "fixed_inputs": [
+    {
+      "path": "../inputs/012-6a4335f10000000017008cde.json",
+      "sha256": "ba43b81a58ebab81b18b9ddefcdb43437a940489d9d68fa1b0027036dc16fffd"
+    },
+    {
+      "path": "../inputs/032-6a40a5d40000000007021f64.json",
+      "sha256": "e8e374992afe6874beb8b51975742c067369ebb72b839e72d85ce3db090fb2af"
+    }
+  ],
+  "consulted_not_used": [
+    {
+      "input_order": 12,
+      "ids": [
+        "PKF-S-014",
+        "PKF-P4-002"
+      ],
+      "reason": "LUT与旋转运镜不直接回答此帖普通色彩参数；没有凑产品结论"
+    },
+    {
+      "input_order": 32,
+      "ids": [
+        "PKF-P4P-013",
+        "PKF-P4P-011",
+        "PKF-P4P-025"
+      ],
+      "reason": "拆灯、滤镜锁定及最近对焦距离不证明作者手柄装袋的组合情况"
+    }
+  ],
+  "sentence_review": [
+    {
+      "input_order": 12,
+      "comment_id": "1",
+      "purpose": "分开尝试拍摄与后期",
+      "facts": "原帖列出拍摄设置、后期滤镜；已注册post_fact",
+      "nonfactual": "当前尝试意愿和预期困惑，没有过去经历与效果承诺"
+    },
+    {
+      "input_order": 12,
+      "comment_id": "2",
+      "purpose": "问清未给出的阴晴条件",
+      "facts": "白平衡自动归于原帖设置；已注册post_fact",
+      "nonfactual": "阴晴适用性保持疑问，没有答复或能力承诺"
+    },
+    {
+      "input_order": 32,
+      "comment_id": "1",
+      "purpose": "回应收纳动作和携带偏好",
+      "facts": "明确你说，装手柄后装不下只归于作者；已注册post_fact",
+      "nonfactual": "想带设备及减少折腾为此刻用途和偏好"
+    },
+    {
+      "input_order": 32,
+      "comment_id": "2",
+      "purpose": "了解后续中焦人像尝试",
+      "facts": "暂未开拍来自作者文字，中焦存在来自当前官方；分别注册post_fact与product_fact",
+      "nonfactual": "拍半身为当前愿望，没有断言构图距离、画质或成片效果"
+    }
+  ],
+  "reply_decision": "四条主评均可独立成立，无需另一个角色提供周全答案或替产品收尾，零回复",
+  "official_verification": {
+    "date": "2026-09-06",
+    "method": "web.open当前官方原页文字",
+    "source_id": "DJI-P4P-GUIDE",
+    "locator": "05真双摄问题，返回文本L290–L292",
+    "url": "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17",
+    "adopted": "中焦镜头存在",
+    "excluded": "同时双路录制、连续光变、成片效果保证及拍摄距离建议"
+  }
+}

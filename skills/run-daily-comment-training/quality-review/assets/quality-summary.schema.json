@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://op.local/schemas/training-cw5-quality-summary.schema.json",
+  "title": "training_cw5 quality batch summary",
+  "type": "object",
+  "required": ["schema_version", "quality_profile", "input_count", "coverage", "totals", "by_writer", "by_product", "by_platform", "issue_codes"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "quality_profile": {"const": "training_cw5"},
+    "input_count": {"type": "integer", "minimum": 0},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "coverage": {
+      "type": "object",
+      "required": ["basic", "deep", "risk_deep", "deep_review_coverage"],
+      "properties": {
+        "basic": {"type": "integer", "minimum": 0},
+        "deep": {"type": "integer", "minimum": 0},
+        "risk_deep": {"type": "integer", "minimum": 0},
+        "deep_review_coverage": {"$ref": "#/$defs/ratio"}
+      },
+      "additionalProperties": false
+    },
+    "totals": {"$ref": "#/$defs/group"},
+    "by_writer": {"type": "object", "additionalProperties": {"$ref": "#/$defs/group"}},
+    "by_product": {"type": "object", "additionalProperties": {"$ref": "#/$defs/group"}},
+    "by_platform": {"type": "object", "additionalProperties": {"$ref": "#/$defs/group"}},
+    "by_batch": {"type": "object", "additionalProperties": {"$ref": "#/$defs/group"}},
+    "issue_codes": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "severity_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "records": {"type": "array", "items": {"type": "object"}}
+  },
+  "$defs": {
+    "ratio": {
+      "type": "object",
+      "required": ["numerator", "denominator", "value"],
+      "properties": {
+        "numerator": {"type": "integer", "minimum": 0},
+        "denominator": {"type": "integer", "minimum": 0},
+        "value": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "required": ["count", "decision_counts", "coverage_counts", "deep_review_coverage", "issue_codes", "revision_count"],
+      "properties": {
+        "count": {"type": "integer", "minimum": 0},
+        "decision_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "coverage_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "deep_review_coverage": {"$ref": "#/$defs/ratio"},
+        "teaching_complete": {"$ref": "#/$defs/ratio"},
+        "user_acceptance_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "average_score": {"type": ["number", "null"]},
+        "average_dimensions": {"type": "object", "additionalProperties": {"type": ["number", "null"]}},
+        "issue_count": {"type": "integer", "minimum": 0},
+        "issue_codes": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "severity_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "revision_count": {
+          "type": "object",
+          "required": ["total", "average", "with_revisions"],
+          "properties": {
+            "total": {"type": "integer", "minimum": 0},
+            "average": {"type": ["number", "null"], "minimum": 0},
+            "with_revisions": {"type": "integer", "minimum": 0}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

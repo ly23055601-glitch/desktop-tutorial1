@@ -1,0 +1,532 @@
+DJI Mic 3 - 技术参数 - DJI 大疆创新
+跳转至正文内容
+航拍无人机
+手持摄影设备
+储能及家居科技
+户外电源
+清洁机器人
+商用产品及方案
+行业应用
+农业应用
+运载应用
+教育应用
+探索精彩
+关于我们
+天空之城
+大疆社区
+媒体中心
+官方周边
+招聘精英
+服务与支持
+购买渠道
+欢迎, 
+{{nick_name}}
+我的帐号
+登出
+登录
+注册
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+Hong Kong, China
+English
+Indonesia
+English
+日本
+日本語
+中國澳門
+繁體中文
+Singapore
+English
+대한민국
+한국어
+中國台灣
+繁體中文
+Australia
+English
+New Zealand
+English
+欧洲
+Österreich
+Deutsch
+Россия
+Pусский
+Belgium
+English
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+España
+Español
+Sweden
+English
+Switzerland
+English
+United Kingdom
+English
+中东
+UAE
+English
+北美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+南美洲
+Brasil
+Português (BR)
+其他国家或地区
+Other Regions
+English
+中国大陆
+商城
+正在加载...
+去结算
+搜索结果建议
+快速链接
+请更换您的浏览器
+该页面不支持使用 IE 浏览器，建议您更换至其他浏览器。
+仍要继续浏览
+DJI Mic 3
+配件
+对比
+按拍摄场景探索
+技术参数
+视频
+下载
+常见问题
+立即购买
+技术参数
+DJI Mic 3 发射器
+型号
+DMT03
+尺寸
+长 28.77 毫米，宽 28.34 毫米，高 16.35 毫米（含磁铁）
+重量
+16 克（含磁铁）
+无线模式
+Wi-Fi：802.11 a/b/g/n/ac/ax
+SDR：自定义
+等效全向辐射功率（EIRP）
+Wi-Fi：
+2.400 GHz 至 2.4835 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.725 GHz 至 5.850 GHz：< 20 dBm（FCC/SRRC），< 14 dBm（CE）
+SDR：
+2.400 GHz 至 2.4835 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.150 GHz 至 5.250 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.250 GHz 至 5.350 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.470 GHz 至 5.725 GHz：< 20 dBm（FCC/CE/MIC）
+5.725 GHz 至 5.850 GHz：< 20 dBm（FCC/SRRC），< 14 dBm（CE）
+各国家/地区支持的工作频段及其对应的可用范围有所不同，详情请参考当地法律法规。
+无线模式工作频率
+Wi-Fi：
+2.400 GHz 至 2.4835 GHz
+5.725 GHz 至 5.850 GHz
+SDR：
+2.400 GHz 至 2.4835 GHz
+5.150 GHz 至 5.250 GHz
+5.250 GHz 至 5.350 GHz
+5.470 GHz 至 5.725 GHz
+5.725 GHz 至 5.850 GHz
+各国家/地区支持的工作频段及其对应的可用范围有所不同，详情请参考当地法律法规。
+蓝牙协议
+蓝牙 5.4
+蓝牙工作频率
+2.400 GHz 至 2.4835 GHz
+蓝牙发射功率（EIRP）
+BLE：< 10 dBm
+BR/EDR：< 20 dBm
+各国家/地区支持的工作频段及其对应的可用范围有所不同，详情请参考当地法律法规。
+电池类型
+Li-ion
+电池容量
+137 毫安时
+电池能量
+0.531 瓦时
+电池电压
+3.87 伏
+充电规格
+最大 5 伏
+充电环境温度
+5℃ 至 45℃
+工作环境温度
+-10℃ 至 45℃
+充电时间
+约 50 分钟
+工作时间
+8 小时
+使用 DJI Mic 3（两发一收，含充电盒），未开启降噪和内录等功能，在无干扰环境下近距离收音，两个发射器均与接收器连接，且接收器通过 3.5 毫米线连接相机时测得。
+内录可用时长
+24-bit（单文件）：57.3 小时
+24-bit（双文件）：28.6 小时
+32-bit 浮点（单文件）：43.0 小时
+32-bit 浮点（双文件）：21.5 小时
+DJI Mic 3 接收器
+型号
+DMR03
+尺寸
+长 53.85 毫米，宽 28.69 毫米，高 22.00 毫米
+重量
+25.1 克
+无线模式
+Wi-Fi：802.11 a/b/g/n/ac/ax
+SDR：自定义
+等效全向辐射功率（EIRP）
+Wi-Fi：
+2.400 GHz 至 2.4835 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.725 GHz 至 5.850 GHz：< 20 dBm（FCC/SRRC），< 14 dBm（CE）
+SDR：
+2.400 GHz 至 2.4835 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.150 GHz 至 5.250 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.250 GHz 至 5.350 GHz：< 20 dBm（FCC/CE/SRRC/MIC）
+5.470 GHz 至 5.725 GHz：< 20 dBm（FCC/CE/MIC）
+5.725 GHz 至 5.850 GHz：< 20 dBm（FCC/SRRC），< 14 dBm（CE）
+各国家/地区支持的工作频段及其对应的可用范围有所不同，详情请参考当地法律法规。
+工作频率
+Wi-Fi：
+2.400 GHz 至 2.4835 GHz
+5.725 GHz 至 5.850 GHz
+SDR：
+2.400 GHz 至 2.4835 GHz
+5.150 GHz 至 5.250 GHz
+5.250 GHz 至 5.350 GHz
+5.470 GHz 至 5.725 GHz
+5.725 GHz 至 5.850 GHz
+各国家/地区支持的工作频段及其对应的可用范围有所不同，详情请参考当地法律法规。
+蓝牙协议
+蓝牙 5.4
+蓝牙工作频率
+2.400 GHz 至 2.4835 GHz
+蓝牙发射功率（EIRP）
+BLE：< 10 dBm
+电池类型
+Li-ion
+电池容量
+275 毫安时
+电池能量
+1.065 瓦时
+电池电压
+3.87 伏
+充电规格
+最大 5 伏
+充电环境温度
+5℃ 至 45℃
+工作环境温度
+-10℃ 至 45℃
+充电时间
+约 50 分钟
+工作时间
+10 小时
+使用 DJI Mic 3（两发一收，含充电盒），未开启降噪和内录等功能，在无干扰环境下近距离收音，两个发射器均与接收器连接，且接收器通过 3.5 毫米线连接相机时测得。
+DJI Mic 3 充电盒
+型号
+DMC03
+尺寸
+长 106.30 毫米，宽 42.50 毫米，高 59.20 毫米
+重量
+164.1 克（仅充电盒）
+电池类型
+Li-ion
+电池容量
+1950 毫安时
+电池能量
+7.55 瓦时
+电池电压
+3.87 伏
+充电规格
+最大 5 伏，3 安
+充电环境温度
+5℃ 至 40℃
+工作环境温度
+5℃ 至 45℃
+充电时间
+约 1.5 小时
+充电盒给发射器和接收器充电次数
+2 个发射器和 1 个接收器同时充电，搭配满电充电盒可完整充电约 2.4 次
+通用
+麦克风指向性
+全指向
+频率响应
+低切功能关：20 Hz 至 20 kHz（编码）
+低切功能关：20 Hz 至 24 kHz（无损）
+低切功能开：100 Hz 至 20 kHz（编码）
+低切功能开：100 Hz 至 24 kHz（无损）
+麦克风灵敏度
+麦克风单体规格：-36±1 dBV@1 kHz，94 dB SPL
+信噪比
+72 dB
+最大声压级
+126 dB SPL@1% THD
+130 dB SPL@10% THD
+采样频率
+48 kHz
+采样深度
+32-bit 浮点/24-bit 灵活切换
+最大输入电平（3.5 毫米）
+-
+等效噪声
+22 dBA
+监听接口输出功率
+最大输出功率：20 mW@1 kHz，32 Ω
+最大传输距离
+400 米
+使用 DJI Mic 3（两发一收，含充电盒），未开启无损音频传输模式，在空旷、无干扰且无遮挡的环境下测得。
+80 米
+使用 DJI Mic 3（两发一收，含充电盒），在实验室模拟强干扰环境下，传输不丢包，声音清晰保真。
+时间码
+支持帧率
+23.98F，24F，25F，29.97F，29.97DF，30F，50F，60F
+偏移
+0.5 ppm，24 小时内的偏差小于 1 帧*
+* 使用 DJI Mic 3（两发一收，含充电盒），在无电磁干扰环境下，对发射器和接收器持续供电，同步时间码后，连续记录 24 小时所得数据。
+输入
+LTC
+输入接口
+3.5 毫米 TRS
+输入电压
+不大于 +6 dBu
+输出
+LTC、Audio-TC
+输出接口
+3.5 毫米 TRS、USB-C
+输出电压
+0.5 Vp-p
+仅在大疆商城 app
+在线试飞，体验飞行乐趣；官方社区，随时交流想法；设备绑定，享一站式官方服务。
+立即下载
+提交成功！
+感谢您对大疆的关注和支持。
+感谢您的订阅，大疆最新动态将会在第一时间发送给您。
+关闭
+订阅我们
+订阅我们
+第一时间获取最新产品资讯、优惠信息和免费上手体验机会。
+第一时间获得大疆的最新动态
+提交
+请输入正确的手机号
+您可通过
+大疆隐私政策
+了解我们的信息管理方式。
+热门产品分类
+消费级
+专业级
+行业级
+系统模块
+增值服务
+DJI Care 随心换
+DJI Care Pro
+DJI Care 行业无忧
+行业无人机保养服务
+农机关怀计划
+线上商城
+官方商城
+平台官方渠道
+大疆商城 App
+线下门店
+线下零售店
+商用产品购买渠道
+行业应用
+农业植保机
+专业影像
+企业合作
+成为授权经销商
+安全飞行
+安全飞行指引
+大疆飞行指南
+帮助与支持
+产品支持
+服务申请与信息支持
+帮助中心
+售后服务政策
+下载中心
+安全与隐私
+探索精彩大疆
+媒体中心
+官方周边
+社区
+天空之城
+大疆社区
+开发者
+订阅我们
+订阅我们
+第一时间获得大疆的最新动态
+第一时间获得大疆的最新动态
+关于我们
+联系我们
+招聘精英
+代理商门户
+供应商门户
+RoboMaster
+慧飞培训中心
+隐私权政策
+使用条款
+疆湖名录
+无障碍声明
+网站问题反馈
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+Hong Kong, China
+English
+Indonesia
+English
+日本
+日本語
+中國澳門
+繁體中文
+Singapore
+English
+대한민국
+한국어
+中國台灣
+繁體中文
+Australia
+English
+New Zealand
+English
+欧洲
+Österreich
+Deutsch
+Россия
+Pусский
+Belgium
+English
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+España
+Español
+Sweden
+English
+Switzerland
+English
+United Kingdom
+English
+中东
+UAE
+English
+北美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+南美洲
+Brasil
+Português (BR)
+其他国家或地区
+Other Regions
+English
+中国大陆 / 简体中文
+Copyright © 2026 DJI 大疆创新 版权所有
+粤ICP备2022092332号
+本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）
+收起
+退出

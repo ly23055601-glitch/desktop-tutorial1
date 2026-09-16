@@ -1,0 +1,2436 @@
+{
+  "version": 1,
+  "skill": "use-pocket-knowledge",
+  "packaged_at": "2026-09-14T11:28:37.025007+08:00",
+  "maintenance_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket",
+  "runtime_requires_original_project": false,
+  "records_policy": "Original JSON/JSONL/raw bytes and fact dates preserved; all provenance resolves inside package.",
+  "files": [
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/BUILD.md",
+      "path": "BUILD.md",
+      "source_sha256": "d0b660662814edc4001ebb14396d0330714f18b7857e93ffaee4a6cbb08ebc05",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "38f9295d7e15cce0c48cfef233754385417cb8b67bdb1128f63168638eed67ef"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/COVERAGE.md",
+      "path": "COVERAGE.md",
+      "source_sha256": "31ec6e5dd814dfb35676818b41c52a38fb1a06d4c0e9da54713a4085c7a299ef",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "a936ed77b9fbccb44ed20f1277a9da72027f721f991c67806f62ad2ef20baa96"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/GAPS.md",
+      "path": "GAPS.md",
+      "source_sha256": "b2e73616b5903ba9fc53ba452ce08cfc5af63176ac8dabc24d4f9b2448ba5385",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "25796fc758170aeb3f865ecdc9153d2d8596aac201707b16c714d7c9d764fbb4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/INDEX.md",
+      "path": "INDEX.md",
+      "source_sha256": "00730092edfe17fe7365ad0e6f918540f115b9e0c531b58abcd1ff7697262ae6",
+      "kind": "package_entry_generated",
+      "packaged_sha256": "548c6de2310a158a498f23658310b5242f2a7fce60fe299c382a8db287198ba7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/START.md",
+      "path": "START.md",
+      "source_sha256": "94f060fde785edb4635ed84d739dc295a7b3d142ff01819390fb838f2dcbdcb5",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "adbc6151f5b44beacf752c87dde613030d83951cd4736310961b54f2dc98c51d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/TRAINING.md",
+      "path": "TRAINING.md",
+      "source_sha256": "5e6de24e112e8f41ed655749ccf511d366aea645122500a493e0bc672985351d",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "ea74a46db4cee5c04df51558733aab7ea60c6983707487ab3fb5b86fde9af4e9"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/README.md",
+      "path": "aesthetics/README.md",
+      "source_sha256": "03516746c34aebaf1899be55d09a37b96aa6916a32c38755f7dabde7fc6e9a1e",
+      "kind": "snapshot",
+      "packaged_sha256": "03516746c34aebaf1899be55d09a37b96aa6916a32c38755f7dabde7fc6e9a1e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/choice-and-learning.json",
+      "path": "aesthetics/choice-and-learning.json",
+      "source_sha256": "c8840243b124a77101e1455db33fa35c8d7ae8e6b91208d72d0a0bb257584143",
+      "kind": "snapshot",
+      "packaged_sha256": "c8840243b124a77101e1455db33fa35c8d7ae8e6b91208d72d0a0bb257584143"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/choice-and-learning.md",
+      "path": "aesthetics/choice-and-learning.md",
+      "source_sha256": "6b0bd26f51264ecf5bd36e324389167c3841a9f226df9333eae3bc2285a87e56",
+      "kind": "snapshot",
+      "packaged_sha256": "6b0bd26f51264ecf5bd36e324389167c3841a9f226df9333eae3bc2285a87e56"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-001.md",
+      "path": "aesthetics/discussions/PEE-001.md",
+      "source_sha256": "f257c850052f15435970d8fc9ab6fdb045d299e8b9e749cc94a0945b2364fbda",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "9c1d0b478710d5c35b1e58425c1c9d9c7f9f561764af5eb6d278494846e8c617"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-002.md",
+      "path": "aesthetics/discussions/PEE-002.md",
+      "source_sha256": "5f77c8a46b861816cf35750bb5f8720b18f5586de58748585b01427dcbf8a3e4",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "bda1d72b47762b80af59f3327b0d420b6c4c6d7787992244c54d26a42567f2aa"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-003.md",
+      "path": "aesthetics/discussions/PEE-003.md",
+      "source_sha256": "bf5a8b28d9086113b7192300511f97be7dab8267ef487721a3b95ccb617b935e",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "f0c8ae9132e8cfb284012649ecede52ab83d60cd1122fa41ab183d34b7c88df4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-004.md",
+      "path": "aesthetics/discussions/PEE-004.md",
+      "source_sha256": "8295d2f72d13f76b17bd203e9ff180367960cbe313ffa5f5a2e6ffeb3ac2b6e3",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "ee7af545bd3cdadcb70e43b010aa0696f5023241bd8c448136767f0890c8cc04"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-005.md",
+      "path": "aesthetics/discussions/PEE-005.md",
+      "source_sha256": "1c234b942d1f6b76746574673d95c6e63a8112247b16aecdd771b1c1ce5026ff",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "8105c83841eb002fa3fb1a37bb30622d797696d00f6ef47740538e86b7b62c1c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-006.md",
+      "path": "aesthetics/discussions/PEE-006.md",
+      "source_sha256": "8665c53be7156f1607b06f1408de02714dc1a9cfed79d0fa77c0c14e2432d4c0",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "de8540570e5aa87cbc9108047568c929cf557172543977be3fa9e717acc2c574"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-007.md",
+      "path": "aesthetics/discussions/PEE-007.md",
+      "source_sha256": "122845c094c9bd6a04f1b18038d25aca209c0569778ca57614c3da7aa3c4190e",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "cf0302487de94de78344fd1ea752635d8050a5b0df081aecf7289eedc40346e0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-008.md",
+      "path": "aesthetics/discussions/PEE-008.md",
+      "source_sha256": "6d63e019cc444a70c1fa3aebb8a0686b5a30e18fff13944492996f910164e480",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "16b53552dbb31f69b444b2e52016032104dafc6c281935084f128cede57179b3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions/PEE-009.md",
+      "path": "aesthetics/discussions/PEE-009.md",
+      "source_sha256": "2d9166b88f7f162b869d5d89fb2560e9e81c108f5e44f1e70b9b1f24606d26db",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "28dad37200f272e4f4216b31cba3db959b6f5da52f4540a36333b4ada3473dcd"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/discussions.md",
+      "path": "aesthetics/discussions.md",
+      "source_sha256": "97f523ea28e5ef663a49e12f2b3a333f522bdf8fb0246784b02b279a0560c40e",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "26b9a0c02342131c217e4edf83459819965ecade3a1b7632d46ef516582a54eb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a904789000000000b0266c0/image-1.jpg",
+      "path": "aesthetics/evidence/6a904789000000000b0266c0/image-1.jpg",
+      "source_sha256": "acb6fabb955b51057029156824d2eee315e2fce637f17811e914e06fcbff8795",
+      "kind": "snapshot",
+      "packaged_sha256": "acb6fabb955b51057029156824d2eee315e2fce637f17811e914e06fcbff8795"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a904789000000000b0266c0/image-2.jpg",
+      "path": "aesthetics/evidence/6a904789000000000b0266c0/image-2.jpg",
+      "source_sha256": "c6bb02090aa0b4580488c6369a5ebcf47ca3a4e3604275356d045415ee3cb470",
+      "kind": "snapshot",
+      "packaged_sha256": "c6bb02090aa0b4580488c6369a5ebcf47ca3a4e3604275356d045415ee3cb470"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a904789000000000b0266c0/image-3.jpg",
+      "path": "aesthetics/evidence/6a904789000000000b0266c0/image-3.jpg",
+      "source_sha256": "6b8ad3f5a71b0627304f8e4a35c1f4b4700f63a1d9d495a82c083ecbf33ff989",
+      "kind": "snapshot",
+      "packaged_sha256": "6b8ad3f5a71b0627304f8e4a35c1f4b4700f63a1d9d495a82c083ecbf33ff989"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a904789000000000b0266c0/image-4.jpg",
+      "path": "aesthetics/evidence/6a904789000000000b0266c0/image-4.jpg",
+      "source_sha256": "d9993004d9efd8fd0c09f82905abdd5e5241b0b54aee1a01efd337308b3f08a8",
+      "kind": "snapshot",
+      "packaged_sha256": "d9993004d9efd8fd0c09f82905abdd5e5241b0b54aee1a01efd337308b3f08a8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a904789000000000b0266c0/source.json",
+      "path": "aesthetics/evidence/6a904789000000000b0266c0/source.json",
+      "source_sha256": "aab8ae2a25d9af8a08f4c0aee65c177c69380d2aa4af0112c8a754d797e81259",
+      "kind": "snapshot",
+      "packaged_sha256": "aab8ae2a25d9af8a08f4c0aee65c177c69380d2aa4af0112c8a754d797e81259"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a990e46000000002900ef96/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a990e46000000002900ef96/sampled-frames.jpg",
+      "source_sha256": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2",
+      "kind": "snapshot",
+      "packaged_sha256": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a994786000000002902dcbe/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a994786000000002902dcbe/sampled-frames.jpg",
+      "source_sha256": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99",
+      "kind": "snapshot",
+      "packaged_sha256": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9abdfb000000001203f7c2/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a9abdfb000000001203f7c2/sampled-frames.jpg",
+      "source_sha256": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0",
+      "kind": "snapshot",
+      "packaged_sha256": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9abf85000000002900c734/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a9abf85000000002900c734/sampled-frames.jpg",
+      "source_sha256": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8",
+      "kind": "snapshot",
+      "packaged_sha256": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b4263000000001203d593/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a9b4263000000001203d593/sampled-frames.jpg",
+      "source_sha256": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46",
+      "kind": "snapshot",
+      "packaged_sha256": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b80590000000025034cc7/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a9b80590000000025034cc7/sampled-frames.jpg",
+      "source_sha256": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958",
+      "kind": "snapshot",
+      "packaged_sha256": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b94c40000000026014561/sampled-frames.jpg",
+      "path": "aesthetics/evidence/6a9b94c40000000026014561/sampled-frames.jpg",
+      "source_sha256": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73",
+      "kind": "snapshot",
+      "packaged_sha256": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/feedback.md",
+      "path": "aesthetics/feedback.md",
+      "source_sha256": "c556510f2c6b14088dd9339a8ed686588479e6a12757b031103ae3d69e58c625",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "cb763a2e8f9e3bf92e176ba56df7ea3e8d5094c341383dff09387b8342d03230"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/gaps.md",
+      "path": "aesthetics/gaps.md",
+      "source_sha256": "2bdc61072533067a18a7e0dce724991586dc236b55482531d7d2180c9d1904b9",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "b07cea25fec2e7075b853ee75fa86911cbd7e510d8696c617fade3678a9cf8e0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/post-types.source.json",
+      "path": "aesthetics/post-types.source.json",
+      "source_sha256": "ab8f1883a52b3ec7ebca664bdcab94817e26293120bdbf77838f01c4b7ba6043",
+      "kind": "snapshot",
+      "packaged_sha256": "ab8f1883a52b3ec7ebca664bdcab94817e26293120bdbf77838f01c4b7ba6043"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/preferences.md",
+      "path": "aesthetics/preferences.md",
+      "source_sha256": "529ceef4ce47830938f2bbe2889975cc4630e3a8fbc343260fd1105acba38df1",
+      "kind": "snapshot",
+      "packaged_sha256": "529ceef4ce47830938f2bbe2889975cc4630e3a8fbc343260fd1105acba38df1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/source-index.json",
+      "path": "aesthetics/source-index.json",
+      "source_sha256": "06a7fa13262c7984df41828fec3b9f96afcfeac34b65a2aed1acb8d167a3d04a",
+      "kind": "snapshot",
+      "packaged_sha256": "06a7fa13262c7984df41828fec3b9f96afcfeac34b65a2aed1acb8d167a3d04a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/works.md",
+      "path": "aesthetics/works.md",
+      "source_sha256": "9ac4691f681dac181d5cb12f4ea3927033a8c0157589b1a3e62f36a48c59c7a4",
+      "kind": "snapshot",
+      "packaged_sha256": "9ac4691f681dac181d5cb12f4ea3927033a8c0157589b1a3e62f36a48c59c7a4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/comparisons/README.md",
+      "path": "comparisons/README.md",
+      "source_sha256": "762acfbef1f302b0478bb52f6d134b8f2dedb9d82300a0772f074079e1a82a8f",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "1f8a7e64142fd8eca98b08f417a2c16927088950029d464ee5f05eae5b93826c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/comparisons/cards.jsonl",
+      "path": "comparisons/cards.jsonl",
+      "source_sha256": "ddac28e85ad2750c037e26941b40c2346a836a6ba7606dcf43f1927e92f22e71",
+      "kind": "snapshot",
+      "packaged_sha256": "ddac28e85ad2750c037e26941b40c2346a836a6ba7606dcf43f1927e92f22e71"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/context/README.md",
+      "path": "context/README.md",
+      "source_sha256": "8903a8ed833792344c76e201578fa2dafcd008faeebf6654e4d00cd49f86fc28",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "59ccc9bcc58e8c6ed29ae2dfce20e266db5846e2ac1d8ff1483c487a86021f78"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/README.md",
+      "path": "corpus/README.md",
+      "source_sha256": "060af3d6a806e1d35ffaec8dc70f6aaacd338014168ffab743525665948ad9a5",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "0e75b6f4341bc702264c3d6431f6f2fe9b6000f7debd3e9bb51a1223aa4d59c6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/analysis/legacy-thread-yield-reference.json",
+      "path": "corpus/analysis/legacy-thread-yield-reference.json",
+      "source_sha256": "036baf7683844dec13f62e38c33b640c6bccc4e405946d3e01a326756918f4c8",
+      "kind": "snapshot",
+      "packaged_sha256": "036baf7683844dec13f62e38c33b640c6bccc4e405946d3e01a326756918f4c8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/analysis/xiaohongshu-posts-01.train-notes.jsonl",
+      "path": "corpus/analysis/xiaohongshu-posts-01.train-notes.jsonl",
+      "source_sha256": "0f3c5867c0b57a84b7563c84e4d7283d59541e16baa797d5bcd5a1c8389cdb94",
+      "kind": "snapshot",
+      "packaged_sha256": "0f3c5867c0b57a84b7563c84e4d7283d59541e16baa797d5bcd5a1c8389cdb94"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/analysis/xiaohongshu-posts-02.train-notes.jsonl",
+      "path": "corpus/analysis/xiaohongshu-posts-02.train-notes.jsonl",
+      "source_sha256": "1571f42d3f4794d7056b176d3696c0243f3d9f549a14ac41b334163b767ced49",
+      "kind": "snapshot",
+      "packaged_sha256": "1571f42d3f4794d7056b176d3696c0243f3d9f549a14ac41b334163b767ced49"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/analysis/xiaohongshu-posts-03.train-notes.jsonl",
+      "path": "corpus/analysis/xiaohongshu-posts-03.train-notes.jsonl",
+      "source_sha256": "978ddb90eff6786ff5c517ddd44aa106724064a9243ff836bc19ba24806b259a",
+      "kind": "snapshot",
+      "packaged_sha256": "978ddb90eff6786ff5c517ddd44aa106724064a9243ff836bc19ba24806b259a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/collection-plan.json",
+      "path": "corpus/collection-plan.json",
+      "source_sha256": "3fc46e46e7753caead7d12b4bfcb97aa375f9a4f5b8db257547907db5cc00c4d",
+      "kind": "snapshot",
+      "packaged_sha256": "3fc46e46e7753caead7d12b4bfcb97aa375f9a4f5b8db257547907db5cc00c4d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/comments.jsonl",
+      "path": "corpus/comments.jsonl",
+      "source_sha256": "599db76befc7e3380e189dbd4e508e8bcfb524aa233d63ea967476d2bab20a7b",
+      "kind": "snapshot",
+      "packaged_sha256": "599db76befc7e3380e189dbd4e508e8bcfb524aa233d63ea967476d2bab20a7b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/bilibili-candidates.jsonl",
+      "path": "corpus/discovery/bilibili-candidates.jsonl",
+      "source_sha256": "baec8a0b2eaf0bd67757569f34f0caec30b478efc296a961a5d9d944250df79f",
+      "kind": "snapshot",
+      "packaged_sha256": "baec8a0b2eaf0bd67757569f34f0caec30b478efc296a961a5d9d944250df79f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/bilibili-selected.jsonl",
+      "path": "corpus/discovery/bilibili-selected.jsonl",
+      "source_sha256": "9a14393fe61a3940586176efb0ec867e749f24cf0f309b1f3412e54148b97c12",
+      "kind": "snapshot",
+      "packaged_sha256": "9a14393fe61a3940586176efb0ec867e749f24cf0f309b1f3412e54148b97c12"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/douyin-candidates.jsonl",
+      "path": "corpus/discovery/douyin-candidates.jsonl",
+      "source_sha256": "b7f123eb7da7ff97d4e57862e0dda1a92652fe1aa0b7dffcc93f9f466816018b",
+      "kind": "snapshot",
+      "packaged_sha256": "b7f123eb7da7ff97d4e57862e0dda1a92652fe1aa0b7dffcc93f9f466816018b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/web-candidates.jsonl",
+      "path": "corpus/discovery/web-candidates.jsonl",
+      "source_sha256": "8e1ed34880ba7eb4a9ae50bb888b939f54a2cb72bbdb713fb4e88b672957573b",
+      "kind": "snapshot",
+      "packaged_sha256": "8e1ed34880ba7eb4a9ae50bb888b939f54a2cb72bbdb713fb4e88b672957573b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-candidates.jsonl",
+      "path": "corpus/discovery/xiaohongshu-candidates.jsonl",
+      "source_sha256": "ce4362e575524e6dc72707f8d82bbe806eb0b427ec810b7a802854e889be135a",
+      "kind": "snapshot",
+      "packaged_sha256": "ce4362e575524e6dc72707f8d82bbe806eb0b427ec810b7a802854e889be135a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+      "path": "corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+      "source_sha256": "623846934bc770da2b463de4984cdd8138366aeb6f14e942ef93bc52cdbbf760",
+      "kind": "snapshot",
+      "packaged_sha256": "623846934bc770da2b463de4984cdd8138366aeb6f14e942ef93bc52cdbbf760"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/input-ledger.jsonl",
+      "path": "corpus/input-ledger.jsonl",
+      "source_sha256": "f28ac2c5a4472c29f4df3b930ca750e1270a36d13c591430bcba483453b146de",
+      "kind": "snapshot",
+      "packaged_sha256": "f28ac2c5a4472c29f4df3b930ca750e1270a36d13c591430bcba483453b146de"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.batch-reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-comments-01.batch-reconcile.json",
+      "source_sha256": "6878effbc86169c7f89b894b2f2b5dbfce67b0e752dd5be304d0c575c2095bef",
+      "kind": "snapshot",
+      "packaged_sha256": "6878effbc86169c7f89b894b2f2b5dbfce67b0e752dd5be304d0c575c2095bef"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.jsonl",
+      "path": "corpus/normalized/xiaohongshu-comments-01.jsonl",
+      "source_sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+      "kind": "snapshot",
+      "packaged_sha256": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.quality-review.json",
+      "path": "corpus/normalized/xiaohongshu-comments-01.quality-review.json",
+      "source_sha256": "09fae2741bcbe05f7608cb52edfe88e836f4cadd8dd46c835d7c033bb5e14ab4",
+      "kind": "snapshot",
+      "packaged_sha256": "09fae2741bcbe05f7608cb52edfe88e836f4cadd8dd46c835d7c033bb5e14ab4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-comments-01.reconcile.json",
+      "source_sha256": "940007045342d938b88743a7d945f0ab6e2700df4abbead4f41cfe5cda996f71",
+      "kind": "snapshot",
+      "packaged_sha256": "940007045342d938b88743a7d945f0ab6e2700df4abbead4f41cfe5cda996f71"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-01.text-metrics.json",
+      "path": "corpus/normalized/xiaohongshu-comments-01.text-metrics.json",
+      "source_sha256": "6dd7e22ef257f2e71691e31ce17da4e317f025dce7b8f4f98fda01bad2768558",
+      "kind": "snapshot",
+      "packaged_sha256": "6dd7e22ef257f2e71691e31ce17da4e317f025dce7b8f4f98fda01bad2768558"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.batch-reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-comments-02.batch-reconcile.json",
+      "source_sha256": "f7833be61931bf7ee79755d8991f5220ac6b679a9814934f008bcd2c677ee9bc",
+      "kind": "snapshot",
+      "packaged_sha256": "f7833be61931bf7ee79755d8991f5220ac6b679a9814934f008bcd2c677ee9bc"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+      "path": "corpus/normalized/xiaohongshu-comments-02.jsonl",
+      "source_sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+      "kind": "snapshot",
+      "packaged_sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.quality-review.json",
+      "path": "corpus/normalized/xiaohongshu-comments-02.quality-review.json",
+      "source_sha256": "da27b62d1b8e6f07cb40a7a34953745a66d33a6d99f80e87cd858efee95c3518",
+      "kind": "snapshot",
+      "packaged_sha256": "da27b62d1b8e6f07cb40a7a34953745a66d33a6d99f80e87cd858efee95c3518"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-comments-02.reconcile.json",
+      "source_sha256": "e7e2d1f60457549691c0207397559d10ecce6b2817720726c4c5c8e0f6ce4344",
+      "kind": "snapshot",
+      "packaged_sha256": "e7e2d1f60457549691c0207397559d10ecce6b2817720726c4c5c8e0f6ce4344"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-03-partial.jsonl",
+      "path": "corpus/normalized/xiaohongshu-comments-03-partial.jsonl",
+      "source_sha256": "0f6fa107bd3a34a2bf4c3465f224408689d9ec9c5199a6e8eeabf64eb88f735a",
+      "kind": "snapshot",
+      "packaged_sha256": "0f6fa107bd3a34a2bf4c3465f224408689d9ec9c5199a6e8eeabf64eb88f735a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-03-partial.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-comments-03-partial.reconcile.json",
+      "source_sha256": "68b3926a101bd0189a06aef1862abb6ec2eb4a220e034c8e3df2077c90ff5a6e",
+      "kind": "snapshot",
+      "packaged_sha256": "68b3926a101bd0189a06aef1862abb6ec2eb4a220e034c8e3df2077c90ff5a6e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "path": "corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "source_sha256": "ca9ae4245cc5a4350d520f4b73f73a281d6303ae3a87902f86f250036cf05433",
+      "kind": "snapshot",
+      "packaged_sha256": "ca9ae4245cc5a4350d520f4b73f73a281d6303ae3a87902f86f250036cf05433"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-posts-01.reconcile.json",
+      "source_sha256": "38e5517c359ccde70b28a76770891f1421ba63a72137415cbbbf62fcae56771f",
+      "kind": "snapshot",
+      "packaged_sha256": "38e5517c359ccde70b28a76770891f1421ba63a72137415cbbbf62fcae56771f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.review.json",
+      "path": "corpus/normalized/xiaohongshu-posts-01.review.json",
+      "source_sha256": "2a91ac41aebca4c9dce497f164e6a2dd10bde560c4b68451ae4a0ce6e1d3bfd9",
+      "kind": "snapshot",
+      "packaged_sha256": "2a91ac41aebca4c9dce497f164e6a2dd10bde560c4b68451ae4a0ce6e1d3bfd9"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "path": "corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "source_sha256": "8f82a96b8f59f1e454f325c0c503b0f7dae799206d2438cb9e7094df37bb8bce",
+      "kind": "snapshot",
+      "packaged_sha256": "8f82a96b8f59f1e454f325c0c503b0f7dae799206d2438cb9e7094df37bb8bce"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-posts-02.reconcile.json",
+      "source_sha256": "27c8bcc2c237a866f3258b3ee9de669cd0c8c54809a0bed6b22a1d0e440b20f1",
+      "kind": "snapshot",
+      "packaged_sha256": "27c8bcc2c237a866f3258b3ee9de669cd0c8c54809a0bed6b22a1d0e440b20f1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.review.json",
+      "path": "corpus/normalized/xiaohongshu-posts-02.review.json",
+      "source_sha256": "76dba0cc45d092708fe4399b2f699e22bb41867145c7738d9d94fe28ed604da8",
+      "kind": "snapshot",
+      "packaged_sha256": "76dba0cc45d092708fe4399b2f699e22bb41867145c7738d9d94fe28ed604da8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "path": "corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "source_sha256": "05a357ec80f2bc6a9972abf5e301894dc97072c9797271050720fdeeef1818e7",
+      "kind": "snapshot",
+      "packaged_sha256": "05a357ec80f2bc6a9972abf5e301894dc97072c9797271050720fdeeef1818e7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-posts-03.reconcile.json",
+      "source_sha256": "363dcdf92456b7309ab35cab079c16691e1a8ac27726b160d931b5024899be9e",
+      "kind": "snapshot",
+      "packaged_sha256": "363dcdf92456b7309ab35cab079c16691e1a8ac27726b160d931b5024899be9e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.review.json",
+      "path": "corpus/normalized/xiaohongshu-posts-03.review.json",
+      "source_sha256": "86afbcae7a46ad86399551e114781a9d527d4a0be78cbb87f7c604f1331dbad3",
+      "kind": "snapshot",
+      "packaged_sha256": "86afbcae7a46ad86399551e114781a9d527d4a0be78cbb87f7c604f1331dbad3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "path": "corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "source_sha256": "b0510dfd1732e6ad65edaa56c2d8d4817b95959501086ecb10f2ee3aa0c25d24",
+      "kind": "snapshot",
+      "packaged_sha256": "b0510dfd1732e6ad65edaa56c2d8d4817b95959501086ecb10f2ee3aa0c25d24"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.reconcile.json",
+      "path": "corpus/normalized/xiaohongshu-posts-supplement-01.reconcile.json",
+      "source_sha256": "9ee314a00afa4a92d933db48715d24ef107594c9701314599632a191e695f7ca",
+      "kind": "snapshot",
+      "packaged_sha256": "9ee314a00afa4a92d933db48715d24ef107594c9701314599632a191e695f7ca"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.review.json",
+      "path": "corpus/normalized/xiaohongshu-posts-supplement-01.review.json",
+      "source_sha256": "e722fa886e2e51e9099a942d3b730db3efa2fd2e2d9f8be733ccc79170dffaec",
+      "kind": "snapshot",
+      "packaged_sha256": "e722fa886e2e51e9099a942d3b730db3efa2fd2e2d9f8be733ccc79170dffaec"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/prepare_collection.py",
+      "path": "corpus/prepare_collection.py",
+      "source_sha256": "321289418fccb2ae361e5721aa17ad63a5fd885f6f0dbb6c3c9f90e4b1051084",
+      "kind": "snapshot",
+      "packaged_sha256": "321289418fccb2ae361e5721aa17ad63a5fd885f6f0dbb6c3c9f90e4b1051084"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/prior-exposure-audit.json",
+      "path": "corpus/prior-exposure-audit.json",
+      "source_sha256": "34523cb837afc8bd7f57b189a2471a5cebb54c402ad128ce982acbad95349c6c",
+      "kind": "snapshot",
+      "packaged_sha256": "34523cb837afc8bd7f57b189a2471a5cebb54c402ad128ce982acbad95349c6c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-01.xlsx",
+      "path": "corpus/raw/xiaohongshu-comments-01.xlsx",
+      "source_sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+      "kind": "snapshot",
+      "packaged_sha256": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+      "path": "corpus/raw/xiaohongshu-comments-02.xlsx",
+      "source_sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+      "kind": "snapshot",
+      "packaged_sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-03-partial.xlsx",
+      "path": "corpus/raw/xiaohongshu-comments-03-partial.xlsx",
+      "source_sha256": "0fcca83ff5e1f9241a8bd0ff9e9a61a7b311f8c799bdc432bdec27585e37b27e",
+      "kind": "snapshot",
+      "packaged_sha256": "0fcca83ff5e1f9241a8bd0ff9e9a61a7b311f8c799bdc432bdec27585e37b27e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "path": "corpus/raw/xiaohongshu-posts-01.xlsx",
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "kind": "snapshot",
+      "packaged_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+      "path": "corpus/raw/xiaohongshu-posts-02.xlsx",
+      "source_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+      "kind": "snapshot",
+      "packaged_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "path": "corpus/raw/xiaohongshu-posts-03.xlsx",
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "kind": "snapshot",
+      "packaged_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "path": "corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "kind": "snapshot",
+      "packaged_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/run-state.json",
+      "path": "corpus/run-state.json",
+      "source_sha256": "5281b03ac2d72fba937d1527428e2aeba8cdbbf5f5fdc28b95d97baf299229f6",
+      "kind": "snapshot",
+      "packaged_sha256": "5281b03ac2d72fba937d1527428e2aeba8cdbbf5f5fdc28b95d97baf299229f6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/supplement-prior-exposure-audit.json",
+      "path": "corpus/supplement-prior-exposure-audit.json",
+      "source_sha256": "b10e16b4ec4956a8011b1b1fe25d980bb1b63826eb51f6cae64d60465a48cb4b",
+      "kind": "snapshot",
+      "packaged_sha256": "b10e16b4ec4956a8011b1b1fe25d980bb1b63826eb51f6cae64d60465a48cb4b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/works.jsonl",
+      "path": "corpus/works.jsonl",
+      "source_sha256": "2bf6e6312f20cb7b25578307cd86c86257fbed660460093877d47e6a6480daef",
+      "kind": "snapshot",
+      "packaged_sha256": "2bf6e6312f20cb7b25578307cd86c86257fbed660460093877d47e6a6480daef"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/coverage.json",
+      "path": "coverage.json",
+      "source_sha256": "91c3c673275e47777ac4939985e26886ca72d3c5b2dcbf04812a40ee8665ecb4",
+      "kind": "snapshot",
+      "packaged_sha256": "91c3c673275e47777ac4939985e26886ca72d3c5b2dcbf04812a40ee8665ecb4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/HISTORICAL-30-POST-PROTOCOL.md",
+      "path": "evaluation/HISTORICAL-30-POST-PROTOCOL.md",
+      "source_sha256": "fea627fae6262e4a58aa101cad7d45b5c87ba314cfa10063c0c7b29993fc43fa",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "9b5550500f4c56a4907efc4514acd32fcd2fcbba38db7d2b97c9068e1e0f4d9d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/PREPARE_INPUTS.md",
+      "path": "evaluation/PREPARE_INPUTS.md",
+      "source_sha256": "4036555b6ff4b262c74ad418d8090cbba5f790b3d1d12fc0653cf1e0c0d7f173",
+      "kind": "snapshot",
+      "packaged_sha256": "4036555b6ff4b262c74ad418d8090cbba5f790b3d1d12fc0653cf1e0c0d7f173"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/README.md",
+      "path": "evaluation/README.md",
+      "source_sha256": "128ac6a8cb842f9a0a832b52857aee51af6430c3666451471bd1ead343a8d276",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "c13bf246ea8c2bb5199a95feadfd8dec53d18aa0d0014c2116e0fa5885afb827"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/prepare_inputs.py",
+      "path": "evaluation/prepare_inputs.py",
+      "source_sha256": "405570c37d7fdfc72d71390fd2417bb4dc6d994ebd104f505379a9babb22c9c0",
+      "kind": "snapshot",
+      "packaged_sha256": "405570c37d7fdfc72d71390fd2417bb4dc6d994ebd104f505379a9babb22c9c0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/README.md",
+      "path": "evaluation/small-sample/README.md",
+      "source_sha256": "c7b82ec2d7c53438fb7f95686a29594f6428ac6f2eaa7bd31c186c883b9a2497",
+      "kind": "snapshot",
+      "packaged_sha256": "c7b82ec2d7c53438fb7f95686a29594f6428ac6f2eaa7bd31c186c883b9a2497"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/draft.md",
+      "path": "evaluation/small-sample/baseline/draft.md",
+      "source_sha256": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c",
+      "kind": "snapshot",
+      "packaged_sha256": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/evidence/official-names.md",
+      "path": "evaluation/small-sample/baseline/evidence/official-names.md",
+      "source_sha256": "78eea7739861daf18b5afa691cd710223349c89b9827761589e36fd0de0e4a42",
+      "kind": "snapshot",
+      "packaged_sha256": "78eea7739861daf18b5afa691cd710223349c89b9827761589e36fd0de0e4a42"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/manifest.json",
+      "path": "evaluation/small-sample/baseline/manifest.json",
+      "source_sha256": "c4dad8e20802c558c867197b97ed435a6f92b24ecc14583a76cb6d7afe183eff",
+      "kind": "snapshot",
+      "packaged_sha256": "c4dad8e20802c558c867197b97ed435a6f92b24ecc14583a76cb6d7afe183eff"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/review.md",
+      "path": "evaluation/small-sample/baseline/review.md",
+      "source_sha256": "0a17ec5770fbcdf98e4304937a5a8ed577f4e35d0140bc2e6de4eb5d2e9070e3",
+      "kind": "snapshot",
+      "packaged_sha256": "0a17ec5770fbcdf98e4304937a5a8ed577f4e35d0140bc2e6de4eb5d2e9070e3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/structure-check.json",
+      "path": "evaluation/small-sample/baseline/structure-check.json",
+      "source_sha256": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2",
+      "kind": "snapshot",
+      "packaged_sha256": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/baseline/training-state.json",
+      "path": "evaluation/small-sample/baseline/training-state.json",
+      "source_sha256": "3a66f6a5c729a942343c5f14a71b8c06ab3086c6af10b8f3f5c832648925d15f",
+      "kind": "snapshot",
+      "packaged_sha256": "3a66f6a5c729a942343c5f14a71b8c06ab3086c6af10b8f3f5c832648925d15f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/blind-packet.json",
+      "path": "evaluation/small-sample/blind-packet.json",
+      "source_sha256": "7e6457d015e1afc91f5ead7efc2ab9eb1ee4dc615a1a79fb77dfe4ac5bc0e76e",
+      "kind": "snapshot",
+      "packaged_sha256": "7e6457d015e1afc91f5ead7efc2ab9eb1ee4dc615a1a79fb77dfe4ac5bc0e76e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/blind-review.json",
+      "path": "evaluation/small-sample/blind-review.json",
+      "source_sha256": "9524a45a1555a118005ff5ff59068d7ae9406d1f44569648609dc0c41c462818",
+      "kind": "snapshot",
+      "packaged_sha256": "9524a45a1555a118005ff5ff59068d7ae9406d1f44569648609dc0c41c462818"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/blind-review.md",
+      "path": "evaluation/small-sample/blind-review.md",
+      "source_sha256": "f454d9aecb353ed342661ba699603d36ec07a788246f8107e8f47352c7fba33d",
+      "kind": "snapshot",
+      "packaged_sha256": "f454d9aecb353ed342661ba699603d36ec07a788246f8107e8f47352c7fba33d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/brief.json",
+      "path": "evaluation/small-sample/enriched/brief.json",
+      "source_sha256": "0e04ffd7d74c5a37ecb61a196136e8791f69f661be06996f909925cff1b86e66",
+      "kind": "snapshot",
+      "packaged_sha256": "0e04ffd7d74c5a37ecb61a196136e8791f69f661be06996f909925cff1b86e66"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/brief.md",
+      "path": "evaluation/small-sample/enriched/brief.md",
+      "source_sha256": "9c973c8ff935616946a18fa14199599b01043d3440935f2f20b51c8c5c96a4b3",
+      "kind": "snapshot",
+      "packaged_sha256": "9c973c8ff935616946a18fa14199599b01043d3440935f2f20b51c8c5c96a4b3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/draft.md",
+      "path": "evaluation/small-sample/enriched/draft.md",
+      "source_sha256": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f",
+      "kind": "snapshot",
+      "packaged_sha256": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/post-012.md",
+      "path": "evaluation/small-sample/enriched/evidence/post-012.md",
+      "source_sha256": "e296cbc0a9b7b569c5545ae4b340afd69d884b46a798f1072b34b206e251deca",
+      "kind": "snapshot",
+      "packaged_sha256": "e296cbc0a9b7b569c5545ae4b340afd69d884b46a798f1072b34b206e251deca"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/post-032.md",
+      "path": "evaluation/small-sample/enriched/evidence/post-032.md",
+      "source_sha256": "fbfc2ebd05241f4662e50f2f94712fe58969cf871be2a179677dd0ff4b669847",
+      "kind": "snapshot",
+      "packaged_sha256": "fbfc2ebd05241f4662e50f2f94712fe58969cf871be2a179677dd0ff4b669847"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/product-pocket4p.md",
+      "path": "evaluation/small-sample/enriched/evidence/product-pocket4p.md",
+      "source_sha256": "5475416e26f0e0b3d24419e2475d9b4c4fe02e4455e2999a824145e97168f072",
+      "kind": "snapshot",
+      "packaged_sha256": "5475416e26f0e0b3d24419e2475d9b4c4fe02e4455e2999a824145e97168f072"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/search-012-focused.json",
+      "path": "evaluation/small-sample/enriched/evidence/search-012-focused.json",
+      "source_sha256": "afe0b849a39ee67a827d6ae9cd665e11f4e3c34ba45ff824110077afdac3ab6c",
+      "kind": "snapshot",
+      "packaged_sha256": "afe0b849a39ee67a827d6ae9cd665e11f4e3c34ba45ff824110077afdac3ab6c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/search-012.json",
+      "path": "evaluation/small-sample/enriched/evidence/search-012.json",
+      "source_sha256": "539cea784bf1fa545daf29bc7a061897542dc5fed4d799ad92b2538d4e8cbcb0",
+      "kind": "snapshot",
+      "packaged_sha256": "539cea784bf1fa545daf29bc7a061897542dc5fed4d799ad92b2538d4e8cbcb0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/search-032-focused.json",
+      "path": "evaluation/small-sample/enriched/evidence/search-032-focused.json",
+      "source_sha256": "96936b240ffc73681e23ed7e99833dc7f57b48b8d3fa8648892650dc877d2d99",
+      "kind": "snapshot",
+      "packaged_sha256": "96936b240ffc73681e23ed7e99833dc7f57b48b8d3fa8648892650dc877d2d99"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/evidence/search-032.json",
+      "path": "evaluation/small-sample/enriched/evidence/search-032.json",
+      "source_sha256": "9cad7679159266eb7a65ea4b10ff59ca831c2fb5f583b93229250c63540517fd",
+      "kind": "snapshot",
+      "packaged_sha256": "9cad7679159266eb7a65ea4b10ff59ca831c2fb5f583b93229250c63540517fd"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/training-state.json",
+      "path": "evaluation/small-sample/enriched/training-state.json",
+      "source_sha256": "4cfac0344782cf84d895f953b516a8efd8528b8589cef040a1eecc64e2b99638",
+      "kind": "snapshot",
+      "packaged_sha256": "4cfac0344782cf84d895f953b516a8efd8528b8589cef040a1eecc64e2b99638"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/enriched/validation.json",
+      "path": "evaluation/small-sample/enriched/validation.json",
+      "source_sha256": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2",
+      "kind": "snapshot",
+      "packaged_sha256": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/012-6a4335f10000000017008cde.json",
+      "path": "evaluation/small-sample/inputs/012-6a4335f10000000017008cde.json",
+      "source_sha256": "ba43b81a58ebab81b18b9ddefcdb43437a940489d9d68fa1b0027036dc16fffd",
+      "kind": "snapshot",
+      "packaged_sha256": "ba43b81a58ebab81b18b9ddefcdb43437a940489d9d68fa1b0027036dc16fffd"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/012-6a4335f10000000017008cde.md",
+      "path": "evaluation/small-sample/inputs/012-6a4335f10000000017008cde.md",
+      "source_sha256": "ab5a6c2c074dca7e3a248188d9687f0d39584432381b1b3c65e282a8c1246c21",
+      "kind": "snapshot",
+      "packaged_sha256": "ab5a6c2c074dca7e3a248188d9687f0d39584432381b1b3c65e282a8c1246c21"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.json",
+      "path": "evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.json",
+      "source_sha256": "e8e374992afe6874beb8b51975742c067369ebb72b839e72d85ce3db090fb2af",
+      "kind": "snapshot",
+      "packaged_sha256": "e8e374992afe6874beb8b51975742c067369ebb72b839e72d85ce3db090fb2af"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.md",
+      "path": "evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.md",
+      "source_sha256": "9735d36502e90872ba1ac2c5ae8bb5c6a45aa3a12a14e9648024e3169c38d8d5",
+      "kind": "snapshot",
+      "packaged_sha256": "9735d36502e90872ba1ac2c5ae8bb5c6a45aa3a12a14e9648024e3169c38d8d5"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/manifest.json",
+      "path": "evaluation/small-sample/manifest.json",
+      "source_sha256": "3509952eb2b6f99d72d0c856f3c620e12ec87756845b38bcc70d927aadc91db7",
+      "kind": "snapshot",
+      "packaged_sha256": "3509952eb2b6f99d72d0c856f3c620e12ec87756845b38bcc70d927aadc91db7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/reveal.json",
+      "path": "evaluation/small-sample/reveal.json",
+      "source_sha256": "bcd9014a6521e87a49ab9c75dde549f2a55bc9f4229cb5087a080787b0cb9609",
+      "kind": "snapshot",
+      "packaged_sha256": "bcd9014a6521e87a49ab9c75dde549f2a55bc9f4229cb5087a080787b0cb9609"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/revealed-results.json",
+      "path": "evaluation/small-sample/revealed-results.json",
+      "source_sha256": "7b85e18058289195f9798e677dcd9384b0d01fcb38b6b374c648c76fd0f6d0f1",
+      "kind": "snapshot",
+      "packaged_sha256": "7b85e18058289195f9798e677dcd9384b0d01fcb38b6b374c648c76fd0f6d0f1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/test_prepare_inputs.py",
+      "path": "evaluation/test_prepare_inputs.py",
+      "source_sha256": "18e09e6abd9fdaf38c3d7641a4d2b6b8a7cbb0342754d6aaf9ef0f57c1dfffe4",
+      "kind": "snapshot",
+      "packaged_sha256": "18e09e6abd9fdaf38c3d7641a4d2b6b8a7cbb0342754d6aaf9ef0f57c1dfffe4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/feedback/README.md",
+      "path": "feedback/README.md",
+      "source_sha256": "0f5711eff1438190ff1a2dbd04e885df0882b1446a025e47357fe844e5f7c352",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "6f26d343a4352214187ae1a9b567b444aeea646d3af7397f30e724b3883f2b8e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/feedback/records.jsonl",
+      "path": "feedback/records.jsonl",
+      "source_sha256": "751a54976c6cbcaf9825c3ad61419b3349e4f6133b7687758ab42a9f33c2310a",
+      "kind": "snapshot",
+      "packaged_sha256": "751a54976c6cbcaf9825c3ad61419b3349e4f6133b7687758ab42a9f33c2310a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/feedback/source-register.jsonl",
+      "path": "feedback/source-register.jsonl",
+      "source_sha256": "9643f4ea883ba524949f7acb4d93bec8bbc30ca98e5fff93adf8c2adf4f5c882",
+      "kind": "snapshot",
+      "packaged_sha256": "9643f4ea883ba524949f7acb4d93bec8bbc30ca98e5fff93adf8c2adf4f5c882"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/library.json",
+      "path": "library.json",
+      "source_sha256": "815a953c5dba540c1b2a151c82895cb65371b32eb9b95dfd8875be8322f7f8ab",
+      "kind": "snapshot",
+      "packaged_sha256": "815a953c5dba540c1b2a151c82895cb65371b32eb9b95dfd8875be8322f7f8ab"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-buttons-20260906.png",
+      "path": "products/evidence/p4p-guide-buttons-20260906.png",
+      "source_sha256": "d529e8e054b7cbe38bee2a2a846c6e98cb4d1f9b011b4677433c3274f1060f2f",
+      "kind": "snapshot",
+      "packaged_sha256": "d529e8e054b7cbe38bee2a2a846c6e98cb4d1f9b011b4677433c3274f1060f2f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-screen-20260906.png",
+      "path": "products/evidence/p4p-guide-screen-20260906.png",
+      "source_sha256": "5cb523b19175e25c135559d90120b9f34901a6a4d8ea0877646a0852c4616187",
+      "kind": "snapshot",
+      "packaged_sha256": "5cb523b19175e25c135559d90120b9f34901a6a4d8ea0877646a0852c4616187"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/facts.jsonl",
+      "path": "products/facts.jsonl",
+      "source_sha256": "d1c39a2379e653b9a22306bad45f3e8c8e7d43a6d9c3966a05275e74050ad788",
+      "kind": "snapshot",
+      "packaged_sha256": "d1c39a2379e653b9a22306bad45f3e8c8e7d43a6d9c3966a05275e74050ad788"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/manual-locator-correction.json",
+      "path": "products/manual-locator-correction.json",
+      "source_sha256": "aa1bb48fefb48b49d3fc4689fbb2cd41ac00b4a96e8ef95db2de23bba0b249c8",
+      "kind": "snapshot",
+      "packaged_sha256": "aa1bb48fefb48b49d3fc4689fbb2cd41ac00b4a96e8ef95db2de23bba0b249c8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/official-evidence-notes.md",
+      "path": "products/official-evidence-notes.md",
+      "source_sha256": "c7d9b41e628418993f1a05362c13a71bb324587537e1d4c2a0a2e93f82290573",
+      "kind": "snapshot",
+      "packaged_sha256": "c7d9b41e628418993f1a05362c13a71bb324587537e1d4c2a0a2e93f82290573"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/operation-facts-independent-review.json",
+      "path": "products/operation-facts-independent-review.json",
+      "source_sha256": "dba442e5682164cd0be9c2917d6fe2b4e9de0da857b27653293a004a045138a1",
+      "kind": "snapshot",
+      "packaged_sha256": "dba442e5682164cd0be9c2917d6fe2b4e9de0da857b27653293a004a045138a1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket4-vs-pocket4p.md",
+      "path": "products/pocket4-vs-pocket4p.md",
+      "source_sha256": "f71a307ee6579426ebf3af4c49cf2689dca818758fc4a194c074c0f6fd17bcd5",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "a1b8ad657b85f09b506fa4260548b9c44c8caeecc1c677ab6ae6e5765d6525b5"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket_1.md",
+      "path": "products/pocket_1.md",
+      "source_sha256": "f317ac702d5eb067f0bbe3db198b2b8a5a0225e0a5ad06c1fd86271d5a33b23b",
+      "kind": "snapshot",
+      "packaged_sha256": "f317ac702d5eb067f0bbe3db198b2b8a5a0225e0a5ad06c1fd86271d5a33b23b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket_2.md",
+      "path": "products/pocket_2.md",
+      "source_sha256": "b08ffe574de206115a528a254ab7c8902cf7edc17d08bcd7ff8b650582f06148",
+      "kind": "snapshot",
+      "packaged_sha256": "b08ffe574de206115a528a254ab7c8902cf7edc17d08bcd7ff8b650582f06148"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket_3.md",
+      "path": "products/pocket_3.md",
+      "source_sha256": "86acbab51464a74e42fb055e7217cd7260aee236abeba95df5490bc95587843f",
+      "kind": "snapshot",
+      "packaged_sha256": "86acbab51464a74e42fb055e7217cd7260aee236abeba95df5490bc95587843f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket_4.md",
+      "path": "products/pocket_4.md",
+      "source_sha256": "6c204156c791be17ccd6fa1622618831445ee15779136a168410b8bf9442aadd",
+      "kind": "snapshot",
+      "packaged_sha256": "6c204156c791be17ccd6fa1622618831445ee15779136a168410b8bf9442aadd"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/pocket_4p.md",
+      "path": "products/pocket_4p.md",
+      "source_sha256": "bf9d71bdafec204489795c2618ca8bafa702f85900d3495091eb764db441174b",
+      "kind": "snapshot",
+      "packaged_sha256": "bf9d71bdafec204489795c2618ca8bafa702f85900d3495091eb764db441174b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/retrieval-scenario-review.md",
+      "path": "products/retrieval-scenario-review.md",
+      "source_sha256": "0271ea70499b21db0ea258cf027f9328e5b0c8b3d1cd82f31b052aa3f7f2ae19",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "6ea5357e3dcefc303a4e49f01c2065114877c49e6ba72e8a4c291dc441fa5754"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/topic-coverage.json",
+      "path": "products/topic-coverage.json",
+      "source_sha256": "65e72893c1ceed761b77956fa1e1a3e574dfb0bd1ba314af3cdb1b513f90c647",
+      "kind": "snapshot",
+      "packaged_sha256": "65e72893c1ceed761b77956fa1e1a3e574dfb0bd1ba314af3cdb1b513f90c647"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/topic-coverage.md",
+      "path": "products/topic-coverage.md",
+      "source_sha256": "4cb2a8b7754d5c0c854251d1f570005ac7d8d8bc740ffb6930579cc8f043706a",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "99a59bdaf2f536612cd15a0470c49a122686eea0712ed7d1b5f3fa783e483fc4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/research/README.md",
+      "path": "research/README.md",
+      "source_sha256": "66eebca5de6ac79d78d5c0f17abdfee46ba23e95e8f23d7cc6d50e9cc10a42c8",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "10a817f9c8ac8ccec39d449b02443d4562da9fec14a6e0aa851dec5427c612db"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/research/handoff.md",
+      "path": "research/handoff.md",
+      "source_sha256": "2038c785e550a24237bb64ee54b64ca4c078b4c2b04a99fa6fcc1aada2d078c8",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "35ce1186b30f213305a2a15c91540ac70517bbd863adcd44fc71aa0c256c5838"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scenarios/README.md",
+      "path": "scenarios/README.md",
+      "source_sha256": "41129b69a12ddef9687d630ec5568c5d13e313ff3a425f42ae9f1d86237eefa2",
+      "kind": "snapshot",
+      "packaged_sha256": "41129b69a12ddef9687d630ec5568c5d13e313ff3a425f42ae9f1d86237eefa2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scenarios/cards.jsonl",
+      "path": "scenarios/cards.jsonl",
+      "source_sha256": "e28d7ca224c8a33e05baf4586579c09f6909d55e0d27f95955100572aecc421b",
+      "kind": "snapshot",
+      "packaged_sha256": "e28d7ca224c8a33e05baf4586579c09f6909d55e0d27f95955100572aecc421b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/ingest_research_batch.py",
+      "path": "scripts/ingest_research_batch.py",
+      "source_sha256": "bfae7c204d4d8969a70c9d181f1c9b37788625abfaedda84ca88ef36274e6baa",
+      "kind": "snapshot",
+      "packaged_sha256": "bfae7c204d4d8969a70c9d181f1c9b37788625abfaedda84ca88ef36274e6baa"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/ingest_social_exports.py",
+      "path": "scripts/ingest_social_exports.py",
+      "source_sha256": "d83785c379a3b9b8e86303f360137fc1ff521c8bb3bce7bd0bdec1cacf34b2f7",
+      "kind": "snapshot",
+      "packaged_sha256": "d83785c379a3b9b8e86303f360137fc1ff521c8bb3bce7bd0bdec1cacf34b2f7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/pocket_knowledge.py",
+      "path": "scripts/pocket_knowledge.py",
+      "source_sha256": "b9865db6516e4ac7953d59b439b9852811bbe16d70e3e2721eec26fe4245adc7",
+      "kind": "snapshot",
+      "packaged_sha256": "b9865db6516e4ac7953d59b439b9852811bbe16d70e3e2721eec26fe4245adc7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/pocket_library.py",
+      "path": "scripts/pocket_library.py",
+      "source_sha256": "55556bd533d58b3b69584c1cf55caa0b10266935ea864a88f43e4e7797ce8f6e",
+      "kind": "snapshot",
+      "packaged_sha256": "55556bd533d58b3b69584c1cf55caa0b10266935ea864a88f43e4e7797ce8f6e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/pocket_materials.py",
+      "path": "scripts/pocket_materials.py",
+      "source_sha256": "acc2060d9f7131eb5bdbde1792a253a7404d17d3f34d456721ca4c7d1fb314d1",
+      "kind": "snapshot",
+      "packaged_sha256": "acc2060d9f7131eb5bdbde1792a253a7404d17d3f34d456721ca4c7d1fb314d1"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/reconcile_comment_batch.py",
+      "path": "scripts/reconcile_comment_batch.py",
+      "source_sha256": "e777d43e5cf89727a668028b86efad7e27b0961fa4b8290b173e11d76607bf15",
+      "kind": "snapshot",
+      "packaged_sha256": "e777d43e5cf89727a668028b86efad7e27b0961fa4b8290b173e11d76607bf15"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/scripts/write_coverage_report.py",
+      "path": "scripts/write_coverage_report.py",
+      "source_sha256": "682b407b088f2ba12d05472494a9abbef06d360abc4520d6ed419a0ddfee933a",
+      "kind": "snapshot",
+      "packaged_sha256": "682b407b088f2ba12d05472494a9abbef06d360abc4520d6ed419a0ddfee933a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/selling_points/cards.jsonl",
+      "path": "selling_points/cards.jsonl",
+      "source_sha256": "6bc2e93357a1520530e76c5461bc8a945bc26023b3755cfbbc254d3a9daca9cb",
+      "kind": "snapshot",
+      "packaged_sha256": "6bc2e93357a1520530e76c5461bc8a945bc26023b3755cfbbc254d3a9daca9cb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/selling_points/current-official-review.json",
+      "path": "selling_points/current-official-review.json",
+      "source_sha256": "b6d0c5d4f41352a983dc840ccd83d0afb63805ca2db6543b84e4cd40ca00f115",
+      "kind": "snapshot",
+      "packaged_sha256": "b6d0c5d4f41352a983dc840ccd83d0afb63805ca2db6543b84e4cd40ca00f115"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/selling_points/guide.md",
+      "path": "selling_points/guide.md",
+      "source_sha256": "413569b17f8b25d858ec8c95a4813dc6cdf53746f1e0f021c0e1bc158e3a5dd6",
+      "kind": "snapshot",
+      "packaged_sha256": "413569b17f8b25d858ec8c95a4813dc6cdf53746f1e0f021c0e1bc158e3a5dd6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/sources/official.jsonl",
+      "path": "sources/official.jsonl",
+      "source_sha256": "9c2dec0316f2d4c8366e9578d2829d72bd1c0f04b51ec9a25a4a9ab5f58049ca",
+      "kind": "snapshot",
+      "packaged_sha256": "9c2dec0316f2d4c8366e9578d2829d72bd1c0f04b51ec9a25a4a9ab5f58049ca"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/use_cases/cards.jsonl",
+      "path": "use_cases/cards.jsonl",
+      "source_sha256": "b202d4607f2b43fb90d7aa50f8099265459a25acf79954df9603e8067e0c19ca",
+      "kind": "snapshot",
+      "packaged_sha256": "b202d4607f2b43fb90d7aa50f8099265459a25acf79954df9603e8067e0c19ca"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/use_cases/guide.md",
+      "path": "use_cases/guide.md",
+      "source_sha256": "9aa17005a4e8331cc6c5d02db319d0c0a67e5d4101f5fad1356ec1ac7c6b1c4b",
+      "kind": "snapshot",
+      "packaged_sha256": "9aa17005a4e8331cc6c5d02db319d0c0a67e5d4101f5fad1356ec1ac7c6b1c4b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/use_cases/review-notes.md",
+      "path": "use_cases/review-notes.md",
+      "source_sha256": "ba6cf9c76a57f154e741745f5dd4cc11c4ed9ea9e62a121e47b1c39dec4c1496",
+      "kind": "snapshot",
+      "packaged_sha256": "ba6cf9c76a57f154e741745f5dd4cc11c4ed9ea9e62a121e47b1c39dec4c1496"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/README.md",
+      "path": "voice/README.md",
+      "source_sha256": "6af1adb0e4fb8e46ea1fd82b119954ebbc7ce44dcc20bcf416d2deccbf3d7169",
+      "kind": "navigation_adapted",
+      "packaged_sha256": "4766e4e77ae40bb081e1fe06624fea6b084d560b61b7f33dac365f92316ba55c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/build_comment_c1_cards.py",
+      "path": "voice/build_comment_c1_cards.py",
+      "source_sha256": "1864f2f64061639270ee9a9c9e4f3178519214dd67129f5971319e125acd697f",
+      "kind": "snapshot",
+      "packaged_sha256": "1864f2f64061639270ee9a9c9e4f3178519214dd67129f5971319e125acd697f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/build_comment_c2_cards.py",
+      "path": "voice/build_comment_c2_cards.py",
+      "source_sha256": "40fa40583e8b38a702a37193797131d0bf6d944c770bd19440e8440a7da719a6",
+      "kind": "snapshot",
+      "packaged_sha256": "40fa40583e8b38a702a37193797131d0bf6d944c770bd19440e8440a7da719a6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/build_public_post_records.py",
+      "path": "voice/build_public_post_records.py",
+      "source_sha256": "8fcfd140f8efa739e1d895c28a61b33471ac57c1dbc3eabf6b088f140581fb44",
+      "kind": "snapshot",
+      "packaged_sha256": "8fcfd140f8efa739e1d895c28a61b33471ac57c1dbc3eabf6b088f140581fb44"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/cards.jsonl",
+      "path": "voice/cards.jsonl",
+      "source_sha256": "715f8b5a556c859fa21a4e590675bc98ad32fb86fe63bacd4673dc14909aacbb",
+      "kind": "snapshot",
+      "packaged_sha256": "715f8b5a556c859fa21a4e590675bc98ad32fb86fe63bacd4673dc14909aacbb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c1-build-report.json",
+      "path": "voice/comment-c1-build-report.json",
+      "source_sha256": "54315f8a301d65f284d147a3eb6fdbad403c4137675307e7afe42385e21642b8",
+      "kind": "snapshot",
+      "packaged_sha256": "54315f8a301d65f284d147a3eb6fdbad403c4137675307e7afe42385e21642b8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c1-cards.md",
+      "path": "voice/comment-c1-cards.md",
+      "source_sha256": "43d2322ae8184ea0ed4ac4ecf85225b3654a6315b413080730885b13ecd6f0bb",
+      "kind": "snapshot",
+      "packaged_sha256": "43d2322ae8184ea0ed4ac4ecf85225b3654a6315b413080730885b13ecd6f0bb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c1-independent-review.json",
+      "path": "voice/comment-c1-independent-review.json",
+      "source_sha256": "eeac58a2f2cab4f7374bd61652072d0cb8126158e37f2b3c329c3d6cde9d69fe",
+      "kind": "snapshot",
+      "packaged_sha256": "eeac58a2f2cab4f7374bd61652072d0cb8126158e37f2b3c329c3d6cde9d69fe"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c2-build-report.json",
+      "path": "voice/comment-c2-build-report.json",
+      "source_sha256": "13cce5d7058a681a5bf5ae9907f872f2cd0c09a66da97c9c6efff2961677850f",
+      "kind": "snapshot",
+      "packaged_sha256": "13cce5d7058a681a5bf5ae9907f872f2cd0c09a66da97c9c6efff2961677850f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c2-cards.md",
+      "path": "voice/comment-c2-cards.md",
+      "source_sha256": "14ec039fe32ab11b92ba3ffb91315f3888d0d5ca4da5ba8fceea12e51f2e8dde",
+      "kind": "snapshot",
+      "packaged_sha256": "14ec039fe32ab11b92ba3ffb91315f3888d0d5ca4da5ba8fceea12e51f2e8dde"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/comment-c2-independent-review.json",
+      "path": "voice/comment-c2-independent-review.json",
+      "source_sha256": "b65e6cd64df8c0d3dfc28f9aeba46c1a485002f9939dc30800f463cbf77b49ea",
+      "kind": "snapshot",
+      "packaged_sha256": "b65e6cd64df8c0d3dfc28f9aeba46c1a485002f9939dc30800f463cbf77b49ea"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/legacy-migration-report.json",
+      "path": "voice/legacy-migration-report.json",
+      "source_sha256": "5fae6a55bbb14d8bedcb441a0a0eadb5cd695b9ce57a3e211584576cafe7cacf",
+      "kind": "snapshot",
+      "packaged_sha256": "5fae6a55bbb14d8bedcb441a0a0eadb5cd695b9ce57a3e211584576cafe7cacf"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/migrate_legacy.py",
+      "path": "voice/migrate_legacy.py",
+      "source_sha256": "90404d7e40952e6966858b4aad1622bcfeaac2e685e15fdcd3e3bd81f5a8d4e3",
+      "kind": "snapshot",
+      "packaged_sha256": "90404d7e40952e6966858b4aad1622bcfeaac2e685e15fdcd3e3bd81f5a8d4e3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/public-post-cards.md",
+      "path": "voice/public-post-cards.md",
+      "source_sha256": "4e8e7f4c4367a3673920dc166e05bb43392e4bbf63021f7102b39bafc1aa7604",
+      "kind": "snapshot",
+      "packaged_sha256": "4e8e7f4c4367a3673920dc166e05bb43392e4bbf63021f7102b39bafc1aa7604"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/public-post-independent-review.json",
+      "path": "voice/public-post-independent-review.json",
+      "source_sha256": "c6ad2e5293b9969219ffbb52e1e703c9b07b9f9966bcec09dcfa0e0fe188cd74",
+      "kind": "snapshot",
+      "packaged_sha256": "c6ad2e5293b9969219ffbb52e1e703c9b07b9f9966bcec09dcfa0e0fe188cd74"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/public-post-ingest-report.json",
+      "path": "voice/public-post-ingest-report.json",
+      "source_sha256": "355ff59639c9f8a50416326ea0726d91d3a151597e85d051e3dbf80626fa1b81",
+      "kind": "snapshot",
+      "packaged_sha256": "355ff59639c9f8a50416326ea0726d91d3a151597e85d051e3dbf80626fa1b81"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/records.jsonl",
+      "path": "voice/records.jsonl",
+      "source_sha256": "01621ce70feca93a7ab54af35b4e79fe8914df3e03a21b24e1d69308ff319ccf",
+      "kind": "snapshot",
+      "packaged_sha256": "01621ce70feca93a7ab54af35b4e79fe8914df3e03a21b24e1d69308ff319ccf"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/revisions/comment-c1-before-c2.jsonl",
+      "path": "voice/revisions/comment-c1-before-c2.jsonl",
+      "source_sha256": "8152f98e5e04eb99be7e58d00a111c311b0899a8d93645f478af5bcc42f56119",
+      "kind": "snapshot",
+      "packaged_sha256": "8152f98e5e04eb99be7e58d00a111c311b0899a8d93645f478af5bcc42f56119"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/works.jsonl",
+      "path": "voice/works.jsonl",
+      "source_sha256": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c",
+      "kind": "snapshot",
+      "packaged_sha256": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c"
+    },
+    {
+      "source_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/SKILL.md",
+      "path": "_provenance/personal/write-consumer-comments/SKILL.source.md",
+      "source_sha256": "3ee1255e4d3a8d375053c1beb6f1077321bbef334ba7e98b72e0536c98713b71",
+      "kind": "archival_provenance",
+      "packaged_sha256": "3ee1255e4d3a8d375053c1beb6f1077321bbef334ba7e98b72e0536c98713b71"
+    },
+    {
+      "source_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/references/feedback.md",
+      "path": "_provenance/personal/write-consumer-comments/references/feedback.md",
+      "source_sha256": "b0a25a9bc519e4908aeeb536050ef946307996c9c4decf3e2e8e122dd03e3d1c",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b0a25a9bc519e4908aeeb536050ef946307996c9c4decf3e2e8e122dd03e3d1c"
+    },
+    {
+      "source_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/references/writing-reference.md",
+      "path": "_provenance/personal/write-consumer-comments/references/writing-reference.md",
+      "source_sha256": "f223f426552c136603867387d7a7600301a5dc14a08ccd0c6aa92f7a72a335a9",
+      "kind": "archival_provenance",
+      "packaged_sha256": "f223f426552c136603867387d7a7600301a5dc14a08ccd0c6aa92f7a72a335a9"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/SKILL.md",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md",
+      "source_sha256": "2690796ecb35c7b756ff1630c2bf92b24ff1eb0b35784ef526b0e13a459ed6e6",
+      "kind": "archival_provenance",
+      "packaged_sha256": "2690796ecb35c7b756ff1630c2bf92b24ff1eb0b35784ef526b0e13a459ed6e6"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md",
+      "source_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282",
+      "kind": "archival_provenance",
+      "packaged_sha256": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json",
+      "source_sha256": "5d1c142576add2cba72fa9526b15b7ff81ce5930999a5a1bfb435c8a6f6af3bb",
+      "kind": "archival_provenance",
+      "packaged_sha256": "5d1c142576add2cba72fa9526b15b7ff81ce5930999a5a1bfb435c8a6f6af3bb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/references/legacy-real-material-workflow.md",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/references/legacy-real-material-workflow.md",
+      "source_sha256": "b800fc2caae43cc0127434aa2d690deb84fb7a1fd85b5c48f62acb33dc4b0c65",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b800fc2caae43cc0127434aa2d690deb84fb7a1fd85b5c48f62acb33dc4b0c65"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/references/product-claims.json",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/references/product-claims.json",
+      "source_sha256": "4372a1dc2ae08d300134b839662d062f755774bf04f60494731ca420d8689507",
+      "kind": "archival_provenance",
+      "packaged_sha256": "4372a1dc2ae08d300134b839662d062f755774bf04f60494731ca420d8689507"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/references/project-context.md",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/references/project-context.md",
+      "source_sha256": "a7948796b4c267e6803be8fbab831a102d3b61bcfed24c54b59522a40376c180",
+      "kind": "archival_provenance",
+      "packaged_sha256": "a7948796b4c267e6803be8fbab831a102d3b61bcfed24c54b59522a40376c180"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/references/writing-and-examples.md",
+      "path": "_provenance/project/.agents/skills/write-pocket-seeding-comments/references/writing-and-examples.md",
+      "source_sha256": "74d5fe2eac726efe166bad7a9a42a42d607a302706037ba3bdb7433d67ef994e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "74d5fe2eac726efe166bad7a9a42a42d607a302706037ba3bdb7433d67ef994e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-nano-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-nano-comments/references/platform-voices.md",
+      "source_sha256": "91b2e7b5b57cde95c8862eb7f1f0804da563a9063655a825eb5a9ff851066d73",
+      "kind": "archival_provenance",
+      "packaged_sha256": "91b2e7b5b57cde95c8862eb7f1f0804da563a9063655a825eb5a9ff851066d73"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-osmo360-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-osmo360-comments/references/platform-voices.md",
+      "source_sha256": "0bda26fbbb4cb013a20e71cbf57b099999c20205c49ef3b3da89e5d02c2210d3",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0bda26fbbb4cb013a20e71cbf57b099999c20205c49ef3b3da89e5d02c2210d3"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-pocket-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-pocket-comments/references/platform-voices.md",
+      "source_sha256": "ec12a8829114e6cbd70d6a73d8ca6785e141b68a5104326ae8e4e48b9e7c6771",
+      "kind": "archival_provenance",
+      "packaged_sha256": "ec12a8829114e6cbd70d6a73d8ca6785e141b68a5104326ae8e4e48b9e7c6771"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2/cases/B002-T003/before/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2/cases/B002-T003/before/comments.md",
+      "source_sha256": "09290088dccda7314a58ec16b63d5a0e443e6044dc93d73bddb362a3670c94c5",
+      "kind": "archival_provenance",
+      "packaged_sha256": "09290088dccda7314a58ec16b63d5a0e443e6044dc93d73bddb362a3670c94c5"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2/cases/B002-T003/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2/cases/B002-T003/comments.md",
+      "source_sha256": "105bdf42ca0194960ee378fcc692691753bd4957d0f2d9c93ea7ae409ce7e7e8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "105bdf42ca0194960ee378fcc692691753bd4957d0f2d9c93ea7ae409ce7e7e8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-cw52/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-cw52/comments.md",
+      "source_sha256": "0a78916f624c1c4433fd269ac2826e088c9f0844b57c958361362a9fc20323ee",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0a78916f624c1c4433fd269ac2826e088c9f0844b57c958361362a9fc20323ee"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-original/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-original/comments.md",
+      "source_sha256": "112b88893f42be0e80d95e20cb99deeca614188c79d4bcd96e0c89612e93ec89",
+      "kind": "archival_provenance",
+      "packaged_sha256": "112b88893f42be0e80d95e20cb99deeca614188c79d4bcd96e0c89612e93ec89"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-cw52/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-cw52/comments.md",
+      "source_sha256": "3a0a2a811f142bbcfa44c25eb4d683c0b762733eae2f75795ac32dc2829ad4f5",
+      "kind": "archival_provenance",
+      "packaged_sha256": "3a0a2a811f142bbcfa44c25eb4d683c0b762733eae2f75795ac32dc2829ad4f5"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-original/comments.md",
+      "path": "_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-original/comments.md",
+      "source_sha256": "0d5c642026b3a8ebe50f4cb358cab5c6499d503142bc9e317db4bec8bd1feda2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0d5c642026b3a8ebe50f4cb358cab5c6499d503142bc9e317db4bec8bd1feda2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/knowledge-consolidation-20260910/context-audit.json",
+      "path": "_provenance/project/outputs/knowledge-consolidation-20260910/context-audit.json",
+      "source_sha256": "5a5429876f1f583897e0fdcef090c3c0e5de0cde8d27a9ff546bac9d8699d4f7",
+      "kind": "archival_provenance",
+      "packaged_sha256": "5a5429876f1f583897e0fdcef090c3c0e5de0cde8d27a9ff546bac9d8699d4f7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/expression-evidence.json",
+      "path": "_provenance/project/outputs/pocket-aesthetics-20260908/expression-evidence.json",
+      "source_sha256": "f1331a199fb2b7202bd52a952ea28027066968bc3c975464927b79e84c0dec96",
+      "kind": "archival_provenance",
+      "packaged_sha256": "f1331a199fb2b7202bd52a952ea28027066968bc3c975464927b79e84c0dec96"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/feedback-evidence.json",
+      "path": "_provenance/project/outputs/pocket-aesthetics-20260908/feedback-evidence.json",
+      "source_sha256": "5425fc9d7271a83fb97cb77f1ea0ff082be0074a7af084b60c75ace63ad0b1a7",
+      "kind": "archival_provenance",
+      "packaged_sha256": "5425fc9d7271a83fb97cb77f1ea0ff082be0074a7af084b60c75ace63ad0b1a7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/media-input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-aesthetics-20260908/media-input-ledger.json",
+      "source_sha256": "06eea0b1778633580e94e2f2f861da9b2e32fab6771bf719568a32a4308438f9",
+      "kind": "archival_provenance",
+      "packaged_sha256": "06eea0b1778633580e94e2f2f861da9b2e32fab6771bf719568a32a4308438f9"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/work-evidence-inventory.json",
+      "path": "_provenance/project/outputs/pocket-aesthetics-20260908/work-evidence-inventory.json",
+      "source_sha256": "9b3f1f47f6a84e95fb4080cc6aeb5f8a069d53223ccff188680b2386e4cd1799",
+      "kind": "archival_provenance",
+      "packaged_sha256": "9b3f1f47f6a84e95fb4080cc6aeb5f8a069d53223ccff188680b2386e4cd1799"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13/evidence.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-42links-lh13/evidence.json",
+      "source_sha256": "6aa3f229ca2220064babbd3209e366430708f4381d5aeeed40a7e0fb9ff4c72b",
+      "kind": "archival_provenance",
+      "packaged_sha256": "6aa3f229ca2220064babbd3209e366430708f4381d5aeeed40a7e0fb9ff4c72b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13/input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-42links-lh13/input-ledger.json",
+      "source_sha256": "452631c7ca38987977f83684c1614a0e9c4a2058e990940f4adb5155158c6763",
+      "kind": "archival_provenance",
+      "packaged_sha256": "452631c7ca38987977f83684c1614a0e9c4a2058e990940f4adb5155158c6763"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13-natural/evidence.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-42links-lh13-natural/evidence.json",
+      "source_sha256": "370f9c0398a3d6c5c6e88e2774a1cc72ab0582e232388b21635b8939fe8bb050",
+      "kind": "archival_provenance",
+      "packaged_sha256": "370f9c0398a3d6c5c6e88e2774a1cc72ab0582e232388b21635b8939fe8bb050"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13-natural/input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-42links-lh13-natural/input-ledger.json",
+      "source_sha256": "ff4d2444ecc32bd164fab1a8f0df9f159a05f1e9127d01cf3f939b2aeeafbcc2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "ff4d2444ecc32bd164fab1a8f0df9f159a05f1e9127d01cf3f939b2aeeafbcc2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-9links/evidence.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-9links/evidence.json",
+      "source_sha256": "709f233cbb209d3e0fb14685a2b88b730a5eb06041f9cc67fad32cdf240590c8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "709f233cbb209d3e0fb14685a2b88b730a5eb06041f9cc67fad32cdf240590c8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-9links/input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-douyin-20260905-9links/input-ledger.json",
+      "source_sha256": "c67af575b25cf7d1f771c9544e03a1304c6503ef33a13fc0d3c2f39e64ca3637",
+      "kind": "archival_provenance",
+      "packaged_sha256": "c67af575b25cf7d1f771c9544e03a1304c6503ef33a13fc0d3c2f39e64ca3637"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/before-lh10/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh10-validation/before-lh10/references/platform-voices.md",
+      "source_sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+      "kind": "archival_provenance",
+      "packaged_sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/evidence.json",
+      "path": "_provenance/project/outputs/pocket-lh10-validation/evidence.json",
+      "source_sha256": "33d59e50e80dcbcef0bb619027d31e5ed23381aa5258d49cef92782349380446",
+      "kind": "archival_provenance",
+      "packaged_sha256": "33d59e50e80dcbcef0bb619027d31e5ed23381aa5258d49cef92782349380446"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh10-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "source_sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh11-validation/before-lh11/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh11-validation/before-lh11/references/platform-voices.md",
+      "source_sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh11-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh11-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "source_sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+      "kind": "archival_provenance",
+      "packaged_sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/before-lh12/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/before-lh12/references/platform-voices.md",
+      "source_sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+      "kind": "archival_provenance",
+      "packaged_sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/delivery-input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/delivery-input-ledger.json",
+      "source_sha256": "484447b050beb65dc744108ef45e3c16be17d635a96786156e40ae1430407bed",
+      "kind": "archival_provenance",
+      "packaged_sha256": "484447b050beb65dc744108ef45e3c16be17d635a96786156e40ae1430407bed"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/evidence.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/evidence.json",
+      "source_sha256": "5d116e289908c03e8d00b12067c0e403a6ed2bc1b49b134d761745d368c51a99",
+      "kind": "archival_provenance",
+      "packaged_sha256": "5d116e289908c03e8d00b12067c0e403a6ed2bc1b49b134d761745d368c51a99"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/holdout-evidence.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/holdout-evidence.json",
+      "source_sha256": "1841e26284d132bcdb9c5008ecc96c7066f984eb91cbe053e260c890866d3f7a",
+      "kind": "archival_provenance",
+      "packaged_sha256": "1841e26284d132bcdb9c5008ecc96c7066f984eb91cbe053e260c890866d3f7a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/bilibili-comments.xlsx",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/bilibili-comments.xlsx",
+      "source_sha256": "380e000e33331b046ce92034929b5246949d6f7624f2dff21baf48bd1bb38765",
+      "kind": "archival_provenance",
+      "packaged_sha256": "380e000e33331b046ce92034929b5246949d6f7624f2dff21baf48bd1bb38765"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/bilibili-learning.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/bilibili-learning.json",
+      "source_sha256": "c31123c6a8c8d399fdd32b7ef4bdb66742188608b0fcdd4acee6b612c09b145e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "c31123c6a8c8d399fdd32b7ef4bdb66742188608b0fcdd4acee6b612c09b145e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/douyin-comments.xlsx",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/douyin-comments.xlsx",
+      "source_sha256": "77a01b46ea62e0cfd545d460ce8977e1c79b7fa88001699f6f86f888a1f96a0e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "77a01b46ea62e0cfd545d460ce8977e1c79b7fa88001699f6f86f888a1f96a0e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/douyin-learning.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/douyin-learning.json",
+      "source_sha256": "98ca2280b1d083e7c36e30edf27004319e0db63bdd3e9f95ab0f91825849e761",
+      "kind": "archival_provenance",
+      "packaged_sha256": "98ca2280b1d083e7c36e30edf27004319e0db63bdd3e9f95ab0f91825849e761"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/input-ledger.json",
+      "source_sha256": "8fa18b6b6cc0a402adb71ec1ba50d59438af6307f8318c57ac7eea0852572a74",
+      "kind": "archival_provenance",
+      "packaged_sha256": "8fa18b6b6cc0a402adb71ec1ba50d59438af6307f8318c57ac7eea0852572a74"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx",
+      "source_sha256": "b45b3b3034bdda95eade60f6fa9f88476b6c9a04622ea55863cf2f0279f13540",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b45b3b3034bdda95eade60f6fa9f88476b6c9a04622ea55863cf2f0279f13540"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/xiaohongshu-learning.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/research/xiaohongshu-learning.json",
+      "source_sha256": "deea2d0e01c82457d4787c941c4ce6f3faa74a1fe35a02648006bf18d9224bce",
+      "kind": "archival_provenance",
+      "packaged_sha256": "deea2d0e01c82457d4787c941c4ce6f3faa74a1fe35a02648006bf18d9224bce"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/revisions/holdout-v1/holdout-evidence.json",
+      "path": "_provenance/project/outputs/pocket-lh12-validation/revisions/holdout-v1/holdout-evidence.json",
+      "source_sha256": "1868ade34f248e166068e2f3c2f2190d99617630cc3e1efb3d45141e078de105",
+      "kind": "archival_provenance",
+      "packaged_sha256": "1868ade34f248e166068e2f3c2f2190d99617630cc3e1efb3d45141e078de105"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh8-validation/before-lh8/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh8-validation/before-lh8/references/platform-voices.md",
+      "source_sha256": "0b7e3bbe894047218391ff7566e4fba580438bff59f4e50f2ba208b832f9725c",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0b7e3bbe894047218391ff7566e4fba580438bff59f4e50f2ba208b832f9725c"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh9-validation/before-lh9/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh9-validation/before-lh9/references/platform-voices.md",
+      "source_sha256": "b696df3d5624403c1f714e13babff7a345a8af5a3b6ee7c853e16d1e0a42e8b2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b696df3d5624403c1f714e13babff7a345a8af5a3b6ee7c853e16d1e0a42e8b2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh9-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "path": "_provenance/project/outputs/pocket-lh9-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "source_sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+      "kind": "archival_provenance",
+      "packaged_sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-project-acceptance/fresh-trial/input-evidence.md",
+      "path": "_provenance/project/outputs/pocket-project-acceptance/fresh-trial/input-evidence.md",
+      "source_sha256": "beadcc4da3776ae9191e292758099d02fd671a04e8408bc542d1d00406aa5c46",
+      "kind": "archival_provenance",
+      "packaged_sha256": "beadcc4da3776ae9191e292758099d02fd671a04e8408bc542d1d00406aa5c46"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-project-acceptance/验收记录.md",
+      "path": "_provenance/project/outputs/pocket-project-acceptance/验收记录.md",
+      "source_sha256": "050db13a299346c48c1c78afee25f7ea966a37edf2cf0d84e85ef8d9af71d143",
+      "kind": "archival_provenance",
+      "packaged_sha256": "050db13a299346c48c1c78afee25f7ea966a37edf2cf0d84e85ef8d9af71d143"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-seeding-rewrite/independent-voice-review.json",
+      "path": "_provenance/project/outputs/pocket-seeding-rewrite/independent-voice-review.json",
+      "source_sha256": "9ac7925b254cd7d7180727fb4cf20800baf1b071b45972ee63ee58bb3698c019",
+      "kind": "archival_provenance",
+      "packaged_sha256": "9ac7925b254cd7d7180727fb4cf20800baf1b071b45972ee63ee58bb3698c019"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-seeding-rewrite/independent-voice-review.md",
+      "path": "_provenance/project/outputs/pocket-seeding-rewrite/independent-voice-review.md",
+      "source_sha256": "245bf2cdb83853b1caa20d664b93811f26ffd6b4c631fa70e289f3b5148bc9a7",
+      "kind": "archival_provenance",
+      "packaged_sha256": "245bf2cdb83853b1caa20d664b93811f26ffd6b4c631fa70e289f3b5148bc9a7"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-11links/evidence.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-11links/evidence.json",
+      "source_sha256": "8649d7f790f1c952755245bed9809e04634feb694c345efec86d3e4273f74084",
+      "kind": "archival_provenance",
+      "packaged_sha256": "8649d7f790f1c952755245bed9809e04634feb694c345efec86d3e4273f74084"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-11links/ingest_evidence.py",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-11links/ingest_evidence.py",
+      "source_sha256": "77c21c9325eed0b75273f4817698f0b613995ca07d6d4de0426ce1f7c7617034",
+      "kind": "archival_provenance",
+      "packaged_sha256": "77c21c9325eed0b75273f4817698f0b613995ca07d6d4de0426ce1f7c7617034"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+      "source_sha256": "a7fb2a254092bba67ce377be843fe860620d48f98c0c3f045c41aeabdd2ebdb0",
+      "kind": "archival_provenance",
+      "packaged_sha256": "a7fb2a254092bba67ce377be843fe860620d48f98c0c3f045c41aeabdd2ebdb0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx",
+      "source_sha256": "e74f32eb3b58c20f3dd15c63f54d137495d35b5353f41d0b2f83fb62f5d70119",
+      "kind": "archival_provenance",
+      "packaged_sha256": "e74f32eb3b58c20f3dd15c63f54d137495d35b5353f41d0b2f83fb62f5d70119"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_sha256": "a6661ff9ac0c4ceacd12d9c42c4eaf9c8a381f77e12fe97218c86ffc11e21d72",
+      "kind": "archival_provenance",
+      "packaged_sha256": "a6661ff9ac0c4ceacd12d9c42c4eaf9c8a381f77e12fe97218c86ffc11e21d72"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/finalize_evidence.py",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/finalize_evidence.py",
+      "source_sha256": "63d43366c4cbff9528c9bd1ca6471946bf3b21dd9a4cc14b715ed4a443ea915d",
+      "kind": "archival_provenance",
+      "packaged_sha256": "63d43366c4cbff9528c9bd1ca6471946bf3b21dd9a4cc14b715ed4a443ea915d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/input-ledger.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/input-ledger.json",
+      "source_sha256": "3f381245453d2d24e3dc7a68c204ce94aa8aee8936aea5506638522c423cdbd8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "3f381245453d2d24e3dc7a68c204ce94aa8aee8936aea5506638522c423cdbd8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/contact_01.jpg",
+      "source_sha256": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/media_001/frames.json",
+      "source_sha256": "d748bd2e1fd9682261487fbec6630907549a9725c50fc7ccf285c3b33c502cce",
+      "kind": "archival_provenance",
+      "packaged_sha256": "d748bd2e1fd9682261487fbec6630907549a9725c50fc7ccf285c3b33c502cce"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/contact_01.jpg",
+      "source_sha256": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99",
+      "kind": "archival_provenance",
+      "packaged_sha256": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/media_001/frames.json",
+      "source_sha256": "2b2baec44c7426ed5dd2f77f0e3029c68aaf3b735a4390c3bfa331d1e4827f78",
+      "kind": "archival_provenance",
+      "packaged_sha256": "2b2baec44c7426ed5dd2f77f0e3029c68aaf3b735a4390c3bfa331d1e4827f78"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/contact_01.jpg",
+      "source_sha256": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0",
+      "kind": "archival_provenance",
+      "packaged_sha256": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/media_001/frames.json",
+      "source_sha256": "8d97aa02f00ad71d103e56fccdb3af5792e49548e94bdedc436ba58b82db5e88",
+      "kind": "archival_provenance",
+      "packaged_sha256": "8d97aa02f00ad71d103e56fccdb3af5792e49548e94bdedc436ba58b82db5e88"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/contact_01.jpg",
+      "source_sha256": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73",
+      "kind": "archival_provenance",
+      "packaged_sha256": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/media_001/frames.json",
+      "source_sha256": "c2224d726d1ba6c9a36dd963dc88b4f98f7bc84fb0c77caba7852b942920133f",
+      "kind": "archival_provenance",
+      "packaged_sha256": "c2224d726d1ba6c9a36dd963dc88b4f98f7bc84fb0c77caba7852b942920133f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/contact_01.jpg",
+      "source_sha256": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8",
+      "kind": "archival_provenance",
+      "packaged_sha256": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/media_001/frames.json",
+      "source_sha256": "888c1433af744bebd7c8b951a8ad8b11d275dde985c1097ffbee426a381567e2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "888c1433af744bebd7c8b951a8ad8b11d275dde985c1097ffbee426a381567e2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/contact_01.jpg",
+      "source_sha256": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46",
+      "kind": "archival_provenance",
+      "packaged_sha256": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/media_001/frames.json",
+      "source_sha256": "b950ba99c8abfd7b09af265205a9c40d942d531dd517b32a90b20f0faecbaa2f",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b950ba99c8abfd7b09af265205a9c40d942d531dd517b32a90b20f0faecbaa2f"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/contact_01.jpg",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/contact_01.jpg",
+      "source_sha256": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958",
+      "kind": "archival_provenance",
+      "packaged_sha256": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/media_001/frames.json",
+      "path": "_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/media_001/frames.json",
+      "source_sha256": "0cef9d32baae01f905979d013a343017a86302ef28c2c4113b243e7d9e45c286",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0cef9d32baae01f905979d013a343017a86302ef28c2c4113b243e7d9e45c286"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/acceptance.md",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/acceptance.md",
+      "source_sha256": "dcf46676fb3525e9d42c97734d7502d23efbae99870c8ccc437115110d2e3998",
+      "kind": "archival_provenance",
+      "packaged_sha256": "dcf46676fb3525e9d42c97734d7502d23efbae99870c8ccc437115110d2e3998"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-applied/report.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-applied/report.json",
+      "source_sha256": "0f7b70878fce11ec08553e3b035b74e3927f381b77133f566555aeb12eeb0aca",
+      "kind": "archival_provenance",
+      "packaged_sha256": "0f7b70878fce11ec08553e3b035b74e3927f381b77133f566555aeb12eeb0aca"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-idempotency/report.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-idempotency/report.json",
+      "source_sha256": "2726eab48b5aca21bc3b5190173a39bc920e8be368bcd3289d7c2a39dc87135a",
+      "kind": "archival_provenance",
+      "packaged_sha256": "2726eab48b5aca21bc3b5190173a39bc920e8be368bcd3289d7c2a39dc87135a"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/analysis.md",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/analysis.md",
+      "source_sha256": "9ddc52d743e3ae78d250b54934da5290483395ce2e10d4cd9be3a0066612943d",
+      "kind": "archival_provenance",
+      "packaged_sha256": "9ddc52d743e3ae78d250b54934da5290483395ce2e10d4cd9be3a0066612943d"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comments.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comments.jsonl",
+      "source_sha256": "b913663d2ade0e21439605fe7af41407d302741d9d24b3ff26ac3051f9deec4e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b913663d2ade0e21439605fe7af41407d302741d9d24b3ff26ac3051f9deec4e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comparison-independent-review.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comparison-independent-review.json",
+      "source_sha256": "47eb88e2f49ec5b9af2f87e926c80c5f7d2b9c91fb84ba30ef59e11facfd19d0",
+      "kind": "archival_provenance",
+      "packaged_sha256": "47eb88e2f49ec5b9af2f87e926c80c5f7d2b9c91fb84ba30ef59e11facfd19d0"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery-runs-initial.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery-runs-initial.json",
+      "source_sha256": "af8052a1ea6a77450ad54b32f9a1d1956b2bbf754512982ed6b0339dc17d46c2",
+      "kind": "archival_provenance",
+      "packaged_sha256": "af8052a1ea6a77450ad54b32f9a1d1956b2bbf754512982ed6b0339dc17d46c2"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery.jsonl",
+      "source_sha256": "a5a32363122cd61738d4b412b66a625dc4fce84d2270c95d988b8615cc5ccc8e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "a5a32363122cd61738d4b412b66a625dc4fce84d2270c95d988b8615cc5ccc8e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discussions.md",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discussions.md",
+      "source_sha256": "2ab31d4ad5751d92a4f8ebef9e6d47c605490d0420b45884fa5d6556474a978e",
+      "kind": "archival_provenance",
+      "packaged_sha256": "2ab31d4ad5751d92a4f8ebef9e6d47c605490d0420b45884fa5d6556474a978e"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-comments-01.xlsx",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-comments-01.xlsx",
+      "source_sha256": "7df21e9e139693f23dfb422f70820cc9ab3c164c0375c3603173da08760a10af",
+      "kind": "archival_provenance",
+      "packaged_sha256": "7df21e9e139693f23dfb422f70820cc9ab3c164c0375c3603173da08760a10af"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-posts-01.xlsx",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-posts-01.xlsx",
+      "source_sha256": "b0069ea74b995396a29f52f1e7198d270fcfbe823fc4c061a4b6c0bc61a9b4e5",
+      "kind": "archival_provenance",
+      "packaged_sha256": "b0069ea74b995396a29f52f1e7198d270fcfbe823fc4c061a4b6c0bc61a9b4e5"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/comments-normalized.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/comments-normalized.jsonl",
+      "source_sha256": "fdd14bb2a3edb580f99e09fa20628515a43618f1da240d44675b1b73b4a02fb4",
+      "kind": "archival_provenance",
+      "packaged_sha256": "fdd14bb2a3edb580f99e09fa20628515a43618f1da240d44675b1b73b4a02fb4"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/input-ledger.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/input-ledger.jsonl",
+      "source_sha256": "874883e27e27a372721dd7b5010acb3a6b43cd0ec5ae48fe94eb834b72c6f6ef",
+      "kind": "archival_provenance",
+      "packaged_sha256": "874883e27e27a372721dd7b5010acb3a6b43cd0ec5ae48fe94eb834b72c6f6ef"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/expression-candidates.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/expression-candidates.jsonl",
+      "source_sha256": "f248e08f1435652c2a5dc28ab4cc3a832f3f06091703c91bc1be49f58cf727a9",
+      "kind": "archival_provenance",
+      "packaged_sha256": "f248e08f1435652c2a5dc28ab4cc3a832f3f06091703c91bc1be49f58cf727a9"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/independent-review.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/independent-review.json",
+      "source_sha256": "aa3cc6a3404252199f3c63fc8b5983d8d75e95959af9b2c2785d5e156ca95a31",
+      "kind": "archival_provenance",
+      "packaged_sha256": "aa3cc6a3404252199f3c63fc8b5983d8d75e95959af9b2c2785d5e156ca95a31"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/knowledge-delta.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/knowledge-delta.json",
+      "source_sha256": "53c28f41d840b6c7dc07bffd261ba30dcc3a58576dbce096bd61568393254b45",
+      "kind": "archival_provenance",
+      "packaged_sha256": "53c28f41d840b6c7dc07bffd261ba30dcc3a58576dbce096bd61568393254b45"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/manifest.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/manifest.json",
+      "source_sha256": "366d5a39299a958bf6a22a1a7dccf8d0eef714fa7c0961c00bcd61abebf81b9b",
+      "kind": "archival_provenance",
+      "packaged_sha256": "366d5a39299a958bf6a22a1a7dccf8d0eef714fa7c0961c00bcd61abebf81b9b"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/product-questions.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/product-questions.jsonl",
+      "source_sha256": "f5aec0fb2cfa202d1d0f0141e39243e400865a5c74403dfead3158c040e7fceb",
+      "kind": "archival_provenance",
+      "packaged_sha256": "f5aec0fb2cfa202d1d0f0141e39243e400865a5c74403dfead3158c040e7fceb"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/selected-works.jsonl",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/selected-works.jsonl",
+      "source_sha256": "8c34b6194eec6d7e92791704f17c792a4f3424a6ef1686996abe3f3c64c34190",
+      "kind": "archival_provenance",
+      "packaged_sha256": "8c34b6194eec6d7e92791704f17c792a4f3424a6ef1686996abe3f3c64c34190"
+    },
+    {
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/tests.json",
+      "path": "_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/tests.json",
+      "source_sha256": "ec4c04bd667edc4a8b4e01a6d68a0b7ee2ca941b0365b663be24b6130b3a2d01",
+      "kind": "archival_provenance",
+      "packaged_sha256": "ec4c04bd667edc4a8b4e01a6d68a0b7ee2ca941b0365b663be24b6130b3a2d01"
+    }
+  ],
+  "generated_files": [
+    "knowledge/INDEX.md",
+    "knowledge/PROJECT-INDEX.md",
+    "knowledge/PACKAGE.md",
+    "knowledge/package-map.json",
+    "knowledge/corpus-statistics.json"
+  ],
+  "corpus_statistics": {
+    "primary_verified_facts": 80,
+    "primary_pending_facts": 2,
+    "per_primary_model": {
+      "pocket_4": {
+        "verified": 39
+      },
+      "pocket_4p": {
+        "verified": 55,
+        "pending": 2
+      }
+    },
+    "voice_cards": 33,
+    "voice_by_split": {
+      "legacy": 12,
+      "train": 21
+    },
+    "voice_by_status": {
+      "case": 18,
+      "pattern": 15
+    },
+    "scenario_cards": 13,
+    "comparison_cards": 5,
+    "selling_cards": 16,
+    "detailed_scene_cards": 22,
+    "ingested_comment_records": 526,
+    "comments_by_platform": {
+      "bilibili": 34,
+      "xiaohongshu": 492
+    },
+    "comments_by_model": {
+      "pocket_4": 249,
+      "pocket_4p": 47,
+      "unknown": 230
+    },
+    "comments_by_split": {
+      "holdout": 88,
+      "train": 438
+    },
+    "works_in_ledger": 202,
+    "works_by_split": {
+      "holdout": 42,
+      "train": 160
+    },
+    "legacy_comment_records": 372,
+    "retained_unreviewed_comment_rows": 58,
+    "count_boundary": "Ledger counts are not eligible-work or read-success counts. Per-model facts overlap. Legacy records and stopped attachments are separate from ingested comments."
+  },
+  "corpus_baseline_check": {
+    "baseline_frozen_at": "2026-09-10T12:39:03.446710+08:00",
+    "historical_splits_preserved": true,
+    "historical_holdout_unchanged": true,
+    "stopped_exports_preserved_and_excluded": true,
+    "tables": {
+      "works": {
+        "baseline_count": 193,
+        "actual_count": 202,
+        "added_count": 9,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "BV1HZYW64Ebt",
+          "BV1JtbH6vEtA",
+          "BV1LUt26PEXi",
+          "BV1R7bV6uEUG",
+          "BV1RRYs67EtL",
+          "BV1bqYJ6sECM",
+          "BV1e5t264EVw",
+          "BV1u8bw6aEwH",
+          "BV1wntm6GEUk"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "comments": {
+        "baseline_count": 492,
+        "actual_count": 526,
+        "added_count": 34,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "bilibili:BV1HZYW64Ebt:316873141376",
+          "bilibili:BV1HZYW64Ebt:316875178272",
+          "bilibili:BV1HZYW64Ebt:316880475040",
+          "bilibili:BV1JtbH6vEtA:313152226241",
+          "bilibili:BV1JtbH6vEtA:313153274017",
+          "bilibili:BV1JtbH6vEtA:313156105809",
+          "bilibili:BV1JtbH6vEtA:313156774001",
+          "bilibili:BV1JtbH6vEtA:313184182401",
+          "bilibili:BV1JtbH6vEtA:313345798753",
+          "bilibili:BV1JtbH6vEtA:316670546144",
+          "bilibili:BV1LUt26PEXi:313019895713",
+          "bilibili:BV1LUt26PEXi:313022469057",
+          "bilibili:BV1LUt26PEXi:313037812001",
+          "bilibili:BV1LUt26PEXi:313249442257",
+          "bilibili:BV1LUt26PEXi:313281894177",
+          "bilibili:BV1LUt26PEXi:316476693696",
+          "bilibili:BV1LUt26PEXi:316478046048",
+          "bilibili:BV1LUt26PEXi:316478068160",
+          "bilibili:BV1LUt26PEXi:316479190992",
+          "bilibili:BV1LUt26PEXi:316492407760",
+          "bilibili:BV1LUt26PEXi:316492574512",
+          "bilibili:BV1LUt26PEXi:316499361296",
+          "bilibili:BV1LUt26PEXi:316500227008",
+          "bilibili:BV1LUt26PEXi:316500330416",
+          "bilibili:BV1LUt26PEXi:316682711040",
+          "bilibili:BV1LUt26PEXi:316713860368",
+          "bilibili:BV1LUt26PEXi:316760710976",
+          "bilibili:BV1R7bV6uEUG:313459398497",
+          "bilibili:BV1R7bV6uEUG:316821904064",
+          "bilibili:BV1R7bV6uEUG:316824524576",
+          "bilibili:BV1R7bV6uEUG:316845529456",
+          "bilibili:BV1bqYJ6sECM:313358563617",
+          "bilibili:BV1e5t264EVw:313222750513",
+          "bilibili:BV1e5t264EVw:313222910737"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "records": {
+        "baseline_count": 409,
+        "actual_count": 409,
+        "added_count": 0,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "voice": {
+        "baseline_count": 27,
+        "actual_count": 33,
+        "added_count": 6,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "research_20260910_001",
+          "research_20260910_002",
+          "research_20260910_003",
+          "research_20260910_004",
+          "research_20260910_005",
+          "research_20260910_006"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "scenarios": {
+        "baseline_count": 10,
+        "actual_count": 13,
+        "added_count": 3,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "scenario_research_20260910_001",
+          "scenario_research_20260910_002",
+          "scenario_research_20260910_003"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      }
+    },
+    "statistics": {
+      "primary_verified_facts": 80,
+      "primary_pending_facts": 2,
+      "per_primary_model": {
+        "pocket_4": {
+          "verified": 39
+        },
+        "pocket_4p": {
+          "verified": 55,
+          "pending": 2
+        }
+      },
+      "voice_cards": 33,
+      "voice_by_split": {
+        "legacy": 12,
+        "train": 21
+      },
+      "voice_by_status": {
+        "case": 18,
+        "pattern": 15
+      },
+      "scenario_cards": 13,
+      "comparison_cards": 5,
+      "selling_cards": 16,
+      "detailed_scene_cards": 22,
+      "ingested_comment_records": 526,
+      "comments_by_platform": {
+        "bilibili": 34,
+        "xiaohongshu": 492
+      },
+      "comments_by_model": {
+        "pocket_4": 249,
+        "pocket_4p": 47,
+        "unknown": 230
+      },
+      "comments_by_split": {
+        "holdout": 88,
+        "train": 438
+      },
+      "works_in_ledger": 202,
+      "works_by_split": {
+        "holdout": 42,
+        "train": 160
+      },
+      "legacy_comment_records": 372,
+      "retained_unreviewed_comment_rows": 58,
+      "count_boundary": "Ledger counts are not eligible-work or read-success counts. Per-model facts overlap. Legacy records and stopped attachments are separate from ingested comments."
+    }
+  },
+  "skill_entry_sha256": "1cc5f1dc613c49823c22df1117cf2bce53ab0d044d8f80939011d5d5d16d91eb",
+  "snapshot_hashes": {
+    "knowledge/TRAINING.md": "ea74a46db4cee5c04df51558733aab7ea60c6983707487ab3fb5b86fde9af4e9",
+    "knowledge/package-map.json": "cdaaec91951233af2234c1c859611886c10af72911182f705ff047abddcc7288",
+    "knowledge/GAPS.md": "25796fc758170aeb3f865ecdc9153d2d8596aac201707b16c714d7c9d764fbb4",
+    "knowledge/corpus-statistics.json": "eba2cfaa9d68cf679d859514708a38f41cdb89908d751c590dd7580e7708bea5",
+    "knowledge/library.json": "815a953c5dba540c1b2a151c82895cb65371b32eb9b95dfd8875be8322f7f8ab",
+    "knowledge/INDEX.md": "548c6de2310a158a498f23658310b5242f2a7fce60fe299c382a8db287198ba7",
+    "knowledge/BUILD.md": "38f9295d7e15cce0c48cfef233754385417cb8b67bdb1128f63168638eed67ef",
+    "knowledge/PACKAGE.md": "68dd6ca3c9d5b88be166a755572195bd1a571c0a5943ac4b04e2c5ff2547b7e5",
+    "knowledge/coverage.json": "91c3c673275e47777ac4939985e26886ca72d3c5b2dcbf04812a40ee8665ecb4",
+    "knowledge/COVERAGE.md": "a936ed77b9fbccb44ed20f1277a9da72027f721f991c67806f62ad2ef20baa96",
+    "knowledge/PROJECT-INDEX.md": "0c5cb7adf93dbcf4cbff4bc70a0901e01d0fc7d90b642fc5b9ff2613d1922547",
+    "knowledge/START.md": "adbc6151f5b44beacf752c87dde613030d83951cd4736310961b54f2dc98c51d",
+    "knowledge/research/README.md": "10a817f9c8ac8ccec39d449b02443d4562da9fec14a6e0aa851dec5427c612db",
+    "knowledge/research/handoff.md": "35ce1186b30f213305a2a15c91540ac70517bbd863adcd44fc71aa0c256c5838",
+    "knowledge/products/retrieval-scenario-review.md": "6ea5357e3dcefc303a4e49f01c2065114877c49e6ba72e8a4c291dc441fa5754",
+    "knowledge/products/pocket4-vs-pocket4p.md": "a1b8ad657b85f09b506fa4260548b9c44c8caeecc1c677ab6ae6e5765d6525b5",
+    "knowledge/products/manual-locator-correction.json": "aa1bb48fefb48b49d3fc4689fbb2cd41ac00b4a96e8ef95db2de23bba0b249c8",
+    "knowledge/products/topic-coverage.json": "65e72893c1ceed761b77956fa1e1a3e574dfb0bd1ba314af3cdb1b513f90c647",
+    "knowledge/products/pocket_4.md": "6c204156c791be17ccd6fa1622618831445ee15779136a168410b8bf9442aadd",
+    "knowledge/products/pocket_1.md": "f317ac702d5eb067f0bbe3db198b2b8a5a0225e0a5ad06c1fd86271d5a33b23b",
+    "knowledge/products/operation-facts-independent-review.json": "dba442e5682164cd0be9c2917d6fe2b4e9de0da857b27653293a004a045138a1",
+    "knowledge/products/facts.jsonl": "d1c39a2379e653b9a22306bad45f3e8c8e7d43a6d9c3966a05275e74050ad788",
+    "knowledge/products/pocket_2.md": "b08ffe574de206115a528a254ab7c8902cf7edc17d08bcd7ff8b650582f06148",
+    "knowledge/products/official-evidence-notes.md": "c7d9b41e628418993f1a05362c13a71bb324587537e1d4c2a0a2e93f82290573",
+    "knowledge/products/pocket_3.md": "86acbab51464a74e42fb055e7217cd7260aee236abeba95df5490bc95587843f",
+    "knowledge/products/pocket_4p.md": "bf9d71bdafec204489795c2618ca8bafa702f85900d3495091eb764db441174b",
+    "knowledge/products/topic-coverage.md": "99a59bdaf2f536612cd15a0470c49a122686eea0712ed7d1b5f3fa783e483fc4",
+    "knowledge/products/evidence/p4p-guide-screen-20260906.png": "5cb523b19175e25c135559d90120b9f34901a6a4d8ea0877646a0852c4616187",
+    "knowledge/products/evidence/p4p-guide-buttons-20260906.png": "d529e8e054b7cbe38bee2a2a846c6e98cb4d1f9b011b4677433c3274f1060f2f",
+    "knowledge/context/README.md": "59ccc9bcc58e8c6ed29ae2dfce20e266db5846e2ac1d8ff1483c487a86021f78",
+    "knowledge/comparisons/README.md": "1f8a7e64142fd8eca98b08f417a2c16927088950029d464ee5f05eae5b93826c",
+    "knowledge/comparisons/cards.jsonl": "ddac28e85ad2750c037e26941b40c2346a836a6ba7606dcf43f1927e92f22e71",
+    "knowledge/corpus/prepare_collection.py": "321289418fccb2ae361e5721aa17ad63a5fd885f6f0dbb6c3c9f90e4b1051084",
+    "knowledge/corpus/supplement-prior-exposure-audit.json": "b10e16b4ec4956a8011b1b1fe25d980bb1b63826eb51f6cae64d60465a48cb4b",
+    "knowledge/corpus/run-state.json": "5281b03ac2d72fba937d1527428e2aeba8cdbbf5f5fdc28b95d97baf299229f6",
+    "knowledge/corpus/README.md": "0e75b6f4341bc702264c3d6431f6f2fe9b6000f7debd3e9bb51a1223aa4d59c6",
+    "knowledge/corpus/prior-exposure-audit.json": "34523cb837afc8bd7f57b189a2471a5cebb54c402ad128ce982acbad95349c6c",
+    "knowledge/corpus/input-ledger.jsonl": "f28ac2c5a4472c29f4df3b930ca750e1270a36d13c591430bcba483453b146de",
+    "knowledge/corpus/collection-plan.json": "3fc46e46e7753caead7d12b4bfcb97aa375f9a4f5b8db257547907db5cc00c4d",
+    "knowledge/corpus/comments.jsonl": "599db76befc7e3380e189dbd4e508e8bcfb524aa233d63ea967476d2bab20a7b",
+    "knowledge/corpus/works.jsonl": "2bf6e6312f20cb7b25578307cd86c86257fbed660460093877d47e6a6480daef",
+    "knowledge/corpus/analysis/xiaohongshu-posts-03.train-notes.jsonl": "978ddb90eff6786ff5c517ddd44aa106724064a9243ff836bc19ba24806b259a",
+    "knowledge/corpus/analysis/xiaohongshu-posts-02.train-notes.jsonl": "1571f42d3f4794d7056b176d3696c0243f3d9f549a14ac41b334163b767ced49",
+    "knowledge/corpus/analysis/xiaohongshu-posts-01.train-notes.jsonl": "0f3c5867c0b57a84b7563c84e4d7283d59541e16baa797d5bcd5a1c8389cdb94",
+    "knowledge/corpus/analysis/legacy-thread-yield-reference.json": "036baf7683844dec13f62e38c33b640c6bccc4e405946d3e01a326756918f4c8",
+    "knowledge/corpus/normalized/xiaohongshu-comments-01.jsonl": "bf618a15915ff8a376d1ebc8aeed081cc17b50fed30e0ee698e3e62ec433b22f",
+    "knowledge/corpus/normalized/xiaohongshu-comments-02.reconcile.json": "e7e2d1f60457549691c0207397559d10ecce6b2817720726c4c5c8e0f6ce4344",
+    "knowledge/corpus/normalized/xiaohongshu-comments-02.quality-review.json": "da27b62d1b8e6f07cb40a7a34953745a66d33a6d99f80e87cd858efee95c3518",
+    "knowledge/corpus/normalized/xiaohongshu-comments-01.quality-review.json": "09fae2741bcbe05f7608cb52edfe88e836f4cadd8dd46c835d7c033bb5e14ab4",
+    "knowledge/corpus/normalized/xiaohongshu-posts-01.reconcile.json": "38e5517c359ccde70b28a76770891f1421ba63a72137415cbbbf62fcae56771f",
+    "knowledge/corpus/normalized/xiaohongshu-comments-01.text-metrics.json": "6dd7e22ef257f2e71691e31ce17da4e317f025dce7b8f4f98fda01bad2768558",
+    "knowledge/corpus/normalized/xiaohongshu-comments-03-partial.reconcile.json": "68b3926a101bd0189a06aef1862abb6ec2eb4a220e034c8e3df2077c90ff5a6e",
+    "knowledge/corpus/normalized/xiaohongshu-posts-02.jsonl": "8f82a96b8f59f1e454f325c0c503b0f7dae799206d2438cb9e7094df37bb8bce",
+    "knowledge/corpus/normalized/xiaohongshu-comments-02.batch-reconcile.json": "f7833be61931bf7ee79755d8991f5220ac6b679a9814934f008bcd2c677ee9bc",
+    "knowledge/corpus/normalized/xiaohongshu-posts-supplement-01.reconcile.json": "9ee314a00afa4a92d933db48715d24ef107594c9701314599632a191e695f7ca",
+    "knowledge/corpus/normalized/xiaohongshu-posts-03.review.json": "86afbcae7a46ad86399551e114781a9d527d4a0be78cbb87f7c604f1331dbad3",
+    "knowledge/corpus/normalized/xiaohongshu-comments-02.jsonl": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+    "knowledge/corpus/normalized/xiaohongshu-comments-01.reconcile.json": "940007045342d938b88743a7d945f0ab6e2700df4abbead4f41cfe5cda996f71",
+    "knowledge/corpus/normalized/xiaohongshu-posts-02.reconcile.json": "27c8bcc2c237a866f3258b3ee9de669cd0c8c54809a0bed6b22a1d0e440b20f1",
+    "knowledge/corpus/normalized/xiaohongshu-posts-03.jsonl": "05a357ec80f2bc6a9972abf5e301894dc97072c9797271050720fdeeef1818e7",
+    "knowledge/corpus/normalized/xiaohongshu-posts-03.reconcile.json": "363dcdf92456b7309ab35cab079c16691e1a8ac27726b160d931b5024899be9e",
+    "knowledge/corpus/normalized/xiaohongshu-posts-supplement-01.review.json": "e722fa886e2e51e9099a942d3b730db3efa2fd2e2d9f8be733ccc79170dffaec",
+    "knowledge/corpus/normalized/xiaohongshu-posts-01.jsonl": "ca9ae4245cc5a4350d520f4b73f73a281d6303ae3a87902f86f250036cf05433",
+    "knowledge/corpus/normalized/xiaohongshu-comments-03-partial.jsonl": "0f6fa107bd3a34a2bf4c3465f224408689d9ec9c5199a6e8eeabf64eb88f735a",
+    "knowledge/corpus/normalized/xiaohongshu-posts-01.review.json": "2a91ac41aebca4c9dce497f164e6a2dd10bde560c4b68451ae4a0ce6e1d3bfd9",
+    "knowledge/corpus/normalized/xiaohongshu-comments-01.batch-reconcile.json": "6878effbc86169c7f89b894b2f2b5dbfce67b0e752dd5be304d0c575c2095bef",
+    "knowledge/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl": "b0510dfd1732e6ad65edaa56c2d8d4817b95959501086ecb10f2ee3aa0c25d24",
+    "knowledge/corpus/normalized/xiaohongshu-posts-02.review.json": "76dba0cc45d092708fe4399b2f699e22bb41867145c7738d9d94fe28ed604da8",
+    "knowledge/corpus/discovery/xiaohongshu-candidates.jsonl": "ce4362e575524e6dc72707f8d82bbe806eb0b427ec810b7a802854e889be135a",
+    "knowledge/corpus/discovery/web-candidates.jsonl": "8e1ed34880ba7eb4a9ae50bb888b939f54a2cb72bbdb713fb4e88b672957573b",
+    "knowledge/corpus/discovery/bilibili-selected.jsonl": "9a14393fe61a3940586176efb0ec867e749f24cf0f309b1f3412e54148b97c12",
+    "knowledge/corpus/discovery/xiaohongshu-supplement-candidates.jsonl": "623846934bc770da2b463de4984cdd8138366aeb6f14e942ef93bc52cdbbf760",
+    "knowledge/corpus/discovery/bilibili-candidates.jsonl": "baec8a0b2eaf0bd67757569f34f0caec30b478efc296a961a5d9d944250df79f",
+    "knowledge/corpus/discovery/douyin-candidates.jsonl": "b7f123eb7da7ff97d4e57862e0dda1a92652fe1aa0b7dffcc93f9f466816018b",
+    "knowledge/corpus/raw/xiaohongshu-posts-01.xlsx": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+    "knowledge/corpus/raw/xiaohongshu-comments-03-partial.xlsx": "0fcca83ff5e1f9241a8bd0ff9e9a61a7b311f8c799bdc432bdec27585e37b27e",
+    "knowledge/corpus/raw/xiaohongshu-comments-01.xlsx": "9472e10982ebfb9cf3cc5e8069de5c3427d5bfb947b1601d832bd7792ea01d29",
+    "knowledge/corpus/raw/xiaohongshu-comments-02.xlsx": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+    "knowledge/corpus/raw/xiaohongshu-posts-supplement-01.xlsx": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+    "knowledge/corpus/raw/xiaohongshu-posts-02.xlsx": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+    "knowledge/corpus/raw/xiaohongshu-posts-03.xlsx": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+    "knowledge/selling_points/current-official-review.json": "b6d0c5d4f41352a983dc840ccd83d0afb63805ca2db6543b84e4cd40ca00f115",
+    "knowledge/selling_points/guide.md": "413569b17f8b25d858ec8c95a4813dc6cdf53746f1e0f021c0e1bc158e3a5dd6",
+    "knowledge/selling_points/cards.jsonl": "6bc2e93357a1520530e76c5461bc8a945bc26023b3755cfbbc254d3a9daca9cb",
+    "knowledge/feedback/README.md": "6f26d343a4352214187ae1a9b567b444aeea646d3af7397f30e724b3883f2b8e",
+    "knowledge/feedback/records.jsonl": "751a54976c6cbcaf9825c3ad61419b3349e4f6133b7687758ab42a9f33c2310a",
+    "knowledge/feedback/source-register.jsonl": "9643f4ea883ba524949f7acb4d93bec8bbc30ca98e5fff93adf8c2adf4f5c882",
+    "knowledge/_provenance/personal/write-consumer-comments/SKILL.source.md": "3ee1255e4d3a8d375053c1beb6f1077321bbef334ba7e98b72e0536c98713b71",
+    "knowledge/_provenance/personal/write-consumer-comments/references/writing-reference.md": "f223f426552c136603867387d7a7600301a5dc14a08ccd0c6aa92f7a72a335a9",
+    "knowledge/_provenance/personal/write-consumer-comments/references/feedback.md": "b0a25a9bc519e4908aeeb536050ef946307996c9c4decf3e2e8e122dd03e3d1c",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/SKILL.source.md": "2690796ecb35c7b756ff1630c2bf92b24ff1eb0b35784ef526b0e13a459ed6e6",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/references/project-context.md": "a7948796b4c267e6803be8fbab831a102d3b61bcfed24c54b59522a40376c180",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/references/product-claims.json": "4372a1dc2ae08d300134b839662d062f755774bf04f60494731ca420d8689507",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/references/legacy-real-material-workflow.md": "b800fc2caae43cc0127434aa2d690deb84fb7a1fd85b5c48f62acb33dc4b0c65",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/references/writing-and-examples.md": "74d5fe2eac726efe166bad7a9a42a42d607a302706037ba3bdb7433d67ef994e",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-comments.md": "584aae53b7ba3b08ab284c55f8858a7dd054b14b9d234dd6ff14b3bf9d88b282",
+    "knowledge/_provenance/project/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json": "5d1c142576add2cba72fa9526b15b7ff81ce5930999a5a1bfb435c8a6f6af3bb",
+    "knowledge/_provenance/project/outputs/pocket-lh11-validation/before-lh11/references/platform-voices.md": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+    "knowledge/_provenance/project/outputs/pocket-lh11-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-42links-lh13/evidence.json": "6aa3f229ca2220064babbd3209e366430708f4381d5aeeed40a7e0fb9ff4c72b",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-42links-lh13/input-ledger.json": "452631c7ca38987977f83684c1614a0e9c4a2058e990940f4adb5155158c6763",
+    "knowledge/_provenance/project/outputs/knowledge-consolidation-20260910/context-audit.json": "5a5429876f1f583897e0fdcef090c3c0e5de0cde8d27a9ff546bac9d8699d4f7",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-11links/evidence.json": "8649d7f790f1c952755245bed9809e04634feb694c345efec86d3e4273f74084",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-11links/ingest_evidence.py": "77c21c9325eed0b75273f4817698f0b613995ca07d6d4de0426ce1f7c7617034",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-9links/evidence.json": "709f233cbb209d3e0fb14685a2b88b730a5eb06041f9cc67fad32cdf240590c8",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-9links/input-ledger.json": "c67af575b25cf7d1f771c9544e03a1304c6503ef33a13fc0d3c2f39e64ca3637",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/evidence.json": "a6661ff9ac0c4ceacd12d9c42c4eaf9c8a381f77e12fe97218c86ffc11e21d72",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx": "e74f32eb3b58c20f3dd15c63f54d137495d35b5353f41d0b2f83fb62f5d70119",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/input-ledger.json": "3f381245453d2d24e3dc7a68c204ce94aa8aee8936aea5506638522c423cdbd8",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx": "a7fb2a254092bba67ce377be843fe860620d48f98c0c3f045c41aeabdd2ebdb0",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/finalize_evidence.py": "63d43366c4cbff9528c9bd1ca6471946bf3b21dd9a4cc14b715ed4a443ea915d",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/contact_01.jpg": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/media_001/frames.json": "8d97aa02f00ad71d103e56fccdb3af5792e49548e94bdedc436ba58b82db5e88",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/contact_01.jpg": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/media_001/frames.json": "c2224d726d1ba6c9a36dd963dc88b4f98f7bc84fb0c77caba7852b942920133f",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/contact_01.jpg": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/media_001/frames.json": "2b2baec44c7426ed5dd2f77f0e3029c68aaf3b735a4390c3bfa331d1e4827f78",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/contact_01.jpg": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/media_001/frames.json": "d748bd2e1fd9682261487fbec6630907549a9725c50fc7ccf285c3b33c502cce",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/contact_01.jpg": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/media_001/frames.json": "0cef9d32baae01f905979d013a343017a86302ef28c2c4113b243e7d9e45c286",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/contact_01.jpg": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/media_001/frames.json": "888c1433af744bebd7c8b951a8ad8b11d275dde985c1097ffbee426a381567e2",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/contact_01.jpg": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46",
+    "knowledge/_provenance/project/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/media_001/frames.json": "b950ba99c8abfd7b09af265205a9c40d942d531dd517b32a90b20f0faecbaa2f",
+    "knowledge/_provenance/project/outputs/pocket-lh8-validation/before-lh8/references/platform-voices.md": "0b7e3bbe894047218391ff7566e4fba580438bff59f4e50f2ba208b832f9725c",
+    "knowledge/_provenance/project/outputs/pocket-seeding-rewrite/independent-voice-review.md": "245bf2cdb83853b1caa20d664b93811f26ffd6b4c631fa70e289f3b5148bc9a7",
+    "knowledge/_provenance/project/outputs/pocket-seeding-rewrite/independent-voice-review.json": "9ac7925b254cd7d7180727fb4cf20800baf1b071b45972ee63ee58bb3698c019",
+    "knowledge/_provenance/project/outputs/pocket-aesthetics-20260908/feedback-evidence.json": "5425fc9d7271a83fb97cb77f1ea0ff082be0074a7af084b60c75ace63ad0b1a7",
+    "knowledge/_provenance/project/outputs/pocket-aesthetics-20260908/work-evidence-inventory.json": "9b3f1f47f6a84e95fb4080cc6aeb5f8a069d53223ccff188680b2386e4cd1799",
+    "knowledge/_provenance/project/outputs/pocket-aesthetics-20260908/media-input-ledger.json": "06eea0b1778633580e94e2f2f861da9b2e32fab6771bf719568a32a4308438f9",
+    "knowledge/_provenance/project/outputs/pocket-aesthetics-20260908/expression-evidence.json": "f1331a199fb2b7202bd52a952ea28027066968bc3c975464927b79e84c0dec96",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/expression-candidates.jsonl": "f248e08f1435652c2a5dc28ab4cc3a832f3f06091703c91bc1be49f58cf727a9",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/product-questions.jsonl": "f5aec0fb2cfa202d1d0f0141e39243e400865a5c74403dfead3158c040e7fceb",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/knowledge-delta.json": "53c28f41d840b6c7dc07bffd261ba30dcc3a58576dbce096bd61568393254b45",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/independent-review.json": "aa3cc6a3404252199f3c63fc8b5983d8d75e95959af9b2c2785d5e156ca95a31",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/tests.json": "ec4c04bd667edc4a8b4e01a6d68a0b7ee2ca941b0365b663be24b6130b3a2d01",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/selected-works.jsonl": "8c34b6194eec6d7e92791704f17c792a4f3424a6ef1686996abe3f3c64c34190",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/analysis.md": "9ddc52d743e3ae78d250b54934da5290483395ce2e10d4cd9be3a0066612943d",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery-runs-initial.json": "af8052a1ea6a77450ad54b32f9a1d1956b2bbf754512982ed6b0339dc17d46c2",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discussions.md": "2ab31d4ad5751d92a4f8ebef9e6d47c605490d0420b45884fa5d6556474a978e",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/discovery.jsonl": "a5a32363122cd61738d4b412b66a625dc4fce84d2270c95d988b8615cc5ccc8e",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/manifest.json": "366d5a39299a958bf6a22a1a7dccf8d0eef714fa7c0961c00bcd61abebf81b9b",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comments.jsonl": "b913663d2ade0e21439605fe7af41407d302741d9d24b3ff26ac3051f9deec4e",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/comparison-independent-review.json": "47eb88e2f49ec5b9af2f87e926c80c5f7d2b9c91fb84ba30ef59e11facfd19d0",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/acceptance.md": "dcf46676fb3525e9d42c97734d7502d23efbae99870c8ccc437115110d2e3998",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/input-ledger.jsonl": "874883e27e27a372721dd7b5010acb3a6b43cd0ec5ae48fe94eb834b72c6f6ef",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-posts-01.xlsx": "b0069ea74b995396a29f52f1e7198d270fcfbe823fc4c061a4b6c0bc61a9b4e5",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/comments-normalized.jsonl": "fdd14bb2a3edb580f99e09fa20628515a43618f1da240d44675b1b73b4a02fb4",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/evidence/bilibili-comments-01.xlsx": "7df21e9e139693f23dfb422f70820cc9ab3c164c0375c3603173da08760a10af",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-idempotency/report.json": "2726eab48b5aca21bc3b5190173a39bc920e8be368bcd3289d7c2a39dc87135a",
+    "knowledge/_provenance/project/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/adaptation-applied/report.json": "0f7b70878fce11ec08553e3b035b74e3927f381b77133f566555aeb12eeb0aca",
+    "knowledge/_provenance/project/outputs/pocket-lh10-validation/evidence.json": "33d59e50e80dcbcef0bb619027d31e5ed23381aa5258d49cef92782349380446",
+    "knowledge/_provenance/project/outputs/pocket-lh10-validation/before-lh10/references/platform-voices.md": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+    "knowledge/_provenance/project/outputs/pocket-lh10-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+    "knowledge/_provenance/project/outputs/pocket-project-acceptance/验收记录.md": "050db13a299346c48c1c78afee25f7ea966a37edf2cf0d84e85ef8d9af71d143",
+    "knowledge/_provenance/project/outputs/pocket-project-acceptance/fresh-trial/input-evidence.md": "beadcc4da3776ae9191e292758099d02fd671a04e8408bc542d1d00406aa5c46",
+    "knowledge/_provenance/project/outputs/pocket-lh9-validation/before-lh9/references/platform-voices.md": "b696df3d5624403c1f714e13babff7a345a8af5a3b6ee7c853e16d1e0a42e8b2",
+    "knowledge/_provenance/project/outputs/pocket-lh9-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-42links-lh13-natural/evidence.json": "370f9c0398a3d6c5c6e88e2774a1cc72ab0582e232388b21635b8939fe8bb050",
+    "knowledge/_provenance/project/outputs/pocket-douyin-20260905-42links-lh13-natural/input-ledger.json": "ff4d2444ecc32bd164fab1a8f0df9f159a05f1e9127d01cf3f939b2aeeafbcc2",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2/cases/B002-T003/comments.md": "105bdf42ca0194960ee378fcc692691753bd4957d0f2d9c93ea7ae409ce7e7e8",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2/cases/B002-T003/before/comments.md": "09290088dccda7314a58ec16b63d5a0e443e6044dc93d73bddb362a3670c94c5",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-original/comments.md": "112b88893f42be0e80d95e20cb99deeca614188c79d4bcd96e0c89612e93ec89",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B001-T050/before-cw52/comments.md": "0a78916f624c1c4433fd269ac2826e088c9f0844b57c958361362a9fc20323ee",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-original/comments.md": "0d5c642026b3a8ebe50f4cb358cab5c6499d503142bc9e317db4bec8bd1feda2",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/cw5.2-feedback-20260908/cases/B002-T026/before-cw52/comments.md": "3a0a2a811f142bbcfa44c25eb4d683c0b762733eae2f75795ac32dc2829ad4f5",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-pocket-comments/references/platform-voices.md": "ec12a8829114e6cbd70d6a73d8ca6785e141b68a5104326ae8e4e48b9e7c6771",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-nano-comments/references/platform-voices.md": "91b2e7b5b57cde95c8862eb7f1f0804da563a9063655a825eb5a9ff851066d73",
+    "knowledge/_provenance/project/outputs/consumer-writer-library/before/personal-skills/write-dji-osmo360-comments/references/platform-voices.md": "0bda26fbbb4cb013a20e71cbf57b099999c20205c49ef3b3da89e5d02c2210d3",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/evidence.json": "5d116e289908c03e8d00b12067c0e403a6ed2bc1b49b134d761745d368c51a99",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/delivery-input-ledger.json": "484447b050beb65dc744108ef45e3c16be17d635a96786156e40ae1430407bed",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/holdout-evidence.json": "1841e26284d132bcdb9c5008ecc96c7066f984eb91cbe053e260c890866d3f7a",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/douyin-comments.xlsx": "77a01b46ea62e0cfd545d460ce8977e1c79b7fa88001699f6f86f888a1f96a0e",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/bilibili-comments.xlsx": "380e000e33331b046ce92034929b5246949d6f7624f2dff21baf48bd1bb38765",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/bilibili-learning.json": "c31123c6a8c8d399fdd32b7ef4bdb66742188608b0fcdd4acee6b612c09b145e",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/douyin-learning.json": "98ca2280b1d083e7c36e30edf27004319e0db63bdd3e9f95ab0f91825849e761",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/input-ledger.json": "8fa18b6b6cc0a402adb71ec1ba50d59438af6307f8318c57ac7eea0852572a74",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/xiaohongshu-learning.json": "deea2d0e01c82457d4787c941c4ce6f3faa74a1fe35a02648006bf18d9224bce",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/research/xiaohongshu-comments.xlsx": "b45b3b3034bdda95eade60f6fa9f88476b6c9a04622ea55863cf2f0279f13540",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/before-lh12/references/platform-voices.md": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+    "knowledge/_provenance/project/outputs/pocket-lh12-validation/revisions/holdout-v1/holdout-evidence.json": "1868ade34f248e166068e2f3c2f2190d99617630cc3e1efb3d45141e078de105",
+    "knowledge/voice/build_public_post_records.py": "8fcfd140f8efa739e1d895c28a61b33471ac57c1dbc3eabf6b088f140581fb44",
+    "knowledge/voice/comment-c1-independent-review.json": "eeac58a2f2cab4f7374bd61652072d0cb8126158e37f2b3c329c3d6cde9d69fe",
+    "knowledge/voice/comment-c2-build-report.json": "13cce5d7058a681a5bf5ae9907f872f2cd0c09a66da97c9c6efff2961677850f",
+    "knowledge/voice/comment-c1-cards.md": "43d2322ae8184ea0ed4ac4ecf85225b3654a6315b413080730885b13ecd6f0bb",
+    "knowledge/voice/public-post-cards.md": "4e8e7f4c4367a3673920dc166e05bb43392e4bbf63021f7102b39bafc1aa7604",
+    "knowledge/voice/public-post-independent-review.json": "c6ad2e5293b9969219ffbb52e1e703c9b07b9f9966bcec09dcfa0e0fe188cd74",
+    "knowledge/voice/build_comment_c1_cards.py": "1864f2f64061639270ee9a9c9e4f3178519214dd67129f5971319e125acd697f",
+    "knowledge/voice/comment-c2-independent-review.json": "b65e6cd64df8c0d3dfc28f9aeba46c1a485002f9939dc30800f463cbf77b49ea",
+    "knowledge/voice/comment-c1-build-report.json": "54315f8a301d65f284d147a3eb6fdbad403c4137675307e7afe42385e21642b8",
+    "knowledge/voice/README.md": "4766e4e77ae40bb081e1fe06624fea6b084d560b61b7f33dac365f92316ba55c",
+    "knowledge/voice/public-post-ingest-report.json": "355ff59639c9f8a50416326ea0726d91d3a151597e85d051e3dbf80626fa1b81",
+    "knowledge/voice/comment-c2-cards.md": "14ec039fe32ab11b92ba3ffb91315f3888d0d5ca4da5ba8fceea12e51f2e8dde",
+    "knowledge/voice/records.jsonl": "01621ce70feca93a7ab54af35b4e79fe8914df3e03a21b24e1d69308ff319ccf",
+    "knowledge/voice/legacy-migration-report.json": "5fae6a55bbb14d8bedcb441a0a0eadb5cd695b9ce57a3e211584576cafe7cacf",
+    "knowledge/voice/migrate_legacy.py": "90404d7e40952e6966858b4aad1622bcfeaac2e685e15fdcd3e3bd81f5a8d4e3",
+    "knowledge/voice/cards.jsonl": "715f8b5a556c859fa21a4e590675bc98ad32fb86fe63bacd4673dc14909aacbb",
+    "knowledge/voice/build_comment_c2_cards.py": "40fa40583e8b38a702a37193797131d0bf6d944c770bd19440e8440a7da719a6",
+    "knowledge/voice/works.jsonl": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c",
+    "knowledge/voice/revisions/comment-c1-before-c2.jsonl": "8152f98e5e04eb99be7e58d00a111c311b0899a8d93645f478af5bcc42f56119",
+    "knowledge/scripts/reconcile_comment_batch.py": "e777d43e5cf89727a668028b86efad7e27b0961fa4b8290b173e11d76607bf15",
+    "knowledge/scripts/pocket_knowledge.py": "b9865db6516e4ac7953d59b439b9852811bbe16d70e3e2721eec26fe4245adc7",
+    "knowledge/scripts/ingest_social_exports.py": "d83785c379a3b9b8e86303f360137fc1ff521c8bb3bce7bd0bdec1cacf34b2f7",
+    "knowledge/scripts/pocket_materials.py": "acc2060d9f7131eb5bdbde1792a253a7404d17d3f34d456721ca4c7d1fb314d1",
+    "knowledge/scripts/ingest_research_batch.py": "bfae7c204d4d8969a70c9d181f1c9b37788625abfaedda84ca88ef36274e6baa",
+    "knowledge/scripts/write_coverage_report.py": "682b407b088f2ba12d05472494a9abbef06d360abc4520d6ed419a0ddfee933a",
+    "knowledge/scripts/pocket_library.py": "55556bd533d58b3b69584c1cf55caa0b10266935ea864a88f43e4e7797ce8f6e",
+    "knowledge/scenarios/README.md": "41129b69a12ddef9687d630ec5568c5d13e313ff3a425f42ae9f1d86237eefa2",
+    "knowledge/scenarios/cards.jsonl": "e28d7ca224c8a33e05baf4586579c09f6909d55e0d27f95955100572aecc421b",
+    "knowledge/sources/official.jsonl": "9c2dec0316f2d4c8366e9578d2829d72bd1c0f04b51ec9a25a4a9ab5f58049ca",
+    "knowledge/evaluation/HISTORICAL-30-POST-PROTOCOL.md": "9b5550500f4c56a4907efc4514acd32fcd2fcbba38db7d2b97c9068e1e0f4d9d",
+    "knowledge/evaluation/prepare_inputs.py": "405570c37d7fdfc72d71390fd2417bb4dc6d994ebd104f505379a9babb22c9c0",
+    "knowledge/evaluation/README.md": "c13bf246ea8c2bb5199a95feadfd8dec53d18aa0d0014c2116e0fa5885afb827",
+    "knowledge/evaluation/PREPARE_INPUTS.md": "4036555b6ff4b262c74ad418d8090cbba5f790b3d1d12fc0653cf1e0c0d7f173",
+    "knowledge/evaluation/test_prepare_inputs.py": "18e09e6abd9fdaf38c3d7641a4d2b6b8a7cbb0342754d6aaf9ef0f57c1dfffe4",
+    "knowledge/evaluation/small-sample/blind-review.md": "f454d9aecb353ed342661ba699603d36ec07a788246f8107e8f47352c7fba33d",
+    "knowledge/evaluation/small-sample/revealed-results.json": "7b85e18058289195f9798e677dcd9384b0d01fcb38b6b374c648c76fd0f6d0f1",
+    "knowledge/evaluation/small-sample/reveal.json": "bcd9014a6521e87a49ab9c75dde549f2a55bc9f4229cb5087a080787b0cb9609",
+    "knowledge/evaluation/small-sample/blind-review.json": "9524a45a1555a118005ff5ff59068d7ae9406d1f44569648609dc0c41c462818",
+    "knowledge/evaluation/small-sample/README.md": "c7b82ec2d7c53438fb7f95686a29594f6428ac6f2eaa7bd31c186c883b9a2497",
+    "knowledge/evaluation/small-sample/manifest.json": "3509952eb2b6f99d72d0c856f3c620e12ec87756845b38bcc70d927aadc91db7",
+    "knowledge/evaluation/small-sample/blind-packet.json": "7e6457d015e1afc91f5ead7efc2ab9eb1ee4dc615a1a79fb77dfe4ac5bc0e76e",
+    "knowledge/evaluation/small-sample/baseline/draft.md": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c",
+    "knowledge/evaluation/small-sample/baseline/training-state.json": "3a66f6a5c729a942343c5f14a71b8c06ab3086c6af10b8f3f5c832648925d15f",
+    "knowledge/evaluation/small-sample/baseline/structure-check.json": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2",
+    "knowledge/evaluation/small-sample/baseline/manifest.json": "c4dad8e20802c558c867197b97ed435a6f92b24ecc14583a76cb6d7afe183eff",
+    "knowledge/evaluation/small-sample/baseline/review.md": "0a17ec5770fbcdf98e4304937a5a8ed577f4e35d0140bc2e6de4eb5d2e9070e3",
+    "knowledge/evaluation/small-sample/baseline/evidence/official-names.md": "78eea7739861daf18b5afa691cd710223349c89b9827761589e36fd0de0e4a42",
+    "knowledge/evaluation/small-sample/enriched/brief.json": "0e04ffd7d74c5a37ecb61a196136e8791f69f661be06996f909925cff1b86e66",
+    "knowledge/evaluation/small-sample/enriched/draft.md": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f",
+    "knowledge/evaluation/small-sample/enriched/training-state.json": "4cfac0344782cf84d895f953b516a8efd8528b8589cef040a1eecc64e2b99638",
+    "knowledge/evaluation/small-sample/enriched/validation.json": "7e64e94f2fce912ffa8d5a11fcd4f3ad51fbf64ac39356819d19ad792f1690e2",
+    "knowledge/evaluation/small-sample/enriched/brief.md": "9c973c8ff935616946a18fa14199599b01043d3440935f2f20b51c8c5c96a4b3",
+    "knowledge/evaluation/small-sample/enriched/evidence/search-032.json": "9cad7679159266eb7a65ea4b10ff59ca831c2fb5f583b93229250c63540517fd",
+    "knowledge/evaluation/small-sample/enriched/evidence/search-012.json": "539cea784bf1fa545daf29bc7a061897542dc5fed4d799ad92b2538d4e8cbcb0",
+    "knowledge/evaluation/small-sample/enriched/evidence/search-032-focused.json": "96936b240ffc73681e23ed7e99833dc7f57b48b8d3fa8648892650dc877d2d99",
+    "knowledge/evaluation/small-sample/enriched/evidence/product-pocket4p.md": "5475416e26f0e0b3d24419e2475d9b4c4fe02e4455e2999a824145e97168f072",
+    "knowledge/evaluation/small-sample/enriched/evidence/post-012.md": "e296cbc0a9b7b569c5545ae4b340afd69d884b46a798f1072b34b206e251deca",
+    "knowledge/evaluation/small-sample/enriched/evidence/post-032.md": "fbfc2ebd05241f4662e50f2f94712fe58969cf871be2a179677dd0ff4b669847",
+    "knowledge/evaluation/small-sample/enriched/evidence/search-012-focused.json": "afe0b849a39ee67a827d6ae9cd665e11f4e3c34ba45ff824110077afdac3ab6c",
+    "knowledge/evaluation/small-sample/inputs/012-6a4335f10000000017008cde.json": "ba43b81a58ebab81b18b9ddefcdb43437a940489d9d68fa1b0027036dc16fffd",
+    "knowledge/evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.md": "9735d36502e90872ba1ac2c5ae8bb5c6a45aa3a12a14e9648024e3169c38d8d5",
+    "knowledge/evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.json": "e8e374992afe6874beb8b51975742c067369ebb72b839e72d85ce3db090fb2af",
+    "knowledge/evaluation/small-sample/inputs/012-6a4335f10000000017008cde.md": "ab5a6c2c074dca7e3a248188d9687f0d39584432381b1b3c65e282a8c1246c21",
+    "knowledge/use_cases/review-notes.md": "ba6cf9c76a57f154e741745f5dd4cc11c4ed9ea9e62a121e47b1c39dec4c1496",
+    "knowledge/use_cases/guide.md": "9aa17005a4e8331cc6c5d02db319d0c0a67e5d4101f5fad1356ec1ac7c6b1c4b",
+    "knowledge/use_cases/cards.jsonl": "b202d4607f2b43fb90d7aa50f8099265459a25acf79954df9603e8067e0c19ca",
+    "knowledge/aesthetics/choice-and-learning.md": "6b0bd26f51264ecf5bd36e324389167c3841a9f226df9333eae3bc2285a87e56",
+    "knowledge/aesthetics/gaps.md": "b07cea25fec2e7075b853ee75fa86911cbd7e510d8696c617fade3678a9cf8e0",
+    "knowledge/aesthetics/post-types.source.json": "ab8f1883a52b3ec7ebca664bdcab94817e26293120bdbf77838f01c4b7ba6043",
+    "knowledge/aesthetics/choice-and-learning.json": "c8840243b124a77101e1455db33fa35c8d7ae8e6b91208d72d0a0bb257584143",
+    "knowledge/aesthetics/README.md": "03516746c34aebaf1899be55d09a37b96aa6916a32c38755f7dabde7fc6e9a1e",
+    "knowledge/aesthetics/discussions.md": "26b9a0c02342131c217e4edf83459819965ecade3a1b7632d46ef516582a54eb",
+    "knowledge/aesthetics/preferences.md": "529ceef4ce47830938f2bbe2889975cc4630e3a8fbc343260fd1105acba38df1",
+    "knowledge/aesthetics/source-index.json": "06a7fa13262c7984df41828fec3b9f96afcfeac34b65a2aed1acb8d167a3d04a",
+    "knowledge/aesthetics/feedback.md": "cb763a2e8f9e3bf92e176ba56df7ea3e8d5094c341383dff09387b8342d03230",
+    "knowledge/aesthetics/works.md": "9ac4691f681dac181d5cb12f4ea3927033a8c0157589b1a3e62f36a48c59c7a4",
+    "knowledge/aesthetics/evidence/6a9abdfb000000001203f7c2/sampled-frames.jpg": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0",
+    "knowledge/aesthetics/evidence/6a9b94c40000000026014561/sampled-frames.jpg": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73",
+    "knowledge/aesthetics/evidence/6a994786000000002902dcbe/sampled-frames.jpg": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99",
+    "knowledge/aesthetics/evidence/6a904789000000000b0266c0/source.json": "aab8ae2a25d9af8a08f4c0aee65c177c69380d2aa4af0112c8a754d797e81259",
+    "knowledge/aesthetics/evidence/6a904789000000000b0266c0/image-1.jpg": "acb6fabb955b51057029156824d2eee315e2fce637f17811e914e06fcbff8795",
+    "knowledge/aesthetics/evidence/6a904789000000000b0266c0/image-3.jpg": "6b8ad3f5a71b0627304f8e4a35c1f4b4700f63a1d9d495a82c083ecbf33ff989",
+    "knowledge/aesthetics/evidence/6a904789000000000b0266c0/image-2.jpg": "c6bb02090aa0b4580488c6369a5ebcf47ca3a4e3604275356d045415ee3cb470",
+    "knowledge/aesthetics/evidence/6a904789000000000b0266c0/image-4.jpg": "d9993004d9efd8fd0c09f82905abdd5e5241b0b54aee1a01efd337308b3f08a8",
+    "knowledge/aesthetics/evidence/6a9b80590000000025034cc7/sampled-frames.jpg": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958",
+    "knowledge/aesthetics/evidence/6a9abf85000000002900c734/sampled-frames.jpg": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8",
+    "knowledge/aesthetics/evidence/6a9b4263000000001203d593/sampled-frames.jpg": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46",
+    "knowledge/aesthetics/evidence/6a990e46000000002900ef96/sampled-frames.jpg": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2",
+    "knowledge/aesthetics/discussions/PEE-009.md": "28dad37200f272e4f4216b31cba3db959b6f5da52f4540a36333b4ada3473dcd",
+    "knowledge/aesthetics/discussions/PEE-008.md": "16b53552dbb31f69b444b2e52016032104dafc6c281935084f128cede57179b3",
+    "knowledge/aesthetics/discussions/PEE-007.md": "cf0302487de94de78344fd1ea752635d8050a5b0df081aecf7289eedc40346e0",
+    "knowledge/aesthetics/discussions/PEE-003.md": "f0c8ae9132e8cfb284012649ecede52ab83d60cd1122fa41ab183d34b7c88df4",
+    "knowledge/aesthetics/discussions/PEE-002.md": "bda1d72b47762b80af59f3327b0d420b6c4c6d7787992244c54d26a42567f2aa",
+    "knowledge/aesthetics/discussions/PEE-006.md": "de8540570e5aa87cbc9108047568c929cf557172543977be3fa9e717acc2c574",
+    "knowledge/aesthetics/discussions/PEE-001.md": "9c1d0b478710d5c35b1e58425c1c9d9c7f9f561764af5eb6d278494846e8c617",
+    "knowledge/aesthetics/discussions/PEE-005.md": "8105c83841eb002fa3fb1a37bb30622d797696d00f6ef47740538e86b7b62c1c",
+    "knowledge/aesthetics/discussions/PEE-004.md": "ee7af545bd3cdadcb70e43b010aa0696f5023241bd8c448136767f0890c8cc04",
+    "SKILL.md": "1cc5f1dc613c49823c22df1117cf2bce53ab0d044d8f80939011d5d5d16d91eb",
+    "agents/openai.yaml": "39c8710b0f5d9d039c483330c848865aa590f3a61bcd2a30046329fc1f7218f0"
+  }
+}

@@ -1,0 +1,64 @@
+来源：https://dl.djicdn.com/downloads/DJI_Osmo_Mobile_7_Series/RN/20260509/DJI_Osmo_Mobile_7_Series_Release_Notes_cn.pdf
+实际读取日期：2026-09-06
+提取方式：web.open 实际解析官方 PDF（6 页）；以下为该工具返回的发布记录正文文本快照，非下载原件、非视觉截图。直接 HTTP 下载当时未返回 PDF，未将异常响应登记为证据。
+
+--- PDF 物理页 1 ---
+DJI Osmo Mobile 7/7P 发布记录
+发布日期：2026.05.09
+固件版本：V01.06.00.02
+DJI Mimo App iOS 版本：V2.9.0
+DJI Mimo App Android 版本：V2.9.0
+本次更新
+• 修复部分已知问题。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。
+
+--- PDF 物理页 2 ---
+DJI Osmo Mobile 7/7P 发布记录
+发布日期：2025.10.22
+固件版本：V01.05.00.01
+DJI Mimo App iOS 版本：V2.5.0
+DJI Mimo App Android 版本：V2.5.0
+本次更新
+• DJI OM 多功能追踪模块支持连接 DJI Mic 3 发射器。
+• 支持鸿蒙智能追焦功能。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。
+
+--- PDF 物理页 3 ---
+发布日期：2025.08.07
+固件版本：V01.04.00.03
+DJI Mimo App iOS 版本：V2.3.0
+DJI Mimo App Android 版本：V2.3.0
+本次更新
+• 优化云台使用体验。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。
+
+--- PDF 物理页 4 ---
+发布日期：2025.06.03
+固件版本：V01.03.00.04
+DJI Mimo App iOS 版本：V2.2.12
+DJI Mimo App Android 版本：V2.2.12
+本次更新
+云台搭配 DJI Mimo App 使用时：
+• 智能跟随下新增双摄增强功能（适用于 iPhone 13 及以上的 Pro/Pro Max 机型）。该功能可同时使用手机的两个镜头进行智能跟随，提升运动场景下的跟随效果。如需开启该功能，在 App 拍摄页面点击跟随图标，选择双摄增强。
+• 新增长按云台切换按键进入回放、回放时单击拍摄按键返回拍摄界面的功能。
+• 优化 Osmo Mobile 7P 侧面拨轮控制变焦的使用体验。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。
+
+--- PDF 物理页 5 ---
+发布日期：2025.04.09
+固件版本：V01.02.00.01
+DJI Mimo App iOS 版本：V2.2.5
+DJI Mimo App Android 版本：V2.2.4
+本次更新
+• DJI OM 多功能追踪模块支持连接 DJI Mic 2 发射器。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。
+
+--- PDF 物理页 6 ---
+发布日期：2025.02.18
+固件版本：V01.01.00.00
+DJI Mimo App iOS 版本：V2.2.0
+DJI Mimo App Android 版本：V2.2.0
+本次更新
+• 新增在 DJI Mimo App 中为 DJI OM 多功能追踪模块调节跟随速度、设置手势的功能。
+• 优化云台控制性能和体验。
+注意：若升级失败，请重启云台和 DJI Mimo App，重新连接蓝牙，再次尝试升级。若依然无法升级，请联系 DJI 技术支持解决。

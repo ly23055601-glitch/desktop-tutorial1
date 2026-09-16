@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "profile": "training_cw5",
+  "plugins": {
+    "op": {
+      "product_line": "pocket",
+      "checks": ["model_boundary", "pocket_naming", "product_fact_source"]
+    },
+    "oq": {
+      "product_line": "osmo360",
+      "checks": ["generation_boundary", "panorama_vs_flat", "waterproof_condition", "product_fact_source"]
+    },
+    "ow": {
+      "product_line": "nano",
+      "checks": ["wearing_and_viewpoint_boundary", "no_gimbal_follow_claim", "product_fact_source"]
+    },
+    "om": {
+      "product_line": "osmo_mobile",
+      "checks": ["phone_compatibility", "tracking_path", "product_fact_source"]
+    },
+    "dm": {
+      "product_line": "mic",
+      "checks": ["transmitter_receiver_path", "recording_vs_output", "product_fact_source"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "revealed_at": "2026-09-06T18:32:13.700827+08:00",
+  "blind_review_sha256": "9524a45a1555a118005ff5ff59068d7ae9406d1f44569648609dc0c41c462818",
+  "review_completed_before_reveal": true,
+  "draft_sha256": {
+    "baseline": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c",
+    "enriched": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f"
+  },
+  "results": [
+    {
+      "work_id": "6a4335f10000000017008cde",
+      "scores": {
+        "baseline": 10,
+        "enriched": 10
+      },
+      "preference": "tie",
+      "preference_reason": "X 的颜色偏好与单条相反偏好回复自然；Y 把拍摄、后期和天气条件分开，产品理解更显性。二者都贴帖，0–2 的尺度不足以据此拉开总分，无需强选胜者。",
+      "hard_return_items": []
+    },
+    {
+      "work_id": "6a40a5d40000000007021f64",
+      "scores": {
+        "baseline": 10,
+        "enriched": 10
+      },
+      "preference": "enriched",
+      "preference_reason": "两版在五项粗尺度上均成立；若只为本帖选一版，Y 的“中焦”“拍半身”让具体型号与想拍什么之间的联系更紧，且表达更直接。X 的“室内原片”仍是有效兴趣，未发现必须修改的问题。这个轻微偏好不足以换算成可靠改善幅度。",
+      "hard_return_items": []
+    }
+  ],
+  "conclusion": "第一帖整体偏好持平；第二帖轻微偏好接入知识库组，中焦与半身用途联系更明确。两帖均未发现必要修改项；不能据此证明统计改善、全面回复能力或用户认可。",
+  "modifications_after_review": [],
+  "user_feedback_recorded": false
+}

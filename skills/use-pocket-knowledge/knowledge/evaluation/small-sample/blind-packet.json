@@ -1,0 +1,37 @@
+{
+  "purpose": "仅两篇的匿名独立审读，不构成统计验收，不代表用户认可",
+  "rubric": [
+    "贴帖",
+    "产品理解",
+    "具体兴趣",
+    "表达自然",
+    "回复承接",
+    "整批差异"
+  ],
+  "constraints": [
+    "不虚构过去经历",
+    "原媒体未读，不补画面或声音",
+    "相同input，按当前CW2训练格式",
+    "无回复时评是否有必要，不因没有回复自动扣分"
+  ],
+  "posts": [
+    {
+      "id": "6a4335f10000000017008cde",
+      "model": "pocket_4",
+      "input_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/012-6a4335f10000000017008cde.json",
+      "versions": {
+        "X": "1. 这份Pocket4参数先留着，想找个有树荫的地方试试，绿色别调得太浓就好\n    - 我倒想浓一点，夏天就喜欢绿得很满\n2. 大师云开到30之前是什么样呀，能放一个没加滤镜的版本吗",
+        "Y": "1. Pocket4这份我想先只照拍摄参数试一段，滤镜晚点再加，不然一起改我分不清自己喜欢的是哪一步\n2. 白平衡是自动的话，晴天和阴天都用这套吗"
+      }
+    },
+    {
+      "id": "6a40a5d40000000007021f64",
+      "model": "pocket_4p",
+      "input_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/evaluation/small-sample/inputs/032-6a40a5d40000000007021f64.json",
+      "versions": {
+        "X": "1. 看你说装上手柄就塞不进袋子，我更想看整套怎么收，真要出门拍，配件散着放会很烦\n2. 要是后面开拍了，想看Pocket4P在室内拍人的原片，我还在犹豫要不要把它放进备选",
+        "Y": "1. 你说装上手柄就放不进袋子，这点我挺在意，想带Pocket4P随手拍的话，收起来最好也别太折腾\n2. 等你开拍后想听听Pocket4P中焦拍人怎么样，我比较想用它拍半身"
+      }
+    }
+  ]
+}

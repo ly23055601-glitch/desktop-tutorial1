@@ -1,0 +1,78 @@
+{
+  "rule_version": "2026-09-02-NANO-OP1",
+  "product_scope": "DJI Osmo Nano",
+  "op_style_snapshot": {
+    "source_project": "op",
+    "source_project_path_hint": "/Users/luocaihua/Documents/ChatGPT/自用",
+    "source_project_id_hint": "d5ca25fa-5ab9-437c-ac11-bb1c80961cf2",
+    "source_thread_ids": [
+      "01a04bae-82a9-7eb3-b569-1555d174111b"
+    ],
+    "source_updated_at": 1788343247,
+    "source_updated_at_iso": "2026-09-02T18:00:47+08:00",
+    "synced_at": "2026-09-02T18:23:19+08:00",
+    "baseline_version": "2026-09-02-OP1",
+    "status": "cached",
+    "stable_rules": [],
+    "current_overrides": [],
+    "rejected_old_rules": [],
+    "forbidden_product_carryover": []
+  },
+  "input_path": "",
+  "evidence_path": "",
+  "media_paths": [],
+  "readable_ids": [],
+  "failed_ids": [],
+  "retry_ids": [],
+  "delivered_ids": [],
+  "block_allocations": [
+    {
+      "block_id": "",
+      "ids": [],
+      "reserved_patterns": [],
+      "forbidden_patterns": [],
+      "seeding_allocations": [],
+      "draft_path": ""
+    }
+  ],
+  "ledger_summary": {
+    "window_links": 0,
+    "recent_openings": [],
+    "tone_counts": {},
+    "task_counts": {},
+    "product_mention_counts": {},
+    "product_position_counts": {},
+    "reply_combination_counts": {},
+    "interaction_path_counts": {},
+    "seeding_mechanism_counts": {},
+    "purchase_stage_counts": {},
+    "audience_perspective_counts": {},
+    "evidence_level_counts": {},
+    "s_level_counts": {},
+    "fingerprint_path": "",
+    "exceptions": []
+  },
+  "draft_paths": [],
+  "output_path": "",
+  "qa": {
+    "checked_at": "",
+    "errors": 0,
+    "warnings_reviewed": 0,
+    "remaining_warnings": [],
+    "under_target_ids": [],
+    "semantic_review": {
+      "reviewed_links": 0,
+      "anchor_credibility_pass": 0,
+      "nano_scope_pass": 0,
+      "nano_relevance_pass": 0,
+      "product_causality_pass": 0,
+      "user_benefit_pass": 0,
+      "decision_progress_pass": 0,
+      "expression_credibility_pass": 0,
+      "de_ai_pass": 0,
+      "review_ids": [],
+      "summary": ""
+    }
+  },
+  "unresolved": []
+}

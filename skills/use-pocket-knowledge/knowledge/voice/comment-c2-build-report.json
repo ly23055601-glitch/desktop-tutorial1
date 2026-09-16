@@ -1,0 +1,72 @@
+{
+  "batch_id": "C2",
+  "split": "train",
+  "reviewed_records": 119,
+  "reviewed_work_count": 14,
+  "reviewed_records_by_model": {
+    "pocket_4": 65,
+    "pocket_4p": 54
+  },
+  "excluded_before_text_analysis": {
+    "unknown_model_input_orders": [
+      22
+    ],
+    "missing_export_input_orders": [
+      21
+    ],
+    "all_holdout": true
+  },
+  "extended_card_ids": [
+    "comment_c1_001",
+    "comment_c1_003",
+    "comment_c1_004"
+  ],
+  "new_card_ids": [
+    "comment_c2_001",
+    "comment_c2_002"
+  ],
+  "status_change": {
+    "comment_c1_004": {
+      "from": "case",
+      "to": "pattern",
+      "basis": "four_independent_works_and_publishers_with_explicit_choice_conditions"
+    }
+  },
+  "c2_unique_support_comments": 12,
+  "c2_unique_support_works": 7,
+  "c2_distinct_work_publishers": 7,
+  "c2_support_by_model": {
+    "pocket_4p": 8,
+    "pocket_4": 4
+  },
+  "c2_thread_role": "unknown",
+  "new_verified_parent_pairs": 0,
+  "new_records_created": 0,
+  "new_main_comment_count_contribution": 0,
+  "scenario_ids_with_new_support": [
+    "scenario_002",
+    "scenario_003",
+    "scenario_005",
+    "scenario_009"
+  ],
+  "scenario_original_basis_changed": false,
+  "independent_review_status": "passed_with_nonblocking_scope_refinements_applied",
+  "source_hashes": {
+    "comments": "f4bff6907a869ab00706377a1f0b9687f6977af95730aabf3027d1fc7f46552e",
+    "works": "8ad0b5925c04986577ae2c9357e6021a21c2f5c16d9b97bc2282d14ee468baf2",
+    "cards": "47b9e38f29db584cd7921d083bacf4da643777edc43507c3c6c8787bb30521ca",
+    "c1_reviewed_base": "8152f98e5e04eb99be7e58d00a111c311b0899a8d93645f478af5bcc42f56119"
+  },
+  "limitations": [
+    "C2导出没有根评论或引用关系字段；C2记录thread_role=unknown、parent_id/root_id=null，不称主评、回复承接或已证对话。",
+    "C2摘句只支持单句中的观点、问题或建议；不据语气、昵称、相邻行或帖子内容补父句。",
+    "评论者身份、实际持有、个人经历、商业独立性与建议效果未认证；产品、环境与效果说法不当官方事实。"
+  ],
+  "independent_review_ref": "knowledge/pocket/voice/comment-c2-independent-review.json",
+  "structural_audit": {
+    "integrity_ok": true,
+    "error_codes": [],
+    "voice_patterns": 15,
+    "voice_cases": 12
+  }
+}

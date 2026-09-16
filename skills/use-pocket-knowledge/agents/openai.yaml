@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pocket 产品与用户表达库"
+  short_description: "查询Pocket4与Pocket4P卖点、场景、拍摄观感及真实表达"
+  default_prompt: "调用 $use-pocket-knowledge，结合当前问题检索 Pocket 卖点、使用场景、拍摄观感与用户表达资料"

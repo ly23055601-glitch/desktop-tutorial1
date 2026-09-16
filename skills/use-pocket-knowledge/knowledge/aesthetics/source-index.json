@@ -1,0 +1,2258 @@
+{
+  "reviewed_at": "2026-09-08",
+  "status": "ready_existing_materials_scope",
+  "models": [
+    "pocket_4",
+    "pocket_4p"
+  ],
+  "evidence_policy": "作者陈述、实际看过的画面、用户表达反馈分别保留；未读媒体不作观感证据；个人审美未知项不由例句推断。",
+  "source_reports": {
+    "work-evidence-inventory.json": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/work-evidence-inventory.json",
+    "expression-evidence.json": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/expression-evidence.json",
+    "feedback-evidence.json": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/feedback-evidence.json"
+  },
+  "visual_cases": [
+    {
+      "work_id": "6a9abdfb000000001203f7c2",
+      "input_order": 4,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9abdfb000000001203f7c2",
+      "author": "Unfolded",
+      "title": "Pocket 4P｜雨天的公园",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 3,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+          "sheet": "Sheet1",
+          "row": 5
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9abdfb000000001203f7c2/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9abdfb000000001203f7c2/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 26.667,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 1.6666666666666667,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 5,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 8.333333333333334,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 11.666666666666666,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 15,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 18.333333333333332,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 21.666666666666668,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 25,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "公园远景及草地阴影，作者称雨天；另有室内人像和食物静帧。",
+      "observations": [
+        "8格包含湖面城市、荷叶、带“又是一个雨天”字样的草地、人物近景、面条与林荫道。",
+        "第4格有胶片边框式图形和亮斑叠层，能看到版式处理痕迹；不是单靠相机画质形成的效果。",
+        "不能只按标题将整部作品归为纯公园风景，已见片段含日常饮食和人像。"
+      ],
+      "model": "pocket_4p",
+      "processing": "作者正文“一键成片很好用”；不知道所用软件、模板和原素材色彩。",
+      "author_body": "#雨后的味道[话题]# #大疆pocket4p[话题]#\n一键成片很好用",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9abdfb000000001203f7c2/sampled-frames.jpg",
+      "contact_sha256": "e25f79c75d0f880b12da3f6badcfb71a328a5dc9b8c2165ec49b14cdbb2236b0",
+      "material_id": "PAW-001"
+    },
+    {
+      "work_id": "6a994786000000002902dcbe",
+      "input_order": 8,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a994786000000002902dcbe",
+      "author": "时悦ohh",
+      "title": "当我不停地让她们回眸 我就会得到......",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 6,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+          "sheet": "Sheet1",
+          "row": 8
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a994786000000002902dcbe/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a994786000000002902dcbe/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 23.534,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 1.4666666666666666,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 4.4,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 7.35,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 10.283333333333333,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 13.233333333333333,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 16.166666666666668,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 19.116666666666667,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 22.05,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "可见明亮户外、较暗室内门框、蓝色傍晚式背景等不同人像静帧，实际时段未认证。",
+      "observations": [
+        "8格含门框里的人物、戴草帽人物、草地人像、蓝色山景背景及海边白色翅膀造型。",
+        "部分人物脸部较暖而背景偏蓝，另一些绿植背景较明亮，说明这件作品呈现了不同视觉风格。",
+        "首格可见相机操作式前景及“回眸”字幕，但不能从静帧判断完整环绕、跟随或剪辑节奏。"
+      ],
+      "model": "pocket_4p",
+      "processing": "标题与字幕说让人物回眸；未明确后期、镜头、白平衡、美颜或补光。",
+      "author_body": "#做自己的生活导演[话题]# #大疆Pocket4P[话题]# #人像摄影[话题]# #拍出大片感[话题]# #拍摄技巧[话题]# #朋友说我拍得像电影[话题]# #镜头下的人生瞬间[话题]# #无法逃脱的宿命感[话题]# #这一刻拍到了人生照片[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a994786000000002902dcbe/sampled-frames.jpg",
+      "contact_sha256": "85df5461fd2bbb79c2b472dc691b8542532d786af921ebfdcadac6241a860c99",
+      "material_id": "PAW-002"
+    },
+    {
+      "work_id": "6a990e46000000002900ef96",
+      "input_order": 15,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a990e46000000002900ef96",
+      "author": "衔燕枝的慢门日记📸",
+      "title": "进藤光的一天｜附大疆Pocket4P直出参数",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 13,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+          "sheet": "Sheet1",
+          "row": 15
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a990e46000000002900ef96/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a990e46000000002900ef96/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 22.05,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 1.3666666666666667,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 4.133333333333334,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 6.883333333333334,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 9.633333333333333,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 12.4,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 15.15,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 17.9,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 20.666666666666668,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "可见庭院边较柔和光线、室内房间与明亮窗边。",
+      "observations": [
+        "8格为黄黑发色造型人物，先在木门庭院边，再出现室内沙发、吉他与窗边课桌。",
+        "脸部、服装与头发层次在这些尺寸的静帧中可辨，但不能据此判原始解析力或肤质处理。",
+        "可读POCKET 4P水印；8格没有显示标题所称的完整参数表。"
+      ],
+      "model": "pocket_4p",
+      "processing": "标题称“附大疆Pocket4P直出参数”；只认证作者这样标，不把所有画面未经处理当事实。",
+      "author_body": "终于拍上了心心念念的棋魂！这次是日式庭院和校园景，小光真是非常非常萌呀…\n#大疆Pocket4P[话题]# #cosplay[话题]# #棋魂[话题]# #进藤光[话题]# #正片[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a990e46000000002900ef96/sampled-frames.jpg",
+      "contact_sha256": "904692f9fae6bd3435c1bbf5b5ff2af001a8d752634f8871bacb80638d1f84b2",
+      "material_id": "PAW-003"
+    },
+    {
+      "work_id": "6a9b94c40000000026014561",
+      "input_order": 21,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9b94c40000000026014561",
+      "author": "该起什么样的名字才能留住你",
+      "title": "",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 19,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-1.xlsx",
+          "sheet": "Sheet1",
+          "row": 21
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9b94c40000000026014561/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T120827Z-86115d5f/6a9b94c40000000026014561/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 12.034,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 0.7333333333333333,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 2.2333333333333334,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 3.7333333333333334,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 5.233333333333333,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 6.766666666666667,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 8.266666666666667,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 9.766666666666667,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 11.266666666666667,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "可见户外树荫与较强日照的不同静帧；作者文字说户外阳光。",
+      "observations": [
+        "8格可见一位长发人物，前4格背景为绿植与木廊，后4格有蓝天树木。",
+        "同一contact中面部和头发亮暗不同，最后一格面部更暗；这是不同静帧的可见差别，不能判自动曝光过程。",
+        "画面可读POCKET 4水印；水印是作者作品内标记，不是不可编辑的摄制元数据。"
+      ],
+      "model": "pocket_4",
+      "processing": "作者列4k60、曝光+0.3ev、白平衡4300-4600k、色调+10、锐度-1、去噪+1；未明确是否全部无后期。",
+      "author_body": "户外阳光下用p4拍视频也太清透了参数如下4k60帧\n曝光：+0.3ev\n白平衡：4300-4600k\n色调：+10\n锐度:-1\n去噪：+1\n#从此记忆不再模糊而是4K240帧[话题]# #大疆pocket4[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b94c40000000026014561/sampled-frames.jpg",
+      "contact_sha256": "bcf6a8d1be4f138c714741ea30202cad19119973bce77f42a68f7cc8b4048f73",
+      "material_id": "PAW-004"
+    },
+    {
+      "work_id": "6a9b80590000000025034cc7",
+      "input_order": 31,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9b80590000000025034cc7",
+      "author": "林念杉",
+      "title": "和漂亮女孩吃了一顿漂亮饭 大疆暗光环境依",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 29,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx",
+          "sheet": "Sheet1",
+          "row": 11
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9b80590000000025034cc7/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b80590000000025034cc7/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 16.067,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 1,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 3,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 5,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 7,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 9.033333333333333,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 11.033333333333333,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 13.033333333333333,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 15.033333333333333,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "室内餐馆，背景局部暗且有灯光；作者称暗光并提示带补光灯。",
+      "observations": [
+        "8格出现餐桌、花束、瓶架及浅色衣服人物，部分是坐姿，部分站在店内。",
+        "脸部与浅色衣服较亮，后方黑色墙面、绿植与灯仍可辨；不能由此量化动态范围或降噪。",
+        "POCKET 4P水印可见，补光灯本身未在这8格中被确认。"
+      ],
+      "model": "pocket_4p",
+      "processing": "原作者正文“带上补光灯哦”；未列灯型号、亮度、距离、拍摄参数或调色方法。",
+      "author_body": "带上补光灯哦\n#大疆Pocket4P[话题]##大疆[话题]##漂亮饭[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b80590000000025034cc7/sampled-frames.jpg",
+      "contact_sha256": "ac7c635cb738305a0fc3f00c328577b3e6e57314a5b538ad647d59e107549958",
+      "material_id": "PAW-005"
+    },
+    {
+      "work_id": "6a9b4263000000001203d593",
+      "input_order": 34,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9b4263000000001203d593",
+      "author": "举头皆星河",
+      "title": "香港｜维多利亚港夜景机位",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 32,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx",
+          "sheet": "Sheet1",
+          "row": 14
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9b4263000000001203d593/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9b4263000000001203d593/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 15.2,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 0.9333333333333333,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 2.8333333333333335,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 4.733333333333333,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 6.633333333333334,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 8.533333333333333,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 10.433333333333334,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 12.333333333333334,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 14.233333333333333,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "夜间城市灯光与较暗前景，标题为维港夜景。",
+      "observations": [
+        "8格均可见水岸远处楼宇灯光、暗天空与铺装地面，前几格包含屋檐或顶棚。",
+        "画面范围在各静帧间变化，但不能从静帧判断运镜是否平稳、速度或实际镜头切换。",
+        "可读POCKET 4P水印；未见参数或处理说明。"
+      ],
+      "model": "pocket_4p",
+      "processing": "作者建议蓝调时段打卡；未明确本片拍摄时刻、曝光和后期。",
+      "author_body": "总有一天你会来到香港\n非常火的机位，位置在西九文化区的Cafe Boheme旁边\n建议蓝调打卡#香港[话题]# #维多利亚港[话题]# #大疆Pocket4p[话题]# #香港夜景[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9b4263000000001203d593/sampled-frames.jpg",
+      "contact_sha256": "433d159eeea02eb3f57f611f3650c1bc471c0fd7ae752f1219212ebd1b308d46",
+      "material_id": "PAW-006"
+    },
+    {
+      "work_id": "6a9abf85000000002900c734",
+      "input_order": 35,
+      "split_status": "legacy_not_in_current_frozen_corpus",
+      "holdout_overlap": false,
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9abf85000000002900c734",
+      "author": "盆盆盆盆盆栽（模特版",
+      "title": "收到大疆Pocket4P的半个月我都拍了什么～",
+      "source_evidence_file": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "source_evidence_index": 33,
+      "raw_export_sources": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/batch-2.xlsx",
+          "sheet": "Sheet1",
+          "row": 15
+        }
+      ],
+      "media_type_exported": "video",
+      "media_files": [
+        {
+          "path": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9abf85000000002900c734/video.mp4",
+          "exists_now": false,
+          "size_bytes_now": null
+        }
+      ],
+      "source_video_present_now": false,
+      "contact_paths": [
+        "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/contact_01.jpg"
+      ],
+      "contact_present_now": [
+        true
+      ],
+      "frame_metadata_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/media-inspection/run-20260905T121644Z-fc90a233/6a9abf85000000002900c734/media_001/frames.json",
+      "duration_from_prior_decode_seconds": 60.734,
+      "sampled_frame_count": 8,
+      "sampled_timestamps": [
+        {
+          "index": 1,
+          "actualSeconds": 3.7666666666666666,
+          "filename": "frame_01.jpg"
+        },
+        {
+          "index": 2,
+          "actualSeconds": 11.366666666666667,
+          "filename": "frame_02.jpg"
+        },
+        {
+          "index": 3,
+          "actualSeconds": 18.966666666666665,
+          "filename": "frame_03.jpg"
+        },
+        {
+          "index": 4,
+          "actualSeconds": 26.566666666666666,
+          "filename": "frame_04.jpg"
+        },
+        {
+          "index": 5,
+          "actualSeconds": 34.13333333333333,
+          "filename": "frame_05.jpg"
+        },
+        {
+          "index": 6,
+          "actualSeconds": 41.733333333333334,
+          "filename": "frame_06.jpg"
+        },
+        {
+          "index": 7,
+          "actualSeconds": 49.333333333333336,
+          "filename": "frame_07.jpg"
+        },
+        {
+          "index": 8,
+          "actualSeconds": 56.93333333333333,
+          "filename": "frame_08.jpg"
+        }
+      ],
+      "prior_read_scope": "8 sampled frames reported reviewed; no continuous video/audio review",
+      "current_read_scope": "one contact sheet containing 8 sampled frames",
+      "full_visual_work_read": false,
+      "light": "可见室内白棚、窗边背光、较暗书店及户外风景。",
+      "observations": [
+        "8格含自拍/白棚、古风服饰、镜子、窗边人物、书架间人物与拼接风景。",
+        "画面内有“白棚”“6倍”“对镜拍”“侧向背光”“暗光书店”“风景”等作者标签，标签不能替代真实设置元数据。",
+        "拼接版面、水印和文字均可见；不能从8格复原完整60.734秒作品的叙事或声音。"
+      ],
+      "model": "pocket_4p",
+      "processing": "标题说收到半个月拍了什么；未说明直出或具体调色，6倍只作画面内作者标示。",
+      "author_body": "运用场合真的好多！\n#软妹[话题]##大疆Pocket4P[话题]##记录[话题]##萌[话题]#",
+      "visual_review_at": "2026-09-08",
+      "image_observation_level": "sampled_frames_only",
+      "model_evidence_level": "author_text_and_editable_in_video_label",
+      "causality_limit": "不能将可见画面效果归因给相机单一能力；光线、镜头、设置、滤镜、后期、压缩与妆容多数未知。",
+      "archived_contact_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/aesthetics/evidence/6a9abf85000000002900c734/sampled-frames.jpg",
+      "contact_sha256": "cff522ffe5ea318fcd34573e724e5896e368c7d3b7f0a9595f810000521febe8",
+      "material_id": "PAW-007"
+    }
+  ],
+  "text_cases": [
+    {
+      "work_id": "6a9c1bd10000000029011aa2",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9c1bd10000000029011aa2",
+      "split": "train",
+      "title": "不吃建模‼️大疆pocket4清透感自拍参数分享",
+      "author": "小树🌲",
+      "author_id": "6448ebc3000000001400fd2d",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_body_name_4_selfie_settings",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4",
+              "char_start": 8,
+              "char_end": 15,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 7,
+                "column": "D",
+                "cell": "D7"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "pocket4设置拍照模式",
+              "char_start": 103,
+              "char_end": 116,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 7,
+                "column": "E",
+                "cell": "E7"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 3,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9c1bd10000000029011aa2",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 6,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 7
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "晴天/人像偏好待图像确认",
+      "author_excerpts": [
+        {
+          "quote": "完全没有博主的清透冷白皮",
+          "field": "post_fields.post_text",
+          "start": 38,
+          "end": 50,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "白平衡：4600k",
+          "field": "post_fields.post_text",
+          "start": 143,
+          "end": 152,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a9c0c3d000000000d024601",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9c0c3d000000000d024601",
+      "split": "train",
+      "title": "大疆Pocket4 晚霞参数分享",
+      "author": "一半淡咸",
+      "author_id": "606914b500000000010079a2",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_names_4_with_specific_sunset_settings",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4",
+              "char_start": 2,
+              "char_end": 9,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 8,
+                "column": "D",
+                "cell": "D8"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 8,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9c0c3d000000000d024601",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 7,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 8
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "晚霞/明确后期文字",
+      "author_excerpts": [
+        {
+          "quote": "🎨后期调色",
+          "field": "post_fields.post_text",
+          "start": 90,
+          "end": 95,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "滤镜：叙德味（60）",
+          "field": "post_fields.post_text",
+          "start": 107,
+          "end": 117,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "69e2048c000000002102ee09",
+      "canonical_url": "https://www.xiaohongshu.com/explore/69e2048c000000002102ee09",
+      "split": "train",
+      "title": "臭美女生视角看大疆pocket4与pocket3对比🆚",
+      "author": "点儿🖤",
+      "author_id": "5a5647354eacab5d2a65d973",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "comparison_focus_is_4_rendering_against_3",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4与pocket3",
+              "char_start": 9,
+              "char_end": 24,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 9,
+                "column": "D",
+                "cell": "D9"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "4拍的人黄黄的",
+              "char_start": 66,
+              "char_end": 73,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 9,
+                "column": "E",
+                "cell": "E9"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 6,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/69e2048c000000002102ee09",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 8,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 9
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "人像直出审美分歧",
+      "author_excerpts": [
+        {
+          "quote": "还是想要原相机直出的质感再按自己想要的去修视频",
+          "field": "post_fields.post_text",
+          "start": 120,
+          "end": 143,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a22a78f000000001503c26d",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a22a78f000000001503c26d",
+      "split": "train",
+      "title": "大疆买Pocket4还是3？4直接完爆3了好吧",
+      "author": "宵晗Maxine",
+      "author_id": "5f339400000000000101cc15",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "body_explicitly_recommends_4_against_owned_3",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4还是3",
+              "char_start": 3,
+              "char_end": 13,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 10,
+                "column": "D",
+                "cell": "D10"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "强烈推荐Pocket4",
+              "char_start": 212,
+              "char_end": 223,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 10,
+                "column": "E",
+                "cell": "E10"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 10,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a22a78f000000001503c26d",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 9,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 10
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "自然还原偏好",
+      "author_excerpts": [
+        {
+          "quote": "当然还是看个人选择，有人就喜欢白一些的画面，有人喜欢真实一点儿的。都合适。",
+          "field": "post_fields.post_text",
+          "start": 294,
+          "end": 331,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a2182d80000000008000d39",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a2182d80000000008000d39",
+      "split": "train",
+      "title": "大疆Pocket4夏日氛围感🌼轻松拿捏！ 附教程",
+      "author": "程牧洲",
+      "author_id": "5dd67baa000000000100ae16",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_body_name_4_summer_tutorial",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4",
+              "char_start": 2,
+              "char_end": 9,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 14,
+                "column": "D",
+                "cell": "D14"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "Pocket4参数分享",
+              "char_start": 2,
+              "char_end": 13,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 14,
+                "column": "E",
+                "cell": "E14"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 12,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a2182d80000000008000d39",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 13,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 14
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "夏日/直出声明",
+      "author_excerpts": [
+        {
+          "quote": "色彩：普通10bit(新手就选这个！直出)",
+          "field": "post_fields.post_text",
+          "start": 39,
+          "end": 60,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "美颜：关 (后期再加也可以！)",
+          "field": "post_fields.post_text",
+          "start": 61,
+          "end": 76,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a7c9a89000000000503018a",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a7c9a89000000000503018a",
+      "split": "train",
+      "title": "Pocket4拍赛里木湖真的太出片了!附拍摄参数",
+      "author": "影像配色所",
+      "author_id": "5fcccd59000000000100b7ab",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_names_4_and_body_describes_trip_editing",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4",
+              "char_start": 0,
+              "char_end": 7,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 16,
+                "column": "D",
+                "cell": "D16"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 4,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a7c9a89000000000503018a",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 15,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 16
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "旅行湖景/滤镜声明与随天气调整曝光",
+      "author_excerpts": [
+        {
+          "quote": "滤镜：大师·春",
+          "field": "post_fields.post_text",
+          "start": 237,
+          "end": 244,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "不过参数真的不用一模一样照搬哈，赛里木湖天气变化挺快的，我自己也是看着屏幕随时调一下曝光。",
+          "field": "post_fields.post_text",
+          "start": 340,
+          "end": 385,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a96587000000000260141f0",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a96587000000000260141f0",
+      "split": "train",
+      "title": "大疆Pocket4 晴天户外参数🍃",
+      "author": "一半淡咸",
+      "author_id": "606914b500000000010079a2",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_names_4_outdoor_settings",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题/正文声明可确定讨论对象；混合型号结合主旨和结论，不以标签计数多数决定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4",
+              "char_start": 2,
+              "char_end": 9,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 18,
+                "column": "D",
+                "cell": "D18"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-01.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 7,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a96587000000000260141f0",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-01.jsonl",
+      "normalized_line": 17,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-01.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 18
+      },
+      "source_sha256": "edc9ec9a701c43874a948e57983cac6892af3dd3a828d8df0d276379b154840a",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "晴天户外/后期",
+      "author_excerpts": [
+        {
+          "quote": "ISO：50-100（适合晴天户外）",
+          "field": "post_fields.post_text",
+          "start": 66,
+          "end": 84,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "滤镜：大师云（40）",
+          "field": "post_fields.post_text",
+          "start": 115,
+          "end": 125,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a12ea17000000000803e97d",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a12ea17000000000803e97d",
+      "split": "train",
+      "title": "大疆Pocket4",
+      "author": "一只宝咕仔",
+      "author_id": "5bfd39c2b016b700017441e4",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_names_4_with_dark_car_settings",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题与正文主旨优先于标签，不以出现次数投票；4/4P等量比较可unknown",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4",
+              "char_start": 2,
+              "char_end": 9,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 5,
+                "column": "D",
+                "cell": "D5"
+              }
+            }
+          ],
+          "holdout_body_handling": null
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-02.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 3,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a12ea17000000000803e97d",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "normalized_line": 4,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 5
+      },
+      "source_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "雨天车内/暗光作者声明",
+      "author_excerpts": [
+        {
+          "quote": "附图一参数，下雨天车里拍的，光线较暗",
+          "field": "post_fields.post_text",
+          "start": 19,
+          "end": 37,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "色彩：普通",
+          "field": "post_fields.post_text",
+          "start": 87,
+          "end": 92,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a26682f000000000702571f",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a26682f000000000702571f",
+      "split": "train",
+      "title": "购买慎重帖！大疆pocket4使用一周体验",
+      "author": "为人民币服务",
+      "author_id": "5941f75182ec3911c7bf8670",
+      "discussion_model": "pocket_4",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_week_use_of_4_overrides_incidental_3_tag",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题与正文主旨优先于标签，不以出现次数投票；4/4P等量比较可unknown",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4",
+              "char_start": 8,
+              "char_end": 15,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 7,
+                "column": "D",
+                "cell": "D7"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "大疆pocket3",
+              "char_start": 760,
+              "char_end": 769,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 7,
+                "column": "E",
+                "cell": "E7"
+              }
+            }
+          ],
+          "holdout_body_handling": null
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-02.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 14,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a26682f000000000702571f",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "normalized_line": 6,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 7
+      },
+      "source_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "灯光与上妆偏好/导出习惯",
+      "author_excerpts": [
+        {
+          "quote": "但是挑灯光，而且需要带妆才好看",
+          "field": "post_fields.post_text",
+          "start": 162,
+          "end": 177,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "我都是直接从视频里用【截屏】功能截取我要的一帧导出图来的",
+          "field": "post_fields.post_text",
+          "start": 294,
+          "end": 322,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a464efd000000001702d716",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a464efd000000001702d716",
+      "split": "train",
+      "title": "pocket4P，我要大吐槽！！！！",
+      "author": "周同学",
+      "author_id": "5fe177310000000001000dcf",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_detailed_use_complaints_center_4p",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题与正文主旨优先于标签，不以出现次数投票；4/4P等量比较可unknown",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4P",
+              "char_start": 0,
+              "char_end": 8,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 16,
+                "column": "D",
+                "cell": "D16"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "小白4就够了",
+              "char_start": 37,
+              "char_end": 43,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 16,
+                "column": "E",
+                "cell": "E16"
+              }
+            }
+          ],
+          "holdout_body_handling": null
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-02.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 10,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a464efd000000001702d716",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "normalized_line": 15,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 16
+      },
+      "source_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "暗光博物馆与有光人像/处理负担",
+      "author_excerpts": [
+        {
+          "quote": "只能一个一个手动选择色彩还原后导出",
+          "field": "post_fields.post_text",
+          "start": 448,
+          "end": 465,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "在光线充足的地方，拍出来的人像景色，无敌超级好看！",
+          "field": "post_fields.post_text",
+          "start": 907,
+          "end": 932,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a9037d30000000021031c8e",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9037d30000000021031c8e",
+      "split": "train",
+      "title": "大疆pocket4P，到手研究了两天、打算退了",
+      "author": "Restart Z",
+      "author_id": "63f235f8000000001001da57",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "4p_replaces_sold_3_in_explicit_self_report",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "标题与正文主旨优先于标签，不以出现次数投票；4/4P等量比较可unknown",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4P",
+              "char_start": 2,
+              "char_end": 10,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 20,
+                "column": "D",
+                "cell": "D20"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "pocket3",
+              "char_start": 6,
+              "char_end": 13,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 20,
+                "column": "E",
+                "cell": "E20"
+              }
+            }
+          ],
+          "holdout_body_handling": null
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-02.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 1,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a9037d30000000021031c8e",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+      "normalized_line": 19,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 20
+      },
+      "source_sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "收纳与操作习惯",
+      "author_excerpts": [
+        {
+          "quote": "每次都要拆装加长柄很不方便！",
+          "field": "post_fields.post_text",
+          "start": 239,
+          "end": 253,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a707e400000000035016533",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a707e400000000035016533",
+      "split": "train",
+      "title": "听我的！带大彊pocket4P去旅游⛰️包出片的",
+      "author": "小赖干饭",
+      "author_id": "58de539a5e87e73b552886b6",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_trip_report_4p",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4P",
+              "char_start": 7,
+              "char_end": 15,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 8,
+                "column": "D",
+                "cell": "D8"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 12,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a707e400000000035016533",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 7,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 8
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "旅行人像与风景处理分开",
+      "author_excerpts": [
+        {
+          "quote": "只有第一天下雨，后面都是大晴天",
+          "field": "post_fields.post_text",
+          "start": 48,
+          "end": 63,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "人像都是原图直出，风景后期部分用了滤镜【大师韵30】和【纪实调40】",
+          "field": "post_fields.post_text",
+          "start": 137,
+          "end": 171,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a943b430000000021031f9c",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a943b430000000021031f9c",
+      "split": "train",
+      "title": "大疆pocket4p虽好，但不要冲动下单！",
+      "author": "悠",
+      "author_id": "61f0c61a00000000100057f0",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_purchase_experience_focus_4p_old_3_4_are_alternatives",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4p",
+              "char_start": 2,
+              "char_end": 10,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 9,
+                "column": "D",
+                "cell": "D9"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "p3舒适",
+              "char_start": 156,
+              "char_end": 160,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 9,
+                "column": "E",
+                "cell": "E9"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "买p4或者p3",
+              "char_start": 763,
+              "char_end": 770,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 9,
+                "column": "E",
+                "cell": "E9"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 9,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a943b430000000021031f9c",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 8,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 9
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "直出与后期取舍",
+      "author_excerpts": [
+        {
+          "quote": "只要有时间调色，那dlog2表现真的很好",
+          "field": "post_fields.post_text",
+          "start": 579,
+          "end": 599,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "效果也还不错，反正领导很喜欢",
+          "field": "post_fields.post_text",
+          "start": 631,
+          "end": 645,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a8d9923000000000b027f6c",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a8d9923000000000b027f6c",
+      "split": "train",
+      "title": "听劝！旅游一定要带Pocket4P🌊万能出片设置",
+      "author": "DirectorYu小鱼",
+      "author_id": "543dca84d6e4a978ae3904a0",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_detailed_4p_travel_settings",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket4P",
+              "char_start": 9,
+              "char_end": 17,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 12,
+                "column": "D",
+                "cell": "D12"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 14,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a8d9923000000000b027f6c",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 11,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 12
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "晴天旅行/CC滤镜吃光",
+      "author_excerpts": [
+        {
+          "quote": "超级吃光的滤镜！有光质感拉满！",
+          "field": "post_fields.post_text",
+          "start": 321,
+          "end": 336,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "阴影：根据情况微调",
+          "field": "post_fields.post_text",
+          "start": 404,
+          "end": 413,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a512c520000000011005e45",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a512c520000000011005e45",
+      "split": "train",
+      "title": "七天后悔期已过，大疆 pocket4p 含泪拿下",
+      "author": "乾坤灿烂",
+      "author_id": "6487cf88000000001001cb70",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_body_4p_after_initial_trial",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4p",
+              "char_start": 11,
+              "char_end": 19,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 15,
+                "column": "D",
+                "cell": "D15"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 2,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a512c520000000011005e45",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 14,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 15
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "人像与风景审美取舍",
+      "author_excerpts": [
+        {
+          "quote": "感觉人像方面还是需要继续提升，但是景确实是色彩真好看啊",
+          "field": "post_fields.post_text",
+          "start": 46,
+          "end": 73,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a85674300000000280016b5",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a85674300000000280016b5",
+      "split": "train",
+      "title": "分享一些我的 pocket4P实况",
+      "author": "Reinvent",
+      "author_id": "59b4e2f96a6a69780da9ea6f",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_first_person_4p_trip_record",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4P",
+              "char_start": 7,
+              "char_end": 15,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 16,
+                "column": "D",
+                "cell": "D16"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 14,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a85674300000000280016b5",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 15,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 16
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "旅行与个人还原偏好",
+      "author_excerpts": [
+        {
+          "quote": "它是我的设备中最还原肉眼的那一个",
+          "field": "post_fields.post_text",
+          "start": 42,
+          "end": 58,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a687c9a000000000103186e",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a687c9a000000000103186e",
+      "split": "train",
+      "title": "大疆Pocket 4p我的旅游氛围感神器🏔️附参数",
+      "author": "椰子蛋（记录生活版）",
+      "author_id": "640aea86000000001f03382e",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_4p_travel_settings_over_4_tag",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket 4p",
+              "char_start": 2,
+              "char_end": 11,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 18,
+                "column": "D",
+                "cell": "D18"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "大疆pocket4[话题]",
+              "char_start": 346,
+              "char_end": 359,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 18,
+                "column": "E",
+                "cell": "E18"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 10,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a687c9a000000000103186e",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 17,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 18
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "川西旅行/调色与场景变化",
+      "author_excerpts": [
+        {
+          "quote": "滤镜：叙德味+50 / WT卷+20",
+          "field": "post_fields.post_text",
+          "start": 168,
+          "end": 186,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "受拍摄场景影响参数会有差异，大家多多尝试调整",
+          "field": "post_fields.post_text",
+          "start": 250,
+          "end": 272,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a522fc1000000000803c6ec",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a522fc1000000000803c6ec",
+      "split": "train",
+      "title": "大疆Pocket 4P实拍 ｜ 桂林榕湖余晖",
+      "author": "桂巷记",
+      "author_id": "60379cdd000000000100a58c",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_body_new_4p_test",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "Pocket 4P",
+              "char_start": 2,
+              "char_end": 11,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 20,
+                "column": "D",
+                "cell": "D20"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 9,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a522fc1000000000803c6ec",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 19,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 20
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "余晖日常/机内风格选择",
+      "author_excerpts": [
+        {
+          "quote": "由于懒得后期所以前期直接用了滤镜效果里的“电影感”，用来快速分享日常非常够用。",
+          "field": "post_fields.post_text",
+          "start": 65,
+          "end": 104,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    },
+    {
+      "work_id": "6a43eca00000000016024e5e",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a43eca00000000016024e5e",
+      "split": "train",
+      "title": "大疆pocket4P优缺点评测+实拍",
+      "author": "幻想家六七",
+      "author_id": "58832e547fc5b83604de6577",
+      "discussion_model": "pocket_4p",
+      "model_evidence": {
+        "scope": "discussion_subject_only",
+        "classification": "title_and_personal_4p_trip_review_old_models_in_purchase_advice",
+        "detail": {
+          "evidence_level": "M1",
+          "scope": "discussion_subject_only",
+          "rule": "主旨和正文关系优先于标签；并列跨产品比较可unknown，不以提及次数强定主型号",
+          "evidence": [
+            {
+              "field": "post_title",
+              "quote": "pocket4P",
+              "char_start": 2,
+              "char_end": 10,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 21,
+                "column": "D",
+                "cell": "D21"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "如果你有4了",
+              "char_start": 331,
+              "char_end": 337,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 21,
+                "column": "E",
+                "cell": "E21"
+              }
+            },
+            {
+              "field": "post_text",
+              "quote": "如果是3更新换代",
+              "char_start": 346,
+              "char_end": 354,
+              "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+              "source_locator": {
+                "sheet": "Sheet1",
+                "row": 21,
+                "column": "E",
+                "cell": "E21"
+              }
+            }
+          ]
+        },
+        "review_path": "corpus/normalized/xiaohongshu-posts-03.review.json"
+      },
+      "actual_capture_model_confirmed": false,
+      "post_type_exported": "图文",
+      "exported_image_count": 9,
+      "media_url_recorded": true,
+      "known_local_media_directory": "/Users/luocaihua/Downloads/社媒助手/小红书/6a43eca00000000016024e5e",
+      "known_local_media_directory_exists": false,
+      "normalized_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-03.jsonl",
+      "normalized_line": 20,
+      "raw_source": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-03.xlsx",
+      "raw_source_locator": {
+        "sheet": "Sheet1",
+        "row": 21
+      },
+      "source_sha256": "d3bb98061aae7157c0c3843cad5cd3fcf735504845acce6a423550105f83c7f6",
+      "prior_read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+      "current_read_scope": "selected_author_text_and_metadata",
+      "aesthetic_interest": "旅行直出与切镜头感受",
+      "author_excerpts": [
+        {
+          "quote": "拍到了非常好看的照片，并且是直出！！！",
+          "field": "post_fields.post_text",
+          "start": 99,
+          "end": 118,
+          "status": "author_statement_not_product_fact"
+        },
+        {
+          "quote": "并且色温会有新的变化",
+          "field": "post_fields.post_text",
+          "start": 239,
+          "end": 249,
+          "status": "author_statement_not_product_fact"
+        }
+      ],
+      "current_image_observations": [],
+      "full_visual_work_available": false,
+      "full_visual_work_read": false,
+      "limitations": [
+        "媒体链接或图片数量不是媒体在场证据；本轮未重新打开社媒链接。",
+        "标题、正文和话题只证明作者声明/讨论型号，不认证实拍设备、设置或经历。"
+      ]
+    }
+  ],
+  "current_expression_bundle_ids": [
+    "PEE-001",
+    "PEE-002",
+    "PEE-003",
+    "PEE-004",
+    "PEE-005",
+    "PEE-006",
+    "PEE-007",
+    "PEE-008",
+    "PEE-009"
+  ],
+  "user_request": {
+    "source": "本任务2026-09-08当前用户目标原文",
+    "scope": "Pocket/op知识补充与选材",
+    "quotes": [
+      "材料可以完整，评论只取其中最值得说的一点",
+      "不把使用过程重新拼成“背景＋场景＋卖点＋总结”"
+    ],
+    "kind": "explicit_writing_preference",
+    "personal_aesthetic_verdict": null
+  },
+  "media_gap_ledger": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-aesthetics-20260908/media-input-ledger.json",
+  "post_type_snapshot": {
+    "original_path": "/Users/luocaihua/.codex/skills/write-consumer-comments/references/post-types/source-catalog.json",
+    "path": "post-types.source.json",
+    "sha256": "ab8f1883a52b3ec7ebca664bdcab94817e26293120bdbf77838f01c4b7ba6043",
+    "original_workbook_currently_present": false,
+    "scope": "复用已有分类快照，未重算原表。"
+  },
+  "evidence_completeness": "partial_ready_missing_complete_scene_works",
+  "scope_resolution": {
+    "date": "2026-09-08T20:54:15.131565+08:00",
+    "quote": "调用这些够了，可以整理出来了，不需要那么多",
+    "additional_collection_required_for_delivery": false,
+    "personal_materials_required_for_delivery": false,
+    "evidence_boundaries_unchanged": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-09T10:54:25+08:00",
+  "result": "pass",
+  "facts": 81,
+  "fact_status": {
+    "verified": 79,
+    "pending": 2
+  },
+  "sources": 8,
+  "source_hashes_checked": 8,
+  "scenarios": 7,
+  "audience_hypotheses": 10,
+  "selling_points": 18,
+  "training_scenarios": 80,
+  "selling_value_facets": 54,
+  "selling_decision_lenses": 18,
+  "scenes_with_detail_branches": 20,
+  "scenes_with_usage_stages": 48,
+  "training_expression_angles": 332,
+  "hypothesis_review_status": {
+    "pending_user_calibration": 10
+  },
+  "local_link_targets_checked": 1470,
+  "shared_route_scope": "Nano edges only; all links inside Nano knowledge and skill files are checked, including shared dependencies.",
+  "out_of_scope_route_notes": [],
+  "pending_fact_ids": [
+    "NANO-MAN-023",
+    "NANO-MAN-024"
+  ],
+  "limitations": [
+    "Does not re-fetch official sources, check Markdown anchors, verify product truth, evaluate expression quality, or grant user endorsement."
+  ],
+  "failures": []
+}

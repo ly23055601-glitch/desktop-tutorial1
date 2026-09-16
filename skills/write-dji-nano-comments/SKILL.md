@@ -1,0 +1,28 @@
+---
+name: write-dji-nano-comments
+description: Draft or revise DJI Osmo Nano consumer-comment training fiction through the shared consumer-writing skill, with Nano-specific product and post-evidence checks. Also route explicit real-material verification and legacy draft review to the preserved workflow. Training and review only, never publishing.
+---
+
+# DJI Osmo Nano 消费者评论入口
+
+## 默认训练路由
+
+写评、改写和案例演示统一作为培训教育稿，使用`content_mode=training_fiction`、`product_line=nano`。先读取[共享消费者写作](../../writer-core/core/write-consumer-comments/SKILL.md)，由共享层统一负责选材、人物、种草、表达与教学诊断，以及主评与回复数量、格式、材料读取及训练检查。真实链接、真实素材或用户表示自己用过，都不切换写作模式；已读证据包直接复用。
+
+本层只补充目标产品、称呼、产品事实与专属原帖证据。训练允许的购买、持有、使用、关系和主观感受设定按共享层执行；这些设定不构成真实产品参数或原帖事实的证据。涉及实时社媒读取时执行共享层指向的[统一社媒读取技能](../read-social-links-with-social-helper/SKILL.md)。
+
+## 产品专属边界
+
+- 目标产品是DJI Osmo Nano；正文可用`Nano`、`OsmoNano`、`DJIOsmoNano`等准确称呼。Pocket的禁用`Osmo`规则不适用于Nano。
+- 不迁入Pocket、Action、360或OM的型号、机械云台、镜头、跟随、防水、续航或升级路径；其他设备仅在当前任务自然涉及的比较中出现。
+- 按当前整帖与消费者关注，从[共享产品资料路由](../write-consumer-comments/references/product-routing.md)的`nano`条目直接读取本机Nano知识索引、卖点与详细场景及必要角色心理资料；绝对资料链接在其他项目同样可用，已读入口不回调。本机知识源属于外部依赖，跨机器缺失时记录范围，再用充分用户材料或当前官方资料继续，不声称已取得场景库。
+- 涉及功能、参数、固件、售价、配件或兼容性时，保留知识条目的组件、条件、事实ID、来源与实际核验日期，并按执行当日DJI官方产品页、规格页、说明书或支持页逐项核验。待核项不作肯定依据，用途与场景假设不作产品事实，不把旧风格材料当作知识源。
+- 原帖中的佩戴／安装方式、录制动作、视角和实际结果须从当前证据确认；画面或作者陈述只证明当前展示，不能自动外推普遍稳定、画质、收音或耐候表现。训练角色可表达假想使用经历与拍摄结果的主观感受，但不能据此补造原帖事实、参数或普遍性能。
+
+## 按需资料与兼容模式
+
+`op-style-baseline.md`、`de-ai-style.md`、`op-sync.md`及旧批次参考只供下述真实材料／旧稿模式使用；训练不回读op历史聊天或旧写法，按上文读取当前产品知识不受此限制。`product-seeding.md`里的固定表达链、S级目标、购买词配额及禁设经历等旧写法不进入训练。
+
+产品资料只消费型号、机制、参数、核验入口和事实条件；其中任何旧数量、先强卖点、固定槽位、结尾、角色经历或可迁移文风要求均不覆盖共享层，也不沿产品资料回读完整旧入口。
+
+只有用户明确要求对真实消费者资料、本人亲历进行专门核验或复核旧稿时，才对该核验／审查任务使用`content_mode=real_material`并读取[保留的真实材料与旧稿流程](references/legacy-real-material-workflow.md)。旧稿不为通过审查而重标为训练稿，核验与审查均不授权发布。原脚本、测试、状态模板和事实注册表保持原状，供其兼容流程使用；`training_fiction`使用共享层训练检查，不调用旧真实性严格检查器。

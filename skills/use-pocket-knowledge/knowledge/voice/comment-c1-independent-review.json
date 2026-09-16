@@ -1,0 +1,116 @@
+{
+  "review_kind": "independent_model_review",
+  "reviewer_task": "/root/audit_product_knowledge",
+  "checked_at": "2026-09-06T10:00:24.027466+00:00",
+  "scope": {
+    "card_ids": [
+      "comment_c1_001",
+      "comment_c1_002",
+      "comment_c1_003",
+      "comment_c1_004",
+      "comment_c1_005"
+    ],
+    "train_only": true,
+    "comment_records": 27,
+    "works": 8,
+    "exact_excerpts": 29,
+    "parent_pairs_with_reuse": 20,
+    "unique_parent_pairs": 19,
+    "scenario_ids": [
+      "scenario_002",
+      "scenario_003",
+      "scenario_004",
+      "scenario_005",
+      "scenario_009"
+    ]
+  },
+  "result": "passed_with_two_nonblocking_refinements_applied",
+  "blocking_findings": [],
+  "verified": [
+    "29处摘句原文及范围匹配",
+    "20条父句记录（19唯一父子对）符合实际parent_id/root_id及同作品链，全部闭合到实际根评论",
+    "2个pattern的mechanism_evidence_refs各直接支持3作品和3作品发布账号，没有用背景记录凑机制",
+    "参数未试、帮助提议未完成、价格条件和发言归属限制保留",
+    "场景新增支持未扩大原依据；scenario_009仍为editorial_hypothesis"
+  ],
+  "refinements": [
+    {
+      "card_id": "comment_c1_001",
+      "field": "situation",
+      "change": "看到作者或父句提到的成片→围绕作品或父句提到的成片发问",
+      "reason": "只依评论文字，不假定看过画面",
+      "applied": true
+    },
+    {
+      "card_id": "comment_c1_004",
+      "field": "mechanism",
+      "change": "两个说话者的文字→两条发言",
+      "reason": "无稳定评论账号ID，不从昵称断言独立身份",
+      "applied": true
+    }
+  ],
+  "source_hashes": {
+    "cards_before_refinement": "5ecc3995ba10e4f2d230f87bcbd087f8185665e6e88b63df3c7d221bf633f23f",
+    "cards_after_refinement_and_review_annotation": "d1f45ecc4f8e032b41b6b4f9fc7ece70f95651f8bec9a39314d24d176222f002",
+    "comments": "f0b65882a76b113b053207f3a229ce4bb074fb4f9816c0c8d7dec3712964be67",
+    "scenarios": "7c37e571b1880f665723d2e739188746571fc17951f3d0066e032816e77a3e72"
+  },
+  "structural_audit": {
+    "integrity_ok": true,
+    "error_codes": [],
+    "voice_patterns": 14,
+    "voice_cases": 11
+  },
+  "retrieval_smoke": [
+    {
+      "query": "导出 视频截图 实况",
+      "comment_card_hits": [
+        "comment_c1_001",
+        "comment_c1_003"
+      ],
+      "holdout_returned": false
+    },
+    {
+      "query": "同感 纠结",
+      "comment_card_hits": [
+        "comment_c1_002",
+        "comment_c1_004"
+      ],
+      "holdout_returned": false
+    },
+    {
+      "query": "参数 保存 详细步骤",
+      "comment_card_hits": [
+        "comment_c1_003",
+        "comment_c1_001",
+        "comment_c1_002",
+        "comment_c1_004"
+      ],
+      "holdout_returned": false
+    },
+    {
+      "query": "外观 长焦 手机",
+      "comment_card_hits": [
+        "comment_c1_004",
+        "comment_c1_001"
+      ],
+      "holdout_returned": false
+    },
+    {
+      "query": "价格 门店 操作步骤",
+      "comment_card_hits": [
+        "comment_c1_001",
+        "comment_c1_005",
+        "comment_c1_002",
+        "comment_c1_003"
+      ],
+      "holdout_returned": false
+    }
+  ],
+  "boundaries": [
+    "审读范围仅本次5张C1新评论卡及5处场景支持；不代表全库旧卡也按同样范围审读",
+    "未读holdout或input3/7/17/18排除评论正文",
+    "模型审读不是用户认可、消费者亲历认证或真实投放效果",
+    "来源作者按作品发布账号去重，评论者身份未认证"
+  ]
+}

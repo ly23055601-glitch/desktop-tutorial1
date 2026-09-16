@@ -1,0 +1,58 @@
+{
+  "reason": "Independent cross-project use found zero-based PDF indexes mislabeled as printed pages; checked against the same English v1.0 PDF, not a translated edition.",
+  "source_url": "https://dl.djicdn.com/downloads/DJI_Osmo_Pocket_4/UM/v1.0/Osmo_Pocket_4_User_Manual_en.pdf",
+  "checked_at": "2026-09-06",
+  "facts_sha256_before": "3b3251c3d76d88bd3af290c6ae849b3459dfe97a540d2bbfda6bd61e70780a6c",
+  "changes": [
+    {
+      "fact_id": "PKF-P4-007",
+      "before": "印刷页17，Zoom Button",
+      "after": "印刷页18（PDF零基页索引17），3.1 Button Features / Zoom Button"
+    },
+    {
+      "fact_id": "PKF-P4-008",
+      "before": "印刷页26，ActiveTrack",
+      "after": "印刷页26–27（PDF零基页索引25–26），4.3 ActiveTrack；模式排除项在印刷页27"
+    },
+    {
+      "fact_id": "PKF-P4-009",
+      "before": "印刷页21，Audio Backup",
+      "after": "印刷页22（PDF零基页索引21），Audio Backup"
+    },
+    {
+      "fact_id": "PKF-P4-010",
+      "before": "印刷页28，Transferring Files to a Mobile Device",
+      "after": "印刷页29（PDF零基页索引28），Transferring Files to a Mobile Device"
+    },
+    {
+      "fact_id": "PKF-P4-011",
+      "before": "印刷页28–29，Transferring Files to a Computer",
+      "after": "印刷页29–30（PDF零基页索引28–29），Transferring Files to a Computer"
+    },
+    {
+      "fact_id": "PKF-P4-012",
+      "before": "印刷页13，Wide-Angle Lens",
+      "after": "印刷页14（PDF零基页索引13），1.5 Wide-Angle Lens"
+    },
+    {
+      "fact_id": "PKF-P4-013",
+      "before": "印刷页9，Battery Handle",
+      "after": "印刷页10（PDF零基页索引9），1.3 Battery Handle"
+    },
+    {
+      "fact_id": "PKF-P4-016",
+      "before": "印刷页21，Gesture Control",
+      "after": "印刷页22（PDF零基页索引21），Gesture Control"
+    },
+    {
+      "fact_id": "PKF-P4-017",
+      "before": "印刷页22，Screen Rotate & Capture",
+      "after": "印刷页23（PDF零基页索引22），Screen Rotate & Capture"
+    }
+  ],
+  "capability_claims_changed": false,
+  "already_correct": [
+    "PKF-P4-002"
+  ],
+  "facts_sha256_after": "c64cb459a1c589c142a8e3ba0ee40e5617c13d6929a719a75f8bb49384571585"
+}

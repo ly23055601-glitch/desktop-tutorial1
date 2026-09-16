@@ -1,0 +1,238 @@
+DJI Mic Mini 2S 新手快速攻略
+dji-brand_black_42×24
+Created with Sketch.
+帮助中心
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+HongKong
+English
+Indonesia
+English
+대한민국
+한국어
+日本
+日本語
+中國澳门
+繁體中文
+中國台灣
+繁體中文
+New Zealand
+English
+Australia
+English
+Singapore
+English
+欧洲
+Österreich
+Deutsch
+Belgium
+Français
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+Spain
+English
+Sweden
+English
+Switzerland
+English
+Switzerland
+Français
+United Kingdom
+English
+美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+其他
+Other Regions
+English
+DJI Mic Mini 2S 新手快速攻略
+DJI Mic Mini 2S 兼容哪些手机和相机？设备之间如何快速配对？怎么使用手机版接收器？答案全都在这里，快来跟着攻略开启您的 DJI 玩机之旅吧！
+适用产品：
+DJI Mic Mini 2S
+01 产品开箱
+打开包装盒，依次取出产品及配件，确认数量与清单相符并检查外观是否完好无损，详情参考如下图。
+DJI Mic Mini 2S 两发一收，含充电盒
+DJI Mic Mini 2S 一发一收
+DJI Mic Mini 2S 手机版一发一收，含充电盒
+02 用前准备
+2.1 设备兼容性
+查看手机和平板兼容列表
+，了解适配的移动设备型号。
+查看热靴相机兼容列表
+，了解适配的相机型号。
+2.2 设备充电
+·
+将发射器和接收器放置于充电盒内即可同时开始充电。
+·
+若充电盒电量不足，可通过标配的 USB-C 充电线为充电盒充电。
+·
+单独的发射器可通过磁吸充电线充电。
+·
+单独的接收器可通过 USB-C 充电线充电。
+【提示】
+接收器充满电约需 100 分钟，发射器约需 70 分钟。
+2.3 开关机
+长按发射器或接收器侧面电源按键 2 秒可开机或关机。
+2.4 发射器和接收器配对
+套装中的发射器与接收器出厂时默认已配对。若发射器与接收器断开连接，可通过以下方式配对：
+将发射器与接收器放置于充电盒即可自动配对。
+长按发射器配对按键 2 秒，指示灯蓝绿交替闪烁。长按接收器配对按键 2 秒，接收器正面指示灯绿灯快闪，代表进入配对状态。配对成功后，指示灯均变为绿灯常亮。
+2.5 连接 App
+连接 DJI Mimo app 后，可以通过 app 进行固件升级或参数调节。
+点击下载 app
+。
+DJI Mic Mini 2S 支持通过手机连接头或蓝牙两种方式进行连接。
+通过手机连接头连接：
+通过蓝牙连接：
+2.6 参数调节与固件升级
+· 参数调节
+在 DJI Mimo app 设备设置界面，您可以查看已连接设备及其电量，并进行参数调节。支持三挡音色预设（常规 / 明亮 / 饱满），以及两档降噪（弱降噪 / 强降噪）。
+· 固件升级
+连接 app 后，当 app 提示有新固件可升级时，建议按照界面指引进行升级，以便获得最佳使用体验。
+03 使用产品
+3.1 佩戴发射器
+3.1.1 安装防风毛套
+在户外或有风环境下，可以使用防风毛套降低风噪，提升收音质量。
+3.1.2 更换磁吸前盖
+前盖为磁吸设计，可拆下并更换不同款式。多色前盖及防风毛套可单独购买。
+3.1.3 佩戴方式
+发射器可通过背夹和磁吸两种方式固定在衣物上。背夹采用可拆旋转设计，侧夹、倒夹时旋转可使麦克风正对声源，获得更好音质。
+3.2 搭配手机、相机及电脑使用
+3.2.1 搭配手机使用
+支持通过连接头或蓝牙连接手机进行收音。
+通过手机连接头连接：
+通过蓝牙连接：
+3.2.2 搭配相机使用
+通过音频线或热靴转接件连接相机进行收音。接收器可通过热靴安装至相机，让连接更简洁。
+四发一收场景中，将接收器通过热靴转接件连接至相机后，可通过 DJI Mimo app 开启四声道模式，每个发射器独立音轨，方便后期精细化处理。
+【提示】
+四声道仅支持部分 PC 软件以及 DJI Mic 系列热靴转接件，兼容详情可
+查看官网兼容性列表
+。
+3.2.3 搭配电脑使用
+将接收器通过标配充电线或连接头连接至电脑，并在电脑中设置音频输入选项后，发射器即可作为外接麦克风使用。
+3.3 直连拍摄设备
+发射器可通过蓝牙直连 DJI OsmoAudio 拍摄设备使用，并可在拍摄设备上调节增益、降噪等参数。
+【提示】
+查看 OsmoAudio 兼容列表
+，了解支持发射器直连的 DJI 拍摄设备。
+3.4 使用 DJI Mic 系列手机版接收器
+观看视频，了解手机版接收器的安装、配对及使用事项。
+3.5 导出音频素材
+通过磁吸充电线将发射器连接至电脑，或将发射器放入充电盒后通过 USB-C 充电线连接电脑，即可读取并导出内录素材。
+【提示】
+DJI Mic Mini 2 充电盒（手机版一发一收）不支持素材导出。
+04 售后政策
+在产品有效保修期内，因非人为原因导致产品出现性能故障，可
+申请官方免费维修服务
+。具体保修期限请
+查看主要部件保修期限表
+。
+【提示】
+在保修期内完成设备登记，即可获赠一年延长保修。
+05 猜您想问
+DJI Mic Mini 2S 的发射器和接收器是否兼容其他 Mic 系列？
+DJI Mic Mini 2S 的发射器支持连接 DJI Mic Mini 接收器、DJI Mic 系列手机版接收器、DJI Mic Mini 2S 接收器；
+DJI Mic Mini 2S 接收器支持连接 DJI Mic Mini 发射器、DJI Mic Mini 2 发射器、DJI Mic Mini 2S 发射器。
+DJI Mic Mini 2S 如何激活？
+DJI Mic Mini 2S 无需激活即可使用。
+DJI Mic Mini 2S 发射器是否支持内录？
+发射器内置存储空间，短按电源按键即可开始内录，再次短按停止内录。
+更多产品使用信息可以
+查看用户手册
+。
+06 服务与支持
+大疆服务致力于为您提供全方位的产品服务与支持，让您享受无忧的玩机体验。
+·
+设备信息查询
+：随时掌握您的设备信息，包括激活时间、保修状态及服务历史记录。
+·
+换货服务
+：在收货后 30 天内，如果您的设备出现问题且符合换货条件，我们将为您提供便捷的换货服务。
+·
+服务进度查询
+：实时查看设备维修进度，包括报价单、物流信息和检测报告等服务信息，让您随时掌握服务进度。
+如需申请更多服务，
+请点击此处
+。
+内容是否有帮助？
+是
+否
+感谢您的反馈。
+感谢您的反馈，填写体验不佳的原因以让我们做得更好：
+未涵盖我想了解的内容
+已按指引操作，未解决问题
+内容难理解，看不懂
+链接/图片/视频失效
+页面展示不美观
+其他
+您也可以描述具体问题让我们更好地帮助到您：
+（可选）
+提交
+联系我们
+在线客服
+周一至周日：9:00-21:00（北京时间）
+联系在线客服
+dji-brand/en/48
+Created with Sketch.
+Copyright © 2026 DJI 大疆创新 版权所有
+|
+隐私权政策

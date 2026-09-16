@@ -1,0 +1,1439 @@
+{
+  "integrity_ok": true,
+  "corpus_target_complete": false,
+  "text_metrics_version": "textual-content-v1",
+  "project_scope": {
+    "profile": "current_library",
+    "status": "organized",
+    "scale_target_status": "cancelled_by_user",
+    "updated_at": "2026-09-06T10:21:22.498494+00:00",
+    "user_instruction": "调用这些够了，可以整理出来了，不需要那么多",
+    "objective": "Organize the actual collected Pocket 4 / Pocket 4P product and audience material into a usable local library with recorded evidence and gaps.",
+    "additional_collection": "cancelled_for_this_delivery",
+    "evaluation_scope": "Two existing holdout works are used for a limited same-input comparison. The original 30-work scale is cancelled; no statistical acceptance or user approval is implied.",
+    "preserved_requirements": [
+      "source_provenance",
+      "actual_read_scope",
+      "frozen_train_holdout_split",
+      "no_invented_parent",
+      "real_text_discussion_counts",
+      "actual_collection_status",
+      "author_sampling_rules_for_historical_coverage"
+    ],
+    "material_boundary": {
+      "organized_comments_table": "corpus/comments.jsonl",
+      "unorganized_attachments_are_not_corpus": true,
+      "new_analysis_from_stop_attachment": "not_included_in_this_delivery",
+      "stop_attachment_does_not_change_frozen_splits": true
+    },
+    "retained_unreviewed_exports": [
+      {
+        "batch_id": "xiaohongshu-comments-03",
+        "platform": "xiaohongshu",
+        "raw_path": "corpus/raw/xiaohongshu-comments-03-partial.xlsx",
+        "normalized_path": "corpus/normalized/xiaohongshu-comments-03-partial.jsonl",
+        "row_count": 58,
+        "split": "train",
+        "status": "partial_saved_unreviewed_user_stop",
+        "count_basis": "Root-confirmed complete local parsing of the stopped export: 58 matched train rows, 0 parsing issues; no semantic review or admission",
+        "included_in_comments_table": false,
+        "included_in_eligible_works": false,
+        "included_in_voice_learning": false
+      }
+    ],
+    "organized_at": "2026-09-06T18:31:12.676521+08:00",
+    "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/collection-plan.json"
+  },
+  "current_library": {
+    "status": "usable_with_documented_gaps",
+    "material_available": true,
+    "integrity_ok": true,
+    "historical_scale_targets_required": false,
+    "retained_unreviewed_exports": [
+      {
+        "batch_id": "xiaohongshu-comments-03",
+        "platform": "xiaohongshu",
+        "raw_path": "corpus/raw/xiaohongshu-comments-03-partial.xlsx",
+        "normalized_path": "corpus/normalized/xiaohongshu-comments-03-partial.jsonl",
+        "row_count": 58,
+        "split": "train",
+        "status": "partial_saved_unreviewed_user_stop",
+        "count_basis": "Root-confirmed complete local parsing of the stopped export: 58 matched train rows, 0 parsing issues; no semantic review or admission",
+        "included_in_comments_table": false,
+        "included_in_eligible_works": false,
+        "included_in_voice_learning": false
+      }
+    ],
+    "retained_rows_basis": "collection-plan metadata only; these attachment rows are not loaded into corpus counts, retrieval or expression learning",
+    "evaluation_status": "not_assessed_by_this_audit",
+    "collection_status_source": "corpus/run-state.json; actual capture states are not changed by this audit"
+  },
+  "historical_target": {
+    "profile": "historical_150",
+    "status": "cancelled_by_user",
+    "met": false,
+    "applies_to_current_scope": false,
+    "compatibility_fields": [
+      "corpus_target_complete",
+      "targets"
+    ],
+    "note": "历史采样配额是否达到，不代表当前资料库交付或对照验收是否完成"
+  },
+  "counts": {
+    "official_sources": 24,
+    "verified_facts": 127,
+    "pending_facts": 2,
+    "primary_verified_facts": 80,
+    "primary_pending_facts": 2,
+    "per_primary_model_verified": {
+      "pocket_4": 39,
+      "pocket_4p": 55
+    },
+    "voice_patterns": 15,
+    "voice_cases": 18,
+    "legacy_comment_records": 372,
+    "ingested_comment_records": 526,
+    "retained_unreviewed_comment_rows": 58,
+    "eligible_new_works": 32,
+    "by_platform": {
+      "xiaohongshu": 32
+    },
+    "by_model": {
+      "pocket_4": 22,
+      "pocket_4p": 10
+    },
+    "by_split": {
+      "train": 26,
+      "holdout": 6
+    },
+    "by_platform_split": {
+      "bilibili": {},
+      "douyin": {},
+      "xiaohongshu": {
+        "train": 26,
+        "holdout": 6
+      }
+    },
+    "exported_nonempty_text_count": 407,
+    "textual_content_comment_count": 404,
+    "non_textual_nonempty_comment_count": 3,
+    "main_discussions": 59,
+    "discussions_with_verified_parent_reply": 28,
+    "excluded_works": {
+      "research_text_reviewed": 6,
+      "research_posts_only_comments_empty": 3,
+      "unconfirmed_model": 3,
+      "sampling_excluded": 5,
+      "posts_only_scope_closed": 25,
+      "post_text_only_partial_comments_archived": 7,
+      "not_read_scope_closed": 121
+    }
+  },
+  "targets": {
+    "works": 150,
+    "per_platform": 50,
+    "per_model": {
+      "pocket_4": 75,
+      "pocket_4p": 75
+    },
+    "train": 120,
+    "holdout": 30,
+    "main_discussions": 450,
+    "discussions_with_verified_parent_reply": 150
+  },
+  "eligible_work_ids": [
+    "69e1d295000000001f001cbc",
+    "69e2048c000000002102ee09",
+    "69e206140000000022027401",
+    "69e3372f000000002200292e",
+    "69e760bd000000001b0004b6",
+    "69f0d574000000001f005845",
+    "69fedbd1000000003501c8b6",
+    "6a0c2f82000000003502d7d3",
+    "6a12ea17000000000803e97d",
+    "6a2182d80000000008000d39",
+    "6a22a78f000000001503c26d",
+    "6a26682f000000000702571f",
+    "6a37a7be000000001c025d8a",
+    "6a3a754a000000001503ef32",
+    "6a3abdee0000000011019f32",
+    "6a40a5d40000000007021f64",
+    "6a41245d000000000702f05d",
+    "6a4335f10000000017008cde",
+    "6a438478000000001102e2fb",
+    "6a464efd000000001702d716",
+    "6a4c5157000000001101d315",
+    "6a5f28da000000001302e6af",
+    "6a62e366000000001102fd5f",
+    "6a71fab80000000025010768",
+    "6a75861e000000002500033a",
+    "6a774116000000003300d22d",
+    "6a7c9a89000000000503018a",
+    "6a7f0f16000000002102169f",
+    "6a86b20b0000000024024bcb",
+    "6a8849dd000000003703ed70",
+    "6a9037d30000000021031c8e",
+    "6a9c1bd10000000029011aa2"
+  ],
+  "excluded_work_details": [
+    {
+      "work_id": "BV1HZYW64Ebt",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1RRYs67EtL",
+      "reason": "research_posts_only_comments_empty",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "6a82c5e10000000021023983",
+      "reason": "unconfirmed_model",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1bqYJ6sECM",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1R7bV6uEUG",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1u8bw6aEwH",
+      "reason": "research_posts_only_comments_empty",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1JtbH6vEtA",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "6a9c0c3d000000000d024601",
+      "reason": "sampling_excluded",
+      "platform": "xiaohongshu",
+      "split": "train",
+      "sampling_exclusion_reason": "同一作者最多2篇；保留已冻结holdout的input12(Pocket4)与input56(Pocket4P)，其余不计配额"
+    },
+    {
+      "work_id": "BV1wntm6GEUk",
+      "reason": "research_posts_only_comments_empty",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1e5t264EVw",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1LUt26PEXi",
+      "reason": "research_text_reviewed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "69cdec720000000021013a55",
+      "reason": "unconfirmed_model",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a96587000000000260141f0",
+      "reason": "sampling_excluded",
+      "platform": "xiaohongshu",
+      "split": "train",
+      "sampling_exclusion_reason": "同一作者最多2篇；保留已冻结holdout的input12(Pocket4)与input56(Pocket4P)，其余不计配额"
+    },
+    {
+      "work_id": "6a49d140000000001503ef02",
+      "reason": "sampling_excluded",
+      "platform": "xiaohongshu",
+      "split": "train",
+      "sampling_exclusion_reason": "同一作者最多2篇；保留已冻结holdout的input12(Pocket4)与input56(Pocket4P)，其余不计配额"
+    },
+    {
+      "work_id": "6a93a024000000000402b918",
+      "reason": "sampling_excluded",
+      "platform": "xiaohongshu",
+      "split": "holdout",
+      "sampling_exclusion_reason": "同一作者最多2篇；保留已冻结holdout的input12(Pocket4)与input56(Pocket4P)，其余不计配额"
+    },
+    {
+      "work_id": "69f611c7000000001a02f5b1",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a3b3b4200000000070219d3",
+      "reason": "unconfirmed_model",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a7f02e20000000005031ce7",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a9bd1aa0000000025036816",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a943cf30000000008011d14",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a37ff3e000000000f015728",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a71ca98000000003303150b",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a7743e40000000027021165",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a707e400000000035016533",
+      "reason": "post_text_only_partial_comments_archived",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a943b430000000021031f9c",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a8284970000000028006e0d",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a9bcba1000000002a02d784",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a8d9923000000000b027f6c",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a7448aa00000000050329a4",
+      "reason": "sampling_excluded",
+      "platform": "xiaohongshu",
+      "split": "train",
+      "sampling_exclusion_reason": "同一作者最多2篇；保留已冻结holdout的input12(Pocket4)与input56(Pocket4P)，其余不计配额"
+    },
+    {
+      "work_id": "6a5a224b0000000010026908",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a512c520000000011005e45",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a85674300000000280016b5",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a55a3410000000015024812",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a687c9a000000000103186e",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a918b8d000000000402bf53",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a522fc1000000000803c6ec",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "6a43eca00000000016024e5e",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1DgdhBGEq2",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1QPdJB2EQ1",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1hKdbBTEbU",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1U7dYBLE11",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1oZR2BhEyJ",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV14KoYB2EKe",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1MxQYBKEHb",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1C7oYBuEWc",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1QMt66TEPY",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1EZuq6hE3d",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1CVQpBYEQC",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1m4tA6bEcq",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV11etA69E8L",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1J3Jg65EvB",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1HjQFBAEzY",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1LFRiBhExz",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1RuoaBREyq",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1UQd6BNEmb",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1EwtZ6NEQh",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1aeQnB3ExY",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Ys536dEyC",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1p3Nc6pEYJ",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1budbBNESz",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Ttd5BoEDY",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Kb3n6PEsN",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ksNE6iEpL",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1C7QwBgEcH",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV192dkBjEsm",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1qJd3BeESq",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1cVVn6wEmm",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1tUtf6QEuL",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Luj969EWg",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Vstz6qEFR",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ZttV6BEWq",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV13uJp6NEnT",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV12Atp62EWW",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ssME67E3C",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1MBTw66Eou",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1ghJg6hEWV",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1A7T76gEiW",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ShMS6CEJw",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1Cwtz6pE4f",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1dqtb6mEAj",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV13EEC6RESk",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ZLJg6rEbJ",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1k47Y6yEEb",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1GD8R6QEg8",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ajMp6uEC1",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1LPjS6rEf8",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1TrJG6aEjj",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1ywu566EBL",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1fR7a6iEcg",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1EKj96dEji",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1N8Tx6PEg3",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1gsTu6YErM",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1jNTx6nEmp",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV13bJG66Em8",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1auKQ6SEqD",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "BV1hgM864E93",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "holdout"
+    },
+    {
+      "work_id": "BV1YRty6HEci",
+      "reason": "not_read_scope_closed",
+      "platform": "bilibili",
+      "split": "train"
+    },
+    {
+      "work_id": "7670110421886652762",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7674293165872757419",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629272466870799625",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629334753153535284",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7637500703401647690",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7650462480895986995",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651590962822014457",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7650756095937465652",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651528104246103347",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7655159443784469766",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651354428653489444",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651136430328073518",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7670467592800802161",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7657832367008107782",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7652084774680399142",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7650374070639659251",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7656829455441568694",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7675685596983495808",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7637458642685716326",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7675742772410028005",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7660079461195231707",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7640854479461990650",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7663124429145674458",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629628955951519865",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7677545591203872869",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7629399619835698170",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7630795016554456946",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7634204696869145866",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7669464616334290614",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7628972429896895787",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7642260205215976756",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7652021124045643190",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629660645851648762",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7663718469234865801",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7671928370120591012",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651653121882635590",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7628447101789162767",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7630421653603781942",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7637106345610693934",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7677821036973538467",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7631888307802148139",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7633168710215241010",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7654189588826574116",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7660475624418577664",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629327072019680518",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651590674877336838",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7652531194478857513",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7650472904334033140",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629325514863299878",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7629398617316434255",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7651588490190228776",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7658879861674892250",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7632586486224284133",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7634603864787881250",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "holdout"
+    },
+    {
+      "work_id": "7629260568007871785",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7637724046868581297",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7630880417561709850",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7643421227453203109",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7630299609134321062",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7637013901955140916",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "7646768133831590259",
+      "reason": "not_read_scope_closed",
+      "platform": "douyin",
+      "split": "train"
+    },
+    {
+      "work_id": "6a2a31af0000000016025ea9",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a3ba05500000000110130f5",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a8bc6b30000000033023586",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a623790000000000301d171",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a9c19a1000000002902db66",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a1c184f0000000006023137",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "69f40858000000003703460d",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a5f40e60000000001031375",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a1aeddb00000000070138e8",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a97dddb0000000011037fe5",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "6a40950d000000001503e5f2",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    },
+    {
+      "work_id": "69e4d8ab00000000220295bc",
+      "reason": "posts_only_scope_closed",
+      "platform": "xiaohongshu",
+      "split": "holdout"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:douyin:7467541545794028324"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:douyin:7465667852650316604"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:douyin:7464525142392554278"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:douyin:7463525464897700668"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:douyin:7479646667664507663"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:xiaohongshu:6a78a8b800000000140140b5"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:xiaohongshu:6a7ac9d100000000030175b8"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "legacy:bilibili:273694859697"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a72bcaf000000001402694f"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a51bf290000000015005985"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a51bfa3000000001501409b"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a51bfc00000000015013834"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a9bfe33000000000b018193"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:6a02bbfb0000000029013596"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:69ce44060000000002034aed"
+    },
+    {
+      "severity": "warning",
+      "code": "reply_parent_unavailable",
+      "at": "xiaohongshu:69ce76d00000000003011324"
+    }
+  ],
+  "limitations": [
+    "结构与引用检查不能证明来源正文真实或语义结论成立",
+    "主款事实按唯一ID计数；分型号计数可共享同一事实，不能把per_primary_model_verified相加当作主款唯一总数",
+    "历史种子不计150篇；holdout不进入常规检索和表达规律归纳",
+    "缺失直接父句的回复不计入父句明确的讨论",
+    "450组主评只计material_kind缺省或明确为comment的记录，帖子原话不补成评论",
+    "文字讨论及其文字父句排除已知纯表情占位符和无字母数字的符号串；未知方括号内容保守保留。原记录与采集成功状态不变，不代表已读取图片。非空/文字/纯表情计数仅涵盖合格作品的有来源评论"
+  ],
+  "selling_and_use_cases": {
+    "integrity_ok": true,
+    "counts": {
+      "selling": 16,
+      "scene": 22
+    },
+    "issues": [],
+    "boundary": "Reference/schema audit only; value and scenes require semantic review and do not constitute user research."
+  },
+  "snapshot_at": "2026-09-10T12:57:12.306718+08:00",
+  "delivery_summary": {
+    "profile": "current_library",
+    "status": "organized_and_callable",
+    "scale_targets": "cancelled_by_user",
+    "counts_scope": "Actual corpus, research batches and historical stopped attachments are separate. Cancelling the old 150-work quota does not complete or cancel a new research target.",
+    "acceptance_boundary": "Reference integrity is not semantic proof or user approval of the two example drafts. No comparative evaluation pass is inferred.",
+    "research_sampling_targets": {
+      "op-pocket-7d-01": "not_met"
+    }
+  },
+  "acquisition_progress": {
+    "candidate_works": 202,
+    "works_with_post_source": 81,
+    "ingested_comment_records": 526,
+    "retained_unreviewed_comment_rows": 58,
+    "voice_cards_total": 33,
+    "new_voice_cards": 21,
+    "legacy_voice_cards": 12,
+    "legacy_voice_patterns": 7,
+    "legacy_voice_cases": 5,
+    "public_post_records": 37,
+    "public_post_patterns": 5,
+    "public_post_cases": 3,
+    "public_comment_records": 526,
+    "public_comment_patterns": 3,
+    "public_comment_cases": 10,
+    "historical_candidate_works": 193,
+    "research_added_work_records": 9,
+    "research_associated_comment_records": 34,
+    "historical_only_comment_records": 492,
+    "by_platform": {
+      "bilibili": {
+        "work_records": 69,
+        "ingested_comments": 34,
+        "research_added_works": 9,
+        "research_associated_comments": 34
+      },
+      "douyin": {
+        "work_records": 61,
+        "ingested_comments": 0,
+        "research_added_works": 0,
+        "research_associated_comments": 0
+      },
+      "xiaohongshu": {
+        "work_records": 72,
+        "ingested_comments": 492,
+        "research_added_works": 0,
+        "research_associated_comments": 0
+      }
+    },
+    "research_batches": {
+      "op-pocket-7d-01": {
+        "works_in_corpus": 9,
+        "works_with_post_source": 9,
+        "unread_work_records": 0,
+        "works_with_comments": 6,
+        "post_only_works": 3,
+        "comment_records": 34,
+        "root_comment_records": 23,
+        "reply_records": 11,
+        "replies_with_resolvable_parent": 11,
+        "new_comment_records": 34,
+        "by_platform": {
+          "bilibili": {
+            "works": 9,
+            "comments": 34
+          },
+          "douyin": {
+            "works": 0,
+            "comments": 0
+          },
+          "xiaohongshu": {
+            "works": 0,
+            "comments": 0
+          }
+        },
+        "targets": {
+          "works": 30,
+          "comments_approx": 1500,
+          "per_platform": {
+            "douyin": 10,
+            "xiaohongshu": 10,
+            "bilibili": 10
+          }
+        },
+        "shortfall": {
+          "works": 21,
+          "comments_approx": 1466,
+          "per_platform": {
+            "douyin": 10,
+            "xiaohongshu": 10,
+            "bilibili": 1
+          }
+        },
+        "sampling_target_status": "not_met",
+        "manifest_path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/social-comment-research/2026-09-10/op-pocket-7d-01/manifest.json",
+        "recorded_batch_status": "completed_available_material_with_collection_gaps",
+        "work_publication_window": {
+          "start": "2026-09-03T04:35:21Z",
+          "end": "2026-09-10T04:35:21Z",
+          "applies_to": "work publication; comment dates recorded separately"
+        },
+        "count_basis": "Unique actual corpus identities associated through research_batch_id or source_occurrences; manifest actual counts are not used.",
+        "boundary": "Sampling targets are separate from historical cancelled quotas, collection completeness, semantic review and user acceptance; comments are a sample, not platform totals."
+      }
+    },
+    "historical_comment_batches": [
+      {
+        "batch_id": "xiaohongshu-comments-01",
+        "platform": "xiaohongshu",
+        "status": "comments_reconciled",
+        "ingested_comment_records": 323,
+        "retained_unreviewed_rows": 0,
+        "old_queue_resumed": false
+      },
+      {
+        "batch_id": "xiaohongshu-comments-02",
+        "platform": "xiaohongshu",
+        "status": "comments_reconciled_with_gaps",
+        "ingested_comment_records": 169,
+        "retained_unreviewed_rows": 0,
+        "old_queue_resumed": false
+      },
+      {
+        "batch_id": "xiaohongshu-comments-03",
+        "platform": "xiaohongshu",
+        "status": "partial_saved_unreviewed_user_stop",
+        "ingested_comment_records": 0,
+        "retained_unreviewed_rows": 58,
+        "old_queue_resumed": false
+      }
+    ],
+    "batch_totals_are_additive": false
+  }
+}

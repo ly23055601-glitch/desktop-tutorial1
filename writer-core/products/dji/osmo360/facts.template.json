@@ -1,0 +1,10 @@
+{
+  "product_line": "osmo360",
+  "target_model": null,
+  "facts": [],
+  "field_contract": {
+    "required": ["claim", "model", "conditions", "source", "checked_at", "evidence_level"],
+    "evidence_levels": ["official", "manual", "user_provided", "training_assumption"],
+    "note": "Keep capture mode, export mode and generation separate; a finished frame cannot prove hidden setup."
+  }
+}

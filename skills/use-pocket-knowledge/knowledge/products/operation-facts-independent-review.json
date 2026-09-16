@@ -1,0 +1,734 @@
+{
+  "schema_version": "pocket-operation-facts-independent-review-v1",
+  "reviewer": "knowledge_integration",
+  "recorded_at": "2026-09-06T10:13:41.602480+00:00",
+  "review_date": "2026-09-06",
+  "timezone": "Asia/Shanghai",
+  "review_started_at_exact": null,
+  "review_time_note": "Review occurred immediately before this record in the same agent task. Exact start timestamp and whole-file hash at review start were not captured; do not interpret recorded_at as the initial page-read time.",
+  "scope": {
+    "fact_ids": [
+      "PKF-P4P-020",
+      "PKF-P4P-021",
+      "PKF-P4P-031",
+      "PKF-P4P-032",
+      "PKF-P4P-033",
+      "PKF-P4P-034",
+      "PKF-P4P-035",
+      "PKF-P4P-036",
+      "PKF-P4P-037",
+      "PKF-P4P-038"
+    ],
+    "models": [
+      "pocket_4p"
+    ],
+    "changed_fact_ids": [],
+    "blocker_found": false,
+    "verdict": "No blocking mismatch between reviewed assertions/conditions and actually inspected official evidence; two optional non-inference clarifications were sent to the product agent.",
+    "current_scope_after_delta": "Original ten fact assertions and their conditions remain unchanged; only the two documented not_infer additions have received a follow-up delta review."
+  },
+  "input_capture": {
+    "captured_at": "2026-09-06T10:13:41.602480+00:00",
+    "facts_file": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/facts.jsonl",
+    "facts_file_sha256": "b39d89fe69033855b71f0d3e692be1b0801984f29192fa08d0f7a1cf1c18f213",
+    "sources_file": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/sources/official.jsonl",
+    "sources_file_sha256": "10636fa8637a72b407483cc29f2c14933d76d91263c39d77d8a662200c76aeb9",
+    "hash_timing": "Captured when persisting the completed review, before the product agent applied the two suggested wording changes. Selected fact/condition/non-inference content was checked against the already-reviewed input.",
+    "fact_payload_hash_encoding": "SHA256 of UTF-8 JSON with ensure_ascii=false, sort_keys=true, compact separators; not raw JSONL line hash",
+    "selected_fact_payloads_sha256": "abe0f46b5f630f89fee6dd9ee0727bb84b68f9557933e8e0cd9928b6480fb7c6"
+  },
+  "reviewed_fact_inputs": [
+    {
+      "id": "PKF-P4P-020",
+      "sha256": "ff59de4f6126eee9b86738071a1b02ebd50cd022aade3299881c3a2bdb25384a",
+      "payload": {
+        "id": "PKF-P4P-020",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "实体变焦键的三种动作",
+        "fact": "左变焦键：单击从1x到3x、其他倍率回1x；双击到6x；长按匀速放大",
+        "conditions": [
+          "单击前要核对当前倍率；CN图列切换到3x及从变焦倍率返回1x，GB FAQ明确为1x→3x、其他倍率→1x",
+          "双击6x、长按放大的按键说明不替代各模式倍率上限；模式限制仍需分别核对",
+          "匀速变焦速度可调整的说明来自GB FAQ；CN静态图未给出速度设置路径",
+          "CN与GB均有实体变焦键动作依据，但页面未注明对应固件版本，不推断菜单和全部组合限制相同"
+        ],
+        "uses": [
+          "回答不看屏幕如何改变景别"
+        ],
+        "not_infer": [
+          "不能写成每次单击都放大或所有模式支持6x"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-STORE-GB",
+            "locator": "FAQ What are the functions of the two physical buttons：Zoom Button；网页365–369行",
+            "quote": "Press once",
+            "region": "GB",
+            "locale": "en-GB"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；变焦按键",
+            "quote": "双击：切换至 6 倍变焦",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": "4p_zoom_button",
+        "status": "verified",
+        "tags": [
+          "operation",
+          "变焦",
+          "实体按键"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-021",
+      "sha256": "c34147478ee34d9b537465f7bfaad01c4eaa0bf6c03805bb3df3fb24de2bb1a5",
+      "payload": {
+        "id": "PKF-P4P-021",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "自定义键默认动作与重新映射",
+        "fact": "C键默认单击切换摇杆俯仰/变焦、双击回中、三击锁定/解锁镜头朝向、长按匀速缩小；下拉控制中心点C图标可修改功能",
+        "conditions": [
+          "上述动作仅指中国攻略静态图列出的默认设置；用户重新映射后须按自己的配置判断",
+          "GB FAQ另说明可调整变焦速度；该设置路径并未在CN图中展开",
+          "CN和GB来源都没有标出对应固件版本，不推断每个固件的可选映射完全相同"
+        ],
+        "uses": [
+          "帮助写手理解同一按键在不同人的配置下动作可能不同"
+        ],
+        "not_infer": [
+          "不能把自定义后的动作称作人人相同默认功能"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-STORE-GB",
+            "locator": "同一实体按键FAQ：Custom Button；371–374行",
+            "quote": "Custom Button",
+            "region": "GB",
+            "locale": "en-GB"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；自定义按键/默认设置",
+            "quote": "锁定/解锁镜头朝向",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "自定义键",
+          "变焦"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-031",
+      "sha256": "f03cc1121595309a1857ad5df864522ecb5396e9fc560b10caa6e3d2281c1c46",
+      "payload": {
+        "id": "PKF-P4P-031",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "拍摄键开机与开拍停录",
+        "fact": "关机时短按拍摄键开机；拍摄就绪时短按拍照或开始/停止录像；非拍摄状态可长按拍摄键关机",
+        "conditions": [
+          "拍照或录像动作取决于当前拍摄模式；正文2.2把关机步骤限定为非拍摄状态",
+          "正文也列出顺时针旋屏开机、非拍摄状态逆时针旋屏关机",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "回答机身如何开机、开拍、停录和结束使用"
+        ],
+        "not_infer": [
+          "不能从此推断长按关机在录制中如何保存文件，也不能推断旋屏即拍或录像中旋屏规则"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；拍摄按键",
+            "quote": "开始/停止录像",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "2.2 设备开关机；正文91行",
+            "quote": "非拍摄状态",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "开机",
+          "关机",
+          "开拍",
+          "停录",
+          "拍摄按键"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-032",
+      "sha256": "0f6302e88454b3b392b2ea99291abe2b0ed105947e5f103d74ba3863ca683654",
+      "payload": {
+        "id": "PKF-P4P-032",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "先选拍摄模式再设置规格",
+        "fact": "开机默认进入视频模式；点击拍摄界面左下角模式图标选模式，从屏幕底部上滑设置当前模式的拍摄参数",
+        "conditions": [
+          "指南列照片、视频、低光视频、慢动作、全景及延时等模式；可调参数随模式不同",
+          "本条是录制前选模式和参数的入口，不回答正在录制时能否切换模式",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "帮助新手找到普通视频、慢动作和低光模式的入口"
+        ],
+        "not_infer": [
+          "不能推断所有模式有同一分辨率、帧率、倍率或色彩组合；不能声称录制中无缝切模式"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.2.1 拍摄模式选择；121行",
+            "quote": "左下角",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.2.2 拍摄参数设置；125行",
+            "quote": "上滑",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "模式选择",
+          "慢动作",
+          "低光",
+          "参数设置"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-033",
+      "sha256": "9d0b7bcfb67e9e430b12eafc07abde510a531ad06ff933990729cc2f04e82968",
+      "payload": {
+        "id": "PKF-P4P-033",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "屏幕双击选跟随对象，摇杆单击退出",
+        "fact": "在拍摄画面双击选择智能跟随对象；退出智能跟随可单击五维摇杆",
+        "conditions": [
+          "拍摄画面的单击是对焦和测光，不能与双击智能跟随混叫",
+          "五维摇杆单击也可能用于返回上一级菜单，动作取决于当前界面",
+          "此处是智能跟随的操作入口；对象范围与模式限制分别查PKF-P4P-030/028，GB模式脚注不能默认替代CN目标固件",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "回答架好机位后怎样选中目标、怎样停止镜头继续跟人"
+        ],
+        "not_infer": [
+          "不能把对焦菜单的主角追焦当作云台跟随；不能承诺遮挡恢复、目标切换或快速运动不丢失"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；拍摄界面静态图；本地证据 evidence/p4p-guide-screen-20260906.png；1 拍摄画面",
+            "quote": "双击拍摄画面选择智能跟随对象",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；五维摇杆/其他操作",
+            "quote": "或退出智能跟随",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "跟随",
+          "选择目标",
+          "退出跟随",
+          "独自拍摄"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-034",
+      "sha256": "958d397aeba46620c8f92147e9dc126759076141705f9f55004fc5cf39f46d00",
+      "payload": {
+        "id": "PKF-P4P-034",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "摇杆上下动作取决于俯仰或变焦选择",
+        "fact": "五维摇杆左右控制平移轴，上下控制俯仰或变焦；拍摄界面的摇杆控制图标可切换上下动作的用途",
+        "conditions": [
+          "未启用摇杆防误触时，拨动幅度影响云台转动或变焦速度；开启摇杆防误触可关闭这种幅度控制",
+          "摇杆防误触入口在下拉控制中心；本条不替代云台模式及变焦支持范围说明",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "解释为什么同样上下推摇杆，有时上下取景、有时放大缩小"
+        ],
+        "not_infer": [
+          "不能声称摇杆上下同时控制俯仰和变焦，也不能推断每种拍摄模式均可变焦"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；五维摇杆/控制云台转动或相机变焦",
+            "quote": "上下拨动",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；拍摄界面静态图；本地证据 evidence/p4p-guide-screen-20260906.png；8 摇杆控制",
+            "quote": "云台俯仰或相机变焦",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "摇杆",
+          "构图",
+          "俯仰",
+          "变焦"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-035",
+      "sha256": "4a155ec6193c8e20bf08343a6dc75e8402e9a424dbbd02b8f9884e213d5e5c79",
+      "payload": {
+        "id": "PKF-P4P-035",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "摇杆双击回中、三击切换朝向",
+        "fact": "双击五维摇杆让云台回中；三击让云台相机翻转前后朝向",
+        "conditions": [
+          "操作对象是机身五维摇杆，不是FrameTap摇杆或变焦键",
+          "本条只确认回中与前后朝向动作，不把长按的两种锁定方式合并成一种",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "回答架机后怎样重新居中或切到面对自己的朝向"
+        ],
+        "not_infer": [
+          "不能等同于主角居中跟随，也不能据此声称切换后会自动选中并跟随人物"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；五维摇杆/其他操作",
+            "quote": "双击：云台回中",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.1 按键和屏幕操作；实体按键静态图；本地证据 evidence/p4p-guide-buttons-20260906.png；五维摇杆/其他操作",
+            "quote": "三击：云台相机翻转前后朝向",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "摇杆",
+          "回中",
+          "前后朝向",
+          "自拍"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-036",
+      "sha256": "d616771e09a0d3ecdf72f5d7afb8dd4e6c3a75326864c8ef961a1df6fda47609",
+      "payload": {
+        "id": "PKF-P4P-036",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "operation",
+        "title": "首次激活经Mimo连接相机",
+        "fact": "首次使用需用DJI Mimo激活；手机打开Wi-Fi和蓝牙，在Mimo首页点相机图标，按提示连接并激活",
+        "conditions": [
+          "如果已与FrameTap配对，先关闭FrameTap再连接Mimo",
+          "来源提供基本连接顺序，没有给出完整手机兼容、网络要求和失败恢复规则",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "回答新机首次使用前如何进入激活流程"
+        ],
+        "not_infer": [
+          "不能推断无需联网、所有手机都兼容，或未激活设备的所有功能限制"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "2.3 设备激活；94–96行",
+            "quote": "激活",
+            "region": "CN",
+            "locale": "zh-CN"
+          },
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "2.3 设备激活；96行",
+            "quote": "Wi-Fi",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "operation",
+          "准备",
+          "首次激活",
+          "Mimo",
+          "手机连接"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-037",
+      "sha256": "6cb0873ef52ae5af8a0b06171cdaa9d59c4a607b0c8b59282373de8bf3219dbd",
+      "payload": {
+        "id": "PKF-P4P-037",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "workflow",
+        "title": "机身回放从拍摄界面右滑进入",
+        "fact": "在相机拍摄界面右滑可查看已拍摄的照片和视频",
+        "conditions": [
+          "这是相机本机回放入口；FrameTap回放能力另见PKF-P4P-027",
+          "本条没有说明回放时能否继续录制、删除恢复或Live Photo的具体播放限制",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "回答拍完后怎样在机身确认是否拍到"
+        ],
+        "not_infer": [
+          "不能把本机回放当作已传到手机、已备份或已完成剪辑"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.6.2 作品回放；258行",
+            "quote": "右滑",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "workflow",
+          "回放",
+          "查看素材"
+        ]
+      }
+    },
+    {
+      "id": "PKF-P4P-038",
+      "sha256": "06f2a9cc54ede17816e851f42e34804ad6e67f0d3d0a9e75f5638cb31ea12dac",
+      "payload": {
+        "id": "PKF-P4P-038",
+        "models": [
+          "pocket_4p"
+        ],
+        "topic": "workflow",
+        "title": "拍后素材可走手机或电脑传输路径",
+        "fact": "拍完可把素材导出到手机或电脑；中国攻略说明电脑可通过USB 3.1数据线传输，也列出Wi-Fi无线传输路径",
+        "conditions": [
+          "此处确认传输方向与路径，不保证达到宣传峰值速度；接口、线材、设备及测试条件需另外核对",
+          "手机OTG具体操作与兼容条件见PKF-S-005/006；Mimo连接前关闭FrameTap见PKF-P4P-014",
+          "本条不提供完整电脑端安全移除、批量恢复或所有无线并行组合的操作",
+          "来源为中国帮助页；没有注明对应固件版本，菜单差异须以目标设备版本复核"
+        ],
+        "uses": [
+          "先区分传到手机继续处理和传到电脑保存的路径"
+        ],
+        "not_infer": [
+          "不能把充电线等同可传数据的USB线，不能把FrameTap监看当作文件导出，不能推断传输中可录制"
+        ],
+        "source_refs": [
+          {
+            "source_id": "DJI-P4P-GUIDE",
+            "locator": "3.6.3 作品导出；262–266行",
+            "quote": "USB 3.1",
+            "region": "CN",
+            "locale": "zh-CN"
+          }
+        ],
+        "checked_at": "2026-09-06",
+        "claim_id": null,
+        "status": "verified",
+        "tags": [
+          "workflow",
+          "传素材",
+          "传输",
+          "手机",
+          "电脑",
+          "USB"
+        ]
+      }
+    }
+  ],
+  "official_pages_actually_opened": [
+    {
+      "source_id": "DJI-P4P-GUIDE",
+      "url": "https://repair.dji.com/help/content?customId=01700043704&lang=zh-CN&paperDocType=FAQ&re=CN&spaceId=17",
+      "region": "CN",
+      "locale": "zh-CN",
+      "scope": "Model applicability; sections 2.2, 2.3, 3.2.1–3.2.2, 3.6.2–3.6.3; image links #5/#6",
+      "web_action": "open original URL; read returned official page text",
+      "firmware_scope": "No firmware version was stated for these operation instructions"
+    },
+    {
+      "source_id": "DJI-P4P-STORE-GB",
+      "url": "https://store.dji.com/uk/product/osmo-pocket-4p-vlog-combo?set_region=GB&vid=241311",
+      "region": "GB",
+      "locale": "en-GB",
+      "scope": "FAQ physical buttons, lines359–374; UK storefront context",
+      "web_action": "open original URL; read returned official page text",
+      "firmware_scope": "No firmware version was stated for these operation instructions"
+    }
+  ],
+  "images_actually_viewed": [
+    {
+      "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/0d7cec71b5774b8eab24d12189dabc71.png",
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-buttons-20260906.png",
+      "sha256": "d529e8e054b7cbe38bee2a2a846c6e98cb4d1f9b011b4677433c3274f1060f2f",
+      "locator": "3.1 实体按键图",
+      "checked_at": "2026-09-06",
+      "read_scope": "实际打开静态图逐项读图",
+      "sha256_matches_recorded": true,
+      "review_method": "Actual view_image at original detail; official article image links #5/#6 independently opened and URL matched",
+      "inspection_scope": "Read visible static Chinese labels and diagrams only; no embedded video/GIF was treated as read"
+    },
+    {
+      "url": "https://terra-1-g.djicdn.com/5f1e9a711a9649479ee9b269af910bd8/8138a4542e2b4d6b8d0eb0debb2a4e30.png",
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/products/evidence/p4p-guide-screen-20260906.png",
+      "sha256": "5cb523b19175e25c135559d90120b9f34901a6a4d8ea0877646a0852c4616187",
+      "locator": "3.1 拍摄界面图",
+      "checked_at": "2026-09-06",
+      "read_scope": "实际打开静态图逐项读图",
+      "sha256_matches_recorded": true,
+      "review_method": "Actual view_image at original detail; official article image links #5/#6 independently opened and URL matched",
+      "inspection_scope": "Read visible static Chinese labels and diagrams only; no embedded video/GIF was treated as read"
+    }
+  ],
+  "checks": [
+    {
+      "fact_id": "PKF-P4P-020",
+      "input_sha256": "ff59de4f6126eee9b86738071a1b02ebd50cd022aade3299881c3a2bdb25384a",
+      "evidence_scope": "CN 按键图 + GB FAQ 359–369",
+      "condition_review": "当前倍率决定单击动作；模式倍率上限另核；速度设置来源仅GB，未统一固件。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-021",
+      "input_sha256": "c34147478ee34d9b537465f7bfaad01c4eaa0bf6c03805bb3df3fb24de2bb1a5",
+      "evidence_scope": "CN 按键图默认设置 + GB FAQ 371–374",
+      "condition_review": "四种动作标明默认；修改后的配置不能套用默认动作；未推断各固件可选映射一致。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-031",
+      "input_sha256": "f03cc1121595309a1857ad5df864522ecb5396e9fc560b10caa6e3d2281c1c46",
+      "evidence_scope": "CN 2.2 正文 + 按键图拍摄按键",
+      "condition_review": "关机动作限定非拍摄状态；拍照/录像依当前模式；不推断录制中关机保存。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-032",
+      "input_sha256": "0f6302e88454b3b392b2ea99291abe2b0ed105947e5f103d74ba3863ca683654",
+      "evidence_scope": "CN 3.2.1–3.2.2 正文",
+      "condition_review": "开机视频为来源所列默认，模式与参数入口用于录制前；参数随模式不同。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-033",
+      "input_sha256": "9d0b7bcfb67e9e430b12eafc07abde510a531ad06ff933990729cc2f04e82968",
+      "evidence_scope": "CN 拍摄界面图1 + 按键图五维摇杆",
+      "condition_review": "屏幕单击对焦/测光和双击跟随区分；摇杆单击随当前界面返回菜单或退出跟随；对象/模式限制另查。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-034",
+      "input_sha256": "958d397aeba46620c8f92147e9dc126759076141705f9f55004fc5cf39f46d00",
+      "evidence_scope": "CN 按键图五维摇杆 + 拍摄界面图8",
+      "condition_review": "上下用途在俯仰/变焦间选择；摇杆防误触影响幅度控制；没有声称所有模式均可变焦。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-035",
+      "input_sha256": "4a155ec6193c8e20bf08343a6dc75e8402e9a424dbbd02b8f9884e213d5e5c79",
+      "evidence_scope": "CN 按键图五维摇杆其他操作",
+      "condition_review": "机身摇杆双击回中与三击前后翻转有图支持；没有混入FrameTap或自动跟随。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-036",
+      "input_sha256": "d616771e09a0d3ecdf72f5d7afb8dd4e6c3a75326864c8ef961a1df6fda47609",
+      "evidence_scope": "CN 2.3 正文",
+      "condition_review": "首次激活经Mimo；已配对FrameTap先关闭；未推断手机兼容、离线激活或未激活限制。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-037",
+      "input_sha256": "6cb0873ef52ae5af8a0b06171cdaa9d59c4a607b0c8b59282373de8bf3219dbd",
+      "evidence_scope": "CN 3.6.2 正文",
+      "condition_review": "回放入口属于机身拍摄界面；不等同手机导出、备份或录制中回放能力。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    },
+    {
+      "fact_id": "PKF-P4P-038",
+      "input_sha256": "06f2a9cc54ede17816e851f42e34804ad6e67f0d3d0a9e75f5638cb31ea12dac",
+      "evidence_scope": "CN 3.6.3 正文",
+      "condition_review": "电脑有线与无线传输路径确有文本；未承诺峰值速度、线材兼容、并行录制或完整电脑操作流程。",
+      "blocking_issue": false,
+      "result": "supported_with_recorded_conditions"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "operation-review-suggestion-01",
+      "fact_id": "PKF-P4P-021",
+      "blocking": false,
+      "suggestion": "Explicitly disallow inferring that long-press is also remappable. GB FAQ specifies mappings for single/double/triple presses.",
+      "existing_claim_already_makes_invalid_inference": false,
+      "status": "sent_to_product_agent",
+      "resolution_event_id": "operation-review-delta-01"
+    },
+    {
+      "id": "operation-review-suggestion-02",
+      "fact_id": "PKF-P4P-038",
+      "blocking": false,
+      "suggestion": "Explicitly disallow treating the generic Wi-Fi transfer sentence as a complete computer wireless-receive workflow; that destination-specific procedure is not specified in this section.",
+      "existing_claim_already_makes_invalid_inference": false,
+      "status": "sent_to_product_agent",
+      "resolution_event_id": "operation-review-delta-01"
+    }
+  ],
+  "post_review_changes": [
+    {
+      "event_id": "operation-review-delta-01",
+      "reviewed_at": "2026-09-06T10:14:44.110406+00:00",
+      "before_facts_file_sha256": "b39d89fe69033855b71f0d3e692be1b0801984f29192fa08d0f7a1cf1c18f213",
+      "after_facts_file_sha256": "3b3251c3d76d88bd3af290c6ae849b3459dfe97a540d2bbfda6bd61e70780a6c",
+      "changes": [
+        {
+          "fact_id": "PKF-P4P-021",
+          "changed_fields": [
+            "not_infer"
+          ],
+          "before_payload_sha256": "c34147478ee34d9b537465f7bfaad01c4eaa0bf6c03805bb3df3fb24de2bb1a5",
+          "after_payload_sha256": "3e1109869e60c50991a06e6dde81a0eef2266f2f3b3ff6e0cfdb678326570c42",
+          "before_not_infer": [
+            "不能把自定义后的动作称作人人相同默认功能"
+          ],
+          "after_not_infer": [
+            "不能把自定义后的动作称作人人相同默认功能",
+            "可自定义不等于长按也可重新映射；已读GB FAQ列出的可配置动作是单击、双击和三击"
+          ],
+          "appended_text": "可自定义不等于长按也可重新映射；已读GB FAQ列出的可配置动作是单击、双击和三击",
+          "delta_verdict": "Consistent with the already-inspected sources and previously issued optional clarification; narrows inference without adding a capability assertion",
+          "blocking_issue": false
+        },
+        {
+          "fact_id": "PKF-P4P-038",
+          "changed_fields": [
+            "not_infer"
+          ],
+          "before_payload_sha256": "06f2a9cc54ede17816e851f42e34804ad6e67f0d3d0a9e75f5638cb31ea12dac",
+          "after_payload_sha256": "d01bda5ca0b10ae9a9caca59668f92facc58373782a6863ec2951dfd8b4e4578",
+          "before_not_infer": [
+            "不能把充电线等同可传数据的USB线，不能把FrameTap监看当作文件导出，不能推断传输中可录制"
+          ],
+          "after_not_infer": [
+            "不能把充电线等同可传数据的USB线，不能把FrameTap监看当作文件导出，不能推断传输中可录制",
+            "本节Wi-Fi句未指定电脑端无线接收流程，不能据此指导电脑直接通过Wi-Fi接收素材"
+          ],
+          "appended_text": "本节Wi-Fi句未指定电脑端无线接收流程，不能据此指导电脑直接通过Wi-Fi接收素材",
+          "delta_verdict": "Consistent with the already-inspected sources and previously issued optional clarification; narrows inference without adding a capability assertion",
+          "blocking_issue": false
+        }
+      ],
+      "other_eight_reviewed_fact_payloads_unchanged": true,
+      "entire_file_only_declared_two_appends_verified": true,
+      "restored_before_file_sha256": "b39d89fe69033855b71f0d3e692be1b0801984f29192fa08d0f7a1cf1c18f213",
+      "sources_file_unchanged": true,
+      "reopened_sources_for_delta": false,
+      "evidence_basis": "The two additions were checked against the actual CN/GB source readings already recorded in this review; no new image/content-reading claim is made.",
+      "original_reviewed_payloads_and_hashes_preserved": true,
+      "blocking_issue": false
+    }
+  ],
+  "limitations": [
+    "Semantic review covers only the ten captured fact payloads and stated evidence range, not every product fact or every firmware configuration.",
+    "No facts, sources, corpus records or acceptance results were changed by this review.",
+    "Image/source authenticity is checked through actual official page linkage plus the recorded local SHA; no unseen media was inferred.",
+    "Any later payload SHA change needs an explicit delta review; this record is not blanket approval of future content."
+  ],
+  "last_record_update_at": "2026-09-06T10:14:44.110406+00:00"
+}

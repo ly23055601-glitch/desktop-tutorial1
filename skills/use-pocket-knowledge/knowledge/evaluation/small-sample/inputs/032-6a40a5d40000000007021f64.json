@@ -1,0 +1,807 @@
+{
+  "schema_version": "pocket-evaluation-input-v1",
+  "rule_version": "2026-09-06-CW2-POCKET",
+  "content_mode": "training_fiction",
+  "split": "holdout",
+  "frozen_split": "holdout",
+  "work_id": "6a40a5d40000000007021f64",
+  "input_order": 32,
+  "platform": "xiaohongshu",
+  "split_provenance": {
+    "basis": "unchanged_frozen_corpus_ledger",
+    "ledger": {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/input-ledger.jsonl",
+      "sha256": "b87bb14d363e8e22260f3267051dff5e6c528d7becb86d3b4dd4448c8d7269c1",
+      "line": 32
+    },
+    "recorded_split_frozen_at": null,
+    "input_set_id": null
+  },
+  "canonical_url": "https://www.xiaohongshu.com/search_result/6a40a5d40000000007021f64",
+  "discussion_model_id": "pocket_4p",
+  "model_evidence_level": "M1_text_declaration_or_discussion_context_only",
+  "actual_capture_model": "not_confirmed_by_this_input",
+  "read_scope": [
+    "exported_post_text_metadata_only",
+    "exported_comment_text_and_explicit_relationship_fields; limited_to_recorded_export"
+  ],
+  "post": {
+    "material_kind": "public_post",
+    "speaker_scope": "work_author",
+    "thread_role": "post",
+    "title": "终于收到大疆pocket4pro了",
+    "text": "实在不想等，也抢不到原价，最后xhs溢价收了，到手拆开后明显感觉塑料感很强，手柄处和3代质感区别很明显，3要更结实质感也更好。发热也很明显，到手就激活拨弄两下就开始发热，掉电也略快。最重要的是！没有保护壳！3代那个壳我觉得就特别好用，还很便携，4p只有一个收纳袋，加上螺纹手柄之后完全放不进去！为什么不能还继续出保护壳呢，这个包真的又占地方又放不下东西。目前暂未开拍，技能上的升级还没体验到，主要就从外观材质配件上说说我的看法，不太值得从3换4p。",
+    "author_id": "5a8d5fbce8ac2b7a64e110cc",
+    "created_at": "2026-06-28T12:40:52",
+    "collected_at": "2026-09-06T17:00:38.578000",
+    "timestamp_timezone": "not_recorded_unless_explicit_in_export_value",
+    "read_scope": "exported_post_text_metadata_only; media_urls_not_reviewed",
+    "provenance": {
+      "normalized": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.jsonl",
+        "sha256": "8f82a96b8f59f1e454f325c0c503b0f7dae799206d2438cb9e7094df37bb8bce",
+        "line": 12
+      },
+      "raw": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-02.xlsx",
+        "sha256": "35a8b71a25fdb5356e9d26545a6af140a5fe66f3c8efd08b5625d3d8e751f909",
+        "row": {
+          "sheet": "Sheet1",
+          "row": 13
+        },
+        "cells": {
+          "post_title": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "D",
+            "cell": "D13",
+            "header": "笔记标题"
+          },
+          "post_text": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "E",
+            "cell": "E13",
+            "header": "笔记内容"
+          },
+          "captured_at": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "N",
+            "cell": "N13",
+            "header": "采集时间"
+          }
+        }
+      }
+    },
+    "media_read": false,
+    "authored_statement_is_experience_confirmation": false
+  },
+  "comments": [
+    {
+      "id": "xiaohongshu:6a55e818000000002a031e1c",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "勿在评论区出哦",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "Maruko",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-14T15:41:12",
+      "collected_at": "2026-09-06T18:00:22.042000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 96
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 97
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 97,
+                "column": "B",
+                "cell": "B97",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 97,
+                "column": "A",
+                "cell": "A97",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 97,
+                "column": "P",
+                "cell": "P97",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a43b4f4000000002902ca1f",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "加了多少",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "六亿神州皆尧舜",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-30T20:22:12",
+      "collected_at": "2026-09-06T18:00:22.042000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 97
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 98
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 98,
+                "column": "B",
+                "cell": "B98",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 98,
+                "column": "A",
+                "cell": "A98",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 98,
+                "column": "P",
+                "cell": "P98",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a40f94c0000000015005f33",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "是不是没有云台夹呀",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "Camellia",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-28T18:37:01",
+      "collected_at": "2026-09-06T18:00:22.043000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 98
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 99
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 99,
+                "column": "B",
+                "cell": "B99",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 99,
+                "column": "A",
+                "cell": "A99",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 99,
+                "column": "P",
+                "cell": "P99",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a9d02b00000000015006282",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "提升还是蛮大的",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "我是飞机大王",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-09-06T14:05:37",
+      "collected_at": "2026-09-06T18:00:22.043000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 99
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 100
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 100,
+                "column": "B",
+                "cell": "B100",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 100,
+                "column": "A",
+                "cell": "A100",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 100,
+                "column": "P",
+                "cell": "P100",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 1,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4124a40000000015004bc5",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "在哪里买的",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "爸爸带你火辣辣👯",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-28T21:41:57",
+      "collected_at": "2026-09-06T18:00:22.044000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 100
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 101
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 101,
+                "column": "B",
+                "cell": "B101",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 101,
+                "column": "A",
+                "cell": "A101",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 101,
+                "column": "P",
+                "cell": "P101",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a412b9f0000000014039461",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "配件这点确实没3代考虑周全，不过大疆配件生态丰富，tb上第三方收纳壳已经出了不少，比官方的好用还便宜。",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "一颗狗头",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-28T22:11:44",
+      "collected_at": "2026-09-06T18:00:22.044000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 101
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 102
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 102,
+                "column": "B",
+                "cell": "B102",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 102,
+                "column": "A",
+                "cell": "A102",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 102,
+                "column": "P",
+                "cell": "P102",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a41049000000000290376fe",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "其实性能提升还挺大的，就是外观上每个人审美不同，我是挺喜欢4p这两个眼睛的",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "小晋兔",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-28T19:25:04",
+      "collected_at": "2026-09-06T18:00:22.045000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 102
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 103
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 103,
+                "column": "B",
+                "cell": "B103",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 103,
+                "column": "A",
+                "cell": "A103",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 103,
+                "column": "P",
+                "cell": "P103",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a4bc4dc000000002b025e9b",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "我也多买了一台全新未激活的[偷笑R]",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "请你吃辣条",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-06T23:08:13",
+      "collected_at": "2026-09-06T18:00:22.045000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 103
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 104
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 104,
+                "column": "B",
+                "cell": "B104",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 104,
+                "column": "A",
+                "cell": "A104",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 104,
+                "column": "P",
+                "cell": "P104",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a47c93100000000150020e5",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "加价收的话确实不划算，我原价入的觉得香",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "夜的味道",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-07-03T22:37:37",
+      "collected_at": "2026-09-06T18:00:22.045000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 104
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 105
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 105,
+                "column": "B",
+                "cell": "B105",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 105,
+                "column": "A",
+                "cell": "A105",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 105,
+                "column": "P",
+                "cell": "P105",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    },
+    {
+      "id": "xiaohongshu:6a421c8b000000002a0273e9",
+      "work_id": "6a40a5d40000000007021f64",
+      "platform": "xiaohongshu",
+      "text": "我倒觉得更有质感了，是不是审美不一样",
+      "text_status": "available",
+      "author_id": null,
+      "author_name": "🐮草原",
+      "parent_id": null,
+      "root_id": null,
+      "thread_role": "unknown",
+      "parent_basis": "not_provided",
+      "created_at": "2026-06-29T15:19:39",
+      "collected_at": "2026-09-06T18:00:22.045000",
+      "timestamp_timezone": null,
+      "read_scope": "exported_comment_and_embedded_post_text_only; no_media_review",
+      "material_kind": "comment",
+      "source_kind": "public_comment",
+      "speaker_scope": "comment_author",
+      "provenance": [
+        {
+          "normalized": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+            "sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+            "line": 105
+          },
+          "raw": {
+            "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+            "sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+            "row": {
+              "sheet": "Sheet1",
+              "row": 106
+            },
+            "cells": {
+              "text": {
+                "sheet": "Sheet1",
+                "row": 106,
+                "column": "B",
+                "cell": "B106",
+                "header": "评论内容"
+              },
+              "comment_id": {
+                "sheet": "Sheet1",
+                "row": 106,
+                "column": "A",
+                "cell": "A106",
+                "header": "评论ID"
+              },
+              "captured_at": {
+                "sheet": "Sheet1",
+                "row": 106,
+                "column": "P",
+                "cell": "P106",
+                "header": "采集时间"
+              }
+            }
+          },
+          "batch_id": "xiaohongshu-comments-02"
+        }
+      ],
+      "media_read": false,
+      "image_attachment_count": 0,
+      "parent_resolution": "not_provided",
+      "source_record_limitations": [
+        "仅解析实际导出字段，不认证发布者或评论者的经历、持有型号和产品说法",
+        "媒体链接只作来源记录；未读取图片、连续视频、音轨或完整对白",
+        "导出行顺序不证明评论排名、置顶或直接回复关系",
+        "解析完成不表示平台采集成功；本程序不修改ledger或作品完成状态",
+        "导出缺少线程关系列，无法确认本行为根评论或回复"
+      ]
+    }
+  ],
+  "media_read": false,
+  "boundaries": [
+    "仅包含实际导出文字与明确关系字段；图片、连续视频、音轨及设备UI未读取。",
+    "作者自述仅证明作者写过这段话，不确证拍摄设备、持有、购买或亲历。",
+    "型号字段是已记录的讨论对象，不证明原片摄制设备或评论者使用型号。",
+    "缺父句不补关系；一级评论ID不等于直接父句ID；未读媒体不补画面。",
+    "公共原话保留归属，不能移植为新说话者的经历；产品说法需另核当前官方。",
+    "这是留出验收输入，不进入学习卡或常规检索，也不代表验收通过。"
+  ],
+  "research_constraints": {
+    "no_invented_experience": true,
+    "no_public_quote_reassignment": true,
+    "both_arms_verify_current_official_product_facts": true
+  },
+  "knowledge_or_training_card_references": []
+}

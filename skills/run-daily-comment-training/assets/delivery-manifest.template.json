@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "batch_ref": "YYYY-MM-DD/B001",
+  "generated_at": "填写真实的带时区 ISO 时间",
+  "source_versions": {
+    "writer": {"version": "", "sha256": ""},
+    "collector": {"version": "", "sha256": ""}
+  },
+  "coverage": {
+    "input_positions": [],
+    "output_groups": [],
+    "missing_refs": []
+  },
+  "items": [
+    {
+      "input_position": "1",
+      "original_index": "1",
+      "product_code": "op",
+      "product_line": "pocket",
+      "task_ref": "YYYY-MM-DD/B001/T001",
+      "evidence_ref": "evidence/douyin-123/evidence-pack.json",
+      "knowledge_handoff_ref": "T001/v1/knowledge-handoff.json",
+      "draft_ref": "T001/v1/comments.md",
+      "training_state_ref": "T001/v1/training-state.json",
+      "review_ref": "T001/v1/review.md",
+      "quality_review_ref": "T001/v1/quality-review.json",
+      "quality_score": null,
+      "quality_decision": "unreviewed",
+      "quality_issue_codes": [],
+      "quality_coverage": "basic",
+      "revision_count": 0,
+      "versions": {"writer": "", "collector": "", "knowledge": ""},
+      "sha256": {"draft": "", "state": "", "evidence": ""},
+      "status": "delivered",
+      "limitations": []
+    }
+  ]
+}

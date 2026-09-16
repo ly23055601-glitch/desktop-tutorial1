@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "date": "2026-09-08",
+  "explicit_scene_anchors": 60,
+  "explicit_selling_anchors": 18,
+  "reverse_references_checked": 129,
+  "generated_views_match_current_jsonl": true,
+  "meaning": "Current reading views and reverse references are complete; not a factual or consumer-response validation."
+}

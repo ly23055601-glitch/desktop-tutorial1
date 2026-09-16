@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-09-06",
+  "source_scope": "50 previously read train public_post notes",
+  "promoted_public_post_records": 37,
+  "preserved_other_records": 372,
+  "by_canonical_model": {
+    "pocket_4": 16,
+    "unknown": 2,
+    "pocket_4p": 19
+  },
+  "pattern_blocked_input_orders": [
+    7,
+    17,
+    18,
+    52
+  ],
+  "excluded_train_posts": [
+    {
+      "input_order": 5,
+      "work_id": "6a0c2f82000000003502d7d3",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 16,
+      "work_id": "6a71fab80000000025010768",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 20,
+      "work_id": "69e760bd000000001b0004b6",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 21,
+      "work_id": "69f611c7000000001a02f5b1",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 23,
+      "work_id": "6a5f28da000000001302e6af",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 28,
+      "work_id": "69fedbd1000000003501c8b6",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 30,
+      "work_id": "6a8849dd000000003703ed70",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 40,
+      "work_id": "6a3a754a000000001503ef32",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 41,
+      "work_id": "6a7f02e20000000005031ce7",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 42,
+      "work_id": "6a9bd1aa0000000025036816",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 43,
+      "work_id": "6a943cf30000000008011d14",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 44,
+      "work_id": "6a37ff3e000000000f015728",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    },
+    {
+      "input_order": 46,
+      "work_id": "6a7743e40000000027021165",
+      "reason": "正文只有标签、泛教程口号或未展开的导语；保留train-notes，不进入可调用原话记录"
+    }
+  ],
+  "new_main_comments": 0,
+  "new_parent_reply_pairs": 0,
+  "holdout_records_read_or_promoted": 0,
+  "limitations": [
+    "原始导出均按split过滤后才检查正文；未打开平台、媒体或holdout正文。",
+    "37条是可检索的作者文字材料，不是37篇研究验收通过的作品，也不是评论。"
+  ]
+}

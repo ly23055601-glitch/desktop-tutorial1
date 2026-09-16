@@ -1,0 +1,1332 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-06",
+  "review_scope": "work_level_discussion_context_metadata_only",
+  "normalized_source_path": "knowledge/pocket/corpus/normalized/xiaohongshu-comments-02.jsonl",
+  "normalized_sha256": "c2cafa73ff19e6c598537f4e07852d56684804a31ea427cd7c971547030ce43d",
+  "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+  "source_sha256": "d9b62c31a5b06008b56bac6a1112d03ea4eed3279662b0225fd273752925f1ce",
+  "post_metadata_review_path": "knowledge/pocket/corpus/normalized/xiaohongshu-posts-02.review.json",
+  "usable_definition": "作品正文/标题语境加实际导出评论可定位至少一项与Pocket4/4P有关的具体用途、问题、选择或评价；不要求产品观点正确，但不以表情、空白、纯引流或无关互动单独过关。comment_context_usable另判评论自身是否提供具体上下文。",
+  "not_equivalent_to": [
+    "independent_comment_count",
+    "verified_product_fact",
+    "confirmed_capture_model",
+    "quota_eligible",
+    "verified_consumer_identity",
+    "known_root_or_reply_role"
+  ],
+  "holdout_policy": "只核既有型号归属与作品讨论上下文元数据；不输出留出原话，不归纳表达规律。",
+  "summary": {
+    "works": 19,
+    "rows": 169,
+    "train_works": 15,
+    "holdout_works": 4,
+    "usable_works": 19,
+    "comment_context_usable_works": 18,
+    "comment_context_insufficient_input_orders": [
+      35
+    ],
+    "content_exclusion_recommendations": 0,
+    "minimal_post_context_supplemented_input_orders": [
+      23,
+      28,
+      30,
+      33,
+      36,
+      40
+    ],
+    "unknown_primary_model_input_orders": [
+      22
+    ],
+    "thread_role_counts": {
+      "unknown": 169
+    },
+    "confirmed_parent_root_relations": 0,
+    "comment_or_works_status_changed": false
+  },
+  "not_exported_items": [
+    {
+      "input_order": 21,
+      "action": "preserve_existing_record_only",
+      "reason": "本批无导出行；先前posts02第2行评论量为0，按root说明保留既有works gap context；不新记采集成功或失败，也不据此要求重采。",
+      "new_collection_status": null
+    }
+  ],
+  "works": [
+    {
+      "work_id": "6a3b3b4200000000070219d3",
+      "input_order": 22,
+      "split": "train",
+      "discussion_primary_model": "unknown",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "选购比较已有正文；评论提供运动拍摄、预算和镜头选择等具体讨论。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 2,
+          "comment_id": "xiaohongshu:6a5ad262000000002b02b9a3",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 3,
+          "column": "B",
+          "cell": "B3"
+        },
+        {
+          "normalized_line": 8,
+          "comment_id": "xiaohongshu:6a43ca9c000000002b029902",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 9,
+          "column": "B",
+          "cell": "B9"
+        }
+      ],
+      "source_rows_reviewed": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a5f28da000000001302e6af",
+      "input_order": 23,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "正文以场景和教程目录为主；实际评论补充参数是否需重设、照片用途和跨机型适用问题。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "topic_outline_without_read_media",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 11,
+          "comment_id": "xiaohongshu:6a7aea47000000002b02a463",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 12,
+          "column": "B",
+          "cell": "B12"
+        },
+        {
+          "normalized_line": 13,
+          "comment_id": "xiaohongshu:6a7ac5f400000000100132c2",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 14,
+          "column": "B",
+          "cell": "B14"
+        },
+        {
+          "normalized_line": 18,
+          "comment_id": "xiaohongshu:6a86764c000000000a026689",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 19,
+          "column": "B",
+          "cell": "B19"
+        }
+      ],
+      "source_rows_reviewed": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a12ea17000000000803e97d",
+      "input_order": 24,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论围绕参数、视频取帧、支架和手机导出发问，具有实际操作上下文。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 21,
+          "comment_id": "xiaohongshu:6a12fcae000000002a027f61",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 22,
+          "column": "B",
+          "cell": "B22"
+        },
+        {
+          "normalized_line": 24,
+          "comment_id": "xiaohongshu:6a1421d2000000002902c07b",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 25,
+          "column": "B",
+          "cell": "B25"
+        },
+        {
+          "normalized_line": 25,
+          "comment_id": "xiaohongshu:6a151352000000002800bbae",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 26,
+          "column": "B",
+          "cell": "B26"
+        },
+        {
+          "normalized_line": 26,
+          "comment_id": "xiaohongshu:6a1560f6000000002a007222",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 27,
+          "column": "B",
+          "cell": "B27"
+        }
+      ],
+      "source_rows_reviewed": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a62e366000000001102fd5f",
+      "input_order": 25,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论明确比较拍照与视频、旅游携带及固定机位用途，非只有购买口号。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 32,
+          "comment_id": "xiaohongshu:6a62e8c3000000002b000305",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 33,
+          "column": "B",
+          "cell": "B33"
+        },
+        {
+          "normalized_line": 34,
+          "comment_id": "xiaohongshu:6a64b26a00000000290374be",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 35,
+          "column": "B",
+          "cell": "B35"
+        },
+        {
+          "normalized_line": 37,
+          "comment_id": "xiaohongshu:6a67686f000000000802ed64",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 38,
+          "column": "B",
+          "cell": "B38"
+        }
+      ],
+      "source_rows_reviewed": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a26682f000000000702571f",
+      "input_order": 26,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论对原帖的导出、设置学习与画面问题提出不同说法；可作观点讨论，不能据此确认功能或速度。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 42,
+          "comment_id": "xiaohongshu:6a30145b0000000029034c3f",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 43,
+          "column": "B",
+          "cell": "B43"
+        },
+        {
+          "normalized_line": 44,
+          "comment_id": "xiaohongshu:6a5b7de9000000002b002e3f",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 45,
+          "column": "B",
+          "cell": "B45"
+        },
+        {
+          "normalized_line": 47,
+          "comment_id": "xiaohongshu:6a736cbe000000000703a8c5",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 48,
+          "column": "B",
+          "cell": "B48"
+        },
+        {
+          "normalized_line": 48,
+          "comment_id": "xiaohongshu:6a57a763000000002b025e30",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 49,
+          "column": "B",
+          "cell": "B49"
+        }
+      ],
+      "source_rows_reviewed": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "69e206140000000022027401",
+      "input_order": 27,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "有日常记录频率与具体生活用途的评论，另有泛化态度和无关单字符，后者不单独计入。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 51,
+          "comment_id": "xiaohongshu:6a1a3451000000002a0305f3",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 52,
+          "column": "B",
+          "cell": "B52"
+        },
+        {
+          "normalized_line": 53,
+          "comment_id": "xiaohongshu:69fc1e760000000029026fbb",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 54,
+          "column": "B",
+          "cell": "B54"
+        }
+      ],
+      "source_rows_reviewed": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "row_count": 5,
+      "nonempty_text_rows": 5,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "69fedbd1000000003501c8b6",
+      "input_order": 28,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "正文仅标签、标题为体验预告；评论补入取景、租用及拍摄设置相关讨论。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "title_with_tags_only",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 57,
+          "comment_id": "xiaohongshu:6a065a3a000000002b002fa4",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 58,
+          "column": "B",
+          "cell": "B58"
+        },
+        {
+          "normalized_line": 60,
+          "comment_id": "xiaohongshu:6a0492eb000000002b028df3",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 61,
+          "column": "B",
+          "cell": "B61"
+        },
+        {
+          "normalized_line": 63,
+          "comment_id": "xiaohongshu:6a13f0940000000029026561",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 64,
+          "column": "B",
+          "cell": "B64"
+        }
+      ],
+      "source_rows_reviewed": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "69e1d295000000001f001cbc",
+      "input_order": 29,
+      "split": "holdout",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "留出元数据检查显示存在设备使用和选择相关讨论，不是只有表情或引流；不提取原话。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "existing_post_review_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 66,
+          "comment_id": "xiaohongshu:69e34ec20000000014019409",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 67,
+          "column": "B",
+          "cell": "B67"
+        },
+        {
+          "normalized_line": 68,
+          "comment_id": "xiaohongshu:69e721e5000000001401b80d",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 69,
+          "column": "B",
+          "cell": "B69"
+        },
+        {
+          "normalized_line": 71,
+          "comment_id": "xiaohongshu:69e372c3000000001401dc21",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 72,
+          "column": "B",
+          "cell": "B72"
+        },
+        {
+          "normalized_line": 75,
+          "comment_id": "xiaohongshu:69fc0cf4000000002702db6d",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 76,
+          "column": "B",
+          "cell": "B76"
+        }
+      ],
+      "source_rows_reviewed": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "restricted_holdout_context_feature_metadata_review_no_raw_quote_output",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。",
+        "留出仅做上下文元数据筛查，未输出正文或引语，不作表达归纳；该判断不等于逐句语义学习。"
+      ]
+    },
+    {
+      "work_id": "6a8849dd000000003703ed70",
+      "input_order": 30,
+      "split": "train",
+      "discussion_primary_model": "pocket_4",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "正文为使用感受预告；评论补充亲子、独自拍摄和具体拍摄对象下的设备选择。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "experience_teaser_without_read_media",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 77,
+          "comment_id": "xiaohongshu:6a89c80f0000000015016eb0",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 78,
+          "column": "B",
+          "cell": "B78"
+        },
+        {
+          "normalized_line": 79,
+          "comment_id": "xiaohongshu:6a977b66000000000a026539",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 80,
+          "column": "B",
+          "cell": "B80"
+        },
+        {
+          "normalized_line": 84,
+          "comment_id": "xiaohongshu:6a8ba38c000000000d021c00",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 85,
+          "column": "B",
+          "cell": "B85"
+        }
+      ],
+      "source_rows_reviewed": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a438478000000001102e2fb",
+      "input_order": 31,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论围绕人像构图、自拍观感、出游与型号选择展开，仍是主观讨论。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 90,
+          "comment_id": "xiaohongshu:6a564486000000001501441a",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 91,
+          "column": "B",
+          "cell": "B91"
+        },
+        {
+          "normalized_line": 91,
+          "comment_id": "xiaohongshu:6a4cf3fe0000000015009660",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 92,
+          "column": "B",
+          "cell": "B92"
+        },
+        {
+          "normalized_line": 92,
+          "comment_id": "xiaohongshu:6a47d4d1000000001501352b",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 93,
+          "column": "B",
+          "cell": "B93"
+        }
+      ],
+      "source_rows_reviewed": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a40a5d40000000007021f64",
+      "input_order": 32,
+      "split": "holdout",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "留出评论有明确设备操作或使用感受的元数据，并非全为泛化态度；不提取原话。",
+      "comment_context_usable": true,
+      "discussion_depth": "light_but_specific",
+      "post_context_basis": "existing_post_review_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 98,
+          "comment_id": "xiaohongshu:6a40f94c0000000015005f33",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 99,
+          "column": "B",
+          "cell": "B99"
+        },
+        {
+          "normalized_line": 101,
+          "comment_id": "xiaohongshu:6a412b9f0000000014039461",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 102,
+          "column": "B",
+          "cell": "B102"
+        },
+        {
+          "normalized_line": 104,
+          "comment_id": "xiaohongshu:6a47c93100000000150020e5",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 105,
+          "column": "B",
+          "cell": "B105"
+        }
+      ],
+      "source_rows_reviewed": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "restricted_holdout_context_feature_metadata_review_no_raw_quote_output",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。",
+        "留出仅做上下文元数据筛查，未输出正文或引语，不作表达归纳；该判断不等于逐句语义学习。"
+      ]
+    },
+    {
+      "work_id": "6a75861e000000002500033a",
+      "input_order": 33,
+      "split": "holdout",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "原帖讨论内容不足；留出评论元数据包含具体拍摄或操作问题，补足作品讨论上下文。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "prior_post_context_insufficient",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 109,
+          "comment_id": "xiaohongshu:6a8871660000000014003529",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 110,
+          "column": "B",
+          "cell": "B110"
+        },
+        {
+          "normalized_line": 112,
+          "comment_id": "xiaohongshu:6a8570950000000015004cde",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 113,
+          "column": "B",
+          "cell": "B113"
+        },
+        {
+          "normalized_line": 115,
+          "comment_id": "xiaohongshu:6a898689000000000202a77c",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 116,
+          "column": "B",
+          "cell": "B116"
+        }
+      ],
+      "source_rows_reviewed": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "restricted_holdout_context_feature_metadata_review_no_raw_quote_output",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。",
+        "留出仅做上下文元数据筛查，未输出正文或引语，不作表达归纳；该判断不等于逐句语义学习。"
+      ]
+    },
+    {
+      "work_id": "6a3abdee0000000011019f32",
+      "input_order": 34,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论补充握持、配件及新手选择等具体问题，夹有交易短句但不以其单独过关。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 116,
+          "comment_id": "xiaohongshu:6a3b43c5000000002b0037d4",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 117,
+          "column": "B",
+          "cell": "B117"
+        },
+        {
+          "normalized_line": 118,
+          "comment_id": "xiaohongshu:6a536087000000002902f75c",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 119,
+          "column": "B",
+          "cell": "B119"
+        },
+        {
+          "normalized_line": 119,
+          "comment_id": "xiaohongshu:6a4262ab0000000015017f9b",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 120,
+          "column": "B",
+          "cell": "B120"
+        },
+        {
+          "normalized_line": 123,
+          "comment_id": "xiaohongshu:6a43685d0000000015017082",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 124,
+          "column": "B",
+          "cell": "B124"
+        }
+      ],
+      "source_rows_reviewed": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a464efd000000001702d716",
+      "input_order": 35,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "原帖正文已有具体使用问题，作品整体可用；三条导出评论仅点击反应、主页引导或泛化态度，不能单独视为实质评论上下文。",
+      "comment_context_usable": false,
+      "discussion_depth": "no_substantive_comment_context",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 126,
+          "comment_id": "xiaohongshu:6a4a2bee0000000029025a3a",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 127,
+          "column": "B",
+          "cell": "B127"
+        },
+        {
+          "normalized_line": 127,
+          "comment_id": "xiaohongshu:6a504874000000001500bf0b",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 128,
+          "column": "B",
+          "cell": "B128"
+        },
+        {
+          "normalized_line": 128,
+          "comment_id": "xiaohongshu:6a46a0120000000009017841",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 129,
+          "column": "B",
+          "cell": "B129"
+        }
+      ],
+      "source_rows_reviewed": [
+        127,
+        128,
+        129
+      ],
+      "row_count": 3,
+      "nonempty_text_rows": 3,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a7f0f16000000002102169f",
+      "input_order": 36,
+      "split": "holdout",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "原帖为教程预告；留出评论元数据包含具体设备或操作主题，补足文字讨论上下文。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "prior_post_context_insufficient",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 129,
+          "comment_id": "xiaohongshu:6a87d4a90000000014031715",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 130,
+          "column": "B",
+          "cell": "B130"
+        },
+        {
+          "normalized_line": 131,
+          "comment_id": "xiaohongshu:6a9a4eae000000001303da0c",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 132,
+          "column": "B",
+          "cell": "B132"
+        },
+        {
+          "normalized_line": 134,
+          "comment_id": "xiaohongshu:6a817b0700000000290345e5",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 135,
+          "column": "B",
+          "cell": "B135"
+        },
+        {
+          "normalized_line": 137,
+          "comment_id": "xiaohongshu:6a883419000000000f02e4dc",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 138,
+          "column": "B",
+          "cell": "B138"
+        }
+      ],
+      "source_rows_reviewed": [
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "restricted_holdout_context_feature_metadata_review_no_raw_quote_output",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。",
+        "留出仅做上下文元数据筛查，未输出正文或引语，不作表达归纳；该判断不等于逐句语义学习。"
+      ]
+    },
+    {
+      "work_id": "6a774116000000003300d22d",
+      "input_order": 37,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论虽多带未读视频标记，但文字里仍有日常试用、旅游及配件需求，不能把未读视频效果算进证据。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 142,
+          "comment_id": "xiaohongshu:6a794bf9000000002a033574",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 143,
+          "column": "B",
+          "cell": "B143"
+        },
+        {
+          "normalized_line": 145,
+          "comment_id": "xiaohongshu:6a8ef5490000000015010df7",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 146,
+          "column": "B",
+          "cell": "B146"
+        },
+        {
+          "normalized_line": 148,
+          "comment_id": "xiaohongshu:6a8e9f490000000014033eb1",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 149,
+          "column": "B",
+          "cell": "B149"
+        }
+      ],
+      "source_rows_reviewed": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a4c5157000000001101d315",
+      "input_order": 38,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "评论对光线、参数、发热偏好和型号选择作具体讨论；不据此认定作者故障原因或通用正确参数。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 149,
+          "comment_id": "xiaohongshu:6a4c9e9e0000000015013e8d",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 150,
+          "column": "B",
+          "cell": "B150"
+        },
+        {
+          "normalized_line": 150,
+          "comment_id": "xiaohongshu:6a4c82fa000000002100da66",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 151,
+          "column": "B",
+          "cell": "B151"
+        },
+        {
+          "normalized_line": 155,
+          "comment_id": "xiaohongshu:6a8b37000000000015010578",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 156,
+          "column": "B",
+          "cell": "B156"
+        },
+        {
+          "normalized_line": 157,
+          "comment_id": "xiaohongshu:6a52611900000000050150b6",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 158,
+          "column": "B",
+          "cell": "B158"
+        }
+      ],
+      "source_rows_reviewed": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a9037d30000000021031c8e",
+      "input_order": 39,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "唯一评论给出退货后等待价格变化的选择态度，细节有限但仍与原帖购买决定直接相关。",
+      "comment_context_usable": true,
+      "discussion_depth": "light_but_specific",
+      "post_context_basis": "concrete_post_context",
+      "minimal_post_context_supplemented_by_comments": false,
+      "evidence_rows": [
+        {
+          "normalized_line": 159,
+          "comment_id": "xiaohongshu:6a92f488000000000202b222",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 160,
+          "column": "B",
+          "cell": "B160"
+        }
+      ],
+      "source_rows_reviewed": [
+        160
+      ],
+      "row_count": 1,
+      "nonempty_text_rows": 1,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    },
+    {
+      "work_id": "6a3a754a000000001503ef32",
+      "input_order": 40,
+      "split": "train",
+      "discussion_primary_model": "pocket_4p",
+      "discussion_primary_model_basis": "prior_post_metadata_review; this review does not reassign model",
+      "usable": true,
+      "reason": "正文以标签为主；评论补充双摄切换、常拍场景和旅行前熟悉设置的具体讨论。",
+      "comment_context_usable": true,
+      "discussion_depth": "substantive",
+      "post_context_basis": "title_with_tags_only",
+      "minimal_post_context_supplemented_by_comments": true,
+      "evidence_rows": [
+        {
+          "normalized_line": 160,
+          "comment_id": "xiaohongshu:6a5cf40c0000000029035a7e",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 161,
+          "column": "B",
+          "cell": "B161"
+        },
+        {
+          "normalized_line": 161,
+          "comment_id": "xiaohongshu:6a624b60000000002a02f139",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 162,
+          "column": "B",
+          "cell": "B162"
+        },
+        {
+          "normalized_line": 165,
+          "comment_id": "xiaohongshu:6a5cf61a00000000150109d2",
+          "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-comments-02.xlsx",
+          "sheet": "Sheet1",
+          "row": 166,
+          "column": "B",
+          "cell": "B166"
+        }
+      ],
+      "source_rows_reviewed": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "row_count": 10,
+      "nonempty_text_rows": 10,
+      "review_method": "manual_train_text_context_review",
+      "existing_sampling_exclusion_reason": null,
+      "sampling_status_changed": false,
+      "thread_relation_status": "unknown",
+      "root_reply_pair_eligible": false,
+      "limitations": [
+        "仅判断实际导出文字是否构成作品讨论上下文，不认证评论者身份、经历、商业独立性或产品说法。",
+        "本批16列未导出根/回复/引用关系；全部thread_role=unknown、parent_id/root_id为空，只能作观点语料，不能按采集配置推定一级评论、补父句或连成对话。",
+        "未看评论图片、视频或音轨；媒体标记和链接不等于读到内容，导出顺序不证明排名。",
+        "usable是作品层面结论，不表示每条评论可用、型号已确认、配额可计或父链完整。"
+      ]
+    }
+  ]
+}

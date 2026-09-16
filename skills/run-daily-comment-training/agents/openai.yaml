@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日培训草稿执行"
+  short_description: "每日核对最新写手与采集规则，按产品调知识库，每十个链接一组输出培训草稿"
+  default_prompt: "使用 $run-daily-comment-training 核对最新写手与采集规则，按产品代码调用知识库，完整集合采集后每十个链接一组交付培训草稿并记录 KPI。"

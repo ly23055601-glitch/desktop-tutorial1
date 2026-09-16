@@ -1,0 +1,244 @@
+提取方式：Python HTMLParser，去除script/style后按文本节点换行。
+DJI Mic 系列可以搭配哪些产品使用、如何使用？
+dji-brand_black_42×24
+Created with Sketch.
+帮助中心
+选择您的国家/地区
+亚太
+中国大陆
+简体中文
+中國香港
+繁體中文
+HongKong
+English
+Indonesia
+English
+대한민국
+한국어
+日本
+日本語
+中國澳门
+繁體中文
+中國台灣
+繁體中文
+New Zealand
+English
+Australia
+English
+Singapore
+English
+欧洲
+Österreich
+Deutsch
+Belgium
+Français
+Bulgaria
+English
+Croatia
+English
+Czech Republic
+English
+Denmark
+English
+Estonia
+English
+Finland
+English
+France
+Français
+Deutschland
+Deutsch
+Greece
+English
+Hungary
+English
+Ireland
+English
+Italia
+Italiano
+Latvia
+English
+Liechtenstein
+Deutsch
+Lithuania
+English
+Luxembourg
+Français
+Malta
+English
+Monaco
+Français
+Netherlands
+English
+Norway
+English
+Poland
+English
+Portugal
+English
+Slovakia
+English
+Slovenia
+English
+Spain
+English
+Sweden
+English
+Switzerland
+English
+Switzerland
+Français
+United Kingdom
+English
+美洲
+Canada
+English
+Canada
+Français
+Puerto Rico
+English
+United States
+English
+México
+Español
+其他
+Other Regions
+English
+DJI Mic 系列可以搭配哪些产品使用、如何使用？
+如果您想了解 DJI Mic 系列产品能与哪些 DJI 产品搭配使用，以及对用的使用方法，请参考本篇内容获取帮助。 #产品使用
+适用产品：
+Osmo Nano 系列，Osmo 360 系列，Osmo Action 系列，Osmo Mobile 系列，Osmo Pocket 系列
+您可以通过以下步骤连接 DJI Mic 2 使用，首次使用也可以参考官网
+教学视频
+。
+DJI Mic 3/DJI Mic 2/DJI Mic Mini 2S/DJI Mic Mini 2/DJI Mic Mini
+搭配 Osmo Pocket 4 系列
+1. 从相机触摸屏主页顶部下拉进入控制中心 > 无线麦克风 > TX 1/TX 2，相机进入蓝牙配对模式。
+2. 长按发射器的电源按键两秒，开启 DJI Mic 3、DJI Mic Mini 2S、DJI Mic Mini 2、DJI Mic Mini、DJI Mic 2。
+3. 确保发射器开机后处于蓝牙配对模式，若发射器的系统指示灯处于绿色状态，长按 DJI Mic 2 发射器的录音按键三秒使其处于蓝牙配对模式，发射器的系统指示灯将处于蓝灯慢闪状态。
+【提示】
+：DJI Mic Mini 2S、DJI Mic Mini 2、DJI Mic Mini 及 DJI Mic 3 直接进入下一步骤长按对频按键进入蓝绿交闪的等待配对状态。
+4. 长按发射器的配对按键两秒后，发射器将开始搜索附近蓝牙设备，此时发射器的系统指示灯处于蓝牙快闪状态。
+5. 当发射器与相机蓝牙配对成功后，发射器的系统指示灯将处于蓝灯常亮状态。相机屏幕上将显示“已连接”的状态。此时按下发射器的配对按键后进行录制视频，视频的声音来自发射器收音。再次按下发射器的配对按键后停止录制。
+搭配 Osmo Pocket 3
+1. 从相机触摸屏主页顶部下滑，点击“设置”图标，选择「无线麦克风 > TX1/TX2」后，相机进入蓝牙配对模式。
+2. 长按发射器的电源按键两秒，开启 DJI Mic 3、
+DJI Mic Mini 2S、
+DJI Mic Mini 2、DJI Mic Mini、DJI Mic 2。
+3. 确保发射器开机后处于蓝牙配对模式，若发射器的系统指示灯处于绿色状态，长按 DJI Mic 2 发射器的录音按键三秒使其处于蓝牙配对模式，发射器的系统指示灯将处于蓝灯慢闪状态。
+【提示】
+：
+DJI Mic Mini 2S、
+DJI Mic Mini 2、DJI Mic Mini 及 DJI Mic 3 直接进入下一步骤长按对频按键进入蓝绿交闪的等待配对状态。
+4. 长按发射器的配对按键两秒后，发射器将开始搜索附近蓝牙设备，此时发射器的系统指示灯处于蓝牙快闪状态。
+5. 当发射器与相机蓝牙配对成功后，发射器的系统指示灯将处于蓝灯常亮状态。相机屏幕上将显示“已连接”的状态。此时按下发射器的配对按键后进行录制视频，视频的声音来自发射器收音。再次按下发射器的配对按键后停止录制。
+观看视频，了解如何连接 Osmo Pocket 3 使用：
+搭配 Osmo Mobile 8P/Osmo Mobile 8/Osmo Mobile 7P/Osmo Mobile 7
+1. 通过“配对按键”，完成“追踪模块”和“DJI Mic Mini TX”的无线配对。
+2. 配对完成后，“追踪模块”和“DJI Mic Mini TX”的指示灯均变为绿灯常亮，即可开始收音。
+3. 无线麦克风相关参数可以在「DJI Mimo app > Osmo Mobile 相机页面 > 多功能追踪模块」 菜单内完成设置。
+温馨提示：
+1、DJI Mic 3 支持对频连接 DJI OM 多功能追踪模块。
+2、Osmo Mobile 8P 需要单独买追踪套件
+搭配 Osmo Action 6/Osmo Action 5 Pro
+Osmo Action 6/Osmo Action 5 Pro 支持通过蓝牙方式同时连接 2 个 DJI Mic 3/DJI Mic 2 无线麦克风，实现稳定的无线收音和远程控制拍录。
+更多使用介绍请查看下方视频。
+搭配 Osmo Action 4
+1. 从相机触摸屏主页顶部下滑，点击设置图标，选择「无线麦克风 > TX」后，相机进入蓝牙配对模式。
+2. 长按发射器的电源按键两秒，开启 DJI Mic 3、
+DJI Mic Mini 2S、
+DJI Mic Mini 2、DJI Mic Mini、DJI Mic 2。
+3. 确保发射器开机后处于蓝牙配对模式，若发射器的系统指示灯处于绿色状态，长按 DJI Mic 2 发射器的录音按键三秒使其处于蓝牙配对模式，发射器的系统指示灯将处于蓝灯慢闪状态。
+【提示】
+：
+DJI Mic Mini 2S、
+DJI Mic Mini 2、DJI Mic Mini 及 DJI Mic 3 直接进入下一步骤长按对频按键进入蓝绿交闪的等待配对状态。
+4. 长按发射器的配对按键两秒后，发射器将开始搜索附近蓝牙设备，此时发射器的系统指示灯处于蓝牙快闪状态。
+5. 当发射器与相机蓝牙配对成功后，发射器的系统指示灯将处于蓝灯常亮状态。相机屏幕上将显示“已连接无线麦克风”的状态。此时按下发射器的配对按键后进行录制视频，视频的声音来自发射器收音。再次按下发射器的配对按键后停止录制。
+【提示】
+1. Osmo Action 4 需要升级至 V01.03.07.10 以上；DJI Mic 2 需要升级至 V04.02.01.13 版本以上。
+2.
+Osmo Action 4 最多仅支持连接一个 DJI Mic 2 发射器；
+如果您需要使用两个 DJI Mic 2 发射器来收音，可以将 DJI Mic 2 接收器插入 Osmo Action 4 的 Type-C 接口，DJI Mic 2 发射器配对接收器来使用。
+搭配 Osmo Nano
+【提示】
+Osmo Nano 支持搭配
+DJI Mic 2、DJI Mic Mini 、DJI Mic 3、DJI Mic Mini 2、
+DJI Mic Mini 2S
+产品的 TX 进行无线连接使用，不支持通过 RX 方式进行连接。
+1. 将 Osmo Nano 图传模块屏幕从上往下滑，点击麦克风图标 - 点击“TX1”\"TX2”启动配对功能；
+2. 将 DJI Mic 2/DJI Mic Mini/DJI Mic 3/DJI Mic Mini 2/
+DJI Mic Mini 2S
+的 TX 开机后，切换至蓝牙配对模式，并触发配对操作，等待配对成功即可。
+搭配 Osmo 360 系列
+【提示】
+Osmo 360 II、Osmo 360 支持搭配 DJI Mic 2、DJI Mic Mini 、DJI Mic 3、DJI Mic Mini 2、DJI Mic Mini 2S 产品的 TX 进行无线连接使用，不支持通过 RX 方式进行连接。
+1. 将 Osmo 360 II、Osmo 360 屏幕从上往下滑，点击麦克风图标 - 点击“TX1”/"TX2”启动配对功能；
+2. 将 DJI Mic 2/DJI Mic Mini/DJI Mic 3/DJI Mic Mini 2/DJI Mic Mini 2S 的 TX 开机后，切换至蓝牙配对模式，并触发配对操作，等待配对成功即可。
+您可以通过以下步骤连接 DJI Mic 使用，首次使用也可以参考官网
+教学视频
+。
+DJI Mic
+搭配 Osmo Action 系列产品使用
+Osmo Action 6/Osmo Action 5 Pro/Osmo Action 4/Osmo Action 3
+与 DJI Mic 搭配使用时，需连接 Osmo Action 系列产品机身，使用方法如下：
+1. 使用 Type-C 手机连接头连接 DJI Mic 的接收器到机身 USB-C 接口。
+2. 使用第三方双头 Type-C 连接线（有音频传输协议）连接机身的 USB-C 接口和 DJI Mic 接收器的 USB-C。
+3. 使用 USB-C to 3.5mm TRS 转接线连接 DJI Mic 接收器的音频输出接口。
+DJI Action 2
+使用 Type-C 手机连接头连接 DJI Action 2 的前屏拓展模块或续航模块的 USB-C 接口与DJI Mic 接收器。
+搭配 Osmo Pocket 系列产品使用
+Osmo Pocket 4 系列/Osmo Pocket 3
+与 DJI Mic 搭配使用时，需连接 Osmo Pocket 4 系列/Osmo Pocket 3 机身，使用方法如下：
+1. 开启 DJI Mic 接收器和发射器，并确保 DJI Mic 接收器与发射器已经配对成功。
+2. 使用标配 USB-C 手机连接头连接 DJI Mic 接收器到相机的 USB-C 接口，此时相机屏幕上将出现输入音量条。
+3. 按下发射器的配对按键后进行录制视频，视频的声音来自发射器收音。再次按下发射器的配对按键后停止录制。
+DJI Pocket 2
+与 DJI Mic 搭配使用时，需连接 DJI Pocket 2 机身，使用方法如下：
+使用 3.5mm 相机连接线，连接 DJI Pokcet 2 全能手柄的 3.5 mm 音频接口和 DJI Mic 接收器的 3.5 mm TRS 输出接口。
+Osmo Pocket
+与 DJI Mic 搭配使用时，需连接 Osmo Pocket 机身，使用方法如下：
+1. 将 Osmo Pocket 音频转接头连接 Pokcet 底部的 Type-C 接口。
+2. 使用 3.5mm 相机连接线连接 Osmo Pocket 音频转接头和 DJI Mic 接收器的 3.5 mm TRS 输出接口。
+搭配 Osmo Mobile 系列产品使用
+Osmo Mobile 6、DJI OM 5
+与 DJI Mic 2/DJI Mic 搭配使用时，需连接手机，使用方法如下：
+1. 使用手机连接头连接移动设备与 DJI Mic 2/DJI Mic 接收器。
+2. 将移动设备与接收器，安装至 Osmo Mobile 6/DJI OM 5 手机夹上并完成平衡调节。
+查看
+DJI Mic 移动设备兼容列表
+，列表内的设备是经过充分测试可适配 DJI Mic 2/DJI Mic 使用的手机。
+搭配 Ronin 单手持稳定器使用
+DJI RS 5、DJI RS 4 Mini、DJI RS 4 Pro、DJI RS 4、DJI RS 3 Mini、DJI RS 3 Pro、DJI RS 3、DJI RS 2、DJI RSC 2、如影 Ronin 2、如影 Ronin-SC
+与 DJI Mic 系列产品搭配使用时，需连接相机，使用方法如下：
+1. 将接收器通过热靴转接板固定至相机热靴接口。
+2. 使用 3.5mm 相机连接线，连接相机的麦克风接口和 DJI Mic 系列接收器的 3.5 mm TRS 输出接口。
+搭配 Ronin 电影机使用
+DJI Ronin 4D
+与 DJI Mic 系列产品搭配使用时，需连接 DJI Ronin 4D 机身，使用方法如下：
+1. 将 DJI Mic 通过热靴转接板配件安装到 DJI Ronin 4D 控制提手的热靴口上。
+2. 使用 3.5mm 相机连接线，连接 DJI Ronin 4D 的 3.5 mm TRS 立体声音频输入插孔和 DJI Mic 接收器的 3.5 mm TRS 输出接口。
+3. 在 DJI Ronin 4D 的音频设置中，将声道 1 和声道 2 的声源设置为 3.5mm Mic。
+内容是否有帮助？
+是
+否
+感谢您的反馈。
+感谢您的反馈，填写体验不佳的原因以让我们做得更好：
+未涵盖我想了解的内容
+已按指引操作，未解决问题
+内容难理解，看不懂
+链接/图片/视频失效
+页面展示不美观
+其他
+您也可以描述具体问题让我们更好地帮助到您：
+（可选）
+提交
+联系我们
+在线客服
+周一至周日：9:00-21:00（北京时间）
+联系在线客服
+dji-brand/en/48
+Created with Sketch.
+Copyright © 2026 DJI 大疆创新 版权所有
+|
+隐私权政策

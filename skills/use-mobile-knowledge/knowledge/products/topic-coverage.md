@@ -1,0 +1,76 @@
+# 主题覆盖表
+
+数字为事实和兼容记录数量；数量不等于资料完整。主型号每个主题应有已核依据或明确缺口。辅助型号仅承担识别及关键差异。
+
+| 型号 | 主题 | 已核 | 待核／冲突 |
+|---|---|---:|---:|
+| Osmo Mobile 8P | 身份与组件 | 5 | 0 |
+| Osmo Mobile 8P | 增稳与运镜 | 5 | 0 |
+| Osmo Mobile 8P | 安装与操作 | 7 | 0 |
+| Osmo Mobile 8P | 跟随与遥控 | 6 | 1 |
+| Osmo Mobile 8P | 手机与配件兼容 | 15 | 1 |
+| Osmo Mobile 8P | 收音连接 | 2 | 1 |
+| Osmo Mobile 8P | 续航与供电 | 6 | 0 |
+| Osmo Mobile 8P | 套装 | 4 | 0 |
+| Osmo Mobile 8P | 维护与限制 | 5 | 0 |
+| Osmo Mobile 8P | 软件与固件 | 4 | 0 |
+| Osmo Mobile 8 | 身份与组件 | 3 | 0 |
+| Osmo Mobile 8 | 增稳与运镜 | 5 | 0 |
+| Osmo Mobile 8 | 安装与操作 | 6 | 0 |
+| Osmo Mobile 8 | 跟随与遥控 | 12 | 1 |
+| Osmo Mobile 8 | 手机与配件兼容 | 6 | 1 |
+| Osmo Mobile 8 | 收音连接 | 5 | 1 |
+| Osmo Mobile 8 | 续航与供电 | 6 | 0 |
+| Osmo Mobile 8 | 套装 | 3 | 0 |
+| Osmo Mobile 8 | 维护与限制 | 4 | 0 |
+| Osmo Mobile 8 | 软件与固件 | 10 | 2 |
+| Osmo Mobile 7P | 身份与组件 | 1 | 0 |
+| Osmo Mobile 7P | 增稳与运镜 | 1 | 0 |
+| Osmo Mobile 7P | 安装与操作 | 3 | 0 |
+| Osmo Mobile 7P | 跟随与遥控 | 5 | 1 |
+| Osmo Mobile 7P | 手机与配件兼容 | 2 | 1 |
+| Osmo Mobile 7P | 收音连接 | 2 | 1 |
+| Osmo Mobile 7P | 续航与供电 | 2 | 0 |
+| Osmo Mobile 7P | 套装 | 0 | 0 |
+| Osmo Mobile 7P | 维护与限制 | 1 | 0 |
+| Osmo Mobile 7P | 软件与固件 | 1 | 0 |
+| Osmo Mobile 7 | 身份与组件 | 1 | 0 |
+| Osmo Mobile 7 | 增稳与运镜 | 1 | 0 |
+| Osmo Mobile 7 | 安装与操作 | 3 | 0 |
+| Osmo Mobile 7 | 跟随与遥控 | 5 | 1 |
+| Osmo Mobile 7 | 手机与配件兼容 | 2 | 1 |
+| Osmo Mobile 7 | 收音连接 | 2 | 1 |
+| Osmo Mobile 7 | 续航与供电 | 2 | 0 |
+| Osmo Mobile 7 | 套装 | 0 | 0 |
+| Osmo Mobile 7 | 维护与限制 | 1 | 0 |
+| Osmo Mobile 7 | 软件与固件 | 1 | 0 |
+| Osmo Mobile 6 | 身份与组件 | 1 | 0 |
+| Osmo Mobile 6 | 增稳与运镜 | 0 | 0 |
+| Osmo Mobile 6 | 安装与操作 | 3 | 0 |
+| Osmo Mobile 6 | 跟随与遥控 | 1 | 0 |
+| Osmo Mobile 6 | 手机与配件兼容 | 2 | 1 |
+| Osmo Mobile 6 | 收音连接 | 0 | 0 |
+| Osmo Mobile 6 | 续航与供电 | 2 | 0 |
+| Osmo Mobile 6 | 套装 | 2 | 0 |
+| Osmo Mobile 6 | 维护与限制 | 1 | 0 |
+| Osmo Mobile 6 | 软件与固件 | 1 | 0 |
+| Osmo Mobile SE | 身份与组件 | 1 | 0 |
+| Osmo Mobile SE | 增稳与运镜 | 0 | 0 |
+| Osmo Mobile SE | 安装与操作 | 3 | 0 |
+| Osmo Mobile SE | 跟随与遥控 | 1 | 0 |
+| Osmo Mobile SE | 手机与配件兼容 | 2 | 1 |
+| Osmo Mobile SE | 收音连接 | 0 | 0 |
+| Osmo Mobile SE | 续航与供电 | 2 | 0 |
+| Osmo Mobile SE | 套装 | 1 | 0 |
+| Osmo Mobile SE | 维护与限制 | 1 | 0 |
+| Osmo Mobile SE | 软件与固件 | 1 | 0 |
+| DJI OM 5 | 身份与组件 | 1 | 0 |
+| DJI OM 5 | 增稳与运镜 | 0 | 0 |
+| DJI OM 5 | 安装与操作 | 3 | 0 |
+| DJI OM 5 | 跟随与遥控 | 1 | 0 |
+| DJI OM 5 | 手机与配件兼容 | 3 | 1 |
+| DJI OM 5 | 收音连接 | 0 | 0 |
+| DJI OM 5 | 续航与供电 | 2 | 0 |
+| DJI OM 5 | 套装 | 1 | 0 |
+| DJI OM 5 | 维护与限制 | 0 | 0 |
+| DJI OM 5 | 软件与固件 | 0 | 0 |

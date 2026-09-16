@@ -1,0 +1,30 @@
+{
+  "arm": "A_baseline",
+  "status": "draft_pending_user_calibration",
+  "sample_size_posts": 2,
+  "main_comments": 4,
+  "replies": 1,
+  "content_mode": "training_fiction",
+  "draft_sha256": "1f60a1e7807fb2082485ba1b557eae477e4f87cc86e54a383cc953c4d2dc536c",
+  "inputs": [
+    {
+      "path": "../inputs/012-6a4335f10000000017008cde.json",
+      "sha256": "ba43b81a58ebab81b18b9ddefcdb43437a940489d9d68fa1b0027036dc16fffd",
+      "split": "holdout",
+      "frozen_split": "holdout",
+      "work_id": "6a4335f10000000017008cde"
+    },
+    {
+      "path": "../inputs/032-6a40a5d40000000007021f64.json",
+      "sha256": "e8e374992afe6874beb8b51975742c067369ebb72b839e72d85ce3db090fb2af",
+      "split": "holdout",
+      "frozen_split": "holdout",
+      "work_id": "6a40a5d40000000007021f64"
+    }
+  ],
+  "is_30_post_acceptance": false,
+  "comparison_claim": null,
+  "structure_checker_exit_code": 0,
+  "semantic_review": "completed_by_writer; see review.md; not user acceptance",
+  "product_verification": "independent current official DJI naming only; see evidence/official-names.md"
+}

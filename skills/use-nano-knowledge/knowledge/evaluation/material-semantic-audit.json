@@ -1,0 +1,78 @@
+{
+  "scope": [
+    "knowledge/nano/products/facts.jsonl",
+    "knowledge/nano/selling-points/cards.jsonl",
+    "knowledge/nano/scenarios/training-daily.jsonl",
+    "knowledge/nano/scenarios/training-extended.jsonl",
+    "knowledge/nano/TRAINING.md"
+  ],
+  "method": "逐条阅读当前 18 张卖点、32 张场景及关联事实的 fact/conditions/not_infer；不读取旧验收结论，不重跑字段或哈希检查。",
+  "result": "one_condition_clarification",
+  "findings": [
+    {
+      "id": "NANO-TRAIN-018",
+      "field": "conditions[2]",
+      "current": "如提及 90 分钟续航，保留 25℃、1080p24、16:9、增稳开、Wi-Fi 关和熄屏条件",
+      "reason": "这条明确提供 90 分钟引用条件，却遗漏 NANO-PWR-001 的欧盟和英国不得直接套用限制以及实验室数据非实际保证。卡片主任务是长时间等待预录制，现有事实也没有验证预录制缓存状态下可持续 90 分钟。它未直接宣称该组合成立，但建议在此明确排除，以免按此条件摘要取材时被外推。",
+      "suggested_change": "保留原实验室条件，并补充“实验室数据仅供参考，欧盟和英国激活并使用时不能直接套用；实际时长受设置与环境影响，不能据此推算预录制等待／缓存可持续 90 分钟”。",
+      "fact_ids": [
+        "NANO-PWR-001",
+        "NANO-CTL-001"
+      ],
+      "resolution": {
+        "status": "resolved",
+        "scope": "仅复核 NANO-TRAIN-018.conditions[2] 及阅读版对应文本；不重做全量验收。",
+        "revised_text": "如提及 90 分钟续航，保留 25℃、1080p24、16:9、超强增稳开、Wi-Fi 关和熄屏条件；实验室数据仅供参考，实际受设置与环境影响，欧盟和英国激活并使用时不能直接套用；不能据此推算预录制等待或缓存可持续 90 分钟",
+        "assessment": "已补全实验室参考、实际设置与环境影响、欧盟和英国适用限制，并明确不能推算预录制等待或缓存持续 90 分钟。将增稳开明确为超强增稳开，与 NANO-PWR-001 条件一致。未引入新的事实、数字或模式组合承诺。",
+        "reading_view": "knowledge/nano/scenarios/training-guide.md:1315 同步呈现上述完整修正。",
+        "review_status_preserved": "pending_user_calibration"
+      }
+    }
+  ],
+  "other_conclusions": {
+    "product": "除上述条件摘要补全外，未发现未核功能、数字捏造、模式组合肯定外推、安装用途扩大或效果保证的阻塞问题。",
+    "diversity": "表达目标与接收者有实际差别；相近的动手场景分别涉及家庭手法、失败复盘、首次试装、共同参与、交接说明和劳动解释，非仅换产品词或职业名。",
+    "status": "18 张卖点保持 editorial_interpretation；32 张场景保持 editorial_hypothesis；均待用户校准。未见真实用户普遍结论或固定销售句式被写作标准答案。"
+  },
+  "evidence": [
+    {
+      "ids": [
+        "NANO-SP-008",
+        "NANO-SP-009",
+        "NANO-SP-011",
+        "NANO-TRAIN-016",
+        "NANO-TRAIN-032"
+      ],
+      "observed": "明确拆开普通视频/慢动作、HB ±30°/HC ±15°、9:16/16:9、胶片影调/D-Log M/10-bit；慢动作不套电子增稳，未知组合要求查当前界面。"
+    },
+    {
+      "ids": [
+        "NANO-SP-001",
+        "NANO-SP-014",
+        "NANO-SP-016",
+        "NANO-TRAIN-004",
+        "NANO-TRAIN-005",
+        "NANO-TRAIN-017",
+        "NANO-TRAIN-030"
+      ],
+      "observed": "成人佩戴与宠物/儿童身体佩戴分开；挂绳不用于剧烈运动；骑行胸带要求另购并核对转接件；无线麦分体录像中无画面；裸机防水与模块 IPX4、下水拆保护壳分开。"
+    },
+    {
+      "ids": [
+        "NANO-TRAIN-002",
+        "NANO-TRAIN-003",
+        "NANO-TRAIN-015",
+        "NANO-TRAIN-022",
+        "NANO-TRAIN-028",
+        "NANO-TRAIN-029",
+        "TRAINING.md"
+      ],
+      "observed": "以记家人手法、失败复盘、首次试装、协作交接、携带习惯与外形好奇分别展开；明确允许不买、不公开、不持续使用；TRAINING.md 禁止卡片变成配额/固定句式及助手自评变用户认可。"
+    }
+  ],
+  "repository_mutations": false,
+  "final_result": {
+    "status": "no_blocking_issues",
+    "message": "原唯一条件补充项已解决；结合原逐条审查，未留阻塞问题。此结论仅表示材料语义审查通过，不表示用户认可假设、样例或真实使用结果。"
+  }
+}

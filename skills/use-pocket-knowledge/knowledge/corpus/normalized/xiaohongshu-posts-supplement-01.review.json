@@ -1,0 +1,1487 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-06",
+  "purpose": "Supplement holdout model/stage/context metadata only; no voice learning",
+  "read_scope": "restricted model declarations, structural subject relationships, stage cues and source locators; no held-out full-body display or scene/expression synthesis",
+  "input_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+  "input_sha256": "b0510dfd1732e6ad65edaa56c2d8d4817b95959501086ecb10f2ee3aa0c25d24",
+  "classification_definitions": {
+    "discussion_primary_model": "4/4p/unknown；以正文主旨和标题为据，可同时提及对照机型",
+    "mentioned_models": "3/4/4p等被明确提及的型号；不表示持有或拍摄设备",
+    "M1": "作者标题/正文/话题中的型号声明，仅支持讨论对象或作者声明",
+    "stage": "considering/new_user/regular/upgrading/idle/unknown；必须结合stage_scope使用",
+    "stage_scope": "author_self_report=作者未认证自述；addressed_audience=正文明确面向的受众；discussion_context=讨论阶段推断；not_established=未知",
+    "regular": "使用中实操/体验交流且未明示首次或升级；不推断长期或高频使用",
+    "independent_valid_discussion": "同批唯一work且已读文字有具体话题/选择/使用语境，非只有教程预告；不等于独立真人用户",
+    "holdout": "仅允许分层元数据核对，禁止作为风格/写作素材或向其他写作代理转发正文"
+  },
+  "summary": {
+    "reviewed_works": 12,
+    "unique_work_ids": 12,
+    "unique_exported_author_ids": 12,
+    "overlap_work_ids_with_batches_01_03_count": 0,
+    "split_counts": {
+      "holdout": 12
+    },
+    "discussion_primary_model_counts": {
+      "4p": 7,
+      "4": 5
+    },
+    "mentioned_model_counts": {
+      "4": 9,
+      "4p": 8,
+      "1": 2,
+      "3": 7
+    },
+    "stage_counts": {
+      "considering": 1,
+      "idle": 1,
+      "upgrading": 2,
+      "regular": 2,
+      "unknown": 6
+    },
+    "stage_scope_counts": {
+      "discussion_context": 4,
+      "author_self_report": 2,
+      "not_established": 6
+    },
+    "independent_valid_discussion_count": 11,
+    "insufficient_text_discussion_count": 1,
+    "valid_discussion_primary_model_counts": {
+      "4p": 6,
+      "4": 5
+    },
+    "actual_capture_model_confirmed_count": 0,
+    "holdout_body_logged_count": 0,
+    "holdout_scene_classified_count": 0,
+    "multiple_work_author_clusters_in_batch": 0,
+    "authors_also_present_in_prior_batches": 0
+  },
+  "works": [
+    {
+      "work_id": "6a2a31af0000000016025ea9",
+      "platform": "xiaohongshu",
+      "input_id": "182",
+      "inputOrder": 182,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a2a31af0000000016025ea9",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 1,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 2
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "4",
+        "4p"
+      ],
+      "model_basis": "标题聚焦4P，正文以4作购买比较；不以标签提及次数定主款。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "4p",
+            "char_start": 0,
+            "char_end": 2,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 2,
+              "column": "D",
+              "cell": "D2"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "considering",
+      "stage_scope": "discussion_context",
+      "stage_basis": "有未购/劝退类购前判断语境；不认证作者实际购买阶段。",
+      "stage_evidence": [
+        {
+          "field": "post_text",
+          "quote": "等了三个月买",
+          "char_start": 137,
+          "char_end": 143,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 2,
+            "column": "E",
+            "cell": "E2"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "已有两款之间的具体取舍语境，非仅标题型号。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "60c5c8a2000000000101c033",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "4p",
+          "char_start": 0,
+          "char_end": 2,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 2,
+            "column": "D",
+            "cell": "D2"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "p4",
+          "char_start": 13,
+          "char_end": 15,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 2,
+            "column": "E",
+            "cell": "E2"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a3ba05500000000110130f5",
+      "platform": "xiaohongshu",
+      "input_id": "183",
+      "inputOrder": 183,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a3ba05500000000110130f5",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 2,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 3
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "1",
+        "4p"
+      ],
+      "model_basis": "标题并提初代与4P，主款为新一代4P；旧代保留为代际对照。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "pocket 4p",
+            "char_start": 10,
+            "char_end": 19,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 3,
+              "column": "D",
+              "cell": "D3"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "idle",
+      "stage_scope": "discussion_context",
+      "stage_basis": "正文出现闲置主题；仅标讨论阶段，不确认哪台设备已实际闲置。",
+      "stage_evidence": [
+        {
+          "field": "post_text",
+          "quote": "吃灰",
+          "char_start": 10,
+          "char_end": 12,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 3,
+            "column": "E",
+            "cell": "E3"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "型号对照标题加闲置使用主题，属于轻量具体讨论。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5829a23a6a6a695a606d6206",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket1",
+          "char_start": 0,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 3,
+            "column": "D",
+            "cell": "D3"
+          },
+          "model": "1",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_title",
+          "quote": "pocket 4p",
+          "char_start": 10,
+          "char_end": 19,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 3,
+            "column": "D",
+            "cell": "D3"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a8bc6b30000000033023586",
+      "platform": "xiaohongshu",
+      "input_id": "184",
+      "inputOrder": 184,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a8bc6b30000000033023586",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 3,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 4
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "3",
+        "4",
+        "4p"
+      ],
+      "model_basis": "标题明确从3考虑转向4P，正文保留旧款背景；换机目标作为主讨论对象。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "4p",
+            "char_start": 17,
+            "char_end": 19,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 4,
+              "column": "D",
+              "cell": "D4"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "upgrading",
+      "stage_scope": "discussion_context",
+      "stage_basis": "升级选择的讨论语境；不宣称已经完成换机。",
+      "stage_evidence": [
+        {
+          "field": "post_title",
+          "quote": "升级",
+          "char_start": 13,
+          "char_end": 15,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 4,
+            "column": "D",
+            "cell": "D4"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "含旧款使用背景及转向4P的选择问题。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5afbaae04eacab43a60e58fa",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆 p3",
+          "char_start": 7,
+          "char_end": 12,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 4,
+            "column": "D",
+            "cell": "D4"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_title",
+          "quote": "4p",
+          "char_start": 17,
+          "char_end": 19,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 4,
+            "column": "D",
+            "cell": "D4"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "大疆pocket4",
+          "char_start": 257,
+          "char_end": 266,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 4,
+            "column": "E",
+            "cell": "E4"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a623790000000000301d171",
+      "platform": "xiaohongshu",
+      "input_id": "185",
+      "inputOrder": 185,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a623790000000000301d171",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 4,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 5
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "1",
+        "3",
+        "4p"
+      ],
+      "model_basis": "标题提3与4P，正文对4P的使用和意见构成当前讨论重点；初代与3为背景。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "4p",
+            "char_start": 10,
+            "char_end": 12,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 5,
+              "column": "D",
+              "cell": "D5"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "regular",
+      "stage_scope": "author_self_report",
+      "stage_basis": "使用/入手自述对应体验交流；不推断使用时长或熟练程度。",
+      "stage_evidence": [
+        {
+          "field": "post_title",
+          "quote": "使用",
+          "char_start": 12,
+          "char_end": 14,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 5,
+            "column": "D",
+            "cell": "D5"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "已含本型号体验与具体产品关注点。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "57d6148f5e87e72a2fc82256",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket3",
+          "char_start": 0,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 5,
+            "column": "D",
+            "cell": "D5"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_title",
+          "quote": "4p",
+          "char_start": 10,
+          "char_end": 12,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 5,
+            "column": "D",
+            "cell": "D5"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "大疆pocket1",
+          "char_start": 0,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 5,
+            "column": "E",
+            "cell": "E5"
+          },
+          "model": "1",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a9c19a1000000002902db66",
+      "platform": "xiaohongshu",
+      "input_id": "186",
+      "inputOrder": 186,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9c19a1000000002902db66",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 5,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 6
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "4p"
+      ],
+      "model_basis": "标题明确4P，正文未出现竞争主型号。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "大疆pocket4p",
+            "char_start": 0,
+            "char_end": 10,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 6,
+              "column": "D",
+              "cell": "D6"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "只有旅行场景线索，不能确定作者购前、新入手或使用阶段。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": false,
+      "is_independent_valid_discussion": false,
+      "discussion_validity_basis": "导出文字仅见型号标题和简短旅行场景，暂不足以确认实质产品讨论；未读媒体不代补。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5cd3c5cf000000001202c94e",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。",
+        "需后续实际评论或可读原材料补足产品讨论后再决定配额，不以标题型号补足上下文。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket4p",
+          "char_start": 0,
+          "char_end": 10,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 6,
+            "column": "D",
+            "cell": "D6"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a1c184f0000000006023137",
+      "platform": "xiaohongshu",
+      "input_id": "187",
+      "inputOrder": 187,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a1c184f0000000006023137",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 6,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 7
+      },
+      "discussion_primary_model": "4",
+      "mentioned_models": [
+        "3",
+        "4"
+      ],
+      "model_basis": "标题明确Pocket4，旧款只作背景比较。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "大疆pocket4",
+            "char_start": 0,
+            "char_end": 9,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 7,
+              "column": "D",
+              "cell": "D7"
+            },
+            "model": "4",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "regular",
+      "stage_scope": "author_self_report",
+      "stage_basis": "有作者使用语境；局部新入手词涉及受众，不能直接标作者为新用户。",
+      "stage_evidence": [
+        {
+          "field": "post_title",
+          "quote": "使用",
+          "char_start": 9,
+          "char_end": 11,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 7,
+            "column": "D",
+            "cell": "D7"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "包含具体产品关注点和使用交流。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "6534836100000000060052d1",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket4",
+          "char_start": 0,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 7,
+            "column": "D",
+            "cell": "D7"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "大疆pocket3",
+          "char_start": 341,
+          "char_end": 350,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 7,
+            "column": "E",
+            "cell": "E7"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "69f40858000000003703460d",
+      "platform": "xiaohongshu",
+      "input_id": "188",
+      "inputOrder": 188,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/69f40858000000003703460d",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 7,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 8
+      },
+      "discussion_primary_model": "4",
+      "mentioned_models": [
+        "3",
+        "4"
+      ],
+      "model_basis": "标题以Pocket4体验/比较为主，没有明确竞争主型号。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "大疆pocket 4",
+            "char_start": 0,
+            "char_end": 10,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 8,
+              "column": "D",
+              "cell": "D8"
+            },
+            "model": "4",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "体验或比较措辞不能单独明确当前作者使用阶段。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "正文有产品比较与具体关注点，非纯预告。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5c5bf73300000000180260cb",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket 4",
+          "char_start": 0,
+          "char_end": 10,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 8,
+            "column": "D",
+            "cell": "D8"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "大疆pocket3",
+          "char_start": 248,
+          "char_end": 257,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 8,
+            "column": "E",
+            "cell": "E8"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a5f40e60000000001031375",
+      "platform": "xiaohongshu",
+      "input_id": "189",
+      "inputOrder": 189,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a5f40e60000000001031375",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 8,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 9
+      },
+      "discussion_primary_model": "4",
+      "mentioned_models": [
+        "4"
+      ],
+      "model_basis": "标题明确Pocket4；正文使用场景未改指其他主型号。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "Pocket4 ",
+            "char_start": 0,
+            "char_end": 8,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 9,
+              "column": "D",
+              "cell": "D9"
+            },
+            "model": "4",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "虽有使用及时间字样，当前新手/普通使用阶段不够明确。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "正文含出游使用与具体产品讨论。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5bcebfa2d215500001ffe96e",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "Pocket4 ",
+          "char_start": 0,
+          "char_end": 8,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 9,
+            "column": "D",
+            "cell": "D9"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a1aeddb00000000070138e8",
+      "platform": "xiaohongshu",
+      "input_id": "190",
+      "inputOrder": 190,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a1aeddb00000000070138e8",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 9,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 10
+      },
+      "discussion_primary_model": "4",
+      "mentioned_models": [
+        "4"
+      ],
+      "model_basis": "标题及正文均明确Pocket4，没有竞争主型号。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "大疆pocket4",
+            "char_start": 4,
+            "char_end": 13,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 10,
+              "column": "D",
+              "cell": "D10"
+            },
+            "model": "4",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "未取得足够清楚的本人持有或使用阶段证据。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "文字含明确本型号及具体产品关注点；仅文字有效性，不认证媒体效果。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5b21f7f611be10356df8c0d9",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket4",
+          "char_start": 4,
+          "char_end": 13,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 10,
+            "column": "D",
+            "cell": "D10"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a97dddb0000000011037fe5",
+      "platform": "xiaohongshu",
+      "input_id": "191",
+      "inputOrder": 191,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a97dddb0000000011037fe5",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 10,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 11
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "3",
+        "4",
+        "4p"
+      ],
+      "model_basis": "标题和开头聚焦4P；4与3作为个人背景/比较出现，不改变当前讨论对象。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "大疆pocket 4p",
+            "char_start": 8,
+            "char_end": 19,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 11,
+              "column": "D",
+              "cell": "D11"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "旧款持有背景不能证明当前4P所处使用阶段。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "当前4P话题与旧设备背景形成具体讨论，非只有标签。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5c6697d20000000012025cfc",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "大疆pocket 4p",
+          "char_start": 8,
+          "char_end": 19,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 11,
+            "column": "D",
+            "cell": "D11"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "pocket4",
+          "char_start": 2,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 11,
+            "column": "E",
+            "cell": "E11"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "pocket3",
+          "char_start": 100,
+          "char_end": 107,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 11,
+            "column": "E",
+            "cell": "E11"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "6a40950d000000001503e5f2",
+      "platform": "xiaohongshu",
+      "input_id": "192",
+      "inputOrder": 192,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a40950d000000001503e5f2",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 11,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 12
+      },
+      "discussion_primary_model": "4p",
+      "mentioned_models": [
+        "3",
+        "4",
+        "4p"
+      ],
+      "model_basis": "标题由Pocket3转向4P，正文以4P为当前讨论对象；4作为其他比较项。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "4p",
+            "char_start": 11,
+            "char_end": 13,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 12,
+              "column": "D",
+              "cell": "D12"
+            },
+            "model": "4p",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "upgrading",
+      "stage_scope": "discussion_context",
+      "stage_basis": "标题明确换代/入手讨论；不认证真实设备或换机行为。",
+      "stage_evidence": [
+        {
+          "field": "post_title",
+          "quote": "升级",
+          "char_start": 8,
+          "char_end": 10,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 12,
+            "column": "D",
+            "cell": "D12"
+          }
+        }
+      ],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "换代语境与多项具体产品关注点充分。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "5f7466d80000000001007383",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "Pocket 3",
+          "char_start": 0,
+          "char_end": 8,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 12,
+            "column": "D",
+            "cell": "D12"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_title",
+          "quote": "4p",
+          "char_start": 11,
+          "char_end": 13,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 12,
+            "column": "D",
+            "cell": "D12"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "Pocket4",
+          "char_start": 105,
+          "char_end": 112,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 12,
+            "column": "E",
+            "cell": "E12"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    },
+    {
+      "work_id": "69e4d8ab00000000220295bc",
+      "platform": "xiaohongshu",
+      "input_id": "193",
+      "inputOrder": 193,
+      "split": "holdout",
+      "canonical_url": "https://www.xiaohongshu.com/explore/69e4d8ab00000000220295bc",
+      "normalized_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/normalized/xiaohongshu-posts-supplement-01.jsonl",
+      "normalized_line": 12,
+      "source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/raw/xiaohongshu-posts-supplement-01.xlsx",
+      "source_sha256": "7e8e8a9334ac45b8988ad979be95e47c1ee91539353d8ce12152e819de424dc1",
+      "source_locator": {
+        "sheet": "Sheet1",
+        "row": 13
+      },
+      "discussion_primary_model": "4",
+      "mentioned_models": [
+        "3",
+        "4",
+        "4p"
+      ],
+      "model_basis": "标题及正文多段围绕Pocket4展开，3与4P用于对照；不是三款平分主旨。",
+      "model_basis_detail": {
+        "evidence_level": "M1",
+        "scope": "discussion_subject_only",
+        "rule": "标题主旨、段落指向及旧款背景关系优先；不以标签多数决定主型号。",
+        "evidence": [
+          {
+            "field": "post_title",
+            "quote": "pocket4",
+            "char_start": 2,
+            "char_end": 9,
+            "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+            "source_locator": {
+              "sheet": "Sheet1",
+              "row": 13,
+              "column": "D",
+              "cell": "D13"
+            },
+            "model": "4",
+            "basis": "explicit_exported_model_token"
+          }
+        ]
+      },
+      "actual_capture_model": {
+        "model": "unknown",
+        "confirmed": false,
+        "evidence_level": "unconfirmed",
+        "reason": "未读取能确认实际摄影设备的证据；型号文本不升级为摄制设备证明。"
+      },
+      "stage": "unknown",
+      "stage_scope": "not_established",
+      "stage_basis": "体验/比较文字本身不足以确认作者的当前购入时间或使用阶段。",
+      "stage_evidence": [],
+      "stage_is_verified_identity": false,
+      "scenes": [],
+      "scene_evidence": [],
+      "scene_review_status": "withheld_holdout_no_scene_or_expression_learning",
+      "is_independent_work": true,
+      "is_valid_discussion": true,
+      "is_independent_valid_discussion": true,
+      "discussion_validity_basis": "有明确本型号比较及选择讨论；产品说法不因详细而被核真。",
+      "independence_scope": "unique_work_against_prior_60_xhs_not_independent_person",
+      "author_cluster": {
+        "author_id": "6965fb340000000014016cdf",
+        "works_in_batch": 1,
+        "works_in_batches_01_03_and_supplement": 1,
+        "same_author_requires_sampling_control": false
+      },
+      "limitations": [
+        "仅核对留出材料的型号、阶段与讨论上下文元数据；不用于表达规律学习或写作示例。",
+        "M1只支持讨论对象/文字声明；实际摄影设备、身份、持有与体验均未认证。",
+        "阶段必须连同stage_scope理解，不能把讨论背景改成已发生的本人经历。",
+        "未读取媒体或评论；实质文字讨论不等于媒体效果已核或评论配额已完成。"
+      ],
+      "holdout_handling": "metadata_only_no_body_logging_no_voice_transfer",
+      "review_status": "reviewed_restricted_model_stage_context_metadata",
+      "mentioned_model_evidence": [
+        {
+          "field": "post_title",
+          "quote": "pocket4",
+          "char_start": 2,
+          "char_end": 9,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "D",
+            "cell": "D13"
+          },
+          "model": "4",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "Pocket 3",
+          "char_start": 54,
+          "char_end": 62,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "E",
+            "cell": "E13"
+          },
+          "model": "3",
+          "basis": "explicit_exported_model_token"
+        },
+        {
+          "field": "post_text",
+          "quote": "Pocket 4 Pro",
+          "char_start": 245,
+          "char_end": 257,
+          "offset_unit": "unicode_codepoints_zero_based_end_exclusive",
+          "source_locator": {
+            "sheet": "Sheet1",
+            "row": 13,
+            "column": "E",
+            "cell": "E13"
+          },
+          "model": "4p",
+          "basis": "explicit_exported_model_token"
+        }
+      ]
+    }
+  ]
+}

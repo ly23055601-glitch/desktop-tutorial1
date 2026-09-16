@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-09",
+  "scope": "oq local maintenance: current entry and fact-query smoke tests; no web or social collection",
+  "queries": [
+    {
+      "model": "osmo_360",
+      "query": "隐形 自拍杆 拼接",
+      "match_count": 4,
+      "match_ids": [
+        "D1-008",
+        "D1-026",
+        "D1-007",
+        "D1-010"
+      ],
+      "statuses": [
+        "verified"
+      ],
+      "top_topics": [
+        "隐形自拍杆",
+        "配件安装",
+        "拼接距离",
+        "防水与水下成像"
+      ]
+    },
+    {
+      "model": "osmo_360_ii",
+      "query": "跟随 导出",
+      "match_count": 5,
+      "match_ids": [
+        "D2-019",
+        "D2-024",
+        "D2-028",
+        "D2-050",
+        "D2-023"
+      ],
+      "statuses": [
+        "verified"
+      ],
+      "top_topics": [
+        "stabilization",
+        "spotlight_follow",
+        "davinci_workflow",
+        "firmware_release_record"
+      ]
+    },
+    {
+      "model": "insta360_x5",
+      "query": "续航 条件",
+      "match_count": 1,
+      "match_ids": [
+        "IX5-006"
+      ],
+      "statuses": [
+        "verified"
+      ],
+      "top_topics": [
+        "节能续航"
+      ]
+    },
+    {
+      "model": "all",
+      "query": "M07 初学 手机 Mimo",
+      "match_count": 5,
+      "match_ids": [
+        "D1-017",
+        "D1-019",
+        "D1-020",
+        "D2-020",
+        "D2-022"
+      ],
+      "statuses": [
+        "verified"
+      ],
+      "top_topics": [
+        "激活与更新入口",
+        "素材传输",
+        "全景后期",
+        "activation"
+      ]
+    },
+    {
+      "model": "all",
+      "query": "M08 新机 首测",
+      "match_count": 0,
+      "match_ids": [],
+      "statuses": [],
+      "top_topics": []
+    }
+  ],
+  "knowledge_audit": {
+    "command": "python3 knowledge/osmo360/scripts/knowledge.py audit --format json",
+    "observed": "pass: 130 facts, 127 verified, 44 sources, 30 FAQ, 20 quiz, 3 existing warnings"
+  },
+  "experience_materials_current": {
+    "count": 8,
+    "entry": "knowledge/osmo360/materials/STATUS.md",
+    "supplement": "knowledge/osmo360/materials/first-use.md"
+  },
+  "new_collection": false,
+  "official_sources_rechecked": false,
+  "errors": [],
+  "unresolved_exact_queries": [
+    {
+      "query": "D2-051",
+      "verified_matches": [],
+      "unresolved_matches": [
+        [
+          "D2-051",
+          "pending"
+        ]
+      ]
+    },
+    {
+      "query": "IX5-005",
+      "verified_matches": [],
+      "unresolved_matches": [
+        [
+          "IX5-005",
+          "conflict"
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "M07/M08 are experience-material IDs, not fact-card IDs; they are intentionally routed through STATUS.md and first-use.md, not the product fact search.",
+    "Exact pending/conflict checks are recorded through the search command unresolved field."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "rule_version": "2026-09-03-SEED1",
+  "input_path": "",
+  "link_manifest_path": "",
+  "media_manifest_path": "",
+  "evidence_path": "",
+  "pending_ids": [],
+  "completed_ids": [],
+  "failed": {},
+  "second_generation_allowed_ids": [],
+  "draft_path": "",
+  "output_path": "",
+  "qa": {
+    "status": "not_run",
+    "links": 0,
+    "main_comments": 0,
+    "replies": 0,
+    "errors": 0,
+    "warnings_reviewed": 0
+  }
+}

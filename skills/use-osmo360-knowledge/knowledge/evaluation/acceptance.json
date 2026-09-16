@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-09-06T17:49:38+08:00",
+  "audit": {
+    "ok": true,
+    "facts": 123,
+    "verified": 120,
+    "sources": 42,
+    "faq": 30,
+    "quiz": 20,
+    "errors": [],
+    "warnings": [
+      "GM2-007: 待核验",
+      "IX5-005: 来源冲突",
+      "D2-051: 待核验"
+    ],
+    "limitations": [
+      "结构审计不等于事实语义审查；核验日期不代表未来仍适用。",
+      "检索将已核验答案与相关未决记录分开；未覆盖的问题须查看 GAPS.md。"
+    ]
+  },
+  "source_read_status": {
+    "read": 40,
+    "unread": 2
+  },
+  "by_model": {
+    "osmo_360": {
+      "total": 27,
+      "verified": 27
+    },
+    "osmo_360_ii": {
+      "total": 51,
+      "verified": 50
+    },
+    "insta360_x6": {
+      "total": 15,
+      "verified": 15
+    },
+    "insta360_x5": {
+      "total": 15,
+      "verified": 14
+    },
+    "gopro_max2": {
+      "total": 15,
+      "verified": 14
+    }
+  },
+  "acceptance_queries": [
+    {
+      "query": "隐形 自拍杆 拼接",
+      "model": "osmo_360",
+      "fact_ids": [
+        "D1-008",
+        "D1-026",
+        "D1-007",
+        "D1-010"
+      ],
+      "unresolved_ids": [],
+      "passed": true
+    },
+    {
+      "query": "跟随 导出",
+      "model": "osmo_360_ii",
+      "fact_ids": [
+        "D2-019",
+        "D2-024",
+        "D2-028",
+        "D2-050",
+        "D2-023"
+      ],
+      "unresolved_ids": [
+        "D2-051"
+      ],
+      "passed": true
+    },
+    {
+      "query": "X5 8K 续航",
+      "model": null,
+      "fact_ids": [
+        "IX5-006",
+        "IX5-001",
+        "IX5-002",
+        "IX5-003",
+        "IX5-004"
+      ],
+      "unresolved_ids": [
+        "IX5-005"
+      ],
+      "passed": true
+    },
+    {
+      "query": "IX5-005",
+      "model": null,
+      "fact_ids": [],
+      "unresolved_ids": [
+        "IX5-005"
+      ],
+      "passed": true
+    }
+  ],
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s knowledge/osmo360/tests -v",
+    "passed": 12,
+    "failed": 0,
+    "note": "本轮已实际运行并观察通过，覆盖跨型号、精确ID、未决提示、引用完整性及生成目录；报告不重跑已通过测试。"
+  },
+  "semantic_review": [
+    "II代关键能力已由独立agent回到官方正文抽查",
+    "模块1至6已复核并修正全景转平面范围、透明保护镜建议",
+    "竞品对照已复核并修正MAX2水下限制",
+    "30问20题逐条检查引用状态及关键条件，无未决卡作为标准答案"
+  ],
+  "limitations": [
+    "没有实机测试或真实用户研究",
+    "地区和版本受来源记录限定",
+    "结构通过不替代语义核验"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "社媒助手读取新媒体链接"
+  short_description: "用现有会员整批读取三平台内容与评论，复用证据，问题链接直接交人工"
+  default_prompt: "使用 $read-social-links-with-social-helper 处理以下完整链接集合或有范围的关键词需求，按平台整批首采并验收，复用已有证据，问题项直接交人工，不自动重试或复查采集。"
+policy:
+  allow_implicit_invocation: true

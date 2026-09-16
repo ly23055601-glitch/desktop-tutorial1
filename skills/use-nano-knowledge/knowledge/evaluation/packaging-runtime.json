@@ -1,0 +1,55 @@
+{
+  "method": "fresh app-server skills/list",
+  "checked_at": "2026-09-06",
+  "entries": [
+    {
+      "cwd": "/Users/luocaihua/Documents/ChatGPT/op",
+      "skills": [
+        {
+          "name": "use-nano-knowledge",
+          "description": "Use the op project's DJI Osmo Nano knowledge and audience reasoning for product questions, potential audiences, usage motives, psychological expression analysis and consumer-comment training. Trigger on Nano能力库, Nano产品与人群能力库, Nano使用人群, 使用心理 or 心理表达 in Nano context. Keep official facts, editorial hypotheses and fictional training separate; route actual comments through the shared writer.",
+          "interface": {
+            "displayName": "Nano产品与人群能力库",
+            "shortDescription": "查询Nano官方事实与条件，分析潜在人群、使用心理和培训表达",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "使用 $use-nano-knowledge，结合当前问题查询Nano产品资料，分析相关人群的使用心理与表达。"
+          },
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/SKILL.md",
+          "scope": "repo",
+          "enabled": true,
+          "pluginId": null
+        }
+      ],
+      "package_errors": []
+    },
+    {
+      "cwd": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/nano",
+      "skills": [
+        {
+          "name": "use-nano-knowledge",
+          "description": "Use the op project's DJI Osmo Nano knowledge and audience reasoning for product questions, potential audiences, usage motives, psychological expression analysis and consumer-comment training. Trigger on Nano能力库, Nano产品与人群能力库, Nano使用人群, 使用心理 or 心理表达 in Nano context. Keep official facts, editorial hypotheses and fictional training separate; route actual comments through the shared writer.",
+          "interface": {
+            "displayName": "Nano产品与人群能力库",
+            "shortDescription": "查询Nano官方事实与条件，分析潜在人群、使用心理和培训表达",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "使用 $use-nano-knowledge，结合当前问题查询Nano产品资料，分析相关人群的使用心理与表达。"
+          },
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/use-nano-knowledge/SKILL.md",
+          "scope": "repo",
+          "enabled": true,
+          "pluginId": null
+        }
+      ],
+      "package_errors": []
+    }
+  ],
+  "result": "pass"
+}

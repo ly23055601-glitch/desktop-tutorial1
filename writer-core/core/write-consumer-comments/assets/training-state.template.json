@@ -1,0 +1,24 @@
+{
+  "content_mode": "training_fiction",
+  "draft": "draft.md",
+  "draft_sha256": "",
+  "posts": [
+    {
+      "section": 1,
+      "id": "填写原帖ID或用户材料ID",
+      "title": "与MD章节标题中的链接或材料定位逐字一致",
+      "product_line": "填写本帖产品线",
+      "sources": {
+        "original": {
+          "kind": "post",
+          "path": "evidence/post-1.md",
+          "description": "说明真实原帖或用户所给材料的定位、可见证据及限制"
+        }
+      },
+      "english_aliases": [],
+      "personas": {},
+      "reply_context": {},
+      "assertions": []
+    }
+  ]
+}

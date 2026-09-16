@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "training-cw5-quality-review.schema.json",
+  "title": "training_cw5 文案质检",
+  "type": "object",
+  "required": ["task_ref", "draft_ref", "draft_sha256", "profile", "coverage", "dimensions", "issues", "teaching_complete", "user_acceptance"],
+  "properties": {
+    "task_ref": {"type": "string", "minLength": 1},
+    "draft_ref": {"type": "string", "minLength": 1},
+    "draft_sha256": {"type": "string", "pattern": "^[0-9A-Fa-f]{64}$"},
+    "profile": {"const": "training_cw5"},
+    "coverage": {"enum": ["basic", "deep", "risk_deep"]},
+    "reviewer": {"type": ["string", "null"]},
+    "reviewed_at": {"type": ["string", "null"]},
+    "dimensions": {
+      "type": "object",
+      "required": ["quality_base", "expression", "teaching"],
+      "properties": {
+        "quality_base": {"type": "integer", "minimum": 0, "maximum": 60},
+        "expression": {"type": "integer", "minimum": 0, "maximum": 25},
+        "teaching": {"type": "integer", "minimum": 0, "maximum": 15}
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["issue_id", "code", "severity", "observation", "action"],
+        "properties": {
+          "issue_id": {"type": "string", "minLength": 1},
+          "code": {"enum": ["fact_boundary", "model_mismatch", "post_misread", "evidence_insufficient", "weak_product_interest", "reply_parent_mismatch", "weak_discussion", "repetition", "template_cluster", "marketing_tone", "ai_style", "unsupported_question", "platform_voice", "comparison_overclaim"]},
+          "severity": {"enum": ["blocker", "major", "minor", "info"]},
+          "location": {"type": "object"},
+          "observation": {"type": "string", "minLength": 1},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}},
+          "action": {"type": "string", "minLength": 1},
+          "rewrite": {"type": "string"},
+          "recheck_status": {"enum": ["pending", "passed", "failed"]}
+        }
+      }
+    },
+    "teaching_complete": {"type": "boolean"},
+    "user_acceptance": {"enum": ["pending", "accepted", "changes_requested"]},
+    "decision": {"enum": ["retain", "revise", "block"]}
+  },
+  "additionalProperties": true
+}

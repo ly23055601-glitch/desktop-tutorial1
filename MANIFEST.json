@@ -1,0 +1,46 @@
+{
+  "bundle": "dji-ai-skills-portable",
+  "version": "2026-09-15-v1",
+  "source_threads": {
+    "op": "01a075d1-5e29-7d91-b29e-61ad1b7d9013",
+    "写手培训": "01a06fbb-8440-78a0-9364-0b783262f150",
+    "om": "01a07623-25d9-7121-91af-f7d316ecffda",
+    "dm": "01a07613-8042-7fc2-a53c-cd062b37c298",
+    "ow": "01a07611-10dc-7832-b3c1-303e9237a8c7",
+    "oq": "01a0760e-d797-7681-a0df-67ab6d8783c1"
+  },
+  "skills": {
+    "core_writer": "writer-core/core/write-consumer-comments/SKILL.md",
+    "pocket_knowledge": "skills/use-pocket-knowledge/SKILL.md",
+    "mobile_knowledge": "skills/use-mobile-knowledge/SKILL.md",
+    "mic_knowledge": "skills/use-mic-knowledge/SKILL.md",
+    "nano_knowledge": "skills/use-nano-knowledge/SKILL.md",
+    "osmo360_knowledge": "skills/use-osmo360-knowledge/SKILL.md",
+    "social_reader": "skills/read-social-links-with-social-helper/SKILL.md",
+    "project_router": "skills/write-consumer-training-comments/SKILL.md",
+    "pocket_router": "skills/write-pocket-seeding-comments/SKILL.md",
+    "daily_runner": "skills/run-daily-comment-training/SKILL.md",
+    "product_wrappers": [
+      "skills/write-dji-mic-comments/SKILL.md",
+      "skills/write-dji-nano-comments/SKILL.md",
+      "skills/write-dji-osmo-mobile-comments/SKILL.md",
+      "skills/write-dji-osmo360-comments/SKILL.md",
+      "skills/write-dji-pocket-comments/SKILL.md"
+    ]
+  },
+  "portable_scope": {
+    "included": "current SKILL.md files, effective text knowledge, scripts, indexes, writer references, and text source tables",
+    "excluded": "historical provenance, raw spreadsheets, evaluation archives, and binary social media media",
+    "external_dependencies": [
+      "Python 3.9+ for optional query scripts",
+      "a compatible social-helper/browser connector for Douyin/Xiaohongshu/Bilibili collection",
+      "official web verification when making current product claims"
+    ]
+  },
+  "direct_use_files": [
+    "INSTALL.md",
+    "SYSTEM_PROMPT.md",
+    "MANIFEST.json",
+    "SHA256SUMS"
+  ]
+}

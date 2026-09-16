@@ -1,0 +1,34 @@
+{
+  "facts": 80,
+  "status": {
+    "verified": 78,
+    "pending": 2
+  },
+  "sources": 7,
+  "scenarios": 7,
+  "local_links_and_anchors_checked": 152,
+  "jsonl_and_source_hashes": "pass",
+  "fact_source_and_scenario_links": "pass",
+  "checked_at": "2026-09-06",
+  "skill_validation": "pass",
+  "independent_question_review": {
+    "total": 14,
+    "passed": 14,
+    "pending_handled_without_false_confirmation": [
+      "Q13",
+      "Q14"
+    ]
+  },
+  "independent_scene_review": {
+    "total": 7,
+    "passed": 7
+  },
+  "corrected_findings": [
+    "NANO-PWR-003: added 16:9 condition and FAQ reference",
+    "NANO-SCENE-007: limited forward assembly condition to SD/computer/wired-phone export"
+  ],
+  "remaining_pending_fact_ids": [
+    "NANO-MAN-023",
+    "NANO-MAN-024"
+  ]
+}

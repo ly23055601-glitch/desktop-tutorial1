@@ -1,0 +1,54 @@
+{
+  "result": "pass",
+  "checks": [
+    {
+      "terms": [
+        "异地",
+        "买菜"
+      ],
+      "kind": "scene",
+      "matches": [
+        "NANO-TRAIN-001",
+        "NANO-TRAIN-002"
+      ],
+      "facts": 24,
+      "sources": 4,
+      "complete_conditions": true
+    },
+    {
+      "terms": [
+        "预录制"
+      ],
+      "kind": "selling",
+      "matches": [
+        "NANO-SP-006",
+        "NANO-SP-004"
+      ],
+      "facts": 4,
+      "sources": 1,
+      "complete_conditions": true
+    },
+    {
+      "terms": [
+        "NANO-TRAIN-017"
+      ],
+      "kind": "scene",
+      "matches": [
+        "NANO-TRAIN-017"
+      ],
+      "facts": 11,
+      "sources": 5,
+      "complete_conditions": true
+    },
+    {
+      "terms": [
+        "不存在的独特关键词94271"
+      ],
+      "kind": "scene",
+      "matches": [],
+      "facts": 0,
+      "sources": 0,
+      "complete_conditions": true
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "rule_version": "2026-09-05-LH12",
+  "claim_registry_version": "2026-09-02-LH5",
+  "delivery_mode": "with_replies",
+  "semantic_policy": {
+    "evidence_source_format": "kind:shared_anchor:detail",
+    "evidence_source_examples": [
+      "operation:t00:visible-1x-to-3x-tap",
+      "result:t00:environment-portrait-to-half-body",
+      "same_condition:t00:same-position-and-subject"
+    ],
+    "causal_evidence_sources_require": [
+      "operation_or_ui",
+      "result",
+      "shared_anchor"
+    ],
+    "comparative_evidence_sources_require": [
+      "operation_or_ui",
+      "result",
+      "same_condition_or_comparison",
+      "shared_anchor"
+    ],
+    "recognized_operation_tokens": [
+      "operation",
+      "setting",
+      "control",
+      "ui",
+      "author_demo"
+    ],
+    "recognized_result_tokens": [
+      "result",
+      "output",
+      "frame"
+    ],
+    "recognized_comparison_tokens": [
+      "same_condition",
+      "comparison"
+    ],
+    "shot_mapping_format": "shot:anchor:model:source",
+    "user_benefit_must_quote_copy": true,
+    "s3_usage_condition_and_boundary_must_quote_copy": true,
+    "actual_s_level_required": true,
+    "lh6_group_schema": {
+      "main_anchor_ids": {
+        "type": "array",
+        "min_items": 1,
+        "max_items": 1,
+        "items": "non_empty_string"
+      },
+      "main_moves": {
+        "type": "array",
+        "min_items": 1,
+        "max_items": 2,
+        "unique_items": true,
+        "allowed_values": [
+          "observation",
+          "reaction",
+          "preference",
+          "question",
+          "disagreement",
+          "joke",
+          "need",
+          "product",
+          "benefit",
+          "boundary"
+        ]
+      },
+      "seed_layers": {
+        "type": "object",
+        "required_keys": [
+          "main",
+          "replies"
+        ],
+        "allowed_values": [
+          "need",
+          "question",
+          "product",
+          "benefit",
+          "boundary"
+        ],
+        "main_max_items": 2,
+        "replies_max_items": 5,
+        "unique_items_per_scope": true
+      },
+      "light_meme_anchor": {
+        "type": "string",
+        "empty_or_main_anchor": true,
+        "required_when_main_moves_contains": "joke"
+      }
+    },
+    "lh8_personal_need": {
+      "max_s_level": "S1",
+      "claim_id_must_be_empty": true,
+      "benefit_basis_values": [
+        "workflow",
+        "visual"
+      ],
+      "need_connection_required": true,
+      "personal_context_scope": "main_author_A_and_same_A_replies_in_LH9_plus; main_only_in_LH8",
+      "personal_context_schema": {
+        "source_ref": "non_empty_user_material_locator",
+        "facts": "non_empty_array_of_real_user_material_fragments",
+        "models": "array_of_confirmed_model_ids"
+      },
+      "personal_context_is_not_post_or_hardware_evidence": true,
+      "strong_seed_quota_required": false,
+      "forbidden_copy_name": "Osmo",
+      "reply_personal_contexts_schema": {
+        "type": "object",
+        "keys": "actual_reply_numbers_as_strings",
+        "values": "same_schema_as_personal_context",
+        "scope": "LH9_plus_same_speaker_source_continuity; LH8_each_reply_only",
+        "default": {}
+      }
+    },
+    "lh9_dialogue": {
+      "required_for": "groups_with_replies",
+      "main_speaker": "A",
+      "speakers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "reply_schema": {
+        "reply": "actual_reply_number_once_in_delivery_order",
+        "speaker": "A|B|C|D|E",
+        "reply_to": "main_or_earlier_existing_reply:n_in_this_group",
+        "anchor_quote": "non_empty_actual_substring_of_parent_body_after_clean_raw",
+        "response_move": "non_empty_description_of_response"
+      },
+      "first_reply_to": "main",
+      "at_least_one_reply_to_reply": false,
+      "self_reply_allowed": false,
+      "output_labels": {
+        "main": "1. 正文",
+        "reply": "    - 正文"
+      },
+      "main_only_requires_labels_or_dialogue": false,
+      "source_continuity": "A_reuses_main_personal_context; other_speakers_reuse_own_prior_reply_personal_contexts_only",
+      "source_ref_policy": "one_source_ref_per_speaker; no_sharing_between_speakers; new_facts_same_source_ref_supplement_and_review",
+      "semantic_review_required": [
+        "response_to_parent",
+        "not_parallel_commentary",
+        "swap_order_dependency",
+        "speaker_identity_continuity",
+        "new_personal_fact_coverage",
+        "naturalness"
+      ],
+      "explicit_role_labels_required": false,
+      "explicit_role_labels_must_match_if_present": true,
+      "zero_replies": "dialogue_absent_or_empty_reply_array; no_orphan_reply_personal_contexts",
+      "reply_to_reply_is_semantic_review": true
+    },
+    "lh10_expression_review": {
+      "dominant_expression": "non_empty_free_form_description_of_what_this_group_actually_says",
+      "product_connection": "non_empty_free_form_description_of_natural_product_connection_to_the_real_single_anchor",
+      "expression_difference_is_semantic_not_enum": true,
+      "diversity_review_path": "qa.semantic_review.diversity_review",
+      "review_record_schema": {
+        "id": "allocation_id",
+        "verdict": "passed_or_revise_after_review",
+        "comparison_reason": "side_by_side_meaning_comparison_using_group_dominant_expressions"
+      },
+      "pending_or_revise_blocks_delivery": true,
+      "checker_proves_semantic_difference": false,
+      "observed_s0_may_deliver_without_feature_evidence": "valid_single_anchor_and_natural_product_connection_and_passed_semantic_review_no_hardware_or_current_result_claims",
+      "personal_need_still_requires_need_connection": true,
+      "capability_and_current_result_causality_checked_per_main_and_reply": true,
+      "new_claim_modes": [],
+      "prefill_claim_mode_or_s_level": false
+    },
+    "lh11_optional_main_name": {
+      "usual_arrangement": "content_driven_naming_without_fixed_slots; not_a_hard_ratio",
+      "product_connection_may_be_empty": "whole_group_observed_S0_visual_with_no_product_name_or_actual_product_capability_or_causality_assertion",
+      "named_label_variation_scope": "only_mains_that_actually_name_a_product",
+      "reply_does_not_need_to_add_product_name": true,
+      "single_real_anchor_and_dominant_expression_and_parallel_review_still_required": true,
+      "group_product_evidence_cannot_come_from_sibling_copy": true,
+      "explicit_device_and_spec_assertions_checked_without_named_parent": true,
+      "new_claim_modes": [],
+      "new_group_flags": []
+    },
+    "lh12_content_driven_delivery": {
+      "main_count_range": [
+        2,
+        4
+      ],
+      "reply_count_range": [
+        0,
+        4
+      ],
+      "main_only_reply_count": 0,
+      "two_mains_need_no_reduced_reason": true,
+      "template_group_is_reusable_example_not_output_count": true,
+      "main_numbering": "restart_at_1_per_section_and_contiguous",
+      "reply_mapping": "single_indent_bullets_in_appearance_order; internal_dialogue_required_for_actual_replies",
+      "final_draft_is_checker_input": true
+    }
+  },
+  "capture_policy": {
+    "authority": "read-social-links-with-social-helper",
+    "source_skill": "../read-social-links-with-social-helper/SKILL.md",
+    "mode": "mirror_returned_evidence_only",
+    "primary_surface": "connected_google_chrome_social_media_assistant",
+    "primary_surface_values": [
+      "connected_google_chrome_social_media_assistant",
+      "user_supplied_evidence",
+      "user_provided_social_media_assistant_export"
+    ],
+    "batch_ledger_path": "",
+    "note": "Copy actual returned collection status, intervals, retry/stop reasons and evidence paths; do not define acquisition or conversion rules here"
+  },
+  "capture_attempts": [],
+  "input_path": "",
+  "evidence_path": "",
+  "readable_ids": [],
+  "failed_ids": [],
+  "evidence_stop_ids": [],
+  "block_allocations": [
+    {
+      "block_id": "",
+      "ids": [],
+      "reserved_patterns": [],
+      "forbidden_patterns": [],
+      "persuasion_allocations": [
+        {
+          "id": "",
+          "section_number": "1",
+          "draft_path": "",
+          "canonical_url": "",
+          "model_status": {
+            "level": "M0",
+            "claimed_model": "unknown",
+            "confirmed_model": "unknown",
+            "evidence_type": "unknown",
+            "mixed_models": [],
+            "shot_mapping": "not_applicable",
+            "shot_mapping_evidence": [],
+            "evidence": ""
+          },
+          "watermark_hint": {
+            "present": false,
+            "model": "unknown",
+            "used_as_evidence": false,
+            "mentioned_in_copy": false
+          },
+          "scene_need": {
+            "level": "N0",
+            "tags": [],
+            "evidence": ""
+          },
+          "feature_use": {
+            "level": "F0",
+            "claim_ids": [],
+            "evidence": ""
+          },
+          "fact_status": {
+            "level": "P0",
+            "verified_claim_ids": [],
+            "checked_at": "",
+            "source_urls": []
+          },
+          "clip_causality_cap": "S0",
+          "scenario_fit_cap": "S0",
+          "strong_seed_group": null,
+          "under_target_reason": "",
+          "reduced_output_reason": "",
+          "groups": [
+            {
+              "group": 1,
+              "main_anchor_ids": [
+                ""
+              ],
+              "main_moves": [],
+              "seed_layers": {
+                "main": [],
+                "replies": []
+              },
+              "light_meme_anchor": "",
+              "seeding_mechanism": "",
+              "purchase_stage": "",
+              "audience_perspective": "",
+              "claim_mode": "",
+              "claim_id": "",
+              "target_model": "unknown",
+              "contrast_models": [],
+              "benefit_basis": "visual",
+              "user_benefit": "",
+              "usage_condition": "",
+              "boundary": "",
+              "evidence_sources": [],
+              "target_s_level": "",
+              "actual_s_level": "",
+              "need_connection": "",
+              "personal_context": null,
+              "reply_personal_contexts": {},
+              "dialogue": {
+                "main_speaker": "A",
+                "replies": []
+              },
+              "dominant_expression": "",
+              "product_connection": ""
+            }
+          ]
+        }
+      ],
+      "forbidden_persuasion_combinations": [],
+      "draft_path": ""
+    }
+  ],
+  "ledger_summary": {
+    "window_links": 0,
+    "recent_openings": [],
+    "tone_counts": {},
+    "product_exposure_counts": {},
+    "reply_combination_counts": {},
+    "seeding_mechanism_counts": {},
+    "purchase_stage_counts": {},
+    "audience_perspective_counts": {},
+    "s_level_counts": {},
+    "model_status_counts": {},
+    "scene_need_counts": {},
+    "feature_use_counts": {},
+    "fact_status_counts": {},
+    "seeding_mechanism_guardrail": {
+      "window_links": 10,
+      "max_same_mechanism": 4,
+      "count_unit": "links",
+      "review_only": true,
+      "exceptions": []
+    },
+    "fingerprint_path": ""
+  },
+  "draft_paths": [],
+  "output_path": "",
+  "qa": {
+    "checked_at": "",
+    "errors": 0,
+    "warnings_reviewed": 0,
+    "remaining_warnings": [],
+    "checker_output_path": "",
+    "under_target_ids": [],
+    "semantic_review": {
+      "reviewed_links": 0,
+      "anchor_credibility_pass": 0,
+      "product_causality_pass": 0,
+      "user_benefit_pass": 0,
+      "decision_progress_pass": 0,
+      "expression_credibility_pass": 0,
+      "seeding_mechanism_fit_pass": 0,
+      "watermark_seed_pass": 0,
+      "product_benefit_basis_pass": 0,
+      "model_claim_fit_pass": 0,
+      "strong_seed_group_pass": 0,
+      "review_ids": [],
+      "findings": [],
+      "summary": "",
+      "dialogue_response_pass": 0,
+      "dialogue_speaker_continuity_pass": 0,
+      "dialogue_personal_fact_coverage_pass": 0,
+      "dialogue_parallel_or_swappable_reviewed": 0,
+      "diversity_review": [
+        {
+          "id": "",
+          "verdict": "",
+          "comparison_reason": ""
+        }
+      ]
+    }
+  },
+  "unresolved": []
+}

@@ -1,0 +1,212 @@
+{
+  "statistics": {
+    "primary_verified_facts": 80,
+    "primary_pending_facts": 2,
+    "per_primary_model": {
+      "pocket_4": {
+        "verified": 39
+      },
+      "pocket_4p": {
+        "verified": 55,
+        "pending": 2
+      }
+    },
+    "voice_cards": 33,
+    "voice_by_split": {
+      "legacy": 12,
+      "train": 21
+    },
+    "voice_by_status": {
+      "case": 18,
+      "pattern": 15
+    },
+    "scenario_cards": 13,
+    "comparison_cards": 5,
+    "selling_cards": 16,
+    "detailed_scene_cards": 22,
+    "ingested_comment_records": 526,
+    "comments_by_platform": {
+      "bilibili": 34,
+      "xiaohongshu": 492
+    },
+    "comments_by_model": {
+      "pocket_4": 249,
+      "pocket_4p": 47,
+      "unknown": 230
+    },
+    "comments_by_split": {
+      "holdout": 88,
+      "train": 438
+    },
+    "works_in_ledger": 202,
+    "works_by_split": {
+      "holdout": 42,
+      "train": 160
+    },
+    "legacy_comment_records": 372,
+    "retained_unreviewed_comment_rows": 58,
+    "count_boundary": "Ledger counts are not eligible-work or read-success counts. Per-model facts overlap. Legacy records and stopped attachments are separate from ingested comments."
+  },
+  "baseline_check": {
+    "baseline_frozen_at": "2026-09-10T12:39:03.446710+08:00",
+    "historical_splits_preserved": true,
+    "historical_holdout_unchanged": true,
+    "stopped_exports_preserved_and_excluded": true,
+    "tables": {
+      "works": {
+        "baseline_count": 193,
+        "actual_count": 202,
+        "added_count": 9,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "BV1HZYW64Ebt",
+          "BV1JtbH6vEtA",
+          "BV1LUt26PEXi",
+          "BV1R7bV6uEUG",
+          "BV1RRYs67EtL",
+          "BV1bqYJ6sECM",
+          "BV1e5t264EVw",
+          "BV1u8bw6aEwH",
+          "BV1wntm6GEUk"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "comments": {
+        "baseline_count": 492,
+        "actual_count": 526,
+        "added_count": 34,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "bilibili:BV1HZYW64Ebt:316873141376",
+          "bilibili:BV1HZYW64Ebt:316875178272",
+          "bilibili:BV1HZYW64Ebt:316880475040",
+          "bilibili:BV1JtbH6vEtA:313152226241",
+          "bilibili:BV1JtbH6vEtA:313153274017",
+          "bilibili:BV1JtbH6vEtA:313156105809",
+          "bilibili:BV1JtbH6vEtA:313156774001",
+          "bilibili:BV1JtbH6vEtA:313184182401",
+          "bilibili:BV1JtbH6vEtA:313345798753",
+          "bilibili:BV1JtbH6vEtA:316670546144",
+          "bilibili:BV1LUt26PEXi:313019895713",
+          "bilibili:BV1LUt26PEXi:313022469057",
+          "bilibili:BV1LUt26PEXi:313037812001",
+          "bilibili:BV1LUt26PEXi:313249442257",
+          "bilibili:BV1LUt26PEXi:313281894177",
+          "bilibili:BV1LUt26PEXi:316476693696",
+          "bilibili:BV1LUt26PEXi:316478046048",
+          "bilibili:BV1LUt26PEXi:316478068160",
+          "bilibili:BV1LUt26PEXi:316479190992",
+          "bilibili:BV1LUt26PEXi:316492407760",
+          "bilibili:BV1LUt26PEXi:316492574512",
+          "bilibili:BV1LUt26PEXi:316499361296",
+          "bilibili:BV1LUt26PEXi:316500227008",
+          "bilibili:BV1LUt26PEXi:316500330416",
+          "bilibili:BV1LUt26PEXi:316682711040",
+          "bilibili:BV1LUt26PEXi:316713860368",
+          "bilibili:BV1LUt26PEXi:316760710976",
+          "bilibili:BV1R7bV6uEUG:313459398497",
+          "bilibili:BV1R7bV6uEUG:316821904064",
+          "bilibili:BV1R7bV6uEUG:316824524576",
+          "bilibili:BV1R7bV6uEUG:316845529456",
+          "bilibili:BV1bqYJ6sECM:313358563617",
+          "bilibili:BV1e5t264EVw:313222750513",
+          "bilibili:BV1e5t264EVw:313222910737"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "records": {
+        "baseline_count": 409,
+        "actual_count": 409,
+        "added_count": 0,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "voice": {
+        "baseline_count": 27,
+        "actual_count": 33,
+        "added_count": 6,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "research_20260910_001",
+          "research_20260910_002",
+          "research_20260910_003",
+          "research_20260910_004",
+          "research_20260910_005",
+          "research_20260910_006"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      },
+      "scenarios": {
+        "baseline_count": 10,
+        "actual_count": 13,
+        "added_count": 3,
+        "changed_count": 0,
+        "text_changed_count": 0,
+        "added_ids": [
+          "scenario_research_20260910_001",
+          "scenario_research_20260910_002",
+          "scenario_research_20260910_003"
+        ],
+        "changed_ids": [],
+        "text_changed_ids": []
+      }
+    },
+    "statistics": {
+      "primary_verified_facts": 80,
+      "primary_pending_facts": 2,
+      "per_primary_model": {
+        "pocket_4": {
+          "verified": 39
+        },
+        "pocket_4p": {
+          "verified": 55,
+          "pending": 2
+        }
+      },
+      "voice_cards": 33,
+      "voice_by_split": {
+        "legacy": 12,
+        "train": 21
+      },
+      "voice_by_status": {
+        "case": 18,
+        "pattern": 15
+      },
+      "scenario_cards": 13,
+      "comparison_cards": 5,
+      "selling_cards": 16,
+      "detailed_scene_cards": 22,
+      "ingested_comment_records": 526,
+      "comments_by_platform": {
+        "bilibili": 34,
+        "xiaohongshu": 492
+      },
+      "comments_by_model": {
+        "pocket_4": 249,
+        "pocket_4p": 47,
+        "unknown": 230
+      },
+      "comments_by_split": {
+        "holdout": 88,
+        "train": 438
+      },
+      "works_in_ledger": 202,
+      "works_by_split": {
+        "holdout": 42,
+        "train": 160
+      },
+      "legacy_comment_records": 372,
+      "retained_unreviewed_comment_rows": 58,
+      "count_boundary": "Ledger counts are not eligible-work or read-success counts. Per-model facts overlap. Legacy records and stopped attachments are separate from ingested comments."
+    }
+  }
+}

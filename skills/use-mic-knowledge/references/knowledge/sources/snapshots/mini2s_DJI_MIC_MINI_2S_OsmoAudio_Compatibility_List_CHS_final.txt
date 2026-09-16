@@ -1,0 +1,52 @@
+
+=== PDF PAGE 1 ===
+DJI Mic Mini 2S OsmoAudio
+  
+ 
+TX
+  
+Osmo 
+Action 4 
+Osmo 
+Action 5 
+Pro 
+Osmo 
+Pocket 3 
+Osmo 
+360 
+Osmo 
+Action 6 
+Osmo 
+Nano 
+Osmo 
+Pocket 4 
+Osmo 
+Pocket 4P 
+LED
+  √ √ √ √ √ √ √ √ 
+ √ √ √ √ √ √ √ √ 
+ √ √ √ √ √ √ √ √ 
+ √ √ √ × × × × × 
+ × × × √ √ √ √ √ 
+TX
+  √ √ √ √ √ √ √ √ 
+ × √ √ √ √ √ √ √ 
+ × √ √ √ √ √ √ √ 
+TX
+  √ √ √ √ √ √ √ √ 
+TX
+  √ √ √ √ √ √ √ √ 
+TX
+  × × × √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+32-bit
+  √ √ √ √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+ √ √ √ √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+ × × × √ √ √ √ √ 
+ √ √ √ √ √ √ √ √ 
+TX √ √ √ √ √ √ √ √ 
+ 

@@ -1,0 +1,118 @@
+{
+  "version": "2026-09-06-current-library-v1",
+  "status": "organized_current_library",
+  "targets": {
+    "works": 150,
+    "platforms": {
+      "douyin": 50,
+      "xiaohongshu": 50,
+      "bilibili": 50
+    },
+    "models": {
+      "pocket_4": 75,
+      "pocket_4p": 75
+    },
+    "train": 120,
+    "holdout": 30,
+    "root_discussions": 450,
+    "discussions_with_confirmed_reply": 150,
+    "max_works_per_platform_author": 2
+  },
+  "source_policy": "/Users/luocaihua/.codex/skills/read-social-links-with-social-helper/SKILL.md",
+  "discovery_is_evidence": false,
+  "legacy_counts_toward_target": false,
+  "holdout_policy": "Keep every existing frozen train/holdout assignment and keep holdout content out of normal retrieval and learning. The original 30-work/10-per-platform acceptance quota is cancelled for this delivery; no evaluated/pass status is inferred from organizing existing material.",
+  "content_requirements": [
+    "matching_work_identity",
+    "substantive_title_or_body",
+    "actual_comment_context",
+    "source_locator",
+    "read_scope",
+    "retrieval_time"
+  ],
+  "selection_policy": "Verify relevance after export. Do not count unrelated products, product-only sales notices without user discussion, duplicate works, unknown models, missing sources, or records awaiting required comments. Preserve excluded and failed rows with their reasons.",
+  "capture_configuration": "Use the canonical social-helper skill for platform grouping, pacing, fields, retry, stop and export. Comments and subcomments are required here because reply relationships are a research objective. Do not duplicate acquisition logic in this project.",
+  "notes": [
+    "Candidate title/model hints are unverified discovery metadata.",
+    "Do not use search-engine snippets or AI search summaries as a substitute for original evidence.",
+    "User reduced scope to the current library; do not continue collecting to fill historical targets or equate missing quota with current library incompleteness. Preserve actual partial/stopped/missing collection evidence separately."
+  ],
+  "primary_models": [
+    "pocket_4",
+    "pocket_4p"
+  ],
+  "scope_updated_at": "2026-09-06",
+  "scope_update_quote": "主要学习pocket4，还有pocket4p就可以了",
+  "frozen_input_count": 193,
+  "frozen_input_ledger": "input-ledger.jsonl",
+  "initial_frozen_input_count": 181,
+  "holdout_reserve_count": 12,
+  "supplement_reason": "历史补位记录：因作者超额与未明型号增加12篇未读留出备选；原30篇验收规模已取消，候选仅保留追溯。",
+  "historical_plan": {
+    "profile": "historical_150",
+    "status": "cancelled_by_user",
+    "cancelled_at": "2026-09-06T10:21:22.498494+00:00",
+    "targets": {
+      "works": 150,
+      "platforms": {
+        "douyin": 50,
+        "xiaohongshu": 50,
+        "bilibili": 50
+      },
+      "models": {
+        "pocket_4": 75,
+        "pocket_4p": 75
+      },
+      "train": 120,
+      "holdout": 30,
+      "root_discussions": 450,
+      "discussions_with_confirmed_reply": 150,
+      "max_works_per_platform_author": 2
+    },
+    "holdout_policy": "Reserve complete works before reading discussion content for learning. Select 10 eligible works per platform, stratified where possible by model and situation. Exclude all holdout content from normal retrieval and expression induction. Persist the assignment; do not relabel a read training work as unseen holdout.",
+    "supplement_reason": "作者超额与未明型号；新增未读12候选全作留出备选，最终只选合格30篇验收",
+    "scope_note": "Original 150-work/30-holdout research scale retained for traceability; it is not the current library delivery requirement."
+  },
+  "current_scope": {
+    "profile": "current_library",
+    "status": "organized",
+    "scale_target_status": "cancelled_by_user",
+    "updated_at": "2026-09-06T10:21:22.498494+00:00",
+    "user_instruction": "调用这些够了，可以整理出来了，不需要那么多",
+    "objective": "Organize the actual collected Pocket 4 / Pocket 4P product and audience material into a usable local library with recorded evidence and gaps.",
+    "additional_collection": "cancelled_for_this_delivery",
+    "evaluation_scope": "Two existing holdout works are used for a limited same-input comparison. The original 30-work scale is cancelled; no statistical acceptance or user approval is implied.",
+    "preserved_requirements": [
+      "source_provenance",
+      "actual_read_scope",
+      "frozen_train_holdout_split",
+      "no_invented_parent",
+      "real_text_discussion_counts",
+      "actual_collection_status",
+      "author_sampling_rules_for_historical_coverage"
+    ],
+    "material_boundary": {
+      "organized_comments_table": "corpus/comments.jsonl",
+      "unorganized_attachments_are_not_corpus": true,
+      "new_analysis_from_stop_attachment": "not_included_in_this_delivery",
+      "stop_attachment_does_not_change_frozen_splits": true
+    },
+    "retained_unreviewed_exports": [
+      {
+        "batch_id": "xiaohongshu-comments-03",
+        "platform": "xiaohongshu",
+        "raw_path": "corpus/raw/xiaohongshu-comments-03-partial.xlsx",
+        "normalized_path": "corpus/normalized/xiaohongshu-comments-03-partial.jsonl",
+        "row_count": 58,
+        "split": "train",
+        "status": "partial_saved_unreviewed_user_stop",
+        "count_basis": "Root-confirmed complete local parsing of the stopped export: 58 matched train rows, 0 parsing issues; no semantic review or admission",
+        "included_in_comments_table": false,
+        "included_in_eligible_works": false,
+        "included_in_voice_learning": false
+      }
+    ],
+    "organized_at": "2026-09-06T18:31:12.676521+08:00"
+  },
+  "targets_profile": "historical_150_cancelled_by_user"
+}

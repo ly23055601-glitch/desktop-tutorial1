@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mic 产品与人群能力库"
+  short_description: "跨项目关联 DJI Mic 产品事实、卖点、详细场景与人物关注点，支持培训选材"
+  default_prompt: "使用 $use-mic-knowledge，按具体任务关联 Mic 卖点、场景与表达关注点；保留型号条件，实际培训文案交共享写手。"
+policy:
+  allow_implicit_invocation: true

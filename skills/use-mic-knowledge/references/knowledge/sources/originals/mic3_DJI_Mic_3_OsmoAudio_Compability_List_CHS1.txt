@@ -1,0 +1,44 @@
+
+===== PDF PAGE 1 =====
+DJI Mic 3  OsmoAudio
+  
+ 
+TX
+  Osmo Action 
+4 
+Osmo Action 5 
+Pro Osmo Pocket 3 Osmo 360 
+LED
+  √ √ √ √ 
+ √ √ √ √ 
+ √ √ √ √ 
+ √ √ √ √ 
+32-bit
+  √ √ √ √ 
+ √ √ √ √ 
+ √ √ √ × 
+TX √ √ √ √ 
+TX
+  √ √ √ √ 
+ × √ √ √ 
+ × √ √ √ 
+TX
+  √ √ √ √ 
+TX
+  √ √ √ √ 
+TX
+  √ √ √ √ 
+ √* √* √* √ 
+ × × × √ 
+ √* √* √* √ 
+ √* √* √* √ 
+ √* √* √* √ 
+ × × × √ 
+ × × × √ 
+
+===== PDF PAGE 2 =====
+ × × × √ 
+⚫ 
+ *
+ DJI Mimo App
+  

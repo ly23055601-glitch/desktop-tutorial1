@@ -1,0 +1,128 @@
+{
+  "content_mode": "training_fiction",
+  "draft": "draft.md",
+  "draft_sha256": "62320a7df4cfde7522297e4604cb2dc91b1ae27637f81f88fc761caf1af18e8f",
+  "posts": [
+    {
+      "section": 1,
+      "id": "6a4335f10000000017008cde",
+      "title": "https://www.xiaohongshu.com/search_result/6a4335f10000000017008cde",
+      "product_line": "pocket",
+      "sources": {
+        "original": {
+          "kind": "post",
+          "path": "evidence/post-012.md",
+          "description": "固定holdout输入的作者文字；未观看媒体，不认证作者体验或产品能力"
+        }
+      },
+      "english_aliases": [
+        "Pocket4"
+      ],
+      "personas": {
+        "A": "假想说话者，仅设此刻具体关注和条件式用途，不设购买、持有、职业、旅行或关系经历",
+        "B": "另一假想说话者，仅设当前疑问或用途偏好，不借用原作者或第三方过去经历"
+      },
+      "reply_context": {},
+      "assertions": [
+        {
+          "comment_id": "1",
+          "text": "Pocket4这份我想先只照拍摄参数试一段",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "Pocket4 适合夏天的一些参数🍃"
+            },
+            {
+              "source": "original",
+              "quote": "📷【相机参数设置】"
+            }
+          ]
+        },
+        {
+          "comment_id": "1",
+          "text": "滤镜晚点再加",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "🎨后期调色\n软件：Djimimo\n滤镜：大师云（30）"
+            }
+          ]
+        },
+        {
+          "comment_id": "2",
+          "text": "白平衡是自动的话",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "▪️白平衡：自动"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "id": "6a40a5d40000000007021f64",
+      "title": "https://www.xiaohongshu.com/search_result/6a40a5d40000000007021f64",
+      "product_line": "pocket",
+      "sources": {
+        "original": {
+          "kind": "post",
+          "path": "evidence/post-032.md",
+          "description": "固定holdout输入的作者文字；未观看媒体，不认证作者体验或产品能力"
+        },
+        "official": {
+          "kind": "product",
+          "path": "evidence/product-pocket4p.md",
+          "description": "2026-09-06 本次实际读取DJI中国帮助页，05真双摄问题；只核中焦镜头存在，不认证成片"
+        }
+      },
+      "english_aliases": [
+        "Pocket4P"
+      ],
+      "personas": {
+        "A": "假想说话者，仅设此刻具体关注和条件式用途，不设购买、持有、职业、旅行或关系经历",
+        "B": "另一假想说话者，仅设当前疑问或用途偏好，不借用原作者或第三方过去经历"
+      },
+      "reply_context": {},
+      "assertions": [
+        {
+          "comment_id": "1",
+          "text": "你说装上手柄就放不进袋子",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "4p只有一个收纳袋，加上螺纹手柄之后完全放不进去！"
+            }
+          ]
+        },
+        {
+          "comment_id": "2",
+          "text": "等你开拍后",
+          "kind": "post_fact",
+          "evidence": [
+            {
+              "source": "original",
+              "quote": "目前暂未开拍，技能上的升级还没体验到"
+            }
+          ]
+        },
+        {
+          "comment_id": "2",
+          "text": "Pocket4P中焦",
+          "kind": "product_fact",
+          "evidence": [
+            {
+              "source": "official",
+              "quote": "20mm 广角镜头 + 60mm 中焦镜头"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

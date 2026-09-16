@@ -1,0 +1,757 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-06",
+  "purpose": "仅审计12个补位候选作品ID的当前重复与历史记录暴露；不读取候选正文、不进行表达学习",
+  "candidate_source_path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+  "candidate_source_sha256": "623846934bc770da2b463de4984cdd8138366aeb6f14e942ef93bc52cdbbf760",
+  "method": [
+    "用rg枚举knowledge、outputs、.agents下JSON/JSONL/MD/TXT/CSV/PY文本工件，含隐藏和ignored文件。",
+    "在文件字节中仅匹配12个完整作品ID，输出文件、行号和ID，不输出或分析周围正文、标题或评论。",
+    "历史目标覆盖命名为ledger、evidence、voice的工件；另对voice目录结构化记录及当前181的input-ledger/works逐项核对。",
+    "已发现但未提交的候选自身出现视为discovery_only，不算历史学习；其他未知工件命中应另行审查。",
+    "不打开任何社媒URL，不读取媒体，不重新展开本轮holdout正文，不修改候选分组、works或ledger。"
+  ],
+  "summary": {
+    "candidate_count": 12,
+    "unique_candidate_ids": 12,
+    "duplicate_candidate_ids": 0,
+    "current_ledger_count": 181,
+    "current_works_count": 181,
+    "current_unique_ids": 181,
+    "current_platform_counts": {
+      "xiaohongshu": 60,
+      "bilibili": 60,
+      "douyin": 61
+    },
+    "current_id_overlaps": 0,
+    "historical_ledger_evidence_hit_candidates": 0,
+    "voice_learning_artifact_hit_candidates": 0,
+    "other_project_artifact_hit_candidates": 0,
+    "discovery_only_hit_candidates": 12,
+    "clear_in_scanned_scope_count": 12,
+    "text_artifacts_id_scanned": 813,
+    "target_historical_ledger_evidence_voice_files": 32,
+    "voice_structured_files": 5,
+    "read_failures": 0,
+    "all_candidate_splits_holdout": true,
+    "content_opened_count": 0
+  },
+  "current_snapshot": [
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/input-ledger.jsonl",
+      "sha256": "d3ea94a464d6a77970c5b079993c52cf3d6471a08d1769588a38ba9a3a873ef8",
+      "bytes": 172701
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/works.jsonl",
+      "sha256": "d2477c2c0fe99964c0b39ac16766a2210ac3dc3feedc87e596c8273482a06a8d",
+      "bytes": 201183
+    }
+  ],
+  "target_scan_manifest": [
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/.agents/skills/write-pocket-seeding-comments/assets/accepted-evidence.json",
+      "sha256": "5d1c142576add2cba72fa9526b15b7ff81ce5930999a5a1bfb435c8a6f6af3bb",
+      "bytes": 51106,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/input-ledger.jsonl",
+      "sha256": "d3ea94a464d6a77970c5b079993c52cf3d6471a08d1769588a38ba9a3a873ef8",
+      "bytes": 172701,
+      "category": "current_181",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/works.jsonl",
+      "sha256": "d2477c2c0fe99964c0b39ac16766a2210ac3dc3feedc87e596c8273482a06a8d",
+      "bytes": 201183,
+      "category": "current_181",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/cards.jsonl",
+      "sha256": "9c11a54775d96a86a80298c126dad0224429c1459f5725072fb831e805a83f6c",
+      "bytes": 17268,
+      "category": "voice_records_or_cards",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/legacy-migration-report.json",
+      "sha256": "5fae6a55bbb14d8bedcb441a0a0eadb5cd695b9ce57a3e211584576cafe7cacf",
+      "bytes": 778,
+      "category": "voice_records_or_cards",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/public-post-ingest-report.json",
+      "sha256": "355ff59639c9f8a50416326ea0726d91d3a151597e85d051e3dbf80626fa1b81",
+      "bytes": 3446,
+      "category": "voice_records_or_cards",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/records.jsonl",
+      "sha256": "01621ce70feca93a7ab54af35b4e79fe8914df3e03a21b24e1d69308ff319ccf",
+      "bytes": 1229042,
+      "category": "voice_records_or_cards",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/voice/works.jsonl",
+      "sha256": "cbfc3b7d0d2e096f518462c338c5630297bd92eb1a5bafca55dc59360a82ef9c",
+      "bytes": 109684,
+      "category": "voice_records_or_cards",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-nano-comments/references/platform-voices.md",
+      "sha256": "91b2e7b5b57cde95c8862eb7f1f0804da563a9063655a825eb5a9ff851066d73",
+      "bytes": 2575,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-osmo360-comments/references/platform-voices.md",
+      "sha256": "0bda26fbbb4cb013a20e71cbf57b099999c20205c49ef3b3da89e5d02c2210d3",
+      "bytes": 6386,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/consumer-writer-library/before/personal-skills/write-dji-pocket-comments/references/platform-voices.md",
+      "sha256": "ec12a8829114e6cbd70d6a73d8ca6785e141b68a5104326ae8e4e48b9e7c6771",
+      "bytes": 4623,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13/evidence.json",
+      "sha256": "6aa3f229ca2220064babbd3209e366430708f4381d5aeeed40a7e0fb9ff4c72b",
+      "bytes": 153227,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13/input-ledger.json",
+      "sha256": "452631c7ca38987977f83684c1614a0e9c4a2058e990940f4adb5155158c6763",
+      "bytes": 30994,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13-natural/evidence.json",
+      "sha256": "370f9c0398a3d6c5c6e88e2774a1cc72ab0582e232388b21635b8939fe8bb050",
+      "bytes": 174597,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-42links-lh13-natural/input-ledger.json",
+      "sha256": "ff4d2444ecc32bd164fab1a8f0df9f159a05f1e9127d01cf3f939b2aeeafbcc2",
+      "bytes": 32376,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-9links/evidence.json",
+      "sha256": "709f233cbb209d3e0fb14685a2b88b730a5eb06041f9cc67fad32cdf240590c8",
+      "bytes": 23558,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-douyin-20260905-9links/input-ledger.json",
+      "sha256": "c67af575b25cf7d1f771c9544e03a1304c6503ef33a13fc0d3c2f39e64ca3637",
+      "bytes": 3422,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/before-lh10/references/platform-voices.md",
+      "sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+      "bytes": 3929,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/evidence.json",
+      "sha256": "33d59e50e80dcbcef0bb619027d31e5ed23381aa5258d49cef92782349380446",
+      "bytes": 25736,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh10-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+      "bytes": 4002,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh11-validation/before-lh11/references/platform-voices.md",
+      "sha256": "d0fadc94ee9f790fda658ffff10e816005181807808539c503c5521049fbb4d8",
+      "bytes": 4002,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh11-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+      "bytes": 4131,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/before-lh12/references/platform-voices.md",
+      "sha256": "cd121f599cd3fc210bd24bdbb6ea9b2804381453bbe1249632bb10e727aee10d",
+      "bytes": 4131,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/delivery-input-ledger.json",
+      "sha256": "484447b050beb65dc744108ef45e3c16be17d635a96786156e40ae1430407bed",
+      "bytes": 9079,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/evidence.json",
+      "sha256": "5d116e289908c03e8d00b12067c0e403a6ed2bc1b49b134d761745d368c51a99",
+      "bytes": 37829,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/holdout-evidence.json",
+      "sha256": "1841e26284d132bcdb9c5008ecc96c7066f984eb91cbe053e260c890866d3f7a",
+      "bytes": 10249,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/research/input-ledger.json",
+      "sha256": "8fa18b6b6cc0a402adb71ec1ba50d59438af6307f8318c57ac7eea0852572a74",
+      "bytes": 31333,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh12-validation/revisions/holdout-v1/holdout-evidence.json",
+      "sha256": "1868ade34f248e166068e2f3c2f2190d99617630cc3e1efb3d45141e078de105",
+      "bytes": 10034,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh8-validation/before-lh8/references/platform-voices.md",
+      "sha256": "0b7e3bbe894047218391ff7566e4fba580438bff59f4e50f2ba208b832f9725c",
+      "bytes": 5711,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh9-validation/before-lh9/references/platform-voices.md",
+      "sha256": "b696df3d5624403c1f714e13babff7a345a8af5a3b6ee7c853e16d1e0a42e8b2",
+      "bytes": 3818,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-lh9-validation/unpacked/write-dji-pocket-comments/references/platform-voices.md",
+      "sha256": "810622ccfd267d5a6af6d2c7212d6831c88521a4caa3c30bab0e75601e91f5de",
+      "bytes": 3929,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-project-acceptance/fresh-trial/input-evidence.md",
+      "sha256": "beadcc4da3776ae9191e292758099d02fd671a04e8408bc542d1d00406aa5c46",
+      "bytes": 1936,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-seeding-rewrite/independent-voice-review.json",
+      "sha256": "9ac7925b254cd7d7180727fb4cf20800baf1b071b45972ee63ee58bb3698c019",
+      "bytes": 6434,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-seeding-rewrite/independent-voice-review.md",
+      "sha256": "245bf2cdb83853b1caa20d664b93811f26ffd6b4c631fa70e289f3b5148bc9a7",
+      "bytes": 4240,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-11links/evidence.json",
+      "sha256": "8649d7f790f1c952755245bed9809e04634feb694c345efec86d3e4273f74084",
+      "bytes": 37815,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-11links/ingest_evidence.py",
+      "sha256": "77c21c9325eed0b75273f4817698f0b613995ca07d6d4de0426ce1f7c7617034",
+      "bytes": 14615,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/evidence.json",
+      "sha256": "a6661ff9ac0c4ceacd12d9c42c4eaf9c8a381f77e12fe97218c86ffc11e21d72",
+      "bytes": 275956,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/finalize_evidence.py",
+      "sha256": "63d43366c4cbff9528c9bd1ca6471946bf3b21dd9a4cc14b715ed4a443ea915d",
+      "bytes": 3290,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    },
+    {
+      "path": "/Users/luocaihua/Documents/ChatGPT/op/outputs/pocket-xhs-20260905-38items-lh13/input-ledger.json",
+      "sha256": "3f381245453d2d24e3dc7a68c204ce94aa8aee8936aea5506638522c423cdbd8",
+      "bytes": 44331,
+      "category": "historical_ledger_evidence_voice",
+      "candidate_id_hit_count": 0
+    }
+  ],
+  "results": [
+    {
+      "work_id": "6a2a31af0000000016025ea9",
+      "platform": "xiaohongshu",
+      "reserve_order": 1,
+      "proposed_input_order": 182,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 1,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            1
+          ],
+          "matched_value": "6a2a31af0000000016025ea9",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a3ba05500000000110130f5",
+      "platform": "xiaohongshu",
+      "reserve_order": 2,
+      "proposed_input_order": 183,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 2,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            2
+          ],
+          "matched_value": "6a3ba05500000000110130f5",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a8bc6b30000000033023586",
+      "platform": "xiaohongshu",
+      "reserve_order": 3,
+      "proposed_input_order": 184,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 3,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            3
+          ],
+          "matched_value": "6a8bc6b30000000033023586",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a623790000000000301d171",
+      "platform": "xiaohongshu",
+      "reserve_order": 4,
+      "proposed_input_order": 185,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 4,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            4
+          ],
+          "matched_value": "6a623790000000000301d171",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a9c19a1000000002902db66",
+      "platform": "xiaohongshu",
+      "reserve_order": 5,
+      "proposed_input_order": 186,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 5,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            5
+          ],
+          "matched_value": "6a9c19a1000000002902db66",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a1c184f0000000006023137",
+      "platform": "xiaohongshu",
+      "reserve_order": 6,
+      "proposed_input_order": 187,
+      "split": "holdout",
+      "model_hint": "pocket_4",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 6,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            6
+          ],
+          "matched_value": "6a1c184f0000000006023137",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "69f40858000000003703460d",
+      "platform": "xiaohongshu",
+      "reserve_order": 7,
+      "proposed_input_order": 188,
+      "split": "holdout",
+      "model_hint": "pocket_4",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 7,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            7
+          ],
+          "matched_value": "69f40858000000003703460d",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a5f40e60000000001031375",
+      "platform": "xiaohongshu",
+      "reserve_order": 8,
+      "proposed_input_order": 189,
+      "split": "holdout",
+      "model_hint": "pocket_4",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 8,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            8
+          ],
+          "matched_value": "6a5f40e60000000001031375",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a1aeddb00000000070138e8",
+      "platform": "xiaohongshu",
+      "reserve_order": 9,
+      "proposed_input_order": 190,
+      "split": "holdout",
+      "model_hint": "pocket_4",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 9,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            9
+          ],
+          "matched_value": "6a1aeddb00000000070138e8",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a97dddb0000000011037fe5",
+      "platform": "xiaohongshu",
+      "reserve_order": 10,
+      "proposed_input_order": 191,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 10,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            10
+          ],
+          "matched_value": "6a97dddb0000000011037fe5",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "6a40950d000000001503e5f2",
+      "platform": "xiaohongshu",
+      "reserve_order": 11,
+      "proposed_input_order": 192,
+      "split": "holdout",
+      "model_hint": "pocket_4p",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 11,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            11
+          ],
+          "matched_value": "6a40950d000000001503e5f2",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    },
+    {
+      "work_id": "69e4d8ab00000000220295bc",
+      "platform": "xiaohongshu",
+      "reserve_order": 12,
+      "proposed_input_order": 193,
+      "split": "holdout",
+      "model_hint": "pocket_4",
+      "candidate_discovery_locator": {
+        "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+        "line": 12,
+        "field": "work_id"
+      },
+      "duplicate_within_candidates": false,
+      "matches_current_181": false,
+      "historical_ledger_evidence_matches": [],
+      "voice_learning_artifact_matches": [],
+      "other_project_artifact_matches": [],
+      "discovery_only_matches": [
+        {
+          "path": "/Users/luocaihua/Documents/ChatGPT/op/knowledge/pocket/corpus/discovery/xiaohongshu-supplement-candidates.jsonl",
+          "category": "candidate_discovery_only",
+          "line_numbers": [
+            12
+          ],
+          "matched_value": "69e4d8ab00000000220295bc",
+          "match_kind": "exact_work_id_only",
+          "content_read_for_learning": false
+        }
+      ],
+      "result": "no_recorded_prior_exposure_found_in_scanned_scope",
+      "eligible_for_unexposed_candidate_queue": true,
+      "actual_capture_or_model_verified": false,
+      "candidate_content_read": false,
+      "split_changed": false
+    }
+  ],
+  "read_failures": [],
+  "limitations": [
+    "无历史暴露仅指扫描范围内未找到已记录的作品ID，不证明人在其他会话或未落盘材料中从未见过作品。",
+    "历史未解析短链接、未留work_id的正文、二进制/压缩包和外部项目/浏览器临时状态不在本轮ID比对范围；本次没有为追溯短链打开平台。",
+    "候选标题来自发现阶段，未作为内容已核、拍摄型号已核或讨论有效性的证明。",
+    "通过ID审计仅允许维持未读候选资格，不代表提交采集、进入训练或更改holdout分组。"
+  ],
+  "candidate_file_unchanged": true,
+  "works_and_ledger_modified": false
+}

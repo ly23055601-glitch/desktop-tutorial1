@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-06T18:09:08+08:00",
+  "result": "pass",
+  "facts": 80,
+  "fact_status": {
+    "verified": 78,
+    "pending": 2
+  },
+  "sources": 7,
+  "source_hashes_checked": 7,
+  "scenarios": 7,
+  "audience_hypotheses": 10,
+  "hypothesis_review_status": {
+    "pending_user_calibration": 10
+  },
+  "local_link_targets_checked": 179,
+  "pending_fact_ids": [
+    "NANO-MAN-023",
+    "NANO-MAN-024"
+  ],
+  "limitations": [
+    "Does not re-fetch official sources, check Markdown anchors, verify product truth, evaluate expression quality, or grant user endorsement."
+  ],
+  "failures": []
+}
